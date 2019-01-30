@@ -34,7 +34,7 @@ udapy -s ud.Convert1to2 < "wh_treebank2.conllu" > "wh_treebank2_convert.conllu"
 
 Use Perl to convert Part of Speech (POS) tags to Universal Part of Speech (UPOS) tags.
 
-https://github.com/udapi/udapi-python/tree/master/udapi/block/ud
+https://github.com/universaldependencies/tools
 
 ```perl
 cpanm Lingua::Interset
@@ -47,7 +47,7 @@ perl conll_convert_tags_to_uposf.pl -f en::conll < "wh_treebank2.conllu" > "wh_t
 
 Use the validation script to check results.
 
-https://github.com/udapi/udapi-python/tree/master/udapi/block/ud
+https://github.com/universaldependencies/tools
 
 ```bash
 python validate.py "wh_treebank2_upos.conllu" --lang en --max-err 0
