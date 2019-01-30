@@ -16,7 +16,7 @@ Parse treebank into CoNLL-U format. Unfortunately, Stanford Parser currently onl
 
 https://nlp.stanford.edu/software/stanford-dependencies.html
 
-```java
+```bash
 java -cp "*" -mx1g edu.stanford.nlp.trees.ud.UniversalDependenciesConverter -treeFile "wh_treebank.txt" > "wh_treebank2.conllu"
 ```
 
@@ -38,7 +38,8 @@ https://github.com/udapi/udapi-python/tree/master/udapi/block/ud
 
 ```perl
 cpanm Lingua::Interset
-
+```
+```bash
 perl conll_convert_tags_to_uposf.pl -f en::conll < "wh_treebank2.conllu" > "wh_treebank2_upos.conllu"
 ```
 
@@ -48,7 +49,7 @@ Use the validation script to check results.
 
 https://github.com/udapi/udapi-python/tree/master/udapi/block/ud
 
-```python
+```bash
 python validate.py "wh_treebank2_upos.conllu" --lang en --max-err 0
 ```
 
