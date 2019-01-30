@@ -17,7 +17,7 @@ Parse treebank into CoNLL-U format. Unfortunately, Stanford Parser currently onl
 https://nlp.stanford.edu/software/stanford-dependencies.html
 
 ```bash
-java -cp "*" -mx1g edu.stanford.nlp.trees.ud.UniversalDependenciesConverter -treeFile "wh_treebank.txt" > "wh_treebank2.conllu"
+java -cp "*" -mx1g edu.stanford.nlp.trees.ud.UniversalDependenciesConverter -treeFile "wh_treebank.txt" > "wh_treebank_ud1.conllu"
 ```
 
 ### 2. UD1 to UD2
@@ -27,7 +27,7 @@ Use the conversion script provided to update Universal Dependencies 1 to 2.
 https://github.com/udapi/udapi-python/tree/master/udapi/block/ud
 
 ```bash
-udapy -s ud.Convert1to2 < "wh_treebank2.conllu" > "wh_treebank2_convert.conllu"
+udapy -s ud.Convert1to2 < "wh_treebank_ud1.conllu" > "wh_treebank_ud2.conllu"
 ```
 
 ### 3. Convert tags to UPOS
@@ -40,7 +40,7 @@ https://github.com/universaldependencies/tools
 cpanm Lingua::Interset
 ```
 ```bash
-perl conll_convert_tags_to_uposf.pl -f en::conll < "wh_treebank2.conllu" > "wh_treebank2_upos.conllu"
+perl conll_convert_tags_to_uposf.pl -f en::conll < "wh_treebank_ud2.conllu" > "wh_treebank_ud2_upos.conllu"
 ```
 
 ### 4. Validate
@@ -50,7 +50,7 @@ Use the validation script to check results.
 https://github.com/universaldependencies/tools
 
 ```bash
-python validate.py "wh_treebank2_upos.conllu" --lang en --max-err 0
+python validate.py "wh_treebank_ud2_upos.conllu" --lang en --max-err 0
 ```
 
 ### Fix validation errors
