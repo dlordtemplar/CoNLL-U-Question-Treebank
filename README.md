@@ -64,3 +64,11 @@ I used the above parser to try to fix sentences that were incorrectly parsed to 
 If you use other parsers, be sure to standardize your output so it is uniform.
 
 These are the first steps to convert Penn treebank trees to CoNLL-U files. The rest of the readme will consist of fixing trees and molding the format to that of [en-ud-train.conll](data/en-ud-train.conll).
+
+### Uniform formatting
+
+I wrote [format-conllu.py](format-conllu.py) to convert punctuation marks from this new treebank to previous training data [en-ud-train.conll](data/en-ud-train.conll). I created a mapping of punctuation differences and then replaced them to get [wh_treebank_ud2_format.conllu](data/wh_treebank_ud2_format.conllu).
+
+### Getting rid of 'dep'
+
+I wrote [get-dep-sentences.py](get-dep-sentences.py) to procure a list of all sentences containing a dependency relation of 'dep' and saved them as [dep_sentences.txt](data/dep_sentences.txt). 'dep' is not good- it means the parser was not sure which relation to use here. I corrected the sentences manually and saved the result as [dep_sentences_corrected.txt](data/dep_sentences_corrected.txt). I then input them into the English parsers [here](http://lindat.mff.cuni.cz/services/udpipe/) and took the result I thought was most likely. I replaced the old parse and put the corrected sentences into [wh_treebank_ud2_manual.conllu](wh_treebank_ud2_manual.conllu).
