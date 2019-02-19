@@ -1,0 +1,4576 @@
+# text = What is the classic definition of tragic hero ?
+1	What	what	PRON	WP	PronType=Int,Rel	0	root	_	_
+2	is	be	VERB	VBZ	Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	cop	_	_
+3	the	the	DET	DT	_	5	det	_	_
+4	classic	classic	ADJ	JJ	Degree=Pos	5	amod	_	_
+5	definition	definition	NOUN	NN	Number=Sing	1	nsubj	_	_
+6	of	of	ADP	IN	_	8	case	_	_
+7	tragic	tragic	ADJ	JJ	Degree=Pos	8	amod	_	_
+8	hero	hero	NOUN	NN	Number=Sing	5	nmod	_	_
+9	?	?	X	?	_	1	dep	_	_
+
+# text = What was the ball game of ancient Mayans called ?
+1	What	what	PRON	WP	PronType=Int,Rel	9	obj	_	_
+2	was	be	VERB	VBD	Tense=Past|VerbForm=Fin	9	aux:pass	_	_
+3	the	the	DET	DT	_	5	det	_	_
+4	ball	ball	NOUN	NN	Number=Sing	5	compound	_	_
+5	game	game	NOUN	NN	Number=Sing	9	nsubj:pass	_	_
+6	of	of	ADP	IN	_	8	case	_	_
+7	ancient	ancient	ADJ	JJ	Degree=Pos	8	amod	_	_
+8	Mayans	Mayans	PROPN	NNPS	Number=Plur	5	nmod	_	_
+9	called	call	VERB	VBN	Aspect=Perf|Tense=Past|VerbForm=Part	0	root	_	_
+10	?	?	PUNCT	.	_	9	punct	_	_
+
+# text = What female painter produced primitives of rural New England life ?
+1	What	what	DET	WDT	PronType=Int,Rel	3	det	_	_
+2	female	female	ADJ	JJ	Degree=Pos	3	amod	_	_
+3	painter	painter	NOUN	NN	Number=Sing	4	nsubj	_	_
+4	produced	produce	VERB	VBD	Tense=Past|VerbForm=Fin	0	root	_	_
+5	primitives	primitive	NOUN	NNS	Number=Plur	4	obj	_	_
+6	of	of	ADP	IN	_	10	case	_	_
+7	rural	rural	ADJ	JJ	Degree=Pos	10	amod	_	_
+8	New	New	PROPN	NNP	Number=Sing	10	compound	_	_
+9	England	England	PROPN	NNP	Number=Sing	10	compound	_	_
+10	life	life	NOUN	NN	Number=Sing	5	nmod	_	_
+11	?	?	X	?	_	4	dep	_	_
+
+# text = What is the highest Roman numeral ?
+1	What	what	PRON	WP	PronType=Int,Rel	0	root	_	_
+2	is	be	VERB	VBZ	Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	cop	_	_
+3	the	the	DET	DT	_	6	det	_	_
+4	highest	highest	ADJ	JJS	Degree=Sup	6	amod	_	_
+5	Roman	Roman	PROPN	NNP	Number=Sing	6	compound	_	_
+6	numeral	numeral	NOUN	NN	Number=Sing	1	nsubj	_	_
+7	?	?	X	?	_	1	dep	_	_
+
+# text = What baseball star turned down a $ 1,000 a-year contract because he felt he had n't earned it ?
+1	What	what	DET	WDT	PronType=Int,Rel	3	det	_	_
+2	baseball	baseball	NOUN	NN	Number=Sing	3	compound	_	_
+3	star	star	NOUN	NN	Number=Sing	4	nsubj	_	_
+4	turned	turn	VERB	VBD	Tense=Past|VerbForm=Fin	0	root	_	_
+5	down	down	ADP	RP	PartType=Vbp	4	compound:prt	_	_
+6	a	a	DET	DT	_	10	det	_	_
+7	$	$	SYM	$	_	10	amod	_	_
+8	1,000	1,000	NUM	CD	NumType=Card	7	compound	_	_
+9	a-year	a-year	ADJ	JJ	Degree=Pos	7	dep	_	_
+10	contract	contract	NOUN	NN	Number=Sing	4	obj	_	_
+11	because	because	ADP	IN	_	13	mark	_	_
+12	he	he	PRON	PRP	PronType=Prs	13	nsubj	_	_
+13	felt	feel	VERB	VBD	Tense=Past|VerbForm=Fin	4	advcl	_	_
+14	he	he	PRON	PRP	PronType=Prs	17	nsubj	_	_
+15	had	have	VERB	VBD	Tense=Past|VerbForm=Fin	17	aux	_	_
+16	n't	n't	ADV	RB	Degree=Pos	17	advmod	_	_
+17	earned	earn	VERB	VBN	Aspect=Perf|Tense=Past|VerbForm=Part	13	ccomp	_	_
+18	it	it	PRON	PRP	PronType=Prs	17	obj	_	_
+19	?	?	X	?	_	4	dep	_	_
+
+# text = What year did " New Coke " come out ?
+1	What	what	DET	WDT	PronType=Int,Rel	2	det	_	_
+2	year	year	NOUN	NN	Number=Sing	8	obl:tmod	_	_
+3	did	do	VERB	VBD	Tense=Past|VerbForm=Fin	8	aux	_	_
+4	"	"	PUNCT	``	_	6	punct	_	_
+5	New	new	ADJ	JJ	Degree=Pos	6	amod	_	_
+6	Coke	Coke	PROPN	NNP	Number=Sing	8	nsubj	_	_
+7	"	"	PUNCT	''	_	6	punct	_	_
+8	come	come	VERB	VBN	Aspect=Perf|Tense=Past|VerbForm=Part	0	root	_	_
+9	out	out	ADP	RP	PartType=Vbp	8	compound:prt	_	_
+10	?	?	PUNCT	.	_	8	punct	_	_
+
+# text = How do you tell your parents you are dating an older man ?
+1	How	how	ADV	WRB	PronType=Int,Rel	4	advmod	_	_
+2	do	do	VERB	VBP	Tense=Pres|VerbForm=Fin	4	aux	_	_
+3	you	you	PRON	PRP	PronType=Prs	4	nsubj	_	_
+4	tell	tell	VERB	VB	VerbForm=Inf	0	root	_	_
+5	your	you	DET	PRP$	Poss=Yes|PronType=Prs	6	nmod:poss	_	_
+6	parents	parent	NOUN	NNS	Number=Plur	4	obj	_	_
+7	you	you	PRON	PRP	PronType=Prs	9	nsubj	_	_
+8	are	be	VERB	VBP	Tense=Pres|VerbForm=Fin	9	aux	_	_
+9	dating	date	VERB	VBG	Aspect=Prog|Tense=Pres|VerbForm=Part	4	ccomp	_	_
+10	an	a	DET	DT	_	12	det	_	_
+11	older	older	ADJ	JJR	Degree=Cmp	12	amod	_	_
+12	man	man	NOUN	NN	Number=Sing	9	obj	_	_
+13	?	?	X	?	_	4	dep	_	_
+
+# text = Who created Big Ben ?
+1	Who	who	PRON	WP	PronType=Int,Rel	2	nsubj	_	_
+2	created	create	VERB	VBD	Tense=Past|VerbForm=Fin	0	root	_	_
+3	Big	big	ADJ	JJ	Degree=Pos	4	amod	_	_
+4	Ben	Ben	PROPN	NNP	Number=Sing	2	obj	_	_
+5	?	?	X	?	_	2	dep	_	_
+
+# text = What was the name of the 1870s Irish terrorist group in Pennsylvania mining areas ?
+1	What	what	PRON	WP	PronType=Int,Rel	0	root	_	_
+2	was	be	VERB	VBD	Tense=Past|VerbForm=Fin	1	cop	_	_
+3	the	the	DET	DT	_	4	det	_	_
+4	name	name	NOUN	NN	Number=Sing	1	nsubj	_	_
+5	of	of	ADP	IN	_	10	case	_	_
+6	the	the	DET	DT	_	10	det	_	_
+7	1870s	1870s	NUM	CD	NumType=Card	10	nummod	_	_
+8	Irish	irish	ADJ	JJ	Degree=Pos	10	amod	_	_
+9	terrorist	terrorist	ADJ	JJ	Degree=Pos	10	amod	_	_
+10	group	group	NOUN	NN	Number=Sing	4	nmod	_	_
+11	in	in	ADP	IN	_	14	case	_	_
+12	Pennsylvania	Pennsylvania	PROPN	NNP	Number=Sing	14	compound	_	_
+13	mining	mining	NOUN	NN	Number=Sing	14	compound	_	_
+14	areas	area	NOUN	NNS	Number=Plur	10	nmod	_	_
+15	?	?	X	?	_	1	dep	_	_
+
+# text = What is the sales tax in Minnesota ?
+1	What	what	PRON	WP	PronType=Int,Rel	0	root	_	_
+2	is	be	VERB	VBZ	Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	cop	_	_
+3	the	the	DET	DT	_	5	det	_	_
+4	sales	sale	NOUN	NNS	Number=Plur	5	compound	_	_
+5	tax	tax	NOUN	NN	Number=Sing	1	nsubj	_	_
+6	in	in	ADP	IN	_	7	case	_	_
+7	Minnesota	Minnesota	PROPN	NNP	Number=Sing	5	nmod	_	_
+8	?	?	PUNCT	.	_	1	punct	_	_
+
+# text = What is the width of a football field ?
+1	What	what	PRON	WP	PronType=Int,Rel	0	root	_	_
+2	is	be	VERB	VBZ	Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	cop	_	_
+3	the	the	DET	DT	_	4	det	_	_
+4	width	width	NOUN	NN	Number=Sing	1	nsubj	_	_
+5	of	of	ADP	IN	_	8	case	_	_
+6	a	a	DET	DT	_	8	det	_	_
+7	football	football	NOUN	NN	Number=Sing	8	compound	_	_
+8	field	field	NOUN	NN	Number=Sing	4	nmod	_	_
+9	?	?	PUNCT	.	_	1	punct	_	_
+
+# text = What is a " USB " port on a computer ?
+1	What	what	PRON	WP	PronType=Int,Rel	0	root	_	_
+2	is	be	VERB	VBZ	Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	cop	_	_
+3	a	a	DET	DT	_	7	det	_	_
+4	"	"	PUNCT	``	_	7	punct	_	_
+5	USB	usb	ADJ	JJ	Degree=Pos	7	amod	_	_
+6	"	"	PUNCT	''	_	7	punct	_	_
+7	port	port	NOUN	NN	Number=Sing	1	nsubj	_	_
+8	on	on	ADP	IN	_	10	case	_	_
+9	a	a	DET	DT	_	10	det	_	_
+10	computer	computer	NOUN	NN	Number=Sing	7	nmod	_	_
+11	?	?	X	?	_	1	dep	_	_
+
+# text = What color bottles do good Rhine wines come in ?
+1	What	what	DET	WDT	PronType=Int,Rel	3	det	_	_
+2	color	color	NOUN	NN	Number=Sing	3	compound	_	_
+3	bottles	bottle	NOUN	NNS	Number=Plur	8	obl	_	_
+4	do	do	VERB	VBP	Tense=Pres|VerbForm=Fin	8	aux	_	_
+5	good	good	ADJ	JJ	Degree=Pos	7	amod	_	_
+6	Rhine	Rhine	PROPN	NNP	Number=Sing	7	compound	_	_
+7	wines	wine	NOUN	NNS	Number=Plur	8	nsubj	_	_
+8	come	come	VERB	VB	VerbForm=Inf	0	root	_	_
+9	in	in	ADP	IN	_	3	case	_	_
+10	?	?	X	?	_	8	dep	_	_
+
+# text = Who says , " If you do n't look good , we do n't look good " ?
+1	Who	who	PRON	WP	PronType=Int,Rel	2	nsubj	_	_
+2	says	say	VERB	VBZ	Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	,	,	PUNCT	,	_	2	punct	_	_
+4	"	"	PUNCT	``	_	9	punct	_	_
+5	If	if	ADP	IN	_	9	mark	_	_
+6	you	you	PRON	PRP	PronType=Prs	9	nsubj	_	_
+7	do	do	VERB	VBP	Tense=Pres|VerbForm=Fin	9	aux	_	_
+8	n't	n't	ADV	RB	Degree=Pos	9	advmod	_	_
+9	look	look	VERB	VB	VerbForm=Inf	2	xcomp	_	_
+10	good	good	ADJ	JJ	Degree=Pos	9	xcomp	_	_
+11	,	,	PUNCT	,	_	9	punct	_	_
+12	we	we	PRON	PRP	PronType=Prs	15	nsubj	_	_
+13	do	do	VERB	VBP	Tense=Pres|VerbForm=Fin	15	aux	_	_
+14	n't	n't	ADV	RB	Degree=Pos	15	advmod	_	_
+15	look	look	VERB	VB	VerbForm=Inf	9	dep	_	_
+16	good	good	ADJ	JJ	Degree=Pos	15	xcomp	_	_
+17	"	"	PUNCT	''	_	16	punct	_	_
+18	?	?	X	?	_	2	dep	_	_
+
+# text = When was Nostradamus born ?
+1	When	when	ADV	WRB	PronType=Int,Rel	4	advmod	_	_
+2	was	be	VERB	VBD	Tense=Past|VerbForm=Fin	4	aux:pass	_	_
+3	Nostradamus	Nostradamus	PROPN	NNP	Number=Sing	4	nsubj:pass	_	_
+4	born	bear	VERB	VBN	Aspect=Perf|Tense=Past|VerbForm=Part	0	root	_	_
+5	?	?	PUNCT	.	_	4	punct	_	_
+
+# text = What song did Patti Page set people dancing to in 1950 ?
+1	What	what	DET	WDT	PronType=Int,Rel	2	det	_	_
+2	song	song	NOUN	NN	Number=Sing	6	dep	_	_
+3	did	do	VERB	VBD	Tense=Past|VerbForm=Fin	6	aux	_	_
+4	Patti	Patti	PROPN	NNP	Number=Sing	5	compound	_	_
+5	Page	Page	PROPN	NNP	Number=Sing	6	nsubj	_	_
+6	set	set	VERB	VB	VerbForm=Inf	0	root	_	_
+7	people	people	NOUN	NNS	Number=Plur	6	obj	_	_
+8	dancing	dance	VERB	VBG	Aspect=Prog|Tense=Pres|VerbForm=Part	7	acl	_	_
+9	to	to	PART	TO	PartType=Inf|VerbForm=Inf	8	obl	_	_
+10	in	in	ADP	IN	_	11	case	_	_
+11	1950	1950	NUM	CD	NumType=Card	6	obl	_	_
+12	?	?	X	?	_	6	dep	_	_
+
+# text = What 's the sacred river of India ?
+1	What	what	PRON	WP	PronType=Int,Rel	2	nsubj	_	_
+2	's	's	VERB	VBZ	Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	the	the	DET	DT	_	5	det	_	_
+4	sacred	sacred	ADJ	JJ	Degree=Pos	5	amod	_	_
+5	river	river	NOUN	NN	Number=Sing	2	obj	_	_
+6	of	of	ADP	IN	_	7	case	_	_
+7	India	India	PROPN	NNP	Number=Sing	5	nmod	_	_
+8	?	?	X	?	_	2	dep	_	_
+
+# text = Where is the Holland Tunnel ?
+1	Where	where	ADV	WRB	PronType=Int,Rel	2	advmod	_	_
+2	is	be	VERB	VBZ	Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	the	the	DET	DT	_	5	det	_	_
+4	Holland	Holland	PROPN	NNP	Number=Sing	5	compound	_	_
+5	Tunnel	tunnel	NOUN	NN	Number=Sing	2	nsubj	_	_
+6	?	?	PUNCT	.	_	2	punct	_	_
+
+# text = What is a camel hair brush actually made out of ?
+1	What	what	PRON	WP	PronType=Int,Rel	8	obl	_	_
+2	is	be	VERB	VBZ	Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	aux:pass	_	_
+3	a	a	DET	DT	_	6	det	_	_
+4	camel	camel	NOUN	NN	Number=Sing	6	compound	_	_
+5	hair	hair	NOUN	NN	Number=Sing	6	compound	_	_
+6	brush	brush	NOUN	NN	Number=Sing	8	nsubj:pass	_	_
+7	actually	actually	ADV	RB	Degree=Pos	8	advmod	_	_
+8	made	make	VERB	VBN	Aspect=Perf|Tense=Past|VerbForm=Part	0	root	_	_
+9	out	out	ADP	RP	PartType=Vbp	8	compound:prt	_	_
+10	of	of	ADP	IN	_	1	case	_	_
+11	?	?	X	?	_	8	dep	_	_
+
+# text = CNN began broadcasting in what year ?
+1	CNN	CNN	PROPN	NNP	Number=Sing	2	nsubj	_	_
+2	began	begin	VERB	VBD	Tense=Past|VerbForm=Fin	0	root	_	_
+3	broadcasting	broadcast	VERB	VBG	Aspect=Prog|Tense=Pres|VerbForm=Part	2	xcomp	_	_
+4	in	in	ADP	IN	_	6	case	_	_
+5	what	what	DET	WDT	PronType=Int,Rel	6	det	_	_
+6	year	year	NOUN	NN	Number=Sing	3	obl	_	_
+7	?	?	PUNCT	.	_	2	punct	_	_
+
+# text = What 's the world 's longest suspension bridge ?
+1	What	what	PRON	WP	PronType=Int,Rel	2	nsubj	_	_
+2	's	's	VERB	VBZ	Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	the	the	DET	DT	_	4	det	_	_
+4	world	world	NOUN	NN	Number=Sing	8	nmod:poss	_	_
+5	's	's	PART	POS	Poss=Yes	4	case	_	_
+6	longest	longest	ADJ	JJS	Degree=Sup	8	amod	_	_
+7	suspension	suspension	NOUN	NN	Number=Sing	8	compound	_	_
+8	bridge	bridge	NOUN	NN	Number=Sing	2	obj	_	_
+9	?	?	X	?	_	2	dep	_	_
+
+# text = What do bicornate animals have two of ?
+1	What	what	PRON	WP	PronType=Int,Rel	5	dep	_	_
+2	do	do	VERB	VBP	Tense=Pres|VerbForm=Fin	5	aux	_	_
+3	bicornate	bicornate	ADJ	JJ	Degree=Pos	4	amod	_	_
+4	animals	animal	NOUN	NNS	Number=Plur	5	nsubj	_	_
+5	have	have	VERB	VB	VerbForm=Inf	0	root	_	_
+6	two	two	NUM	CD	NumType=Card	5	obj	_	_
+7	of	of	ADP	IN	_	6	acl	_	_
+8	?	?	X	?	_	5	dep	_	_
+
+# text = Who was President of Costa Rica in 1994 ?
+1	Who	who	PRON	WP	PronType=Int	3	nsubj	_	_
+2	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	3	cop	_	_
+3	President	President	PROPN	NNP	Number=Sing	0	root	_	_
+4	of	of	ADP	IN	_	5	case	_	_
+5	Costa	Costa	PROPN	NNP	Number=Sing	3	nmod	_	_
+6	Rica	Rica	PROPN	NNP	Number=Sing	5	flat	_	_
+7	in	in	ADP	IN	_	8	case	_	_
+8	1994	1994	NUM	CD	NumType=Card	3	nmod	_	SpaceAfter=No
+9	?	?	PUNCT	.	_	3	punct	_	SpacesAfter=\r\n
+
+# text = How many Canadians emmigrate each year ?
+1	How	how	ADV	WRB	PronType=Int,Rel	2	advmod	_	_
+2	many	many	ADJ	JJ	Degree=Pos	3	amod	_	_
+3	Canadians	Canadians	PROPN	NNPS	Number=Plur	4	nsubj	_	_
+4	emmigrate	emmigrate	VERB	VB	VerbForm=Inf	0	root	_	_
+5	each	each	DET	DT	_	6	det	_	_
+6	year	year	NOUN	NN	Number=Sing	4	obl:tmod	_	_
+7	?	?	X	?	_	4	dep	_	_
+
+# text = What is caffeine ?
+1	What	what	PRON	WP	PronType=Int,Rel	0	root	_	_
+2	is	be	VERB	VBZ	Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	cop	_	_
+3	caffeine	caffeine	NOUN	NN	Number=Sing	1	nsubj	_	_
+4	?	?	PUNCT	.	_	1	punct	_	_
+
+# text = Which is the wealthiest country in the world ?
+1	Which	which	PRON	WP	PronType=Int,Rel	0	root	_	_
+2	is	be	VERB	VBZ	Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	cop	_	_
+3	the	the	DET	DT	_	5	det	_	_
+4	wealthiest	wealthiest	ADJ	JJS	Degree=Sup	5	amod	_	_
+5	country	country	NOUN	NN	Number=Sing	1	nsubj	_	_
+6	in	in	ADP	IN	_	8	case	_	_
+7	the	the	DET	DT	_	8	det	_	_
+8	world	world	NOUN	NN	Number=Sing	5	nmod	_	_
+9	?	?	X	?	_	1	dep	_	_
+
+# text = Who wrote " The Scarlet Letter " ?
+1	Who	who	PRON	WP	PronType=Int,Rel	2	nsubj	_	_
+2	wrote	write	VERB	VBD	Tense=Past|VerbForm=Fin	0	root	_	_
+3	"	"	PUNCT	``	_	6	punct	_	_
+4	The	the	DET	DT	_	6	det	_	_
+5	Scarlet	scarlet	ADJ	JJ	Degree=Pos	6	amod	_	_
+6	Letter	letter	NOUN	NN	Number=Sing	2	obj	_	_
+7	"	"	PUNCT	''	_	6	punct	_	_
+8	?	?	PUNCT	.	_	2	punct	_	_
+
+# text = What is Nicaragua 's main industry ?
+1	What	what	PRON	WP	PronType=Int,Rel	0	root	_	_
+2	is	be	VERB	VBZ	Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	cop	_	_
+3	Nicaragua	Nicaragua	PROPN	NNP	Number=Sing	6	nmod:poss	_	_
+4	's	's	PART	POS	Poss=Yes	3	case	_	_
+5	main	main	ADJ	JJ	Degree=Pos	6	amod	_	_
+6	industry	industry	NOUN	NN	Number=Sing	1	nsubj	_	_
+7	?	?	PUNCT	.	_	1	punct	_	_
+
+# text = What does the abbreviation AIDS stand for ?
+1	What	what	PRON	WP	PronType=Int,Rel	6	obl	_	_
+2	does	do	VERB	VBZ	Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	aux	_	_
+3	the	the	DET	DT	_	5	det	_	_
+4	abbreviation	abbreviation	NOUN	NN	Number=Sing	5	compound	_	_
+5	AIDS	AIDS	PROPN	NNP	Number=Sing	6	nsubj	_	_
+6	stand	stand	VERB	VB	VerbForm=Inf	0	root	_	_
+7	for	for	ADP	IN	_	1	case	_	_
+8	?	?	X	?	_	6	dep	_	_
+
+# text = What country has the most time zones , with 11 ?
+1	What	what	DET	WDT	PronType=Int,Rel	2	det	_	_
+2	country	country	NOUN	NN	Number=Sing	3	nsubj	_	_
+3	has	have	VERB	VBZ	Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	the	the	DET	DT	_	7	det	_	_
+5	most	most	ADJ	JJS	Degree=Sup	7	amod	_	_
+6	time	time	NOUN	NN	Number=Sing	7	compound	_	_
+7	zones	zone	NOUN	NNS	Number=Plur	3	obj	_	_
+8	,	,	PUNCT	,	_	3	punct	_	_
+9	with	with	ADP	IN	_	10	case	_	_
+10	11	11	NUM	CD	NumType=Card	3	obl	_	_
+11	?	?	X	?	_	3	dep	_	_
+
+# text = Where can I find a person 's address from a telephone number ?
+1	Where	where	ADV	WRB	PronType=Int,Rel	4	advmod	_	_
+2	can	can	VERB	MD	VerbType=Mod	4	aux	_	_
+3	I	I	PRON	PRP	PronType=Prs	4	nsubj	_	_
+4	find	find	VERB	VB	VerbForm=Inf	0	root	_	_
+5	a	a	DET	DT	_	6	det	_	_
+6	person	person	NOUN	NN	Number=Sing	8	nmod:poss	_	_
+7	's	's	PART	POS	Poss=Yes	6	case	_	_
+8	address	address	NOUN	NN	Number=Sing	4	obj	_	_
+9	from	from	ADP	IN	_	12	case	_	_
+10	a	a	DET	DT	_	12	det	_	_
+11	telephone	telephone	NOUN	NN	Number=Sing	12	compound	_	_
+12	number	number	NOUN	NN	Number=Sing	4	obl	_	_
+13	?	?	X	?	_	4	dep	_	_
+
+# text = What is rheumatoid arthritis ?
+1	What	what	PRON	WP	PronType=Int,Rel	0	root	_	_
+2	is	be	VERB	VBZ	Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	cop	_	_
+3	rheumatoid	rheumatoid	ADJ	JJ	Degree=Pos	4	amod	_	_
+4	arthritis	arthritis	NOUN	NN	Number=Sing	1	nsubj	_	_
+5	?	?	PUNCT	.	_	1	punct	_	_
+
+# text = What explorer was nicknamed Iberia 's Pilot ?
+1	What	what	DET	WDT	PronType=Int,Rel	2	det	_	_
+2	explorer	explorer	NOUN	NN	Number=Sing	4	nsubj:pass	_	_
+3	was	be	VERB	VBD	Tense=Past|VerbForm=Fin	4	aux:pass	_	_
+4	nicknamed	nickname	VERB	VBN	Aspect=Perf|Tense=Past|VerbForm=Part	0	root	_	_
+5	Iberia	Iberia	PROPN	NNP	Number=Sing	7	nmod:poss	_	_
+6	's	's	PART	POS	Poss=Yes	5	case	_	_
+7	Pilot	pilot	NOUN	NN	Number=Sing	4	obj	_	_
+8	?	?	X	?	_	4	dep	_	_
+
+# text = What river flows through Vienna , Budapest and Belgrade ?
+1	What	what	DET	WDT	PronType=Int,Rel	2	det	_	_
+2	river	river	NOUN	NN	Number=Sing	3	nsubj	_	_
+3	flows	flow	VERB	VBZ	Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	through	through	ADP	IN	_	5	case	_	_
+5	Vienna	Vienna	PROPN	NNP	Number=Sing	3	obl	_	_
+6	,	,	PUNCT	,	_	7	punct	_	_
+7	Budapest	Budapest	PROPN	NNP	Number=Sing	5	conj	_	_
+8	and	and	CCONJ	CC	_	9	cc	_	_
+9	Belgrade	Belgrade	PROPN	NNP	Number=Sing	5	conj	_	_
+10	?	?	X	?	_	3	dep	_	_
+
+# text = Where is Burma ?
+1	Where	where	ADV	WRB	PronType=Int,Rel	2	advmod	_	_
+2	is	be	VERB	VBZ	Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	Burma	burma	NOUN	NN	Number=Sing	2	nsubj	_	_
+4	?	?	PUNCT	.	_	2	punct	_	_
+
+# text = Name a canine cartoon character other than Huckleberry Hound to have a voice by Daws Butler .
+1	Name	name	VERB	VB	VerbForm=Inf	0	root	_	_
+2	a	a	DET	DT	_	5	det	_	_
+3	canine	canine	ADJ	JJ	Degree=Pos	5	amod	_	_
+4	cartoon	cartoon	NOUN	NN	Number=Sing	5	compound	_	_
+5	character	character	NOUN	NN	Number=Sing	1	obj	_	_
+6	other	other	ADJ	JJ	Degree=Pos	5	amod	_	_
+7	than	than	ADP	IN	_	9	case	_	_
+8	Huckleberry	Huckleberry	PROPN	NNP	Number=Sing	9	compound	_	_
+9	Hound	Hound	PROPN	NNP	Number=Sing	6	nmod	_	ToDo=nmod
+10	to	to	PART	TO	PartType=Inf|VerbForm=Inf	11	mark	_	_
+11	have	have	VERB	VB	VerbForm=Inf	1	advcl	_	_
+12	a	a	DET	DT	_	13	det	_	_
+13	voice	voice	NOUN	NN	Number=Sing	11	obj	_	_
+14	by	by	ADP	IN	_	16	case	_	_
+15	Daws	Daws	PROPN	NNP	Number=Sing	16	compound	_	_
+16	Butler	Butler	PROPN	NNP	Number=Sing	13	nmod	_	_
+17	.	.	PUNCT	.	_	1	punct	_	_
+
+# text = What is another term for the painful wrist syndrome ?
+1	What	what	PRON	WP	PronType=Int,Rel	0	root	_	_
+2	is	be	VERB	VBZ	Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	cop	_	_
+3	another	another	DET	DT	_	4	det	_	_
+4	term	term	NOUN	NN	Number=Sing	1	nsubj	_	_
+5	for	for	ADP	IN	_	9	case	_	_
+6	the	the	DET	DT	_	9	det	_	_
+7	painful	painful	ADJ	JJ	Degree=Pos	9	amod	_	_
+8	wrist	wrist	NOUN	NN	Number=Sing	9	compound	_	_
+9	syndrome	syndrome	NOUN	NN	Number=Sing	4	nmod	_	_
+10	?	?	X	?	_	1	dep	_	_
+
+# text = What is the difference between a preface and a foreword ?
+1	What	what	PRON	WP	PronType=Int,Rel	0	root	_	_
+2	is	be	VERB	VBZ	Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	cop	_	_
+3	the	the	DET	DT	_	4	det	_	_
+4	difference	difference	NOUN	NN	Number=Sing	1	nsubj	_	_
+5	between	between	ADP	IN	_	7	case	_	_
+6	a	a	DET	DT	_	7	det	_	_
+7	preface	preface	NOUN	NN	Number=Sing	4	nmod	_	_
+8	and	and	CCONJ	CC	_	10	cc	_	_
+9	a	a	DET	DT	_	10	det	_	_
+10	foreword	foreword	NOUN	NN	Number=Sing	7	conj	_	_
+11	?	?	X	?	_	1	dep	_	_
+
+# text = When was D-Day ?
+1	When	when	ADV	WRB	PronType=Int,Rel	2	advmod	_	_
+2	was	be	VERB	VBD	Tense=Past|VerbForm=Fin	0	root	_	_
+3	D-Day	D-Day	PROPN	NNP	Number=Sing	2	nsubj	_	_
+4	?	?	PUNCT	.	_	2	punct	_	_
+
+# text = Why does the moon turn orange ?
+1	Why	why	ADV	WRB	PronType=Int,Rel	5	advmod	_	_
+2	does	do	VERB	VBZ	Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	aux	_	_
+3	the	the	DET	DT	_	4	det	_	_
+4	moon	moon	NOUN	NN	Number=Sing	5	nsubj	_	_
+5	turn	turn	VERB	VB	VerbForm=Inf	0	root	_	_
+6	orange	orange	ADJ	JJ	Degree=Pos	5	xcomp	_	_
+7	?	?	PUNCT	.	_	5	punct	_	_
+
+# text = Who was the president of Vichy France ?
+1	Who	who	PRON	WP	PronType=Int,Rel	0	root	_	_
+2	was	be	VERB	VBD	Tense=Past|VerbForm=Fin	1	cop	_	_
+3	the	the	DET	DT	_	4	det	_	_
+4	president	president	NOUN	NN	Number=Sing	1	nsubj	_	_
+5	of	of	ADP	IN	_	7	case	_	_
+6	Vichy	Vichy	PROPN	NNP	Number=Sing	7	compound	_	_
+7	France	France	PROPN	NNP	Number=Sing	4	nmod	_	_
+8	?	?	PUNCT	.	_	1	punct	_	_
+
+# text = What is the most populated country in the world ?
+1	What	what	PRON	WP	PronType=Int,Rel	0	root	_	_
+2	is	be	VERB	VBZ	Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	cop	_	_
+3	the	the	DET	DT	_	6	det	_	_
+4	most	most	ADV	RBS	Degree=Sup	5	advmod	_	_
+5	populated	populated	ADJ	JJ	Degree=Pos	6	amod	_	_
+6	country	country	NOUN	NN	Number=Sing	1	nsubj	_	_
+7	in	in	ADP	IN	_	9	case	_	_
+8	the	the	DET	DT	_	9	det	_	_
+9	world	world	NOUN	NN	Number=Sing	6	nmod	_	_
+10	?	?	PUNCT	.	_	1	punct	_	_
+
+# text = Where did the 6th annual meeting of Indonesia-Malaysia forest experts take place ?
+1	Where	where	ADV	WRB	PronType=Int,Rel	11	advmod	_	_
+2	did	do	VERB	VBD	Tense=Past|VerbForm=Fin	11	aux	_	_
+3	the	the	DET	DT	_	6	det	_	_
+4	6th	6th	ADJ	JJ	Degree=Pos	6	amod	_	_
+5	annual	annual	ADJ	JJ	Degree=Pos	6	amod	_	_
+6	meeting	meeting	NOUN	NN	Number=Sing	11	nsubj	_	_
+7	of	of	ADP	IN	_	10	case	_	_
+8	Indonesia-Malaysia	indonesia-malaysia	ADJ	JJ	Degree=Pos	10	amod	_	_
+9	forest	forest	NOUN	NN	Number=Sing	10	compound	_	_
+10	experts	expert	NOUN	NNS	Number=Plur	6	nmod	_	_
+11	take	take	VERB	VB	VerbForm=Inf	0	root	_	_
+12	place	place	NOUN	NN	Number=Sing	11	obj	_	_
+13	?	?	PUNCT	.	_	11	punct	_	_
+
+# text = What Broadway musical is the song " The Story is Me " from ?
+1	What	what	DET	WDT	PronType=Int	3	det	_	_
+2	Broadway	Broadway	NOUN	NN	Number=Sing	3	compound	_	_
+3	musical	musical	NOUN	NN	Number=Sing	6	nsubj	_	_
+4	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	cop	_	_
+5	the	the	DET	DT	Definite=Def|PronType=Art	6	det	_	_
+6	song	song	NOUN	NN	Number=Sing	0	root	_	_
+7	"	"	PUNCT	``	_	6	punct	_	_
+8	The	the	DET	DT	Definite=Def|PronType=Art	9	det	_	_
+9	Story	story	PROPN	NNP	Number=Sing	10	nsubj	_	_
+10	is	be	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	parataxis	_	_
+11	Me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	10	obj	_	_
+12	"	"	PUNCT	''	_	11	punct	_	_
+13	from	from	ADP	IN	_	11	nmod	_	_
+14	?	?	PUNCT	.	_	6	punct	_	_
+
+# text = What was the name of the Titanic 's captain ?
+1	What	what	PRON	WP	PronType=Int,Rel	0	root	_	_
+2	was	be	VERB	VBD	Tense=Past|VerbForm=Fin	1	cop	_	_
+3	the	the	DET	DT	_	4	det	_	_
+4	name	name	NOUN	NN	Number=Sing	1	nsubj	_	_
+5	of	of	ADP	IN	_	9	case	_	_
+6	the	the	DET	DT	_	7	det	_	_
+7	Titanic	Titanic	PROPN	NNP	Number=Sing	9	nmod:poss	_	_
+8	's	's	PART	POS	Poss=Yes	7	case	_	_
+9	captain	captain	NOUN	NN	Number=Sing	4	nmod	_	_
+10	?	?	PUNCT	.	_	1	punct	_	_
+
+# text = Name the only extant trilogy of classical Greek plays .
+1	Name	name	VERB	VB	VerbForm=Inf	0	root	_	_
+2	the	the	DET	DT	_	5	det	_	_
+3	only	only	ADJ	JJ	Degree=Pos	5	amod	_	_
+4	extant	extant	ADJ	JJ	Degree=Pos	5	amod	_	_
+5	trilogy	trilogy	NOUN	NN	Number=Sing	1	obj	_	_
+6	of	of	ADP	IN	_	9	case	_	_
+7	classical	classical	ADJ	JJ	Degree=Pos	9	amod	_	_
+8	Greek	greek	ADJ	JJ	Degree=Pos	9	amod	_	_
+9	plays	play	NOUN	NNS	Number=Plur	5	nmod	_	_
+10	.	.	PUNCT	.	_	1	punct	_	_
+
+# text = What are Halloween 's colors ?
+1	What	what	PRON	WP	PronType=Int,Rel	0	root	_	_
+2	are	be	VERB	VBP	Tense=Pres|VerbForm=Fin	1	cop	_	_
+3	Halloween	Halloween	PROPN	NNP	Number=Sing	5	nmod:poss	_	_
+4	's	's	PART	POS	Poss=Yes	3	case	_	_
+5	colors	color	NOUN	NNS	Number=Plur	1	nsubj	_	_
+6	?	?	X	?	_	1	dep	_	_
+
+# text = What is Maryland 's state bird ?
+1	What	what	PRON	WP	PronType=Int,Rel	0	root	_	_
+2	is	be	VERB	VBZ	Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	cop	_	_
+3	Maryland	Maryland	PROPN	NNP	Number=Sing	1	nsubj	_	_
+4	's	's	PART	POS	Poss=Yes	3	case	_	_
+5	state	state	NOUN	NN	Number=Sing	6	compound	_	_
+6	bird	bird	NOUN	NN	Number=Sing	3	dep	_	_
+7	?	?	PUNCT	.	_	1	punct	_	_
+
+# text = What plant has the largest seed ?
+1	What	what	DET	WDT	PronType=Int,Rel	2	det	_	_
+2	plant	plant	NOUN	NN	Number=Sing	3	nsubj	_	_
+3	has	have	VERB	VBZ	Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	the	the	DET	DT	_	6	det	_	_
+5	largest	largest	ADJ	JJS	Degree=Sup	6	amod	_	_
+6	seed	seed	NOUN	NN	Number=Sing	3	obj	_	_
+7	?	?	X	?	_	3	dep	_	_
+
+# text = What does " E Pluribus Unum " mean ?
+1	What	what	PRON	WP	PronType=Int,Rel	8	obj	_	_
+2	does	do	VERB	VBZ	Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	aux	_	_
+3	"	"	PUNCT	``	_	6	punct	_	_
+4	E	e	X	FW	Foreign=Yes	6	compound	_	_
+5	Pluribus	pluribus	X	FW	Foreign=Yes	6	compound	_	_
+6	Unum	unum	X	FW	Foreign=Yes	8	nsubj	_	_
+7	"	"	PUNCT	''	_	6	punct	_	_
+8	mean	mean	VERB	VB	VerbForm=Inf	0	root	_	_
+9	?	?	PUNCT	.	_	8	punct	_	_
+
+# text = How large is the Arctic refuge to preserve unique wildlife and wilderness value on Alaska 's north coast ?
+1	How	how	ADV	WRB	PronType=Int	6	advmod	_	_
+2	large	large	ADJ	JJ	Degree=Pos	6	nsubj	_	_
+3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	cop	_	_
+4	the	the	DET	DT	Definite=Def|PronType=Art	6	det	_	_
+5	Arctic	arctic	ADJ	JJ	Degree=Pos	6	amod	_	_
+6	refuge	refuge	NOUN	NN	Number=Sing	0	root	_	_
+7	to	to	PART	TO	_	8	mark	_	_
+8	preserve	preserve	VERB	VB	VerbForm=Inf	6	acl	_	_
+9	unique	unique	ADJ	JJ	Degree=Pos	10	amod	_	_
+10	wildlife	wildlife	NOUN	NN	Number=Sing	8	obj	_	_
+11	and	and	CCONJ	CC	_	13	cc	_	_
+12	wilderness	wilderness	NOUN	NN	Number=Sing	13	compound	_	_
+13	value	value	NOUN	NN	Number=Sing	10	conj	_	_
+14	on	on	ADP	IN	_	18	case	_	_
+15	Alaska	Alaska	PROPN	NNP	Number=Sing	18	nmod:poss	_	SpaceAfter=No
+16	's	's	PART	POS	_	15	case	_	_
+17	north	north	NOUN	NN	Number=Sing	18	compound	_	_
+18	coast	coast	NOUN	NN	Number=Sing	8	obl	_	SpaceAfter=No
+19	?	?	PUNCT	.	_	6	punct	_	SpacesAfter=\r\n
+
+# text = How high is Mount Kinabalu ?
+1	How	how	ADV	WRB	PronType=Int,Rel	2	advmod	_	_
+2	high	high	ADJ	JJ	Degree=Pos	3	dep	_	_
+3	is	be	VERB	VBZ	Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	Mount	Mount	PROPN	NNP	Number=Sing	5	compound	_	_
+5	Kinabalu	Kinabalu	PROPN	NNP	Number=Sing	3	nsubj	_	_
+6	?	?	PUNCT	.	_	3	punct	_	_
+
+# text = Where is Microsoft 's corporate headquarters located ?
+1	Where	where	ADV	WRB	PronType=Int,Rel	7	advmod	_	_
+2	is	be	VERB	VBZ	Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	aux:pass	_	_
+3	Microsoft	Microsoft	PROPN	NNP	Number=Sing	6	nmod:poss	_	_
+4	's	's	PART	POS	Poss=Yes	3	case	_	_
+5	corporate	corporate	ADJ	JJ	Degree=Pos	6	amod	_	_
+6	headquarters	headquarters	NOUN	NN	Number=Sing	7	nsubj:pass	_	_
+7	located	locate	VERB	VBN	Aspect=Perf|Tense=Past|VerbForm=Part	0	root	_	_
+8	?	?	PUNCT	.	_	7	punct	_	_
+
+# text = Who is the tallest man in the world ?
+1	Who	who	PRON	WP	PronType=Int,Rel	0	root	_	_
+2	is	be	VERB	VBZ	Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	cop	_	_
+3	the	the	DET	DT	_	5	det	_	_
+4	tallest	tallest	ADJ	JJS	Degree=Sup	5	amod	_	_
+5	man	man	NOUN	NN	Number=Sing	1	nsubj	_	_
+6	in	in	ADP	IN	_	8	case	_	_
+7	the	the	DET	DT	_	8	det	_	_
+8	world	world	NOUN	NN	Number=Sing	5	nmod	_	_
+9	?	?	PUNCT	.	_	1	punct	_	_
+
+# text = Name a symptom of mononucleosis .
+1	Name	name	VERB	VB	VerbForm=Inf	0	root	_	_
+2	a	a	DET	DT	_	3	det	_	_
+3	symptom	symptom	NOUN	NN	Number=Sing	1	obj	_	_
+4	of	of	ADP	IN	_	5	case	_	_
+5	mononucleosis	mononucleosis	PROPN	NNP	Number=Sing	3	nmod	_	_
+6	.	.	PUNCT	.	_	1	punct	_	_
+
+# text = What Sinatra hit did he dooby dooby do in ?
+1	What	what	DET	WDT	PronType=Int,Rel	3	det	_	_
+2	Sinatra	Sinatra	PROPN	NNP	Number=Sing	3	compound	_	_
+3	hit	hit	NOUN	NN	Number=Sing	6	obl	_	_
+4	did	do	VERB	VBD	Tense=Past|VerbForm=Fin	6	aux	_	_
+5	he	he	PRON	PRP	PronType=Prs	6	nsubj	_	_
+6	dooby	dooby	VERB	VB	VerbForm=Inf	0	root	_	_
+7	dooby	dooby	X	PRT	_	6	compound:prt	_	_
+8	do	do	X	PRT	_	6	compound:prt	_	_
+9	in	in	ADP	IN	_	3	case	_	_
+10	?	?	X	?	_	6	dep	_	_
+
+# text = Which hair care product told us " hate that gray , wash it away " ?
+1	Which	which	DET	WDT	PronType=Int,Rel	4	det	_	_
+2	hair	hair	NOUN	NN	Number=Sing	4	compound	_	_
+3	care	care	NOUN	NN	Number=Sing	4	compound	_	_
+4	product	product	NOUN	NN	Number=Sing	5	nsubj	_	_
+5	told	tell	VERB	VBD	Tense=Past|VerbForm=Fin	0	root	_	_
+6	us	we	PRON	PRP	PronType=Prs	5	obj	_	_
+7	"	"	PUNCT	``	_	8	punct	_	_
+8	hate	hate	VERB	VB	VerbForm=Inf	5	ccomp	_	_
+9	that	that	DET	DT	_	10	det	_	_
+10	gray	gray	ADJ	JJ	Degree=Pos	8	obj	_	_
+11	,	,	PUNCT	,	_	8	punct	_	_
+12	wash	wash	VERB	VB	VerbForm=Inf	8	dep	_	_
+13	it	it	PRON	PRP	PronType=Prs	12	obj	_	_
+14	away	away	ADV	RB	Degree=Pos	12	advmod	_	_
+15	"	"	PUNCT	''	_	14	punct	_	_
+16	?	?	X	?	_	5	dep	_	_
+
+# text = Who penned : " Neither a borrower nor a lender be " ?
+1	Who	who	PRON	WP	PronType=Int,Rel	2	obj	_	_
+2	penned	pen	VERB	VBN	Aspect=Perf|Tense=Past|VerbForm=Part	0	root	_	_
+3	:	:	PUNCT	:	_	2	punct	_	_
+4	"	"	PUNCT	``	_	7	punct	_	_
+5	Neither	neither	CCONJ	CC	_	7	cc:preconj	_	_
+6	a	a	DET	DT	_	7	det	_	_
+7	borrower	borrower	NOUN	NN	Number=Sing	11	nsubj	_	_
+8	nor	nor	CCONJ	CC	_	10	cc	_	_
+9	a	a	DET	DT	_	10	det	_	_
+10	lender	lender	NOUN	NN	Number=Sing	7	conj	_	_
+11	be	be	VERB	VB	VerbForm=Inf	2	ccomp	_	_
+12	"	"	PUNCT	''	_	11	punct	_	_
+13	?	?	X	?	_	2	dep	_	_
+
+# text = How long does it take sunlight to reach Earth ?
+1	How	how	ADV	WRB	PronType=Int,Rel	2	advmod	_	_
+2	long	long	ADV	RB	Degree=Pos	5	dep	_	_
+3	does	do	VERB	VBZ	Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	aux	_	_
+4	it	it	PRON	PRP	PronType=Prs	5	nsubj	_	_
+5	take	take	VERB	VB	VerbForm=Inf	0	root	_	_
+6	sunlight	sunlight	NOUN	NN	Number=Sing	5	obj	_	_
+7	to	to	PART	TO	PartType=Inf|VerbForm=Inf	8	mark	_	_
+8	reach	reach	VERB	VB	VerbForm=Inf	5	advcl	_	_
+9	Earth	Earth	PROPN	NNP	Number=Sing	8	obj	_	_
+10	?	?	X	?	_	5	dep	_	_
+
+# text = What is the protagonist 's name in Dostoevski 's " The Idiot " ?
+1	What	what	PRON	WP	PronType=Int,Rel	0	root	_	_
+2	is	be	VERB	VBZ	Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	cop	_	_
+3	the	the	DET	DT	_	4	det	_	_
+4	protagonist	protagonist	NOUN	NN	Number=Sing	6	nmod:poss	_	_
+5	's	's	PART	POS	Poss=Yes	4	case	_	_
+6	name	name	NOUN	NN	Number=Sing	1	nsubj	_	_
+7	in	in	ADP	IN	_	8	case	_	_
+8	Dostoevski	Dostoevski	PROPN	NNP	Number=Sing	6	nmod	_	_
+9	's	's	PART	POS	Poss=Yes	8	case	_	_
+10	"	"	PUNCT	``	_	12	punct	_	_
+11	The	the	DET	DT	_	12	det	_	_
+12	Idiot	idiot	NOUN	NN	Number=Sing	8	dep	_	_
+13	"	"	PUNCT	''	_	12	punct	_	_
+14	?	?	X	?	_	1	dep	_	_
+
+# text = What 's the word for broken glass or sharp rocks embedded in cement on top of a wall ?
+1	What	what	PRON	WP	PronType=Int,Rel	2	nsubj	_	_
+2	's	's	VERB	VBZ	Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	the	the	DET	DT	_	4	det	_	_
+4	word	word	NOUN	NN	Number=Sing	2	obj	_	_
+5	for	for	ADP	IN	_	7	case	_	_
+6	broken	broken	ADJ	JJ	Degree=Pos	7	amod	_	_
+7	glass	glass	NOUN	NN	Number=Sing	4	nmod	_	_
+8	or	or	CCONJ	CC	_	10	cc	_	_
+9	sharp	sharp	ADJ	JJ	Degree=Pos	10	amod	_	_
+10	rocks	rock	NOUN	NNS	Number=Plur	7	conj	_	_
+11	embedded	embed	VERB	VBN	Aspect=Perf|Tense=Past|VerbForm=Part	7	acl	_	_
+12	in	in	ADP	IN	_	13	case	_	_
+13	cement	cement	NOUN	NN	Number=Sing	11	obl	_	_
+14	on	on	ADP	IN	_	15	case	_	_
+15	top	top	NOUN	NN	Number=Sing	11	obl	_	_
+16	of	of	ADP	IN	_	18	case	_	_
+17	a	a	DET	DT	_	18	det	_	_
+18	wall	wall	NOUN	NN	Number=Sing	15	nmod	_	_
+19	?	?	X	?	_	2	dep	_	_
+
+# text = Who was the famous door-to-door brush salesman ?
+1	Who	who	PRON	WP	PronType=Int,Rel	0	root	_	_
+2	was	be	VERB	VBD	Tense=Past|VerbForm=Fin	1	cop	_	_
+3	the	the	DET	DT	_	7	det	_	_
+4	famous	famous	ADJ	JJ	Degree=Pos	7	amod	_	_
+5	door-to-door	door-to-door	ADJ	JJ	Degree=Pos	7	amod	_	_
+6	brush	brush	NOUN	NN	Number=Sing	7	compound	_	_
+7	salesman	salesman	NOUN	NN	Number=Sing	1	nsubj	_	_
+8	?	?	X	?	_	1	dep	_	_
+
+# text = How tall is the CNN Tower in Toronto ?
+1	How	how	ADV	WRB	PronType=Int,Rel	2	advmod	_	_
+2	tall	tall	ADJ	JJ	Degree=Pos	3	dep	_	_
+3	is	be	VERB	VBZ	Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	the	the	DET	DT	_	6	det	_	_
+5	CNN	CNN	PROPN	NNP	Number=Sing	6	compound	_	_
+6	Tower	Tower	PROPN	NNP	Number=Sing	3	nsubj	_	_
+7	in	in	ADP	IN	_	8	case	_	_
+8	Toronto	Toronto	PROPN	NNP	Number=Sing	6	nmod	_	_
+9	?	?	PUNCT	.	_	3	punct	_	_
+
+# text = When did the original Howdy Doody show go off the air ?
+1	When	when	ADV	WRB	PronType=Int,Rel	8	advmod	_	_
+2	did	do	VERB	VBD	Tense=Past|VerbForm=Fin	8	aux	_	_
+3	the	the	DET	DT	_	7	det	_	_
+4	original	original	ADJ	JJ	Degree=Pos	7	amod	_	_
+5	Howdy	Howdy	PROPN	NNP	Number=Sing	7	compound	_	_
+6	Doody	Doody	PROPN	NNP	Number=Sing	7	compound	_	_
+7	show	show	NOUN	NN	Number=Sing	8	nsubj	_	_
+8	go	go	VERB	VB	VerbForm=Inf	0	root	_	_
+9	off	off	ADP	IN	_	11	case	_	_
+10	the	the	DET	DT	_	11	det	_	_
+11	air	air	NOUN	NN	Number=Sing	8	obl	_	_
+12	?	?	PUNCT	.	_	8	punct	_	_
+
+# text = Where can I find a list of all the companies in America that offer a direct stock purchase plan ?
+1	Where	where	ADV	WRB	PronType=Int,Rel	4	advmod	_	_
+2	can	can	VERB	MD	VerbType=Mod	4	aux	_	_
+3	I	I	PRON	PRP	PronType=Prs	4	nsubj	_	_
+4	find	find	VERB	VB	VerbForm=Inf	0	root	_	_
+5	a	a	DET	DT	_	6	det	_	_
+6	list	list	NOUN	NN	Number=Sing	4	obj	_	_
+7	of	of	ADP	IN	_	10	case	_	_
+8	all	all	DET	PDT	AdjType=Pdt	10	det:predet	_	_
+9	the	the	DET	DT	_	10	det	_	_
+10	companies	company	NOUN	NNS	Number=Plur	6	nmod	_	_
+11	in	in	ADP	IN	_	12	case	_	_
+12	America	America	PROPN	NNP	Number=Sing	10	nmod	_	_
+13	that	that	DET	WDT	PronType=Int,Rel	14	nsubj	_	_
+14	offer	offer	VERB	VBP	Tense=Pres|VerbForm=Fin	10	acl:relcl	_	_
+15	a	a	DET	DT	_	19	det	_	_
+16	direct	direct	ADJ	JJ	Degree=Pos	19	amod	_	_
+17	stock	stock	NOUN	NN	Number=Sing	19	compound	_	_
+18	purchase	purchase	NOUN	NN	Number=Sing	19	compound	_	_
+19	plan	plan	NOUN	NN	Number=Sing	14	obj	_	_
+20	?	?	X	?	_	4	dep	_	_
+
+# text = What is the name of the promising anticancer compound derived from the pacific yew tree ?
+1	What	what	PRON	WP	PronType=Int,Rel	0	root	_	_
+2	is	be	VERB	VBZ	Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	cop	_	_
+3	the	the	DET	DT	_	4	det	_	_
+4	name	name	NOUN	NN	Number=Sing	1	nsubj	_	_
+5	of	of	ADP	IN	_	9	case	_	_
+6	the	the	DET	DT	_	9	det	_	_
+7	promising	promising	ADJ	JJ	Degree=Pos	9	amod	_	_
+8	anticancer	anticancer	ADJ	JJ	Degree=Pos	9	amod	_	_
+9	compound	compound	NOUN	NN	Number=Sing	4	nmod	_	_
+10	derived	derive	VERB	VBD	Tense=Past|VerbForm=Fin	4	acl	_	_
+11	from	from	ADP	IN	_	15	case	_	_
+12	the	the	DET	DT	_	15	det	_	_
+13	pacific	pacific	ADJ	JJ	Degree=Pos	15	amod	_	_
+14	yew	yew	NOUN	NN	Number=Sing	15	compound	_	_
+15	tree	tree	NOUN	NN	Number=Sing	10	obl	_	_
+16	?	?	PUNCT	.	_	1	punct	_	_
+
+# text = Where does the opera singer Ileana Cotrubas come from ?
+1	Where	where	ADV	WRB	PronType=Int,Rel	8	advmod	_	_
+2	does	do	VERB	VBZ	Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	aux	_	_
+3	the	the	DET	DT	_	7	det	_	_
+4	opera	opera	NOUN	NN	Number=Sing	7	compound	_	_
+5	singer	singer	NOUN	NN	Number=Sing	7	compound	_	_
+6	Ileana	Ileana	PROPN	NNP	Number=Sing	7	compound	_	_
+7	Cotrubas	Cotrubas	PROPN	NNP	Number=Sing	8	nsubj	_	_
+8	come	come	VERB	VB	VerbForm=Inf	0	root	_	_
+9	from	from	ADP	IN	_	8	obl	_	_
+10	?	?	X	?	_	8	dep	_	_
+
+# text = What is the origin of the word , JJ .
+1	What	what	PRON	WP	PronType=Int,Rel	0	root	_	_
+2	is	be	VERB	VBZ	Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	cop	_	_
+3	the	the	DET	DT	_	4	det	_	_
+4	origin	origin	NOUN	NN	Number=Sing	1	nsubj	_	_
+5	of	of	ADP	IN	_	9	case	_	_
+6	the	the	DET	DT	_	9	det	_	_
+7	word	word	NOUN	NN	Number=Sing	9	compound	_	_
+8	,	,	PUNCT	,	_	9	punct	_	_
+9	JJ	jj	NOUN	NN	Number=Sing	4	nmod	_	_
+10	.	.	PUNCT	.	_	1	punct	_	_
+
+# text = What does R&B stand for ?
+1	What	what	PRON	WP	PronType=Int,Rel	4	obl	_	_
+2	does	do	VERB	VBZ	Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	aux	_	_
+3	R&B	R&B	PROPN	NNP	Number=Sing	4	nsubj	_	_
+4	stand	stand	VERB	VB	VerbForm=Inf	0	root	_	_
+5	for	for	ADP	IN	_	1	case	_	_
+6	?	?	PUNCT	.	_	4	punct	_	_
+
+# text = What culture developed the idea of potlatch ?
+1	What	what	DET	WDT	PronType=Int,Rel	2	det	_	_
+2	culture	culture	NOUN	NN	Number=Sing	3	nsubj	_	_
+3	developed	develop	VERB	VBD	Tense=Past|VerbForm=Fin	0	root	_	_
+4	the	the	DET	DT	_	5	det	_	_
+5	idea	idea	NOUN	NN	Number=Sing	3	obj	_	_
+6	of	of	ADP	IN	_	7	case	_	_
+7	potlatch	potlatch	NOUN	NN	Number=Sing	5	nmod	_	_
+8	?	?	PUNCT	.	_	3	punct	_	_
+
+# text = What is the acreage of the Chappellet vineyard ?
+1	What	what	PRON	WP	PronType=Int,Rel	0	root	_	_
+2	is	be	VERB	VBZ	Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	cop	_	_
+3	the	the	DET	DT	_	4	det	_	_
+4	acreage	acreage	NOUN	NN	Number=Sing	1	nsubj	_	_
+5	of	of	ADP	IN	_	8	case	_	_
+6	the	the	DET	DT	_	8	det	_	_
+7	Chappellet	Chappellet	PROPN	NNP	Number=Sing	8	compound	_	_
+8	vineyard	vineyard	NOUN	NN	Number=Sing	4	nmod	_	_
+9	?	?	X	?	_	1	dep	_	_
+
+# text = How tall is Mount McKinley ?
+1	How	how	ADV	WRB	PronType=Int,Rel	2	advmod	_	_
+2	tall	tall	ADJ	JJ	Degree=Pos	3	dep	_	_
+3	is	be	VERB	VBZ	Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	Mount	Mount	PROPN	NNP	Number=Sing	5	compound	_	_
+5	McKinley	McKinley	PROPN	NNP	Number=Sing	3	nsubj	_	_
+6	?	?	PUNCT	.	_	3	punct	_	_
+
+# text = What is the per-capita income of Colombia , South America , ?
+1	What	what	PRON	WP	PronType=Int,Rel	0	root	_	_
+2	is	be	VERB	VBZ	Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	cop	_	_
+3	the	the	DET	DT	_	5	det	_	_
+4	per-capita	per-capita	ADJ	JJ	Degree=Pos	5	amod	_	_
+5	income	income	NOUN	NN	Number=Sing	1	nsubj	_	_
+6	of	of	ADP	IN	_	7	case	_	_
+7	Colombia	Colombia	PROPN	NNP	Number=Sing	5	nmod	_	_
+8	,	,	PUNCT	,	_	7	punct	_	_
+9	South	South	PROPN	NNP	Number=Sing	10	compound	_	_
+10	America	America	PROPN	NNP	Number=Sing	7	appos	_	_
+11	,	,	PUNCT	,	_	7	punct	_	_
+12	?	?	X	?	_	1	dep	_	_
+
+# text = What Asian leader was known as The Little Brown Saint ?
+1	What	what	DET	WDT	PronType=Int,Rel	3	det	_	_
+2	Asian	asian	ADJ	JJ	Degree=Pos	3	amod	_	_
+3	leader	leader	NOUN	NN	Number=Sing	5	nsubj:pass	_	_
+4	was	be	VERB	VBD	Tense=Past|VerbForm=Fin	5	aux:pass	_	_
+5	known	know	VERB	VBN	Aspect=Perf|Tense=Past|VerbForm=Part	0	root	_	_
+6	as	as	ADP	IN	_	10	case	_	_
+7	The	the	DET	DT	_	10	det	_	_
+8	Little	little	ADJ	JJ	Degree=Pos	10	amod	_	_
+9	Brown	brown	ADJ	JJ	Degree=Pos	10	amod	_	_
+10	Saint	saint	NOUN	NN	Number=Sing	5	obl	_	_
+11	?	?	X	?	_	5	dep	_	_
+
+# text = How long do hermit crabs live ?
+1	How	how	ADV	WRB	PronType=Int,Rel	2	advmod	_	_
+2	long	long	ADV	RB	Degree=Pos	6	dep	_	_
+3	do	do	VERB	VBP	Tense=Pres|VerbForm=Fin	6	aux	_	_
+4	hermit	hermit	ADJ	JJ	Degree=Pos	5	amod	_	_
+5	crabs	crab	NOUN	NNS	Number=Plur	6	nsubj	_	_
+6	live	live	VERB	VB	VerbForm=Inf	0	root	_	_
+7	?	?	PUNCT	.	_	6	punct	_	_
+
+# text = What state in the U.S. has the most blacks ?
+1	What	what	DET	WDT	PronType=Int,Rel	2	det	_	_
+2	state	state	NOUN	NN	Number=Sing	6	nsubj	_	_
+3	in	in	ADP	IN	_	5	case	_	_
+4	the	the	DET	DT	_	5	det	_	_
+5	U.S.	U.S.	PROPN	NNP	Number=Sing	2	nmod	_	_
+6	has	have	VERB	VBZ	Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+7	the	the	DET	DT	_	9	det	_	_
+8	most	most	ADJ	JJS	Degree=Sup	9	amod	_	_
+9	blacks	black	NOUN	NNS	Number=Plur	6	obj	_	_
+10	?	?	X	?	_	6	dep	_	_
+
+# text = What are semiconductors ?
+1	What	what	PRON	WP	PronType=Int,Rel	0	root	_	_
+2	are	be	VERB	VBP	Tense=Pres|VerbForm=Fin	1	cop	_	_
+3	semiconductors	semiconductor	NOUN	NNS	Number=Plur	1	nsubj	_	_
+4	?	?	PUNCT	.	_	1	punct	_	_
+
+# text = What is a nematode ?
+1	What	what	PRON	WP	PronType=Int,Rel	0	root	_	_
+2	is	be	VERB	VBZ	Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	cop	_	_
+3	a	a	DET	DT	_	4	det	_	_
+4	nematode	nematode	NOUN	NN	Number=Sing	1	nsubj	_	_
+5	?	?	PUNCT	.	_	1	punct	_	_
+
+# text = What is the esophagus used for ?
+1	What	what	PRON	WP	PronType=Int,Rel	5	obl	_	_
+2	is	be	VERB	VBZ	Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	aux:pass	_	_
+3	the	the	DET	DT	_	4	det	_	_
+4	esophagus	esophagus	NOUN	NN	Number=Sing	5	nsubj:pass	_	_
+5	used	use	VERB	VBN	Aspect=Perf|Tense=Past|VerbForm=Part	0	root	_	_
+6	for	for	ADP	IN	_	1	case	_	_
+7	?	?	PUNCT	.	_	5	punct	_	_
+
+# text = What is the world 's population ?
+1	What	what	PRON	WP	PronType=Int,Rel	0	root	_	_
+2	is	be	VERB	VBZ	Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	cop	_	_
+3	the	the	DET	DT	_	4	det	_	_
+4	world	world	NOUN	NN	Number=Sing	6	nmod:poss	_	_
+5	's	's	PART	POS	Poss=Yes	4	case	_	_
+6	population	population	NOUN	NN	Number=Sing	1	nsubj	_	_
+7	?	?	PUNCT	.	_	1	punct	_	_
+
+# text = Who holds the record as the highest paid child performer ?
+1	Who	who	PRON	WP	PronType=Int,Rel	2	nsubj	_	_
+2	holds	hold	VERB	VBZ	Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	the	the	DET	DT	_	4	det	_	_
+4	record	record	NOUN	NN	Number=Sing	2	obj	_	_
+5	as	as	ADP	IN	_	10	case	_	_
+6	the	the	DET	DT	_	10	det	_	_
+7	highest	highest	ADJ	JJS	Degree=Sup	10	amod	_	_
+8	paid	pay	VERB	VBN	Aspect=Perf|Tense=Past|VerbForm=Part	10	amod	_	_
+9	child	child	NOUN	NN	Number=Sing	10	compound	_	_
+10	performer	performer	NOUN	NN	Number=Sing	4	nmod	_	_
+11	?	?	PUNCT	.	_	2	punct	_	_
+
+# text = What basketball maneuver did Bert Loomis invent ?
+1	What	what	DET	WDT	PronType=Int,Rel	3	det	_	_
+2	basketball	basketball	NOUN	NN	Number=Sing	3	compound	_	_
+3	maneuver	maneuver	NOUN	NN	Number=Sing	7	obj	_	_
+4	did	do	VERB	VBD	Tense=Past|VerbForm=Fin	7	aux	_	_
+5	Bert	Bert	PROPN	NNP	Number=Sing	6	compound	_	_
+6	Loomis	Loomis	PROPN	NNP	Number=Sing	7	nsubj	_	_
+7	invent	invent	VERB	VB	VerbForm=Inf	0	root	_	_
+8	?	?	X	?	_	7	dep	_	_
+
+# text = How big is the sun ?
+1	How	how	ADV	WRB	PronType=Int,Rel	2	advmod	_	_
+2	big	big	ADJ	JJ	Degree=Pos	3	dep	_	_
+3	is	be	VERB	VBZ	Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	the	the	DET	DT	_	5	det	_	_
+5	sun	sun	NOUN	NN	Number=Sing	3	nsubj	_	_
+6	?	?	X	?	_	3	dep	_	_
+
+# text = Bastille Day occurs on which date ?
+1	Bastille	Bastille	PROPN	NNP	Number=Sing	2	compound	_	_
+2	Day	Day	PROPN	NNP	Number=Sing	3	nsubj	_	_
+3	occurs	occur	VERB	VBZ	Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	on	on	ADP	IN	_	6	case	_	_
+5	which	which	DET	WDT	PronType=Int,Rel	6	det	_	_
+6	date	date	NOUN	NN	Number=Sing	3	obl	_	_
+7	?	?	PUNCT	.	_	3	punct	_	_
+
+# text = What is the capital of Haiti ?
+1	What	what	PRON	WP	PronType=Int,Rel	0	root	_	_
+2	is	be	VERB	VBZ	Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	cop	_	_
+3	the	the	DET	DT	_	4	det	_	_
+4	capital	capital	NOUN	NN	Number=Sing	1	nsubj	_	_
+5	of	of	ADP	IN	_	6	case	_	_
+6	Haiti	Haiti	PROPN	NNP	Number=Sing	4	nmod	_	_
+7	?	?	PUNCT	.	_	1	punct	_	_
+
+# text = What is God ?
+1	What	what	PRON	WP	PronType=Int,Rel	0	root	_	_
+2	is	be	VERB	VBZ	Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	cop	_	_
+3	God	God	PROPN	NNP	Number=Sing	1	nsubj	_	_
+4	?	?	X	?	_	1	dep	_	_
+
+# text = On what continent is Egypt located ?
+1	On	on	ADP	IN	_	3	case	_	_
+2	what	what	PRON	WP	PronType=Int,Rel	3	det	_	_
+3	continent	continent	NOUN	NN	Number=Sing	6	obl	_	_
+4	is	be	VERB	VBZ	Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	aux:pass	_	_
+5	Egypt	Egypt	PROPN	NNP	Number=Sing	6	nsubj:pass	_	_
+6	located	locate	VERB	VBN	Aspect=Perf|Tense=Past|VerbForm=Part	0	root	_	_
+7	?	?	PUNCT	.	_	6	punct	_	_
+
+# text = What was the name of the plane Lindbergh flew solo across the Atlantic ?
+1	What	what	PRON	WP	PronType=Int,Rel	0	root	_	_
+2	was	be	VERB	VBD	Tense=Past|VerbForm=Fin	1	cop	_	_
+3	the	the	DET	DT	_	4	det	_	_
+4	name	name	NOUN	NN	Number=Sing	1	nsubj	_	_
+5	of	of	ADP	IN	_	7	case	_	_
+6	the	the	DET	DT	_	7	det	_	_
+7	plane	plane	NOUN	NN	Number=Sing	4	nmod	_	_
+8	Lindbergh	Lindbergh	PROPN	NNP	Number=Sing	9	nsubj	_	_
+9	flew	fly	VERB	VBD	Tense=Past|VerbForm=Fin	7	acl:relcl	_	_
+10	solo	solo	ADV	RB	Degree=Pos	9	advmod	_	_
+11	across	across	ADP	IN	_	13	case	_	_
+12	the	the	DET	DT	_	13	det	_	_
+13	Atlantic	Atlantic	PROPN	NNP	Number=Sing	9	obl	_	_
+14	?	?	PUNCT	.	_	1	punct	_	_
+
+# text = What Hermann Hesse book gave its name to a rock group ?
+1	What	what	DET	WDT	PronType=Int,Rel	4	det	_	_
+2	Hermann	Hermann	PROPN	NNP	Number=Sing	4	compound	_	_
+3	Hesse	Hesse	PROPN	NNP	Number=Sing	4	compound	_	_
+4	book	book	NOUN	NN	Number=Sing	5	nsubj	_	_
+5	gave	give	VERB	VBD	Tense=Past|VerbForm=Fin	0	root	_	_
+6	its	its	DET	PRP$	Poss=Yes|PronType=Prs	7	nmod:poss	_	_
+7	name	name	NOUN	NN	Number=Sing	5	obj	_	_
+8	to	to	PART	TO	PartType=Inf|VerbForm=Inf	11	case	_	_
+9	a	a	DET	DT	_	11	det	_	_
+10	rock	rock	ADJ	JJ	Degree=Pos	11	amod	_	_
+11	group	group	NOUN	NN	Number=Sing	5	obl	_	_
+12	?	?	X	?	_	5	dep	_	_
+
+# text = Who was Quetzalcoatl ?
+1	Who	who	PRON	WP	PronType=Int,Rel	0	root	_	_
+2	was	be	VERB	VBD	Tense=Past|VerbForm=Fin	1	cop	_	_
+3	Quetzalcoatl	Quetzalcoatl	PROPN	NNP	Number=Sing	1	nsubj	_	_
+4	?	?	PUNCT	.	_	1	punct	_	_
+
+# text = What is the dot on an the letter i called ?
+1	What	what	PRON	WP	PronType=Int,Rel	10	obj	_	_
+2	is	be	VERB	VBZ	Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	aux	_	_
+3	the	the	DET	DT	_	4	det	_	_
+4	dot	dot	NOUN	NN	Number=Sing	10	nsubj	_	_
+5	on	on	ADP	IN	_	8	case	_	_
+6	an	a	DET	DT	_	8	det:predet	_	_
+7	the	the	DET	DT	_	8	det	_	_
+8	letter	letter	NOUN	NN	Number=Sing	4	nmod	_	_
+9	i	i	X	FW	Foreign=Yes	8	dep	_	_
+10	called	call	VERB	VBG	Aspect=Prog|Tense=Pres|VerbForm=Part	0	root	_	_
+11	?	?	X	?	_	10	dep	_	_
+
+# text = What is thalassemia ?
+1	What	what	PRON	WP	PronType=Int,Rel	0	root	_	_
+2	is	be	VERB	VBZ	Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	cop	_	_
+3	thalassemia	thalassemia	NOUN	NN	Number=Sing	1	nsubj	_	_
+4	?	?	PUNCT	.	_	1	punct	_	_
+
+# text = Who was chairman of the Senate select committee that tried to get to the bottom of Watergate ?
+1	Who	who	PRON	WP	PronType=Int,Rel	0	root	_	_
+2	was	be	VERB	VBD	Tense=Past|VerbForm=Fin	1	cop	_	_
+3	chairman	chairman	NOUN	NN	Number=Sing	1	nsubj	_	_
+4	of	of	ADP	IN	_	8	case	_	_
+5	the	the	DET	DT	_	8	det	_	_
+6	Senate	Senate	PROPN	NNP	Number=Sing	8	compound	_	_
+7	select	select	ADJ	JJ	Degree=Pos	8	amod	_	_
+8	committee	committee	NOUN	NN	Number=Sing	3	nmod	_	_
+9	that	that	DET	WDT	PronType=Int,Rel	10	nsubj	_	_
+10	tried	try	VERB	VBD	Tense=Past|VerbForm=Fin	8	acl:relcl	_	_
+11	to	to	PART	TO	PartType=Inf|VerbForm=Inf	12	mark	_	_
+12	get	get	VERB	VB	VerbForm=Inf	10	xcomp	_	_
+13	to	to	PART	TO	PartType=Inf|VerbForm=Inf	15	case	_	_
+14	the	the	DET	DT	_	15	det	_	_
+15	bottom	bottom	NOUN	NN	Number=Sing	12	obl	_	_
+16	of	of	ADP	IN	_	17	case	_	_
+17	Watergate	Watergate	PROPN	NNP	Number=Sing	15	nmod	_	_
+18	?	?	X	?	_	1	dep	_	_
+
+# text = How do storms form ?
+1	How	how	ADV	WRB	PronType=Int,Rel	4	advmod	_	_
+2	do	do	VERB	VBP	Tense=Pres|VerbForm=Fin	4	aux	_	_
+3	storms	storm	NOUN	NNS	Number=Plur	4	nsubj	_	_
+4	form	form	VERB	VB	VerbForm=Inf	0	root	_	_
+5	?	?	X	?	_	4	dep	_	_
+
+# text = Who developed the first polio vaccine ?
+1	Who	who	PRON	WP	PronType=Int,Rel	2	nsubj	_	_
+2	developed	develop	VERB	VBD	Tense=Past|VerbForm=Fin	0	root	_	_
+3	the	the	DET	DT	_	6	det	_	_
+4	first	first	ADJ	JJ	Degree=Pos	6	amod	_	_
+5	polio	polio	PROPN	NNP	Number=Sing	6	compound	_	_
+6	vaccine	vaccine	NOUN	NN	Number=Sing	2	obj	_	_
+7	?	?	X	?	_	2	dep	_	_
+
+# text = What is nicotine ?
+1	What	what	PRON	WP	PronType=Int,Rel	0	root	_	_
+2	is	be	VERB	VBZ	Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	cop	_	_
+3	nicotine	nicotine	NOUN	NN	Number=Sing	1	nsubj	_	_
+4	?	?	PUNCT	.	_	1	punct	_	_
+
+# text = Where do hyenas live ?
+1	Where	where	ADV	WRB	PronType=Int,Rel	4	advmod	_	_
+2	do	do	VERB	VBP	Tense=Pres|VerbForm=Fin	4	aux	_	_
+3	hyenas	hyena	NOUN	NNS	Number=Plur	4	nsubj	_	_
+4	live	live	VERB	VB	VerbForm=Inf	0	root	_	_
+5	?	?	PUNCT	.	_	4	punct	_	_
+
+# text = What was Eduard Shevardnadze 's job in the Soviet Union ?
+1	What	what	PRON	WP	PronType=Int,Rel	0	root	_	_
+2	was	be	VERB	VBD	Tense=Past|VerbForm=Fin	1	cop	_	_
+3	Eduard	Eduard	PROPN	NNP	Number=Sing	4	compound	_	_
+4	Shevardnadze	Shevardnadze	PROPN	NNP	Number=Sing	6	nmod:poss	_	_
+5	's	's	PART	POS	Poss=Yes	4	case	_	_
+6	job	job	NOUN	NN	Number=Sing	1	nsubj	_	_
+7	in	in	ADP	IN	_	10	case	_	_
+8	the	the	DET	DT	_	10	det	_	_
+9	Soviet	Soviet	PROPN	NNP	Number=Sing	10	compound	_	_
+10	Union	Union	PROPN	NNP	Number=Sing	6	nmod	_	_
+11	?	?	X	?	_	1	dep	_	_
+
+# text = What was the length of the Wright brothers ' first flight ?
+1	What	what	PRON	WP	PronType=Int,Rel	0	root	_	_
+2	was	be	VERB	VBD	Tense=Past|VerbForm=Fin	1	cop	_	_
+3	the	the	DET	DT	_	4	det	_	_
+4	length	length	NOUN	NN	Number=Sing	1	nsubj	_	_
+5	of	of	ADP	IN	_	8	case	_	_
+6	the	the	DET	DT	_	8	det	_	_
+7	Wright	Wright	PROPN	NNP	Number=Sing	8	compound	_	_
+8	brothers	brother	NOUN	NNS	Number=Plur	4	nmod	_	_
+9	'	'	PART	POS	Poss=Yes	8	case	_	_
+10	first	first	ADJ	JJ	Degree=Pos	11	amod	_	_
+11	flight	flight	NOUN	NN	Number=Sing	8	dep	_	_
+12	?	?	PUNCT	.	_	1	punct	_	_
+
+# text = Who provides telephone service in Orange County , California ?
+1	Who	who	PRON	WP	PronType=Int,Rel	2	nsubj	_	_
+2	provides	provide	VERB	VBZ	Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	telephone	telephone	NOUN	NN	Number=Sing	4	compound	_	_
+4	service	service	NOUN	NN	Number=Sing	2	obj	_	_
+5	in	in	ADP	IN	_	7	case	_	_
+6	Orange	Orange	PROPN	NNP	Number=Sing	7	compound	_	_
+7	County	County	PROPN	NNP	Number=Sing	2	obl	_	_
+8	,	,	PUNCT	,	_	7	punct	_	_
+9	California	California	PROPN	NNP	Number=Sing	7	appos	_	_
+10	?	?	PUNCT	.	_	2	punct	_	_
+
+# text = What is the executor in a will ?
+1	What	what	PRON	WP	PronType=Int,Rel	0	root	_	_
+2	is	be	VERB	VBZ	Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	cop	_	_
+3	the	the	DET	DT	_	4	det	_	_
+4	executor	executor	NOUN	NN	Number=Sing	1	nsubj	_	_
+5	in	in	ADP	IN	_	7	case	_	_
+6	a	a	DET	DT	_	7	det	_	_
+7	will	will	NOUN	NN	Number=Sing	4	nmod	_	_
+8	?	?	X	?	_	1	dep	_	_
+
+# text = Who is the president of Stanford University ?
+1	Who	who	PRON	WP	PronType=Int,Rel	0	root	_	_
+2	is	be	VERB	VBZ	Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	cop	_	_
+3	the	the	DET	DT	_	4	det	_	_
+4	president	president	NOUN	NN	Number=Sing	1	nsubj	_	_
+5	of	of	ADP	IN	_	7	case	_	_
+6	Stanford	Stanford	PROPN	NNP	Number=Sing	7	compound	_	_
+7	University	university	NOUN	NN	Number=Sing	4	nmod	_	_
+8	?	?	PUNCT	.	_	1	punct	_	_
+
+# text = What ocean did the Titanic sink in ?
+1	What	what	DET	WDT	PronType=Int,Rel	2	det	_	_
+2	ocean	ocean	NOUN	NN	Number=Sing	6	obl	_	_
+3	did	do	VERB	VBD	Tense=Past|VerbForm=Fin	6	aux	_	_
+4	the	the	DET	DT	_	5	det	_	_
+5	Titanic	Titanic	PROPN	NNP	Number=Sing	6	nsubj	_	_
+6	sink	sink	VERB	VB	VerbForm=Inf	0	root	_	_
+7	in	in	ADP	IN	_	2	case	_	_
+8	?	?	PUNCT	.	_	6	punct	_	_
+
+# text = What was Paul Bunyan 's ox 's name ?
+1	What	what	PRON	WP	PronType=Int,Rel	0	root	_	_
+2	was	be	VERB	VBD	Tense=Past|VerbForm=Fin	1	cop	_	_
+3	Paul	Paul	PROPN	NNP	Number=Sing	4	compound	_	_
+4	Bunyan	Bunyan	PROPN	NNP	Number=Sing	6	nmod:poss	_	_
+5	's	's	PART	POS	Poss=Yes	4	case	_	_
+6	ox	ox	NOUN	NN	Number=Sing	8	nmod:poss	_	_
+7	's	's	PART	POS	Poss=Yes	6	case	_	_
+8	name	name	NOUN	NN	Number=Sing	1	nsubj	_	_
+9	?	?	X	?	_	1	dep	_	_
+
+# text = Where is Ocho Rios ?
+1	Where	where	ADV	WRB	PronType=Int,Rel	2	advmod	_	_
+2	is	be	VERB	VBZ	Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	Ocho	Ocho	PROPN	NNP	Number=Sing	4	compound	_	_
+4	Rios	Rios	PROPN	NNP	Number=Sing	2	nsubj	_	_
+5	?	?	PUNCT	.	_	2	punct	_	_
+
+# text = What common ailment ca n't you catch at the North Pole ?
+1	What	what	DET	WDT	PronType=Int,Rel	3	det	_	_
+2	common	common	ADJ	JJ	Degree=Pos	3	amod	_	_
+3	ailment	ailment	NOUN	NN	Number=Sing	7	obj	_	_
+4	ca	can	VERB	MD	VerbType=Mod	7	aux	_	_
+5	n't	n't	ADV	RB	Degree=Pos	7	advmod	_	_
+6	you	you	PRON	PRP	PronType=Prs	7	nsubj	_	_
+7	catch	catch	VERB	VB	VerbForm=Inf	0	root	_	_
+8	at	at	ADP	IN	_	11	case	_	_
+9	the	the	DET	DT	_	11	det	_	_
+10	North	north	ADJ	JJ	Degree=Pos	11	amod	_	_
+11	Pole	Pole	PROPN	NNP	Number=Sing	7	obl	_	_
+12	?	?	X	?	_	7	dep	_	_
+
+# text = What actor starred in 1980 's Blue Lagoon , 1982 's The Pirate Movie and 1983 's A Night in Heaven ?
+1	What	what	DET	WDT	PronType=Int,Rel	2	det	_	_
+2	actor	actor	NOUN	NN	Number=Sing	3	nsubj	_	_
+3	starred	star	VERB	VBD	Tense=Past|VerbForm=Fin	0	root	_	_
+4	in	in	ADP	IN	_	5	case	_	_
+5	1980	1980	NUM	CD	NumType=Card	3	obl	_	_
+6	's	's	PART	POS	Poss=Yes	5	case	_	_
+7	Blue	blue	ADJ	JJ	Degree=Pos	8	amod	_	_
+8	Lagoon	lagoon	NOUN	NN	Number=Sing	5	dep	_	_
+9	,	,	PUNCT	,	_	10	punct	_	_
+10	1982	1982	NUM	CD	NumType=Card	5	conj	_	_
+11	's	's	PART	POS	Poss=Yes	10	case	_	_
+12	The	the	DET	DT	_	14	det	_	_
+13	Pirate	Pirate	PROPN	NNP	Number=Sing	14	compound	_	_
+14	Movie	movie	NOUN	NN	Number=Sing	10	dep	_	_
+15	and	and	CCONJ	CC	_	16	cc	_	_
+16	1983	1983	NUM	CD	NumType=Card	5	conj	_	_
+17	's	's	PART	POS	Poss=Yes	16	case	_	_
+18	A	a	DET	DT	_	19	det	_	_
+19	Night	night	NOUN	NN	Number=Sing	16	dep	_	_
+20	in	in	ADP	IN	_	21	case	_	_
+21	Heaven	Heaven	PROPN	NNP	Number=Sing	19	nmod	_	_
+22	?	?	X	?	_	3	dep	_	_
+
+# text = What capital city do you see from the top of Bunker Hill ?
+1	What	what	DET	WDT	PronType=Int,Rel	3	det	_	_
+2	capital	capital	NOUN	NN	Number=Sing	3	compound	_	_
+3	city	city	NOUN	NN	Number=Sing	6	obj	_	_
+4	do	do	VERB	VBP	Tense=Pres|VerbForm=Fin	6	aux	_	_
+5	you	you	PRON	PRP	PronType=Prs	6	nsubj	_	_
+6	see	see	VERB	VB	VerbForm=Inf	0	root	_	_
+7	from	from	ADP	IN	_	9	case	_	_
+8	the	the	DET	DT	_	9	det	_	_
+9	top	top	NOUN	NN	Number=Sing	6	obl	_	_
+10	of	of	ADP	IN	_	12	case	_	_
+11	Bunker	Bunker	PROPN	NNP	Number=Sing	12	compound	_	_
+12	Hill	Hill	PROPN	NNP	Number=Sing	9	nmod	_	_
+13	?	?	X	?	_	6	dep	_	_
+
+# text = Where did he get the title ?
+1	Where	where	ADV	WRB	PronType=Int,Rel	4	advmod	_	_
+2	did	do	VERB	VBD	Tense=Past|VerbForm=Fin	4	aux	_	_
+3	he	he	PRON	PRP	PronType=Prs	4	nsubj	_	_
+4	get	get	VERB	VB	VerbForm=Inf	0	root	_	_
+5	the	the	DET	DT	_	6	det	_	_
+6	title	title	NOUN	NN	Number=Sing	4	obj	_	_
+7	?	?	X	?	_	4	dep	_	_
+
+# text = Who created the literary character Phineas Fogg ?
+1	Who	who	PRON	WP	PronType=Int,Rel	2	nsubj	_	_
+2	created	create	VERB	VBD	Tense=Past|VerbForm=Fin	0	root	_	_
+3	the	the	DET	DT	_	5	det	_	_
+4	literary	literary	ADJ	JJ	Degree=Pos	5	amod	_	_
+5	character	character	NOUN	NN	Number=Sing	2	obj	_	_
+6	Phineas	Phineas	PROPN	NNP	Number=Sing	7	compound	_	_
+7	Fogg	Fogg	PROPN	NNP	Number=Sing	5	dep	_	_
+8	?	?	X	?	_	2	dep	_	_
+
+# text = What city is Southwestern University in ?
+1	What	what	DET	WDT	PronType=Int	2	det	_	_
+2	city	city	NOUN	NN	Number=Sing	5	nsubj	_	_
+3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	_
+4	Southwestern	southwestern	PROPN	NNP	Number=Sing	5	compound	_	_
+5	University	University	PROPN	NNP	Number=Sing	0	root	_	_
+6	in	in	ADP	IN	_	5	case	_	_
+7	?	?	PUNCT	.	_	5	punct	_	_
+
+# text = Name the largest country in South America .
+1	Name	name	VERB	VB	VerbForm=Inf	0	root	_	_
+2	the	the	DET	DT	_	4	det	_	_
+3	largest	largest	ADJ	JJS	Degree=Sup	4	amod	_	_
+4	country	country	NOUN	NN	Number=Sing	1	obj	_	_
+5	in	in	ADP	IN	_	7	case	_	_
+6	South	South	PROPN	NNP	Number=Sing	7	compound	_	_
+7	America	America	PROPN	NNP	Number=Sing	4	nmod	_	_
+8	.	.	PUNCT	.	_	1	punct	_	_
+
+# text = How many American soldiers have died for their country to date ?
+1	How	how	ADV	WRB	PronType=Int,Rel	2	advmod	_	_
+2	many	many	ADJ	JJ	Degree=Pos	4	amod	_	_
+3	American	american	ADJ	JJ	Degree=Pos	4	amod	_	_
+4	soldiers	soldier	NOUN	NNS	Number=Plur	6	nsubj	_	_
+5	have	have	VERB	VBP	Tense=Pres|VerbForm=Fin	6	aux	_	_
+6	died	die	VERB	VBN	Aspect=Perf|Tense=Past|VerbForm=Part	0	root	_	_
+7	for	for	ADP	IN	_	9	case	_	_
+8	their	they	DET	PRP$	Poss=Yes|PronType=Prs	9	nmod:poss	_	_
+9	country	country	NOUN	NN	Number=Sing	6	obl	_	_
+10	to	to	PART	TO	PartType=Inf|VerbForm=Inf	11	case	_	_
+11	date	date	NOUN	NN	Number=Sing	6	obl	_	_
+12	?	?	X	?	_	6	dep	_	_
+
+# text = What 's the capital of Iowa ?
+1	What	what	PRON	WP	PronType=Int,Rel	2	nsubj	_	_
+2	's	's	VERB	VBZ	Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	the	the	DET	DT	_	4	det	_	_
+4	capital	capital	NOUN	NN	Number=Sing	2	obj	_	_
+5	of	of	ADP	IN	_	6	case	_	_
+6	Iowa	Iowa	PROPN	NNP	Number=Sing	4	nmod	_	_
+7	?	?	X	?	_	2	dep	_	_
+
+# text = What 's the American dollar equivalent for 8 pounds in the U.K. ?
+1	What	what	PRON	WP	PronType=Int,Rel	2	nsubj	_	_
+2	's	's	VERB	VBZ	Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	the	the	DET	DT	_	6	det	_	_
+4	American	american	ADJ	JJ	Degree=Pos	6	amod	_	_
+5	dollar	dollar	NOUN	NN	Number=Sing	6	compound	_	_
+6	equivalent	equivalent	NOUN	NN	Number=Sing	2	obj	_	_
+7	for	for	ADP	IN	_	9	case	_	_
+8	8	8	NUM	CD	NumType=Card	9	nummod	_	_
+9	pounds	pound	NOUN	NNS	Number=Plur	6	nmod	_	_
+10	in	in	ADP	IN	_	12	case	_	_
+11	the	the	DET	DT	_	12	det	_	_
+12	U.K.	U.K.	PROPN	NNP	Number=Sing	9	nmod	_	_
+13	?	?	X	?	_	2	dep	_	_
+
+# text = What animals do you find in the stock market ?
+1	What	what	DET	WDT	PronType=Int,Rel	2	det	_	_
+2	animals	animal	NOUN	NNS	Number=Plur	5	obj	_	_
+3	do	do	VERB	VBP	Tense=Pres|VerbForm=Fin	5	aux	_	_
+4	you	you	PRON	PRP	PronType=Prs	5	nsubj	_	_
+5	find	find	VERB	VB	VerbForm=Inf	0	root	_	_
+6	in	in	ADP	IN	_	9	case	_	_
+7	the	the	DET	DT	_	9	det	_	_
+8	stock	stock	NOUN	NN	Number=Sing	9	compound	_	_
+9	market	market	NOUN	NN	Number=Sing	5	obl	_	_
+10	?	?	X	?	_	5	dep	_	_
+
+# text = What is the current ticket fare from Cairo to Barbados ?
+1	What	what	PRON	WP	PronType=Int,Rel	0	root	_	_
+2	is	be	VERB	VBZ	Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	cop	_	_
+3	the	the	DET	DT	_	6	det	_	_
+4	current	current	ADJ	JJ	Degree=Pos	6	amod	_	_
+5	ticket	ticket	NOUN	NN	Number=Sing	6	compound	_	_
+6	fare	fare	NOUN	NN	Number=Sing	1	nsubj	_	_
+7	from	from	ADP	IN	_	8	case	_	_
+8	Cairo	Cairo	PROPN	NNP	Number=Sing	6	nmod	_	_
+9	to	to	PART	TO	PartType=Inf|VerbForm=Inf	10	case	_	_
+10	Barbados	Barbados	PROPN	NNP	Number=Sing	8	nmod	_	_
+11	?	?	X	?	_	1	dep	_	_
+
+# text = What country was formed in 1948 ?
+1	What	what	DET	WDT	PronType=Int,Rel	2	det	_	_
+2	country	country	NOUN	NN	Number=Sing	4	nsubj:pass	_	_
+3	was	be	VERB	VBD	Tense=Past|VerbForm=Fin	4	aux:pass	_	_
+4	formed	form	VERB	VBN	Aspect=Perf|Tense=Past|VerbForm=Part	0	root	_	_
+5	in	in	ADP	IN	_	6	case	_	_
+6	1948	1948	NUM	CD	NumType=Card	4	obl	_	_
+7	?	?	PUNCT	.	_	4	punct	_	_
+
+# text = What building appropriately enough is depicted on the back of the 1-dollar bill ?
+1	What	what	DET	WDT	PronType=Int,Rel	2	det	_	_
+2	building	building	NOUN	NN	Number=Sing	6	nsubj:pass	_	_
+3	appropriately	appropriately	ADV	RB	Degree=Pos	4	advmod	_	_
+4	enough	enough	ADV	RB	Degree=Pos	6	advmod	_	_
+5	is	be	VERB	VBZ	Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	aux:pass	_	_
+6	depicted	depict	VERB	VBN	Aspect=Perf|Tense=Past|VerbForm=Part	0	root	_	_
+7	on	on	ADP	IN	_	9	case	_	_
+8	the	the	DET	DT	_	9	det	_	_
+9	back	back	NOUN	NN	Number=Sing	6	obl	_	_
+10	of	of	ADP	IN	_	13	case	_	_
+11	the	the	DET	DT	_	13	det	_	_
+12	1-dollar	1-dollar	ADJ	JJ	Degree=Pos	13	amod	_	_
+13	bill	bill	NOUN	NN	Number=Sing	9	nmod	_	_
+14	?	?	X	?	_	6	dep	_	_
+
+# text = What card game uses only 48 cards ?
+1	What	what	DET	WDT	PronType=Int,Rel	3	det	_	_
+2	card	card	NOUN	NN	Number=Sing	3	compound	_	_
+3	game	game	NOUN	NN	Number=Sing	4	nsubj	_	_
+4	uses	use	VERB	VBZ	Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	only	only	ADV	RB	Degree=Pos	6	advmod	_	_
+6	48	48	NUM	CD	NumType=Card	7	nummod	_	_
+7	cards	card	NOUN	NNS	Number=Plur	4	obj	_	_
+8	?	?	PUNCT	.	_	4	punct	_	_
+
+# text = What book is the follow-up to Future Shock ?
+1	What	what	DET	WDT	PronType=Int,Rel	2	det	_	_
+2	book	book	NOUN	NN	Number=Sing	3	obj	_	_
+3	is	be	VERB	VBZ	Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	the	the	DET	DT	_	5	det	_	_
+5	follow-up	follow-up	NOUN	NN	Number=Sing	3	nsubj	_	_
+6	to	to	PART	TO	PartType=Inf|VerbForm=Inf	8	case	_	_
+7	Future	future	ADJ	JJ	Degree=Pos	8	amod	_	_
+8	Shock	shock	NOUN	NN	Number=Sing	5	nmod	_	_
+9	?	?	X	?	_	3	dep	_	_
+
+# text = Which U.S. President is buried in Washington , D.C. ?
+1	Which	which	DET	WDT	PronType=Int,Rel	3	det	_	_
+2	U.S.	U.S.	PROPN	NNP	Number=Sing	3	compound	_	_
+3	President	President	PROPN	NNP	Number=Sing	5	nsubj:pass	_	_
+4	is	be	VERB	VBZ	Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	aux:pass	_	_
+5	buried	bury	VERB	VBN	Aspect=Perf|Tense=Past|VerbForm=Part	0	root	_	_
+6	in	in	ADP	IN	_	7	case	_	_
+7	Washington	Washington	PROPN	NNP	Number=Sing	5	obl	_	_
+8	,	,	PUNCT	,	_	7	punct	_	_
+9	D.C.	D.C.	PROPN	NNP	Number=Sing	7	appos	_	_
+10	?	?	PUNCT	.	_	5	punct	_	_
+
+# text = What Spanish artist painted Crucifixion ?
+1	What	what	DET	WDT	PronType=Int,Rel	3	det	_	_
+2	Spanish	spanish	ADJ	JJ	Degree=Pos	3	amod	_	_
+3	artist	artist	NOUN	NN	Number=Sing	4	nsubj	_	_
+4	painted	paint	VERB	VBD	Tense=Past|VerbForm=Fin	0	root	_	_
+5	Crucifixion	Crucifixion	PROPN	NNP	Number=Sing	4	obj	_	_
+6	?	?	X	?	_	4	dep	_	_
+
+# text = How does one correctly pronounce " qigong " ?
+1	How	how	ADV	WRB	PronType=Int,Rel	5	advmod	_	_
+2	does	do	VERB	VBZ	Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	aux	_	_
+3	one	one	PRON	PRP	PronType=Prs	5	nsubj	_	_
+4	correctly	correctly	ADV	RB	Degree=Pos	5	advmod	_	_
+5	pronounce	pronounce	VERB	VB	VerbForm=Inf	0	root	_	_
+6	"	"	PUNCT	``	_	7	punct	_	_
+7	qigong	qigong	X	FW	Foreign=Yes	5	obj	_	_
+8	"	"	PUNCT	''	_	7	punct	_	_
+9	?	?	X	?	_	5	dep	_	_
+
+# text = Which country colonized Hong Kong ?
+1	Which	which	DET	WDT	PronType=Int,Rel	2	det	_	_
+2	country	country	NOUN	NN	Number=Sing	3	nsubj	_	_
+3	colonized	colonize	VERB	VBD	Tense=Past|VerbForm=Fin	0	root	_	_
+4	Hong	Hong	PROPN	NNP	Number=Sing	5	compound	_	_
+5	Kong	Kong	PROPN	NNP	Number=Sing	3	obj	_	_
+6	?	?	PUNCT	.	_	3	punct	_	_
+
+# text = What U.S. state borders Illinois to the north ?
+1	What	what	DET	WDT	PronType=Int,Rel	3	det	_	_
+2	U.S.	U.S.	PROPN	NNP	Number=Sing	3	compound	_	_
+3	state	state	NOUN	NN	Number=Sing	4	nsubj	_	_
+4	borders	border	VERB	VBZ	Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	Illinois	Illinois	PROPN	NNP	Number=Sing	4	obj	_	_
+6	to	to	PART	TO	PartType=Inf|VerbForm=Inf	8	case	_	_
+7	the	the	DET	DT	_	8	det	_	_
+8	north	north	NOUN	NN	Number=Sing	4	obl	_	_
+9	?	?	X	?	_	4	dep	_	_
+
+# text = Define the Pheonix Club ?
+1	Define	define	VERB	VB	VerbForm=Inf	0	root	_	_
+2	the	the	DET	DT	_	4	det	_	_
+3	Pheonix	Pheonix	PROPN	NNP	Number=Sing	4	compound	_	_
+4	Club	Club	PROPN	NNP	Number=Sing	1	obj	_	_
+5	?	?	X	?	_	1	dep	_	_
+
+# text = Who won the rugby world cup in 1987 ?
+1	Who	who	PRON	WP	PronType=Int,Rel	2	nsubj	_	_
+2	won	win	VERB	VBD	Tense=Past|VerbForm=Fin	0	root	_	_
+3	the	the	DET	DT	_	6	det	_	_
+4	rugby	rugby	ADJ	JJ	Degree=Pos	6	amod	_	_
+5	world	world	NOUN	NN	Number=Sing	6	compound	_	_
+6	cup	cup	NOUN	NN	Number=Sing	2	obj	_	_
+7	in	in	ADP	IN	_	8	case	_	_
+8	1987	1987	NUM	CD	NumType=Card	2	obl	_	_
+9	?	?	PUNCT	.	_	2	punct	_	_
+
+# text = Which state has the longest coastline on the Atlantic Ocean ?
+1	Which	which	DET	WDT	PronType=Int,Rel	2	det	_	_
+2	state	state	NOUN	NN	Number=Sing	3	nsubj	_	_
+3	has	have	VERB	VBZ	Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	the	the	DET	DT	_	6	det	_	_
+5	longest	longest	ADJ	JJS	Degree=Sup	6	amod	_	_
+6	coastline	coastline	NOUN	NN	Number=Sing	3	obj	_	_
+7	on	on	ADP	IN	_	10	case	_	_
+8	the	the	DET	DT	_	10	det	_	_
+9	Atlantic	Atlantic	PROPN	NNP	Number=Sing	10	compound	_	_
+10	Ocean	Ocean	PROPN	NNP	Number=Sing	6	nmod	_	_
+11	?	?	PUNCT	.	_	3	punct	_	_
+
+# text = What does the name Billie mean ?
+1	What	what	PRON	WP	PronType=Int,Rel	6	obj	_	_
+2	does	do	VERB	VBZ	Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	aux	_	_
+3	the	the	DET	DT	_	4	det	_	_
+4	name	name	NOUN	NN	Number=Sing	6	nsubj	_	_
+5	Billie	Billie	PROPN	NNP	Number=Sing	4	appos	_	_
+6	mean	mean	NOUN	NN	Number=Sing	0	root	_	_
+7	?	?	X	?	_	6	dep	_	_
+
+# text = What does gringo mean ?
+1	What	what	PRON	WP	PronType=Int,Rel	4	obj	_	_
+2	does	do	VERB	VBZ	Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	aux	_	_
+3	gringo	gringo	X	FW	Foreign=Yes	4	nsubj	_	_
+4	mean	mean	NOUN	NN	Number=Sing	0	root	_	_
+5	?	?	X	?	_	4	dep	_	_
+
+# text = Which company that manufactures video-game hardware sells the " super system " ?
+1	Which	which	DET	WDT	PronType=Int,Rel	2	det	_	_
+2	company	company	NOUN	NN	Number=Sing	7	dep	_	_
+3	that	that	DET	DT	_	4	nsubj	_	_
+4	manufactures	manufacture	VERB	VBZ	Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	acl:relcl	_	_
+5	video-game	video-game	ADJ	JJ	Degree=Pos	6	amod	_	_
+6	hardware	hardware	NOUN	NN	Number=Sing	4	obj	_	_
+7	sells	sell	VERB	VBZ	Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+8	the	the	DET	DT	_	11	det	_	_
+9	"	"	PUNCT	``	_	11	punct	_	_
+10	super	super	ADJ	JJ	Degree=Pos	11	amod	_	_
+11	system	system	NOUN	NN	Number=Sing	7	obj	_	_
+12	"	"	PUNCT	''	_	11	punct	_	_
+13	?	?	X	?	_	7	dep	_	_
+
+# text = What was Andrew Jackson 's wife 's name ?
+1	What	what	PRON	WP	PronType=Int,Rel	0	root	_	_
+2	was	be	VERB	VBD	Tense=Past|VerbForm=Fin	1	cop	_	_
+3	Andrew	Andrew	PROPN	NNP	Number=Sing	4	compound	_	_
+4	Jackson	Jackson	PROPN	NNP	Number=Sing	6	nmod:poss	_	_
+5	's	's	PART	POS	Poss=Yes	4	case	_	_
+6	wife	wife	NOUN	NN	Number=Sing	8	nmod:poss	_	_
+7	's	's	PART	POS	Poss=Yes	6	case	_	_
+8	name	name	NOUN	NN	Number=Sing	1	nsubj	_	_
+9	?	?	PUNCT	.	_	1	punct	_	_
+
+# text = Who was Jean Nicolet ?
+1	Who	who	PRON	WP	PronType=Int,Rel	0	root	_	_
+2	was	be	VERB	VBD	Tense=Past|VerbForm=Fin	1	cop	_	_
+3	Jean	Jean	PROPN	NNP	Number=Sing	4	compound	_	_
+4	Nicolet	Nicolet	PROPN	NNP	Number=Sing	1	nsubj	_	_
+5	?	?	X	?	_	1	dep	_	_
+
+# text = How do I find out about jobs ?
+1	How	how	ADV	WRB	PronType=Int,Rel	4	advmod	_	_
+2	do	do	VERB	VBP	Tense=Pres|VerbForm=Fin	4	aux	_	_
+3	I	I	PRON	PRP	PronType=Prs	4	nsubj	_	_
+4	find	find	VERB	VB	VerbForm=Inf	0	root	_	_
+5	out	out	ADP	RP	PartType=Vbp	4	compound:prt	_	_
+6	about	about	ADP	IN	_	7	case	_	_
+7	jobs	job	NOUN	NNS	Number=Plur	4	obl	_	_
+8	?	?	X	?	_	4	dep	_	_
+
+# text = Where is the Little League Museum ?
+1	Where	where	ADV	WRB	PronType=Int,Rel	2	advmod	_	_
+2	is	be	VERB	VBZ	Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	the	the	DET	DT	_	6	det	_	_
+4	Little	little	ADJ	JJ	Degree=Pos	6	amod	_	_
+5	League	league	NOUN	NN	Number=Sing	6	compound	_	_
+6	Museum	museum	NOUN	NN	Number=Sing	2	nsubj	_	_
+7	?	?	PUNCT	.	_	2	punct	_	_
+
+# text = What is Dick Clark 's birthday ?
+1	What	what	PRON	WP	PronType=Int,Rel	0	root	_	_
+2	is	be	VERB	VBZ	Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	cop	_	_
+3	Dick	Dick	PROPN	NNP	Number=Sing	4	compound	_	_
+4	Clark	Clark	PROPN	NNP	Number=Sing	6	nmod:poss	_	_
+5	's	's	PART	POS	Poss=Yes	4	case	_	_
+6	birthday	birthday	NOUN	NN	Number=Sing	1	nsubj	_	_
+7	?	?	PUNCT	.	_	1	punct	_	_
+
+# text = Where is the Grand Canyon ?
+1	Where	where	ADV	WRB	PronType=Int,Rel	2	advmod	_	_
+2	is	be	VERB	VBZ	Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	the	the	DET	DT	_	5	det	_	_
+4	Grand	Grand	PROPN	NNP	Number=Sing	5	compound	_	_
+5	Canyon	Canyon	PROPN	NNP	Number=Sing	2	nsubj	_	_
+6	?	?	PUNCT	.	_	2	punct	_	_
+
+# text = Which vintage rock and roll singer was known as " The Killer " ?
+1	Which	which	DET	WDT	PronType=Int,Rel	3	det	_	_
+2	vintage	vintage	ADJ	JJ	Degree=Pos	3	amod	_	_
+3	rock	rock	NOUN	NN	Number=Sing	8	nsubj:pass	_	_
+4	and	and	CCONJ	CC	_	6	cc	_	_
+5	roll	roll	NOUN	NN	Number=Sing	6	compound	_	_
+6	singer	singer	NOUN	NN	Number=Sing	3	conj	_	_
+7	was	be	VERB	VBD	Tense=Past|VerbForm=Fin	8	aux:pass	_	_
+8	known	know	VERB	VBN	Aspect=Perf|Tense=Past|VerbForm=Part	0	root	_	_
+9	as	as	ADP	IN	_	12	case	_	_
+10	"	"	PUNCT	``	_	12	punct	_	_
+11	The	the	DET	DT	_	12	det	_	_
+12	Killer	killer	NOUN	NN	Number=Sing	8	obl	_	_
+13	"	"	PUNCT	''	_	12	punct	_	_
+14	?	?	PUNCT	.	_	8	punct	_	_
+
+# text = Who murdered Leno and Rosemary LaBianca on August 1
+1	Who	who	PRON	WP	PronType=Int,Rel	2	nsubj	_	_
+2	murdered	murder	VERB	VBN	Aspect=Perf|Tense=Past|VerbForm=Part	0	root	_	_
+3	Leno	Leno	PROPN	NNP	Number=Sing	6	compound	_	_
+4	and	and	CCONJ	CC	_	5	cc	_	_
+5	Rosemary	Rosemary	PROPN	NNP	Number=Sing	3	conj	_	_
+6	LaBianca	LaBianca	PROPN	NNP	Number=Sing	2	obj	_	_
+7	on	on	ADP	IN	_	8	case	_	_
+8	August	August	PROPN	NNP	Number=Sing	2	obl	_	_
+9	1	1	NUM	CD	NumType=Card	8	nummod	_	_
+
+# text = How do you say " pig " in Spanish ?
+1	How	how	ADV	WRB	PronType=Int,Rel	4	advmod	_	_
+2	do	do	VERB	VBP	Tense=Pres|VerbForm=Fin	4	aux	_	_
+3	you	you	PRON	PRP	PronType=Prs	4	nsubj	_	_
+4	say	say	VERB	VB	VerbForm=Inf	0	root	_	_
+5	"	"	PUNCT	``	_	6	punct	_	_
+6	pig	pig	NOUN	NN	Number=Sing	4	obj	_	_
+7	"	"	PUNCT	''	_	6	punct	_	_
+8	in	in	ADP	IN	_	9	case	_	_
+9	Spanish	Spanish	PROPN	NNP	Number=Sing	4	obl	_	_
+10	?	?	PUNCT	.	_	4	punct	_	_
+
+# text = How does Belle describe her life in Beauty and the Beast ?
+1	How	how	ADV	WRB	PronType=Int,Rel	4	advmod	_	_
+2	does	do	VERB	VBZ	Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	aux	_	_
+3	Belle	Belle	PROPN	NNP	Number=Sing	4	nsubj	_	_
+4	describe	describe	VERB	VB	VerbForm=Inf	0	root	_	_
+5	her	she	DET	PRP$	Poss=Yes|PronType=Prs	6	nmod:poss	_	_
+6	life	life	NOUN	NN	Number=Sing	4	obj	_	_
+7	in	in	ADP	IN	_	8	case	_	_
+8	Beauty	Beauty	PROPN	NNP	Number=Sing	6	nmod	_	_
+9	and	and	CCONJ	CC	_	11	cc	_	_
+10	the	the	DET	DT	_	11	det	_	_
+11	Beast	beast	NOUN	NN	Number=Sing	8	conj	_	_
+12	?	?	X	?	_	4	dep	_	_
+
+# text = Which two inventors invented Post-its ?
+1	Which	which	DET	WDT	PronType=Int,Rel	3	det	_	_
+2	two	two	NUM	CD	NumType=Card	3	nummod	_	_
+3	inventors	inventor	NOUN	NNS	Number=Plur	4	nsubj	_	_
+4	invented	invent	VERB	VBD	Tense=Past|VerbForm=Fin	0	root	_	_
+5	Post-its	Post-its	PROPN	NNPS	Number=Plur	4	obj	_	_
+6	?	?	X	?	_	4	dep	_	_
+
+# text = When was the first liver transplant ?
+1	When	when	ADV	WRB	PronType=Int,Rel	2	advmod	_	_
+2	was	be	VERB	VBD	Tense=Past|VerbForm=Fin	0	root	_	_
+3	the	the	DET	DT	_	6	det	_	_
+4	first	first	ADJ	JJ	Degree=Pos	6	amod	_	_
+5	liver	liver	NOUN	NN	Number=Sing	6	compound	_	_
+6	transplant	transplant	NOUN	NN	Number=Sing	2	nsubj	_	_
+7	?	?	PUNCT	.	_	2	punct	_	_
+
+# text = What body of water does the Colorado River flow into ?
+1	What	what	DET	WDT	PronType=Int,Rel	2	det	_	_
+2	body	body	NOUN	NN	Number=Sing	9	obl	_	_
+3	of	of	ADP	IN	_	4	case	_	_
+4	water	water	NOUN	NN	Number=Sing	2	nmod	_	_
+5	does	do	VERB	VBZ	Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	aux	_	_
+6	the	the	DET	DT	_	8	det	_	_
+7	Colorado	Colorado	PROPN	NNP	Number=Sing	8	compound	_	_
+8	River	river	NOUN	NN	Number=Sing	9	nsubj	_	_
+9	flow	flow	VERB	VB	VerbForm=Inf	0	root	_	_
+10	into	into	ADP	IN	_	2	case	_	_
+11	?	?	PUNCT	.	_	9	punct	_	_
+
+# text = Who was the first American to walk in space ?
+1	Who	who	PRON	WP	PronType=Int,Rel	0	root	_	_
+2	was	be	VERB	VBD	Tense=Past|VerbForm=Fin	1	cop	_	_
+3	the	the	DET	DT	_	5	det	_	_
+4	first	first	ADJ	JJ	Degree=Pos	5	amod	_	_
+5	American	American	PROPN	NNP	Number=Sing	1	nsubj	_	_
+6	to	to	PART	TO	PartType=Inf|VerbForm=Inf	7	mark	_	_
+7	walk	walk	VERB	VB	VerbForm=Inf	5	acl	_	_
+8	in	in	ADP	IN	_	9	case	_	_
+9	space	space	NOUN	NN	Number=Sing	7	obl	_	_
+10	?	?	PUNCT	.	_	1	punct	_	_
+
+# text = What is the population of China ?
+1	What	what	PRON	WP	PronType=Int,Rel	0	root	_	_
+2	is	be	VERB	VBZ	Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	cop	_	_
+3	the	the	DET	DT	_	4	det	_	_
+4	population	population	NOUN	NN	Number=Sing	1	nsubj	_	_
+5	of	of	ADP	IN	_	6	case	_	_
+6	China	China	PROPN	NNP	Number=Sing	4	nmod	_	_
+7	?	?	PUNCT	.	_	1	punct	_	_
+
+# text = What U.S. state records the least rainfall ?
+1	What	what	DET	WDT	PronType=Int,Rel	3	det	_	_
+2	U.S.	U.S.	PROPN	NNP	Number=Sing	3	compound	_	_
+3	state	state	NOUN	NN	Number=Sing	4	nsubj	_	_
+4	records	record	VERB	VBZ	Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	the	the	DET	DT	_	7	det	_	_
+6	least	least	ADJ	JJS	Degree=Sup	7	amod	_	_
+7	rainfall	rainfall	NOUN	NNS	Number=Plur	4	obj	_	_
+8	?	?	X	?	_	4	dep	_	_
+
+# text = What is a prism ?
+1	What	what	PRON	WP	PronType=Int,Rel	0	root	_	_
+2	is	be	VERB	VBZ	Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	cop	_	_
+3	a	a	DET	DT	_	4	det	_	_
+4	prism	prism	NOUN	NN	Number=Sing	1	nsubj	_	_
+5	?	?	PUNCT	.	_	1	punct	_	_
+
+# text = What is the name of Miss India 1994 ?
+1	What	what	PRON	WP	PronType=Int,Rel	0	root	_	_
+2	is	be	VERB	VBZ	Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	cop	_	_
+3	the	the	DET	DT	_	4	det	_	_
+4	name	name	NOUN	NN	Number=Sing	1	nsubj	_	_
+5	of	of	ADP	IN	_	7	case	_	_
+6	Miss	Miss	PROPN	NNP	Number=Sing	7	compound	_	_
+7	India	India	PROPN	NNP	Number=Sing	4	nmod	_	_
+8	1994	1994	NUM	CD	NumType=Card	7	nummod	_	_
+9	?	?	X	?	_	1	dep	_	_
+
+# text = Who has more DNA - a man or a woman ?
+1	Who	who	PRON	WP	PronType=Int,Rel	2	nsubj	_	_
+2	has	have	VERB	VBZ	Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	more	more	ADJ	JJR	Degree=Cmp	4	amod	_	_
+4	DNA	dna	NOUN	NN	Number=Sing	2	obj	_	_
+5	-	-	PUNCT	:	_	2	punct	_	_
+6	a	a	DET	DT	_	7	det	_	_
+7	man	man	NOUN	NN	Number=Sing	2	dep	_	_
+8	or	or	CCONJ	CC	_	10	cc	_	_
+9	a	a	DET	DT	_	10	det	_	_
+10	woman	woman	NOUN	NN	Number=Sing	7	conj	_	_
+11	?	?	X	?	_	2	dep	_	_
+
+# text = Which ear can most people hear better with ?
+1	Which	which	DET	WDT	PronType=Int,Rel	2	det	_	_
+2	ear	ear	NOUN	NN	Number=Sing	6	obj	_	_
+3	can	can	VERB	MD	VerbType=Mod	6	aux	_	_
+4	most	most	ADJ	JJS	Degree=Sup	5	amod	_	_
+5	people	people	NOUN	NNS	Number=Plur	6	nsubj	_	_
+6	hear	hear	VERB	VB	VerbForm=Inf	0	root	_	_
+7	better	better	ADJ	JJR	Degree=Cmp	6	xcomp	_	_
+8	with	with	ADP	IN	_	7	nmod	_	ToDo=nmod
+9	?	?	X	?	_	6	dep	_	_
+
+# text = What Italian liner was hijacked in 1985 ?
+1	What	what	DET	WDT	PronType=Int,Rel	3	det	_	_
+2	Italian	italian	ADJ	JJ	Degree=Pos	3	amod	_	_
+3	liner	liner	NOUN	NN	Number=Sing	5	nsubj:pass	_	_
+4	was	be	VERB	VBD	Tense=Past|VerbForm=Fin	5	aux:pass	_	_
+5	hijacked	hijack	VERB	VBN	Aspect=Perf|Tense=Past|VerbForm=Part	0	root	_	_
+6	in	in	ADP	IN	_	7	case	_	_
+7	1985	1985	NUM	CD	NumType=Card	5	obl	_	_
+8	?	?	X	?	_	5	dep	_	_
+
+# text = What city in the U.S. experienced the most growth recently ?
+1	What	what	DET	WDT	PronType=Int,Rel	2	det	_	_
+2	city	city	NOUN	NN	Number=Sing	6	nsubj	_	_
+3	in	in	ADP	IN	_	5	case	_	_
+4	the	the	DET	DT	_	5	det	_	_
+5	U.S.	U.S.	PROPN	NNP	Number=Sing	2	nmod	_	_
+6	experienced	experience	VERB	VBD	Tense=Past|VerbForm=Fin	0	root	_	_
+7	the	the	DET	DT	_	9	det	_	_
+8	most	most	ADJ	JJS	Degree=Sup	9	amod	_	_
+9	growth	growth	NOUN	NN	Number=Sing	6	obj	_	_
+10	recently	recently	ADV	RB	Degree=Pos	6	advmod	_	_
+11	?	?	X	?	_	6	dep	_	_
+
+# text = What 's the setting of John Le Carre 's A Small Town in Germany ?
+1	What	what	PRON	WP	PronType=Int,Rel	2	nsubj	_	_
+2	's	's	VERB	VBZ	Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	the	the	DET	DT	_	4	det	_	_
+4	setting	setting	NOUN	NN	Number=Sing	2	obj	_	_
+5	of	of	ADP	IN	_	8	case	_	_
+6	John	John	PROPN	NNP	Number=Sing	8	compound	_	_
+7	Le	Le	PROPN	NNP	Number=Sing	8	compound	_	_
+8	Carre	Carre	PROPN	NNP	Number=Sing	4	nmod	_	_
+9	's	's	PART	POS	Poss=Yes	8	case	_	_
+10	A	a	DET	DT	_	12	det	_	_
+11	Small	small	ADJ	JJ	Degree=Pos	12	amod	_	_
+12	Town	town	NOUN	NN	Number=Sing	8	dep	_	_
+13	in	in	ADP	IN	_	14	case	_	_
+14	Germany	Germany	PROPN	NNP	Number=Sing	12	nmod	_	_
+15	?	?	X	?	_	2	dep	_	_
+
+# text = When is the summer solstice ?
+1	When	when	ADV	WRB	PronType=Int,Rel	2	advmod	_	_
+2	is	be	VERB	VBZ	Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	the	the	DET	DT	_	5	det	_	_
+4	summer	summer	NOUN	NN	Number=Sing	5	compound	_	_
+5	solstice	solstice	NOUN	NN	Number=Sing	2	nsubj	_	_
+6	?	?	PUNCT	.	_	2	punct	_	_
+
+# text = Who is the founder of Scientology ?
+1	Who	who	PRON	WP	PronType=Int,Rel	0	root	_	_
+2	is	be	VERB	VBZ	Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	cop	_	_
+3	the	the	DET	DT	_	4	det	_	_
+4	founder	founder	NOUN	NN	Number=Sing	1	nsubj	_	_
+5	of	of	ADP	IN	_	6	case	_	_
+6	Scientology	Scientology	PROPN	NNP	Number=Sing	4	nmod	_	_
+7	?	?	PUNCT	.	_	1	punct	_	_
+
+# text = What army 's motto is Blood and Fire ?
+1	What	what	DET	WDT	PronType=Int,Rel	4	det	_	_
+2	army	army	NOUN	NN	Number=Sing	4	nmod:poss	_	_
+3	's	's	PART	POS	Poss=Yes	2	case	_	_
+4	motto	motto	NOUN	NN	Number=Sing	5	obj	_	_
+5	is	be	VERB	VBZ	Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+6	Blood	blood	NOUN	NN	Number=Sing	5	nsubj	_	_
+7	and	and	CCONJ	CC	_	8	cc	_	_
+8	Fire	fire	NOUN	NN	Number=Sing	6	conj	_	_
+9	?	?	X	?	_	5	dep	_	_
+
+# text = How do you say " house " in Spanish ?
+1	How	how	ADV	WRB	PronType=Int,Rel	4	advmod	_	_
+2	do	do	VERB	VBP	Tense=Pres|VerbForm=Fin	4	aux	_	_
+3	you	you	PRON	PRP	PronType=Prs	4	nsubj	_	_
+4	say	say	VERB	VB	VerbForm=Inf	0	root	_	_
+5	"	"	PUNCT	``	_	6	punct	_	_
+6	house	house	NOUN	NN	Number=Sing	4	obj	_	_
+7	"	"	PUNCT	''	_	6	punct	_	_
+8	in	in	ADP	IN	_	9	case	_	_
+9	Spanish	Spanish	PROPN	NNP	Number=Sing	6	nmod	_	_
+10	?	?	PUNCT	.	_	4	punct	_	_
+
+# text = Which one of the original seven Mercury program astronauts did not fly on any of the Mercury flights ?
+1	Which	which	DET	WDT	PronType=Int,Rel	2	det	_	_
+2	one	one	NOUN	NN	Number=Sing	12	nsubj	_	_
+3	of	of	ADP	IN	_	9	case	_	_
+4	the	the	DET	DT	_	9	det	_	_
+5	original	original	ADJ	JJ	Degree=Pos	9	amod	_	_
+6	seven	seven	NUM	CD	NumType=Card	9	nummod	_	_
+7	Mercury	Mercury	PROPN	NNP	Number=Sing	9	compound	_	_
+8	program	program	NOUN	NN	Number=Sing	9	compound	_	_
+9	astronauts	astronaut	NOUN	NNS	Number=Plur	2	nmod	_	_
+10	did	do	VERB	VBD	Tense=Past|VerbForm=Fin	12	aux	_	_
+11	not	not	ADV	RB	Degree=Pos	12	advmod	_	_
+12	fly	fly	VERB	VB	VerbForm=Inf	0	root	_	_
+13	on	on	ADP	IN	_	14	case	_	_
+14	any	any	DET	DT	_	12	obl	_	_
+15	of	of	ADP	IN	_	18	case	_	_
+16	the	the	DET	DT	_	18	det	_	_
+17	Mercury	Mercury	PROPN	NNP	Number=Sing	18	compound	_	_
+18	flights	flight	NOUN	NNS	Number=Plur	14	nmod	_	_
+19	?	?	X	?	_	12	dep	_	_
+
+# text = What are liver enzymes ?
+1	What	what	PRON	WP	PronType=Int,Rel	0	root	_	_
+2	are	be	VERB	VBP	Tense=Pres|VerbForm=Fin	1	cop	_	_
+3	liver	liver	NOUN	NN	Number=Sing	4	compound	_	_
+4	enzymes	enzyme	NOUN	NNS	Number=Plur	1	nsubj	_	_
+5	?	?	X	?	_	1	dep	_	_
+
+# text = Where did the sport of caber-tossing originate ?
+1	Where	where	ADV	WRB	PronType=Int,Rel	7	advmod	_	_
+2	did	do	VERB	VBD	Tense=Past|VerbForm=Fin	7	aux	_	_
+3	the	the	DET	DT	_	4	det	_	_
+4	sport	sport	NOUN	NN	Number=Sing	7	nsubj	_	_
+5	of	of	ADP	IN	_	6	case	_	_
+6	caber-tossing	caber-tossing	NOUN	NN	Number=Sing	4	nmod	_	_
+7	originate	originate	VERB	VB	VerbForm=Inf	0	root	_	_
+8	?	?	X	?	_	7	dep	_	_
+
+# text = What is the life expectancy of a dollar bill ?
+1	What	what	PRON	WP	PronType=Int,Rel	0	root	_	_
+2	is	be	VERB	VBZ	Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	cop	_	_
+3	the	the	DET	DT	_	5	det	_	_
+4	life	life	NOUN	NN	Number=Sing	5	compound	_	_
+5	expectancy	expectancy	NOUN	NN	Number=Sing	1	nsubj	_	_
+6	of	of	ADP	IN	_	9	case	_	_
+7	a	a	DET	DT	_	9	det	_	_
+8	dollar	dollar	NOUN	NN	Number=Sing	9	compound	_	_
+9	bill	bill	NOUN	NN	Number=Sing	5	nmod	_	_
+10	?	?	PUNCT	.	_	1	punct	_	_
+
+# text = When is Bastille Day ?
+1	When	when	ADV	WRB	PronType=Int,Rel	2	advmod	_	_
+2	is	be	VERB	VBZ	Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	Bastille	Bastille	PROPN	NNP	Number=Sing	4	compound	_	_
+4	Day	Day	PROPN	NNP	Number=Sing	2	nsubj	_	_
+5	?	?	PUNCT	.	_	2	punct	_	_
+
+# text = How long after intercourse does it take to find out if you are pregnant ?
+1	How	how	ADV	WRB	PronType=Int,Rel	2	advmod	_	_
+2	long	long	ADV	RB	Degree=Pos	7	dep	_	_
+3	after	after	ADP	IN	_	4	case	_	_
+4	intercourse	intercourse	NOUN	NN	Number=Sing	2	obl	_	_
+5	does	do	VERB	VBZ	Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	aux	_	_
+6	it	it	PRON	PRP	PronType=Prs	7	nsubj	_	_
+7	take	take	VERB	VB	VerbForm=Inf	0	root	_	_
+8	to	to	PART	TO	PartType=Inf|VerbForm=Inf	9	mark	_	_
+9	find	find	VERB	VB	VerbForm=Inf	7	xcomp	_	_
+10	out	out	ADP	RP	PartType=Vbp	9	compound:prt	_	_
+11	if	if	ADP	IN	_	14	mark	_	_
+12	you	you	PRON	PRP	PronType=Prs	14	nsubj	_	_
+13	are	be	VERB	VBP	Tense=Pres|VerbForm=Fin	14	cop	_	_
+14	pregnant	pregnant	ADJ	JJ	Degree=Pos	9	advcl	_	_
+15	?	?	X	?	_	7	dep	_	_
+
+# text = Who portrayed Etta Place , companion to Butch Cassidey and the Sundance Kid ?
+1	Who	who	PRON	WP	PronType=Int,Rel	2	nsubj	_	_
+2	portrayed	portray	VERB	VBD	Tense=Past|VerbForm=Fin	0	root	_	_
+3	Etta	Etta	PROPN	NNP	Number=Sing	4	compound	_	_
+4	Place	Place	PROPN	NNP	Number=Sing	2	obj	_	_
+5	,	,	PUNCT	,	_	4	punct	_	_
+6	companion	companion	NOUN	NN	Number=Sing	4	appos	_	_
+7	to	to	PART	TO	PartType=Inf|VerbForm=Inf	9	case	_	_
+8	Butch	Butch	PROPN	NNP	Number=Sing	9	compound	_	_
+9	Cassidey	Cassidey	PROPN	NNP	Number=Sing	6	nmod	_	_
+10	and	and	CCONJ	CC	_	13	cc	_	_
+11	the	the	DET	DT	_	13	det	_	_
+12	Sundance	Sundance	PROPN	NNP	Number=Sing	13	compound	_	_
+13	Kid	Kid	PROPN	NNP	Number=Sing	9	conj	_	_
+14	?	?	X	?	_	2	dep	_	_
+
+# text = How do I tie dye clothes ?
+1	How	how	ADV	WRB	PronType=Int,Rel	5	advmod	_	_
+2	do	do	VERB	VBP	Tense=Pres|VerbForm=Fin	5	aux	_	_
+3	I	I	PRON	PRP	PronType=Prs	5	nsubj	_	_
+4	tie	tie	ADJ	JJ	Degree=Pos	5	dep	_	_
+5	dye	dye	VERB	VB	VerbForm=Inf	0	root	_	_
+6	clothes	clothes	NOUN	NNS	Number=Plur	5	obj	_	_
+7	?	?	X	?	_	5	dep	_	_
+
+# text = Why did Egyptians shave their eyebrows ?
+1	Why	why	ADV	WRB	PronType=Int,Rel	4	advmod	_	_
+2	did	do	VERB	VBD	Tense=Past|VerbForm=Fin	4	aux	_	_
+3	Egyptians	Egyptians	PROPN	NNP	Number=Sing	4	nsubj	_	_
+4	shave	shave	VERB	VB	VerbForm=Inf	0	root	_	_
+5	their	they	DET	PRP$	Poss=Yes|PronType=Prs	6	nmod:poss	_	_
+6	eyebrows	eyebrow	NOUN	NNS	Number=Plur	4	obj	_	_
+7	?	?	X	?	_	4	dep	_	_
+
+# text = What primary colors do you mix to make orange ?
+1	What	what	DET	WDT	PronType=Int,Rel	3	det	_	_
+2	primary	primary	ADJ	JJ	Degree=Pos	3	amod	_	_
+3	colors	color	NOUN	NNS	Number=Plur	6	obj	_	_
+4	do	do	VERB	VBP	Tense=Pres|VerbForm=Fin	6	aux	_	_
+5	you	you	PRON	PRP	PronType=Prs	6	nsubj	_	_
+6	mix	mix	VERB	VB	VerbForm=Inf	0	root	_	_
+7	to	to	PART	TO	PartType=Inf|VerbForm=Inf	8	mark	_	_
+8	make	make	VERB	VB	VerbForm=Inf	6	dep	_	_
+9	orange	orange	NOUN	NN	Number=Sing	8	obj	_	_
+10	?	?	PUNCT	.	_	6	punct	_	_
+
+# text = How did the bikini bathing suite get its name ?
+1	How	how	ADV	WRB	PronType=Int,Rel	7	advmod	_	_
+2	did	do	VERB	VBD	Tense=Past|VerbForm=Fin	7	aux	_	_
+3	the	the	DET	DT	_	6	det	_	_
+4	bikini	bikini	NOUN	NN	Number=Sing	6	compound	_	_
+5	bathing	bathing	NOUN	NN	Number=Sing	6	compound	_	_
+6	suite	suite	NOUN	NN	Number=Sing	7	nsubj	_	_
+7	get	get	VERB	VB	VerbForm=Inf	0	root	_	_
+8	its	its	DET	PRP$	Poss=Yes|PronType=Prs	9	nmod:poss	_	_
+9	name	name	NOUN	NN	Number=Sing	7	obj	_	_
+10	?	?	X	?	_	7	dep	_	_
+
+# text = When is the Tulip Festival in Michigan ?
+1	When	when	ADV	WRB	PronType=Int,Rel	2	advmod	_	_
+2	is	be	VERB	VBZ	Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	the	the	DET	DT	_	5	det	_	_
+4	Tulip	Tulip	PROPN	NNP	Number=Sing	5	compound	_	_
+5	Festival	Festival	PROPN	NNP	Number=Sing	2	nsubj	_	_
+6	in	in	ADP	IN	_	7	case	_	_
+7	Michigan	Michigan	PROPN	NNP	Number=Sing	5	nmod	_	_
+8	?	?	PUNCT	.	_	2	punct	_	_
+
+# text = What is the name of Roy Roger 's dog ?
+1	What	what	PRON	WP	PronType=Int,Rel	0	root	_	_
+2	is	be	VERB	VBZ	Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	cop	_	_
+3	the	the	DET	DT	_	4	det	_	_
+4	name	name	NOUN	NN	Number=Sing	1	nsubj	_	_
+5	of	of	ADP	IN	_	9	case	_	_
+6	Roy	Roy	PROPN	NNP	Number=Sing	7	compound	_	_
+7	Roger	Roger	PROPN	NNP	Number=Sing	9	nmod:poss	_	_
+8	's	's	PART	POS	Poss=Yes	7	case	_	_
+9	dog	dog	NOUN	NN	Number=Sing	4	nmod	_	_
+10	?	?	PUNCT	.	_	1	punct	_	_
+
+# text = To get the most caffeine , what soda should I drink ?
+1	To	to	PART	TO	PartType=Inf|VerbForm=Inf	2	mark	_	_
+2	get	get	VERB	VB	VerbForm=Inf	11	advcl	_	_
+3	the	the	DET	DT	_	5	det	_	_
+4	most	most	ADJ	JJS	Degree=Sup	5	amod	_	_
+5	caffeine	caffeine	NOUN	NN	Number=Sing	2	obj	_	_
+6	,	,	PUNCT	,	_	11	punct	_	_
+7	what	what	DET	WDT	PronType=Int,Rel	8	det	_	_
+8	soda	soda	NOUN	NN	Number=Sing	11	obj	_	_
+9	should	should	VERB	MD	VerbType=Mod	11	aux	_	_
+10	I	I	PRON	PRP	PronType=Prs	11	nsubj	_	_
+11	drink	drink	VERB	VB	VerbForm=Inf	0	root	_	_
+12	?	?	PUNCT	.	_	11	punct	_	_
+
+# text = What diminutive American female gymnast stole the show at the 1984 Olympics ?
+1	What	what	DET	WDT	PronType=Int,Rel	5	det	_	_
+2	diminutive	diminutive	ADJ	JJ	Degree=Pos	5	amod	_	_
+3	American	american	ADJ	JJ	Degree=Pos	5	amod	_	_
+4	female	female	ADJ	JJ	Degree=Pos	5	amod	_	_
+5	gymnast	gymnast	NOUN	NN	Number=Sing	6	nsubj	_	_
+6	stole	steal	VERB	VBD	Tense=Past|VerbForm=Fin	0	root	_	_
+7	the	the	DET	DT	_	8	det	_	_
+8	show	show	NOUN	NN	Number=Sing	6	obj	_	_
+9	at	at	ADP	IN	_	12	case	_	_
+10	the	the	DET	DT	_	12	det	_	_
+11	1984	1984	NUM	CD	NumType=Card	12	nummod	_	_
+12	Olympics	Olympics	PROPN	NNPS	Number=Plur	6	obl	_	_
+13	?	?	X	?	_	6	dep	_	_
+
+# text = What mammal of North America is the world 's longest-lived for its size ?
+1	What	what	DET	WDT	PronType=Int,Rel	2	det	_	_
+2	mammal	mammal	NOUN	NNS	Number=Plur	6	obj	_	_
+3	of	of	ADP	IN	_	5	case	_	_
+4	North	north	ADJ	JJ	Degree=Pos	5	amod	_	_
+5	America	America	PROPN	NNP	Number=Sing	2	nmod	_	_
+6	is	be	VERB	VBZ	Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+7	the	the	DET	DT	_	8	det	_	_
+8	world	world	NOUN	NN	Number=Sing	6	nsubj	_	_
+9	's	's	PART	POS	Poss=Yes	8	case	_	_
+10	longest-lived	longest-lived	ADJ	JJ	Degree=Pos	8	amod	_	_
+11	for	for	ADP	IN	_	13	case	_	_
+12	its	its	DET	PRP$	Poss=Yes|PronType=Prs	13	nmod:poss	_	_
+13	size	size	NOUN	NN	Number=Sing	8	nmod	_	_
+14	?	?	X	?	_	6	dep	_	_
+
+# text = Who wrote " The Pit and the Pendulum " ?
+1	Who	who	PRON	WP	PronType=Int,Rel	2	nsubj	_	_
+2	wrote	write	VERB	VBD	Tense=Past|VerbForm=Fin	0	root	_	_
+3	"	"	PUNCT	``	_	5	punct	_	_
+4	The	the	DET	DT	_	5	det	_	_
+5	Pit	pit	NOUN	NN	Number=Sing	2	obj	_	_
+6	and	and	CCONJ	CC	_	8	cc	_	_
+7	the	the	DET	DT	_	8	det	_	_
+8	Pendulum	pendulum	NOUN	NN	Number=Sing	5	conj	_	_
+9	"	"	PUNCT	''	_	8	punct	_	_
+10	?	?	PUNCT	.	_	2	punct	_	_
+
+# text = What is the deepest lake in the world ?
+1	What	what	PRON	WP	PronType=Int,Rel	0	root	_	_
+2	is	be	VERB	VBZ	Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	cop	_	_
+3	the	the	DET	DT	_	5	det	_	_
+4	deepest	deepest	ADJ	JJS	Degree=Sup	5	amod	_	_
+5	lake	lake	NOUN	NN	Number=Sing	1	nsubj	_	_
+6	in	in	ADP	IN	_	8	case	_	_
+7	the	the	DET	DT	_	8	det	_	_
+8	world	world	NOUN	NN	Number=Sing	5	nmod	_	_
+9	?	?	PUNCT	.	_	1	punct	_	_
+
+# text = What branch of the military has its academy in Annapolis ?
+1	What	what	DET	WDT	PronType=Int,Rel	2	det	_	_
+2	branch	branch	NOUN	NN	Number=Sing	6	nsubj	_	_
+3	of	of	ADP	IN	_	5	case	_	_
+4	the	the	DET	DT	_	5	det	_	_
+5	military	military	NOUN	NN	Number=Sing	2	nmod	_	_
+6	has	have	VERB	VBZ	Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+7	its	its	DET	PRP$	Poss=Yes|PronType=Prs	8	nmod:poss	_	_
+8	academy	academy	NOUN	NN	Number=Sing	6	obj	_	_
+9	in	in	ADP	IN	_	10	case	_	_
+10	Annapolis	Annapolis	PROPN	NNP	Number=Sing	8	nmod	_	_
+11	?	?	PUNCT	.	_	6	punct	_	_
+
+# text = What is the speed of light ?
+1	What	what	PRON	WP	PronType=Int,Rel	0	root	_	_
+2	is	be	VERB	VBZ	Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	cop	_	_
+3	the	the	DET	DT	_	4	det	_	_
+4	speed	speed	NOUN	NN	Number=Sing	1	nsubj	_	_
+5	of	of	ADP	IN	_	6	case	_	_
+6	light	light	NOUN	NN	Number=Sing	4	nmod	_	_
+7	?	?	PUNCT	.	_	1	punct	_	_
+
+# text = What is porphyria ?
+1	What	what	PRON	WP	PronType=Int,Rel	0	root	_	_
+2	is	be	VERB	VBZ	Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	cop	_	_
+3	porphyria	porphyria	NOUN	NN	Number=Sing	1	nsubj	_	_
+4	?	?	PUNCT	.	_	1	punct	_	_
+
+# text = When did beethoven die ?
+1	When	when	ADV	WRB	PronType=Int,Rel	4	advmod	_	_
+2	did	do	VERB	VBD	Tense=Past|VerbForm=Fin	4	aux	_	_
+3	beethoven	beethoven	PROPN	NNP	Number=Sing	4	nsubj	_	_
+4	die	die	VERB	VB	VerbForm=Inf	0	root	_	_
+5	?	?	PUNCT	.	_	4	punct	_	_
+
+# text = Who was the first governor of Alaska ?
+1	Who	who	PRON	WP	PronType=Int,Rel	0	root	_	_
+2	was	be	VERB	VBD	Tense=Past|VerbForm=Fin	1	cop	_	_
+3	the	the	DET	DT	_	5	det	_	_
+4	first	first	ADJ	JJ	Degree=Pos	5	amod	_	_
+5	governor	governor	NOUN	NN	Number=Sing	1	nsubj	_	_
+6	of	of	ADP	IN	_	7	case	_	_
+7	Alaska	Alaska	PROPN	NNP	Number=Sing	5	nmod	_	_
+8	?	?	PUNCT	.	_	1	punct	_	_
+
+# text = How many earthworms are in a single pasture ?
+1	How	how	ADV	WRB	PronType=Int,Rel	2	advmod	_	_
+2	many	many	ADJ	JJ	Degree=Pos	3	amod	_	_
+3	earthworms	earthworm	NOUN	NNS	Number=Plur	4	nsubj	_	_
+4	are	be	VERB	VBP	Tense=Pres|VerbForm=Fin	0	root	_	_
+5	in	in	ADP	IN	_	8	case	_	_
+6	a	a	DET	DT	_	8	det	_	_
+7	single	single	ADJ	JJ	Degree=Pos	8	amod	_	_
+8	pasture	pasture	NOUN	NN	Number=Sing	4	obl	_	_
+9	?	?	X	?	_	4	dep	_	_
+
+# text = What is California 's state tree ?
+1	What	what	PRON	WP	PronType=Int,Rel	0	root	_	_
+2	is	be	VERB	VBZ	Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	cop	_	_
+3	California	California	PROPN	NNP	Number=Sing	6	nmod:poss	_	_
+4	's	's	PART	POS	Poss=Yes	3	case	_	_
+5	state	state	NOUN	NN	Number=Sing	6	compound	_	_
+6	tree	tree	NOUN	NN	Number=Sing	1	nsubj	_	_
+7	?	?	PUNCT	.	_	1	punct	_	_
+
+# text = Which country is Australia 's largest export market ?
+1	Which	which	DET	WDT	PronType=Int,Rel	2	det	_	_
+2	country	country	NOUN	NN	Number=Sing	3	obj	_	_
+3	is	be	VERB	VBZ	Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	Australia	Australia	PROPN	NNP	Number=Sing	8	nmod:poss	_	_
+5	's	's	PART	POS	Poss=Yes	4	case	_	_
+6	largest	largest	ADJ	JJS	Degree=Sup	8	amod	_	_
+7	export	export	NOUN	NN	Number=Sing	8	compound	_	_
+8	market	market	NOUN	NN	Number=Sing	3	nsubj	_	_
+9	?	?	PUNCT	.	_	3	punct	_	_
+
+# text = Jackson Pollock was a native of what country ?
+1	Jackson	Jackson	PROPN	NNP	Number=Sing	2	compound	_	_
+2	Pollock	Pollock	PROPN	NNP	Number=Sing	5	nsubj	_	_
+3	was	be	VERB	VBD	Tense=Past|VerbForm=Fin	5	cop	_	_
+4	a	a	DET	DT	_	5	det	_	_
+5	native	native	NOUN	NN	Number=Sing	0	root	_	_
+6	of	of	ADP	IN	_	8	case	_	_
+7	what	what	DET	WDT	PronType=Int,Rel	8	det	_	_
+8	country	country	NOUN	NN	Number=Sing	5	nmod	_	ToDo=nmod
+9	?	?	PUNCT	.	_	5	punct	_	_
+
+# text = What is the recommended daily requirement for folic acid for pregnant women ?
+1	What	what	PRON	WP	PronType=Int,Rel	0	root	_	_
+2	is	be	VERB	VBZ	Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	cop	_	_
+3	the	the	DET	DT	_	6	det	_	_
+4	recommended	recommend	VERB	VBN	Aspect=Perf|Tense=Past|VerbForm=Part	6	amod	_	_
+5	daily	daily	ADJ	JJ	Degree=Pos	6	amod	_	_
+6	requirement	requirement	NOUN	NN	Number=Sing	1	nsubj	_	_
+7	for	for	ADP	IN	_	9	case	_	_
+8	folic	folic	ADJ	JJ	Degree=Pos	9	amod	_	_
+9	acid	acid	NOUN	NN	Number=Sing	6	nmod	_	_
+10	for	for	ADP	IN	_	12	case	_	_
+11	pregnant	pregnant	ADJ	JJ	Degree=Pos	12	amod	_	_
+12	women	woman	NOUN	NNS	Number=Plur	6	nmod	_	_
+13	?	?	PUNCT	.	_	1	punct	_	_
+
+# text = What is the difference between terry cloth and French terry ?
+1	What	what	PRON	WP	PronType=Int,Rel	0	root	_	_
+2	is	be	VERB	VBZ	Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	cop	_	_
+3	the	the	DET	DT	_	4	det	_	_
+4	difference	difference	NOUN	NN	Number=Sing	1	nsubj	_	_
+5	between	between	ADP	IN	_	7	case	_	_
+6	terry	terry	NOUN	NN	Number=Sing	7	compound	_	_
+7	cloth	cloth	NOUN	NN	Number=Sing	4	nmod	_	_
+8	and	and	CCONJ	CC	_	10	cc	_	_
+9	French	french	ADJ	JJ	Degree=Pos	10	amod	_	_
+10	terry	terry	NOUN	NN	Number=Sing	7	conj	_	_
+11	?	?	X	?	_	1	dep	_	_
+
+# text = What is one national park in Indiana ?
+1	What	what	PRON	WP	PronType=Int,Rel	0	root	_	_
+2	is	be	VERB	VBZ	Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	cop	_	_
+3	one	one	NUM	CD	NumType=Card	5	nummod	_	_
+4	national	national	ADJ	JJ	Degree=Pos	5	amod	_	_
+5	park	park	NOUN	NN	Number=Sing	1	nsubj	_	_
+6	in	in	ADP	IN	_	7	case	_	_
+7	Indiana	Indiana	PROPN	NNP	Number=Sing	5	nmod	_	_
+8	?	?	PUNCT	.	_	1	punct	_	_
+
+# text = How do you solve " Rubik 's Cube " ?
+1	How	how	ADV	WRB	PronType=Int,Rel	4	advmod	_	_
+2	do	do	VERB	VBP	Tense=Pres|VerbForm=Fin	4	aux	_	_
+3	you	you	PRON	PRP	PronType=Prs	4	nsubj	_	_
+4	solve	solve	VERB	VB	VerbForm=Inf	0	root	_	_
+5	"	"	PUNCT	``	_	6	punct	_	_
+6	Rubik	Rubik	PROPN	NNP	Number=Sing	8	nmod:poss	_	_
+7	's	's	PART	POS	Poss=Yes	6	case	_	_
+8	Cube	cube	NOUN	NN	Number=Sing	4	obj	_	_
+9	"	"	PUNCT	''	_	8	punct	_	_
+10	?	?	X	?	_	4	dep	_	_
+
+# text = What is the tallest mountain ?
+1	What	what	PRON	WP	PronType=Int,Rel	0	root	_	_
+2	is	be	VERB	VBZ	Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	cop	_	_
+3	the	the	DET	DT	_	5	det	_	_
+4	tallest	tallest	ADJ	JJS	Degree=Sup	5	amod	_	_
+5	mountain	mountain	NOUN	NN	Number=Sing	1	nsubj	_	_
+6	?	?	PUNCT	.	_	1	punct	_	_
+
+# text = What body of water does the Euphrates River empty into ?
+1	What	what	DET	WDT	PronType=Int,Rel	2	det	_	_
+2	body	body	NOUN	NN	Number=Sing	9	obl	_	_
+3	of	of	ADP	IN	_	4	case	_	_
+4	water	water	NOUN	NN	Number=Sing	2	nmod	_	_
+5	does	do	VERB	VBZ	Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	aux	_	_
+6	the	the	DET	DT	_	8	det	_	_
+7	Euphrates	Euphrates	PROPN	NNP	Number=Sing	8	compound	_	_
+8	River	river	NOUN	NN	Number=Sing	9	nsubj	_	_
+9	empty	empty	VERB	VB	VerbForm=Inf	0	root	_	_
+10	into	into	ADP	IN	_	2	case	_	_
+11	?	?	PUNCT	.	_	9	punct	_	_
+
+# text = What 's the literary term for a play on words ?
+1	What	what	PRON	WP	PronType=Int,Rel	2	nsubj	_	_
+2	's	's	VERB	VBZ	Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	the	the	DET	DT	_	5	det	_	_
+4	literary	literary	ADJ	JJ	Degree=Pos	5	amod	_	_
+5	term	term	NOUN	NN	Number=Sing	2	obj	_	_
+6	for	for	ADP	IN	_	8	case	_	_
+7	a	a	DET	DT	_	8	det	_	_
+8	play	play	NOUN	NN	Number=Sing	5	nmod	_	_
+9	on	on	ADP	IN	_	10	case	_	_
+10	words	word	NOUN	NNS	Number=Plur	8	nmod	_	_
+11	?	?	X	?	_	2	dep	_	_
+
+# text = How do you correctly say the word ' qigong ' ?
+1	How	how	ADV	WRB	PronType=Int,Rel	5	advmod	_	_
+2	do	do	VERB	VBP	Tense=Pres|VerbForm=Fin	5	aux	_	_
+3	you	you	PRON	PRP	PronType=Prs	5	nsubj	_	_
+4	correctly	correctly	ADV	RB	Degree=Pos	5	advmod	_	_
+5	say	say	VERB	VB	VerbForm=Inf	0	root	_	_
+6	the	the	DET	DT	_	7	det	_	_
+7	word	word	NOUN	NN	Number=Sing	5	obj	_	_
+8	'	'	X	`	_	7	dep	_	_
+9	qigong	qigong	X	FW	Foreign=Yes	7	dep	_	_
+10	'	'	X	'	_	7	dep	_	_
+11	?	?	X	?	_	5	dep	_	_
+
+# text = What kind of animal was Winnie the Pooh ?
+1	What	what	PRON	WP	PronType=Int,Rel	2	det	_	_
+2	kind	kind	NOUN	NN	Number=Sing	0	root	_	_
+3	of	of	ADP	IN	_	4	case	_	_
+4	animal	animal	NOUN	NN	Number=Sing	2	nmod	_	ToDo=nmod
+5	was	be	VERB	VBD	Tense=Past|VerbForm=Fin	2	cop	_	_
+6	Winnie	Winnie	PROPN	NNP	Number=Sing	8	compound	_	_
+7	the	the	DET	DT	_	8	det	_	_
+8	Pooh	Pooh	PROPN	NNP	Number=Sing	2	nsubj	_	_
+9	?	?	PUNCT	.	_	2	punct	_	_
+
+# text = What do you get by adding Lactobacillus bulgaricus to milk ?
+1	What	what	PRON	WP	PronType=Int,Rel	4	obj	_	_
+2	do	do	VERB	VBP	Tense=Pres|VerbForm=Fin	4	aux	_	_
+3	you	you	PRON	PRP	PronType=Prs	4	nsubj	_	_
+4	get	get	VERB	VB	VerbForm=Inf	0	root	_	_
+5	by	by	ADP	IN	_	6	mark	_	_
+6	adding	add	VERB	VBG	Aspect=Prog|Tense=Pres|VerbForm=Part	4	advcl	_	_
+7	Lactobacillus	lactobacillus	NOUN	NN	Number=Sing	8	compound	_	_
+8	bulgaricus	bulgaricus	NOUN	NN	Number=Sing	6	obj	_	_
+9	to	to	PART	TO	PartType=Inf|VerbForm=Inf	10	case	_	_
+10	milk	milk	NOUN	NN	Number=Sing	6	obl	_	_
+11	?	?	X	?	_	4	dep	_	_
+
+# text = Which Japanese car maker had its biggest percentage of sale in the domestic market ?
+1	Which	which	DET	WDT	PronType=Int,Rel	4	det	_	_
+2	Japanese	japanese	ADJ	JJ	Degree=Pos	4	amod	_	_
+3	car	car	NOUN	NN	Number=Sing	4	compound	_	_
+4	maker	maker	NOUN	NN	Number=Sing	5	nsubj	_	_
+5	had	have	VERB	VBD	Tense=Past|VerbForm=Fin	0	root	_	_
+6	its	its	DET	PRP$	Poss=Yes|PronType=Prs	8	nmod:poss	_	_
+7	biggest	biggest	ADJ	JJS	Degree=Sup	8	amod	_	_
+8	percentage	percentage	NOUN	NN	Number=Sing	5	obj	_	_
+9	of	of	ADP	IN	_	10	case	_	_
+10	sale	sale	NOUN	NN	Number=Sing	8	nmod	_	_
+11	in	in	ADP	IN	_	14	case	_	_
+12	the	the	DET	DT	_	14	det	_	_
+13	domestic	domestic	ADJ	JJ	Degree=Pos	14	amod	_	_
+14	market	market	NOUN	NN	Number=Sing	5	obl	_	_
+15	?	?	PUNCT	.	_	5	punct	_	_
+
+# text = How old is the Red Pyramid ?
+1	How	how	ADV	WRB	PronType=Int,Rel	2	advmod	_	_
+2	old	old	ADJ	JJ	Degree=Pos	3	dep	_	_
+3	is	be	VERB	VBZ	Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	the	the	DET	DT	_	6	det	_	_
+5	Red	red	ADJ	JJ	Degree=Pos	6	amod	_	_
+6	Pyramid	pyramid	NOUN	NN	Number=Sing	3	nsubj	_	_
+7	?	?	PUNCT	.	_	3	punct	_	_
+
+# text = When did John F. Kennedy get elected as President ?
+1	When	when	ADV	WRB	PronType=Int,Rel	7	advmod	_	_
+2	did	do	VERB	VBD	Tense=Past|VerbForm=Fin	7	aux	_	_
+3	John	John	PROPN	NNP	Number=Sing	5	compound	_	_
+4	F.	F.	PROPN	NNP	Number=Sing	5	compound	_	_
+5	Kennedy	Kennedy	PROPN	NNP	Number=Sing	7	nsubj:pass	_	_
+6	get	get	VERB	VB	VerbForm=Inf	7	aux:pass	_	_
+7	elected	elect	VERB	VBN	Aspect=Perf|Tense=Past|VerbForm=Part	0	root	_	_
+8	as	as	ADP	IN	_	9	case	_	_
+9	President	president	NOUN	NN	Number=Sing	7	obl	_	_
+10	?	?	PUNCT	.	_	7	punct	_	_
+
+# text = How late will airlines let you fly in pregnancy ?
+1	How	how	ADV	WRB	PronType=Int,Rel	2	advmod	_	_
+2	late	late	ADV	RB	Degree=Pos	5	advmod	_	_
+3	will	will	VERB	MD	VerbType=Mod	5	aux	_	_
+4	airlines	airline	NOUN	NNS	Number=Plur	5	nsubj	_	_
+5	let	let	VERB	VB	VerbForm=Inf	0	root	_	_
+6	you	you	PRON	PRP	PronType=Prs	7	nsubj	_	_
+7	fly	fly	VERB	VB	VerbForm=Inf	5	ccomp	_	_
+8	in	in	ADP	IN	_	9	case	_	_
+9	pregnancy	pregnancy	NOUN	NN	Number=Sing	5	obl	_	_
+10	?	?	X	?	_	5	dep	_	_
+
+# text = What kind of meat is Fray Bentos synonymous with ?
+1	What	what	DET	WDT	PronType=Int,Rel	2	det	_	_
+2	kind	kind	NOUN	NN	Number=Sing	8	obl	_	_
+3	of	of	ADP	IN	_	4	case	_	_
+4	meat	meat	NOUN	NN	Number=Sing	2	nmod	_	_
+5	is	be	VERB	VBZ	Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	cop	_	_
+6	Fray	Fray	PROPN	NNP	Number=Sing	7	compound	_	_
+7	Bentos	Bentos	PROPN	NNP	Number=Sing	8	nsubj	_	_
+8	synonymous	synonymous	ADJ	JJ	Degree=Pos	0	root	_	_
+9	with	with	ADP	IN	_	2	case	_	_
+10	?	?	X	?	_	8	dep	_	_
+
+# text = Where is Natick ?
+1	Where	where	ADV	WRB	PronType=Int,Rel	2	advmod	_	_
+2	is	be	VERB	VBZ	Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	Natick	Natick	PROPN	NNP	Number=Sing	2	nsubj	_	_
+4	?	?	X	?	_	2	dep	_	_
+
+# text = What city in Florida is Sea World in ?
+1	What	what	DET	WDT	PronType=Int	2	det	_	_
+2	city	city	NOUN	NN	Number=Sing	7	nsubj	_	_
+3	in	in	ADP	IN	_	4	case	_	_
+4	Florida	Florida	PROPN	NNP	Number=Sing	2	nmod	_	_
+5	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	cop	_	_
+6	Sea	Sea	PROPN	NNP	Number=Sing	7	compound	_	_
+7	World	world	PROPN	NNP	Number=Sing	0	root	_	_
+8	in	in	ADP	IN	_	7	case	_	_
+9	?	?	PUNCT	.	_	7	punct	_	_
+
+# text = What was William F. Cody 's better-known name ?
+1	What	what	PRON	WP	PronType=Int,Rel	0	root	_	_
+2	was	be	VERB	VBD	Tense=Past|VerbForm=Fin	1	cop	_	_
+3	William	William	PROPN	NNP	Number=Sing	5	compound	_	_
+4	F.	F.	PROPN	NNP	Number=Sing	5	compound	_	_
+5	Cody	Cody	PROPN	NNP	Number=Sing	8	nmod:poss	_	_
+6	's	's	PART	POS	Poss=Yes	5	case	_	_
+7	better-known	better-known	ADJ	JJ	Degree=Pos	8	amod	_	_
+8	name	name	NOUN	NN	Number=Sing	1	nsubj	_	_
+9	?	?	X	?	_	1	dep	_	_
+
+# text = What is the area of Venezuela ?
+1	What	what	PRON	WP	PronType=Int,Rel	0	root	_	_
+2	is	be	VERB	VBZ	Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	cop	_	_
+3	the	the	DET	DT	_	4	det	_	_
+4	area	area	NOUN	NN	Number=Sing	1	nsubj	_	_
+5	of	of	ADP	IN	_	6	case	_	_
+6	Venezuela	Venezuela	PROPN	NNP	Number=Sing	4	nmod	_	_
+7	?	?	PUNCT	.	_	1	punct	_	_
+
+# text = How old was George Washington when he died ?
+1	How	how	ADV	WRB	PronType=Int,Rel	2	advmod	_	_
+2	old	old	ADJ	JJ	Degree=Pos	3	dep	_	_
+3	was	be	VERB	VBD	Tense=Past|VerbForm=Fin	0	root	_	_
+4	George	George	PROPN	NNP	Number=Sing	5	compound	_	_
+5	Washington	Washington	PROPN	NNP	Number=Sing	3	nsubj	_	_
+6	when	when	ADV	WRB	PronType=Int,Rel	8	advmod	_	_
+7	he	he	PRON	PRP	PronType=Prs	8	nsubj	_	_
+8	died	die	VERB	VBD	Tense=Past|VerbForm=Fin	3	advcl	_	_
+9	?	?	PUNCT	.	_	3	punct	_	_
+
+# text = What is a fear of glass ?
+1	What	what	PRON	WP	PronType=Int,Rel	0	root	_	_
+2	is	be	VERB	VBZ	Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	cop	_	_
+3	a	a	DET	DT	_	4	det	_	_
+4	fear	fear	NOUN	NN	Number=Sing	1	nsubj	_	_
+5	of	of	ADP	IN	_	6	case	_	_
+6	glass	glass	NOUN	NN	Number=Sing	4	nmod	_	_
+7	?	?	X	?	_	1	dep	_	_
+
+# text = What is the distance in miles from the earth to the sun ?
+1	What	what	PRON	WP	PronType=Int,Rel	0	root	_	_
+2	is	be	VERB	VBZ	Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	cop	_	_
+3	the	the	DET	DT	_	4	det	_	_
+4	distance	distance	NOUN	NN	Number=Sing	1	nsubj	_	_
+5	in	in	ADP	IN	_	6	case	_	_
+6	miles	mile	NOUN	NNS	Number=Plur	4	nmod	_	_
+7	from	from	ADP	IN	_	9	case	_	_
+8	the	the	DET	DT	_	9	det	_	_
+9	earth	earth	NOUN	NN	Number=Sing	6	nmod	_	_
+10	to	to	PART	TO	PartType=Inf|VerbForm=Inf	12	case	_	_
+11	the	the	DET	DT	_	12	det	_	_
+12	sun	sun	NOUN	NN	Number=Sing	9	nmod	_	_
+13	?	?	PUNCT	.	_	1	punct	_	_
+
+# text = What Caribbean island is northeast of Trinidad ?
+1	What	what	DET	WDT	PronType=Int,Rel	3	det	_	_
+2	Caribbean	caribbean	ADJ	JJ	Degree=Pos	3	amod	_	_
+3	island	island	NOUN	NN	Number=Sing	4	obj	_	_
+4	is	be	VERB	VBZ	Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	northeast	northeast	NOUN	NN	Number=Sing	4	nsubj	_	_
+6	of	of	ADP	IN	_	7	case	_	_
+7	Trinidad	Trinidad	PROPN	NNP	Number=Sing	5	nmod	_	_
+8	?	?	X	?	_	4	dep	_	_
+
+# text = What is the rarest coin ?
+1	What	what	PRON	WP	PronType=Int,Rel	0	root	_	_
+2	is	be	VERB	VBZ	Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	cop	_	_
+3	the	the	DET	DT	_	5	det	_	_
+4	rarest	rarest	ADJ	JJ	Degree=Pos	5	amod	_	_
+5	coin	coin	NOUN	NN	Number=Sing	1	nsubj	_	_
+6	?	?	X	?	_	1	dep	_	_
+
+# text = Where is Trinidad ?
+1	Where	where	ADV	WRB	PronType=Int,Rel	2	advmod	_	_
+2	is	be	VERB	VBZ	Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	Trinidad	Trinidad	PROPN	NNP	Number=Sing	2	nsubj	_	_
+4	?	?	PUNCT	.	_	2	punct	_	_
+
+# text = What soap was touted as being " for people who like people " ?
+1	What	what	DET	WDT	PronType=Int,Rel	2	det	_	_
+2	soap	soap	NOUN	NN	Number=Sing	4	nsubj:pass	_	_
+3	was	be	VERB	VBD	Tense=Past|VerbForm=Fin	4	aux:pass	_	_
+4	touted	tout	VERB	VBD	Tense=Past|VerbForm=Fin	0	root	_	_
+5	as	as	ADP	IN	_	9	mark	_	_
+6	being	be	VERB	VBG	Aspect=Prog|Tense=Pres|VerbForm=Part	9	cop	_	_
+7	"	"	PUNCT	``	_	9	punct	_	_
+8	for	for	ADP	IN	_	9	case	_	_
+9	people	people	NOUN	NNS	Number=Plur	4	advcl	_	_
+10	who	who	PRON	WP	PronType=Int,Rel	11	nsubj	_	_
+11	like	like	VERB	VBP	Tense=Pres|VerbForm=Fin	9	acl:relcl	_	_
+12	people	people	NOUN	NNS	Number=Plur	11	obj	_	_
+13	"	"	PUNCT	''	_	12	punct	_	_
+14	?	?	X	?	_	4	dep	_	_
+
+# text = What piano company claims its product is the " Instrument of the immortals " ?
+1	What	what	DET	WDT	PronType=Int,Rel	3	det	_	_
+2	piano	piano	NOUN	NN	Number=Sing	3	compound	_	_
+3	company	company	NOUN	NN	Number=Sing	4	nsubj	_	_
+4	claims	claim	VERB	VBZ	Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	its	its	DET	PRP$	Poss=Yes|PronType=Prs	6	nmod:poss	_	_
+6	product	product	NOUN	NN	Number=Sing	10	nsubj	_	_
+7	is	be	VERB	VBZ	Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	cop	_	_
+8	the	the	DET	DT	_	10	det	_	_
+9	"	"	PUNCT	``	_	10	punct	_	_
+10	Instrument	instrument	NOUN	NN	Number=Sing	4	ccomp	_	_
+11	of	of	ADP	IN	_	13	case	_	_
+12	the	the	DET	DT	_	13	det	_	_
+13	immortals	immortal	NOUN	NNS	Number=Plur	10	nmod	_	ToDo=nmod
+14	"	"	PUNCT	''	_	13	punct	_	_
+15	?	?	X	?	_	4	dep	_	_
+
+# text = What day of the week was July 13 ?
+1	What	what	DET	WDT	PronType=Int,Rel	2	det	_	_
+2	day	day	NOUN	NN	Number=Sing	6	obj	_	_
+3	of	of	ADP	IN	_	5	case	_	_
+4	the	the	DET	DT	_	5	det	_	_
+5	week	week	NOUN	NN	Number=Sing	2	nmod	_	_
+6	was	be	VERB	VBD	Tense=Past|VerbForm=Fin	0	root	_	_
+7	July	July	PROPN	NNP	Number=Sing	6	nsubj	_	_
+8	13	13	NUM	CD	NumType=Card	7	nummod	_	_
+9	?	?	X	?	_	6	dep	_	_
+
+# text = What is the contents of proposition 98 ?
+1	What	what	PRON	WP	PronType=Int,Rel	0	root	_	_
+2	is	be	VERB	VBZ	Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	cop	_	_
+3	the	the	DET	DT	_	4	det	_	_
+4	contents	contents	NOUN	NNS	Number=Plur	1	nsubj	_	_
+5	of	of	ADP	IN	_	6	case	_	_
+6	proposition	proposition	NOUN	NN	Number=Sing	4	nmod	_	_
+7	98	98	NUM	CD	NumType=Card	6	nummod	_	_
+8	?	?	X	?	_	1	dep	_	_
+
+# text = Which two products use a tiger as their symbol ?
+1	Which	which	DET	WDT	PronType=Int,Rel	3	det	_	_
+2	two	two	NUM	CD	NumType=Card	3	nummod	_	_
+3	products	product	NOUN	NNS	Number=Plur	4	nsubj	_	_
+4	use	use	VERB	VBP	Tense=Pres|VerbForm=Fin	0	root	_	_
+5	a	a	DET	DT	_	6	det	_	_
+6	tiger	tiger	NOUN	NN	Number=Sing	4	obj	_	_
+7	as	as	ADP	IN	_	9	case	_	_
+8	their	they	DET	PRP$	Poss=Yes|PronType=Prs	9	nmod:poss	_	_
+9	symbol	symbol	NOUN	NN	Number=Sing	4	obl	_	_
+10	?	?	X	?	_	4	dep	_	_
+
+# text = What was Thailand 's original name ?
+1	What	what	PRON	WP	PronType=Int,Rel	0	root	_	_
+2	was	be	VERB	VBD	Tense=Past|VerbForm=Fin	1	cop	_	_
+3	Thailand	Thailand	PROPN	NNP	Number=Sing	6	nmod:poss	_	_
+4	's	's	PART	POS	Poss=Yes	3	case	_	_
+5	original	original	ADJ	JJ	Degree=Pos	6	amod	_	_
+6	name	name	NOUN	NN	Number=Sing	1	nsubj	_	_
+7	?	?	PUNCT	.	_	1	punct	_	_
+
+# text = Who was the only U.S. President to wear a Nazi uniform ?
+1	Who	who	PRON	WP	PronType=Int,Rel	0	root	_	_
+2	was	be	VERB	VBD	Tense=Past|VerbForm=Fin	1	cop	_	_
+3	the	the	DET	DT	_	6	det	_	_
+4	only	only	ADJ	JJ	Degree=Pos	6	amod	_	_
+5	U.S.	U.S.	PROPN	NNP	Number=Sing	6	compound	_	_
+6	President	president	NOUN	NN	Number=Sing	1	nsubj	_	_
+7	to	to	PART	TO	PartType=Inf|VerbForm=Inf	8	mark	_	_
+8	wear	wear	VERB	VB	VerbForm=Inf	6	acl	_	_
+9	a	a	DET	DT	_	11	det	_	_
+10	Nazi	nazi	ADJ	JJ	Degree=Pos	11	amod	_	_
+11	uniform	uniform	NOUN	NN	Number=Sing	8	obj	_	_
+12	?	?	X	?	_	1	dep	_	_
+
+# text = Where does chocolate come from ?
+1	Where	where	ADV	WRB	PronType=Int,Rel	4	advmod	_	_
+2	does	do	VERB	VBZ	Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	aux	_	_
+3	chocolate	chocolate	NOUN	NN	Number=Sing	4	nsubj	_	_
+4	come	come	VERB	VB	VerbForm=Inf	0	root	_	_
+5	from	from	ADP	IN	_	4	obl	_	_
+6	?	?	PUNCT	.	_	4	punct	_	_
+
+# text = Who is Coronado ?
+1	Who	who	PRON	WP	PronType=Int,Rel	0	root	_	_
+2	is	be	VERB	VBZ	Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	cop	_	_
+3	Coronado	Coronado	PROPN	NNP	Number=Sing	1	nsubj	_	_
+4	?	?	PUNCT	.	_	1	punct	_	_
+
+# text = What time of day did Emperor Hirohito die ?
+1	What	what	DET	WDT	PronType=Int,Rel	2	det	_	_
+2	time	time	NOUN	NN	Number=Sing	8	obj	_	_
+3	of	of	ADP	IN	_	4	case	_	_
+4	day	day	NOUN	NN	Number=Sing	2	nmod	_	_
+5	did	do	VERB	VBD	Tense=Past|VerbForm=Fin	8	aux	_	_
+6	Emperor	Emperor	PROPN	NNP	Number=Sing	7	compound	_	_
+7	Hirohito	Hirohito	PROPN	NNP	Number=Sing	8	nsubj	_	_
+8	die	die	VERB	VB	VerbForm=Inf	0	root	_	_
+9	?	?	PUNCT	.	_	8	punct	_	_
+
+# text = Who starred in Singing in the Rain and The Singing Nun ?
+1	Who	who	PRON	WP	PronType=Int,Rel	2	nsubj	_	_
+2	starred	star	VERB	VBD	Tense=Past|VerbForm=Fin	0	root	_	_
+3	in	in	ADP	IN	_	4	case	_	_
+4	Singing	singing	NOUN	NN	Number=Sing	2	obl	_	_
+5	in	in	ADP	IN	_	7	case	_	_
+6	the	the	DET	DT	_	7	det	_	_
+7	Rain	rain	NOUN	NN	Number=Sing	4	nmod	_	_
+8	and	and	CCONJ	CC	_	11	cc	_	_
+9	The	the	DET	DT	_	11	det	_	_
+10	Singing	singing	ADJ	JJ	Degree=Pos	11	amod	_	_
+11	Nun	nun	NOUN	NN	Number=Sing	4	conj	_	_
+12	?	?	X	?	_	2	dep	_	_
+
+# text = Who is Henry Butler ?
+1	Who	who	PRON	WP	PronType=Int,Rel	0	root	_	_
+2	is	be	VERB	VBZ	Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	cop	_	_
+3	Henry	Henry	PROPN	NNP	Number=Sing	4	compound	_	_
+4	Butler	Butler	PROPN	NNP	Number=Sing	1	nsubj	_	_
+5	?	?	PUNCT	.	_	1	punct	_	_
+
+# text = What causes gray hair ?
+1	What	what	PRON	WP	PronType=Int,Rel	2	nsubj	_	_
+2	causes	cause	VERB	VBZ	Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	gray	gray	ADJ	JJ	Degree=Pos	4	amod	_	_
+4	hair	hair	NOUN	NN	Number=Sing	2	obj	_	_
+5	?	?	PUNCT	.	_	2	punct	_	_
+
+# text = What Russian composer 's Prelude in C Sharp Minor brought him fame and fortune ?
+1	What	what	DET	WDT	PronType=Int,Rel	3	det	_	_
+2	Russian	russian	ADJ	JJ	Degree=Pos	3	amod	_	_
+3	composer	composer	NOUN	NN	Number=Sing	10	nsubj	_	_
+4	's	's	PART	POS	Poss=Yes	3	case	_	_
+5	Prelude	prelude	NOUN	NN	Number=Sing	3	dep	_	_
+6	in	in	ADP	IN	_	7	case	_	_
+7	C	C	PROPN	NNP	Number=Sing	5	nmod	_	_
+8	Sharp	sharp	ADJ	JJ	Degree=Pos	7	amod	_	_
+9	Minor	minor	ADJ	JJ	Degree=Pos	7	amod	_	_
+10	brought	bring	VERB	VBD	Tense=Past|VerbForm=Fin	0	root	_	_
+11	him	he	PRON	PRP	PronType=Prs	10	iobj	_	_
+12	fame	fame	NOUN	NN	Number=Sing	10	obj	_	_
+13	and	and	CCONJ	CC	_	14	cc	_	_
+14	fortune	fortune	NOUN	NN	Number=Sing	12	conj	_	_
+15	?	?	X	?	_	10	dep	_	_
+
+# text = What person developed COBOL ?
+1	What	what	DET	WDT	PronType=Int,Rel	2	det	_	_
+2	person	person	NOUN	NN	Number=Sing	3	nsubj	_	_
+3	developed	develop	VERB	VBD	Tense=Past|VerbForm=Fin	0	root	_	_
+4	COBOL	COBOL	PROPN	NNP	Number=Sing	3	obj	_	_
+5	?	?	PUNCT	.	_	3	punct	_	_
+
+# text = What year was the NAACP founded ?
+1	What	what	DET	WDT	PronType=Int,Rel	2	det	_	_
+2	year	year	NOUN	NN	Number=Sing	6	obl:tmod	_	_
+3	was	be	VERB	VBD	Tense=Past|VerbForm=Fin	6	aux:pass	_	_
+4	the	the	DET	DT	_	5	det	_	_
+5	NAACP	NAACP	PROPN	NNP	Number=Sing	6	nsubj:pass	_	_
+6	founded	found	VERB	VBN	Aspect=Perf|Tense=Past|VerbForm=Part	0	root	_	_
+7	?	?	X	?	_	6	dep	_	_
+
+# text = How long is the Great Barrier Reef ?
+1	How	how	ADV	WRB	PronType=Int,Rel	2	advmod	_	_
+2	long	long	ADJ	JJ	Degree=Pos	3	dep	_	_
+3	is	be	VERB	VBZ	Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	the	the	DET	DT	_	7	det	_	_
+5	Great	great	ADJ	JJ	Degree=Pos	7	amod	_	_
+6	Barrier	barrier	NOUN	NN	Number=Sing	7	compound	_	_
+7	Reef	reef	NOUN	NN	Number=Sing	3	nsubj	_	_
+8	?	?	X	?	_	3	dep	_	_
+
+# text = Name the two blob members of the animated Herculoids .
+1	Name	name	VERB	VB	VerbForm=Inf	0	root	_	_
+2	the	the	DET	DT	_	5	det	_	_
+3	two	two	NUM	CD	NumType=Card	5	nummod	_	_
+4	blob	blob	NOUN	NN	Number=Sing	5	compound	_	_
+5	members	member	NOUN	NNS	Number=Plur	1	obj	_	_
+6	of	of	ADP	IN	_	9	case	_	_
+7	the	the	DET	DT	_	9	det	_	_
+8	animated	animated	ADJ	JJ	Degree=Pos	9	amod	_	_
+9	Herculoids	Herculoids	PROPN	NNPS	Number=Plur	5	nmod	_	_
+10	.	.	PUNCT	.	_	1	punct	_	_
+
+# text = Who was the first Russian to do a spacewalk ?
+1	Who	who	PRON	WP	PronType=Int,Rel	0	root	_	_
+2	was	be	VERB	VBD	Tense=Past|VerbForm=Fin	1	cop	_	_
+3	the	the	DET	DT	_	5	det	_	_
+4	first	first	ADJ	JJ	Degree=Pos	5	amod	_	_
+5	Russian	Russian	PROPN	NNP	Number=Sing	1	nsubj	_	_
+6	to	to	PART	TO	PartType=Inf|VerbForm=Inf	7	mark	_	_
+7	do	do	VERB	VB	VerbForm=Inf	5	dep	_	_
+8	a	a	DET	DT	_	9	det	_	_
+9	spacewalk	spacewalk	NOUN	NN	Number=Sing	7	obj	_	_
+10	?	?	PUNCT	.	_	1	punct	_	_
+
+# text = What German city do Italians call The Monaco of Bavaria ?
+1	What	what	DET	WDT	PronType=Int,Rel	3	det	_	_
+2	German	german	ADJ	JJ	Degree=Pos	3	amod	_	_
+3	city	city	NOUN	NN	Number=Sing	6	dep	_	_
+4	do	do	VERB	VBP	Tense=Pres|VerbForm=Fin	6	aux	_	_
+5	Italians	Italians	PROPN	NNPS	Number=Plur	6	nsubj	_	_
+6	call	call	VERB	VB	VerbForm=Inf	0	root	_	_
+7	The	the	DET	DT	_	8	det	_	_
+8	Monaco	Monaco	PROPN	NNP	Number=Sing	6	obj	_	_
+9	of	of	ADP	IN	_	10	case	_	_
+10	Bavaria	Bavaria	PROPN	NNP	Number=Sing	8	nmod	_	_
+11	?	?	X	?	_	6	dep	_	_
+
+# text = What is a Certified Nurse Midwife ?
+1	What	what	PRON	WP	PronType=Int,Rel	0	root	_	_
+2	is	be	VERB	VBZ	Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	cop	_	_
+3	a	a	DET	DT	_	6	det	_	_
+4	Certified	certified	ADJ	JJ	Degree=Pos	6	amod	_	_
+5	Nurse	nurse	NOUN	NN	Number=Sing	6	compound	_	_
+6	Midwife	midwife	NOUN	NN	Number=Sing	1	nsubj	_	_
+7	?	?	X	?	_	1	dep	_	_
+
+# text = What 's the name of the Tokyo Stock Exchange ?
+1	What	what	PRON	WP	PronType=Int,Rel	2	nsubj	_	_
+2	's	's	VERB	VBZ	Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	the	the	DET	DT	_	4	det	_	_
+4	name	name	NOUN	NN	Number=Sing	2	obj	_	_
+5	of	of	ADP	IN	_	9	case	_	_
+6	the	the	DET	DT	_	9	det	_	_
+7	Tokyo	Tokyo	PROPN	NNP	Number=Sing	9	compound	_	_
+8	Stock	Stock	PROPN	NNP	Number=Sing	9	compound	_	_
+9	Exchange	Exchange	PROPN	NNP	Number=Sing	4	nmod	_	_
+10	?	?	PUNCT	.	_	2	punct	_	_
+
+# text = What actor learned to play the saxophone and speak Russian for a role in a movie ?
+1	What	what	DET	WDT	PronType=Int,Rel	2	det	_	_
+2	actor	actor	NOUN	NN	Number=Sing	3	nsubj	_	_
+3	learned	learn	VERB	VBD	Tense=Past|VerbForm=Fin	0	root	_	_
+4	to	to	PART	TO	PartType=Inf|VerbForm=Inf	5	mark	_	_
+5	play	play	VERB	VB	VerbForm=Inf	3	xcomp	_	_
+6	the	the	DET	DT	_	7	det	_	_
+7	saxophone	saxophone	NOUN	NN	Number=Sing	5	obj	_	_
+8	and	and	CCONJ	CC	_	9	cc	_	_
+9	speak	speak	VERB	VB	VerbForm=Inf	5	conj	_	_
+10	Russian	Russian	PROPN	NNP	Number=Sing	9	obj	_	_
+11	for	for	ADP	IN	_	13	case	_	_
+12	a	a	DET	DT	_	13	det	_	_
+13	role	role	NOUN	NN	Number=Sing	3	obl	_	_
+14	in	in	ADP	IN	_	16	case	_	_
+15	a	a	DET	DT	_	16	det	_	_
+16	movie	movie	NOUN	NN	Number=Sing	13	nmod	_	_
+17	?	?	X	?	_	3	dep	_	_
+
+# text = What is Nicholas Cage 's profession ?
+1	What	what	PRON	WP	PronType=Int,Rel	0	root	_	_
+2	is	be	VERB	VBZ	Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	cop	_	_
+3	Nicholas	Nicholas	PROPN	NNP	Number=Sing	4	compound	_	_
+4	Cage	Cage	PROPN	NNP	Number=Sing	6	nmod:poss	_	_
+5	's	's	PART	POS	Poss=Yes	4	case	_	_
+6	profession	profession	NOUN	NN	Number=Sing	1	nsubj	_	_
+7	?	?	PUNCT	.	_	1	punct	_	_
+
+# text = What Texas city got its name from the Spanish for " yellow " ?
+1	What	what	DET	WDT	PronType=Int,Rel	3	det	_	_
+2	Texas	Texas	PROPN	NNP	Number=Sing	3	compound	_	_
+3	city	city	NOUN	NN	Number=Sing	4	nsubj	_	_
+4	got	get	VERB	VBD	Tense=Past|VerbForm=Fin	0	root	_	_
+5	its	its	DET	PRP$	Poss=Yes|PronType=Prs	6	nmod:poss	_	_
+6	name	name	NOUN	NN	Number=Sing	4	obj	_	_
+7	from	from	ADP	IN	_	9	case	_	_
+8	the	the	DET	DT	_	9	det	_	_
+9	Spanish	Spanish	PROPN	NNP	Number=Sing	4	obl	_	_
+10	for	for	ADP	IN	_	12	case	_	_
+11	"	"	PUNCT	``	_	12	punct	_	_
+12	yellow	yellow	ADJ	JJ	Degree=Pos	9	nmod	_	_
+13	"	"	PUNCT	''	_	12	punct	_	_
+14	?	?	X	?	_	4	dep	_	_
+
+# text = What party led Australia from 1983 to 1996 ?
+1	What	what	DET	WDT	PronType=Int,Rel	2	det	_	_
+2	party	party	NOUN	NN	Number=Sing	3	nsubj	_	_
+3	led	lead	VERB	VBD	Tense=Past|VerbForm=Fin	0	root	_	_
+4	Australia	Australia	PROPN	NNP	Number=Sing	3	obj	_	_
+5	from	from	ADP	IN	_	6	case	_	_
+6	1983	1983	NUM	CD	NumType=Card	3	obl	_	_
+7	to	to	PART	TO	PartType=Inf|VerbForm=Inf	8	case	_	_
+8	1996	1996	NUM	CD	NumType=Card	6	nmod	_	_
+9	?	?	X	?	_	3	dep	_	_
+
+# text = What is the history of " the toast " ?
+1	What	what	PRON	WP	PronType=Int,Rel	0	root	_	_
+2	is	be	VERB	VBZ	Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	cop	_	_
+3	the	the	DET	DT	_	4	det	_	_
+4	history	history	NOUN	NN	Number=Sing	1	nsubj	_	_
+5	of	of	ADP	IN	_	8	case	_	_
+6	"	"	PUNCT	``	_	8	punct	_	_
+7	the	the	DET	DT	_	8	det	_	_
+8	toast	toast	NOUN	NN	Number=Sing	4	nmod	_	_
+9	"	"	PUNCT	''	_	8	punct	_	_
+10	?	?	X	?	_	1	dep	_	_
+
+# text = What is the meaning of W.B. Yeat 's poem , " The Three Hermits ? "
+1	What	what	PRON	WP	PronType=Int,Rel	0	root	_	_
+2	is	be	VERB	VBZ	Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	cop	_	_
+3	the	the	DET	DT	_	4	det	_	_
+4	meaning	meaning	NOUN	NN	Number=Sing	1	nsubj	_	_
+5	of	of	ADP	IN	_	9	case	_	_
+6	W.B.	W.B.	PROPN	NNP	Number=Sing	7	compound	_	_
+7	Yeat	Yeat	PROPN	NNP	Number=Sing	9	nmod:poss	_	_
+8	's	's	PART	POS	Poss=Yes	7	case	_	_
+9	poem	poem	NOUN	NN	Number=Sing	4	nmod	_	_
+10	,	,	PUNCT	,	_	9	punct	_	_
+11	"	"	PUNCT	``	_	14	punct	_	_
+12	The	the	DET	DT	_	14	det	_	_
+13	Three	three	NUM	CD	NumType=Card	14	nummod	_	_
+14	Hermits	hermit	NOUN	NNS	Number=Plur	9	appos	_	_
+15	?	?	X	?	_	1	dep	_	_
+16	"	"	PUNCT	''	_	1	punct	_	_
+
+# text = What is the largest snake in the world ?
+1	What	what	PRON	WP	PronType=Int,Rel	0	root	_	_
+2	is	be	VERB	VBZ	Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	cop	_	_
+3	the	the	DET	DT	_	5	det	_	_
+4	largest	largest	ADJ	JJS	Degree=Sup	5	amod	_	_
+5	snake	snake	NOUN	NN	Number=Sing	1	nsubj	_	_
+6	in	in	ADP	IN	_	8	case	_	_
+7	the	the	DET	DT	_	8	det	_	_
+8	world	world	NOUN	NN	Number=Sing	5	nmod	_	_
+9	?	?	PUNCT	.	_	1	punct	_	_
+
+# text = What was the favorite sport of Tom Wolfe 's The Pump House Gang ?
+1	What	what	PRON	WP	PronType=Int,Rel	0	root	_	_
+2	was	be	VERB	VBD	Tense=Past|VerbForm=Fin	1	cop	_	_
+3	the	the	DET	DT	_	5	det	_	_
+4	favorite	favorite	ADJ	JJ	Degree=Pos	5	amod	_	_
+5	sport	sport	NOUN	NN	Number=Sing	1	nsubj	_	_
+6	of	of	ADP	IN	_	8	case	_	_
+7	Tom	Tom	PROPN	NNP	Number=Sing	8	compound	_	_
+8	Wolfe	Wolfe	PROPN	NNP	Number=Sing	5	nmod	_	_
+9	's	's	PART	POS	Poss=Yes	8	case	_	_
+10	The	the	DET	DT	_	13	det	_	_
+11	Pump	pump	NOUN	NN	Number=Sing	13	compound	_	_
+12	House	house	NOUN	NN	Number=Sing	13	compound	_	_
+13	Gang	gang	NOUN	NN	Number=Sing	8	dep	_	_
+14	?	?	X	?	_	1	dep	_	_
+
+# text = What famed London criminal court was once a feudal castle ?
+1	What	what	DET	WDT	PronType=Int,Rel	5	det	_	_
+2	famed	famed	ADJ	JJ	Degree=Pos	5	amod	_	_
+3	London	London	PROPN	NNP	Number=Sing	5	compound	_	_
+4	criminal	criminal	ADJ	JJ	Degree=Pos	5	amod	_	_
+5	court	court	NOUN	NN	Number=Sing	6	obj	_	_
+6	was	be	VERB	VBD	Tense=Past|VerbForm=Fin	0	root	_	_
+7	once	once	ADV	RB	Degree=Pos	6	advmod	_	_
+8	a	a	DET	DT	_	10	det	_	_
+9	feudal	feudal	ADJ	JJ	Degree=Pos	10	amod	_	_
+10	castle	castle	NOUN	NN	Number=Sing	6	dep	_	_
+11	?	?	X	?	_	6	dep	_	_
+
+# text = Name Pittsburgh 's baseball team .
+1	Name	name	VERB	VB	VerbForm=Inf	0	root	_	_
+2	Pittsburgh	Pittsburgh	PROPN	NNP	Number=Sing	5	nmod:poss	_	_
+3	's	's	PART	POS	Poss=Yes	2	case	_	_
+4	baseball	baseball	NOUN	NN	Number=Sing	5	compound	_	_
+5	team	team	NOUN	NN	Number=Sing	1	obj	_	_
+6	.	.	PUNCT	.	_	1	punct	_	_
+
+# text = What is website of the International Court of Justice ?
+1	What	what	PRON	WP	PronType=Int,Rel	0	root	_	_
+2	is	be	VERB	VBZ	Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	cop	_	_
+3	website	website	NOUN	NN	Number=Sing	1	nsubj	_	_
+4	of	of	ADP	IN	_	7	case	_	_
+5	the	the	DET	DT	_	7	det	_	_
+6	International	international	ADJ	JJ	Degree=Pos	7	amod	_	_
+7	Court	court	NOUN	NN	Number=Sing	3	nmod	_	_
+8	of	of	ADP	IN	_	9	case	_	_
+9	Justice	justice	NOUN	NN	Number=Sing	7	nmod	_	_
+10	?	?	X	?	_	1	dep	_	_
+
+# text = What TV game show once saw a contestant admit to picking his toes in the shower ?
+1	What	what	DET	WDT	PronType=Int,Rel	4	det	_	_
+2	TV	tv	NOUN	NN	Number=Sing	4	compound	_	_
+3	game	game	NOUN	NN	Number=Sing	4	compound	_	_
+4	show	show	NOUN	NN	Number=Sing	6	obj	_	_
+5	once	once	ADV	RB	Degree=Pos	6	advmod	_	_
+6	saw	see	VERB	VBD	Tense=Past|VerbForm=Fin	0	root	_	_
+7	a	a	DET	DT	_	8	det	_	_
+8	contestant	contestant	NOUN	NN	Number=Sing	6	obj	_	_
+9	admit	admit	VERB	VB	VerbForm=Inf	6	dep	_	_
+10	to	to	PART	TO	PartType=Inf|VerbForm=Inf	11	mark	_	_
+11	picking	pick	VERB	VBG	Aspect=Prog|Tense=Pres|VerbForm=Part	9	advcl	_	_
+12	his	he	DET	PRP$	Poss=Yes|PronType=Prs	13	nmod:poss	_	_
+13	toes	toe	NOUN	NNS	Number=Plur	11	obj	_	_
+14	in	in	ADP	IN	_	16	case	_	_
+15	the	the	DET	DT	_	16	det	_	_
+16	shower	shower	NOUN	NN	Number=Sing	11	obl	_	_
+17	?	?	X	?	_	6	dep	_	_
+
+# text = What 's the international radio code word for the letter B ?
+1	What	what	PRON	WP	PronType=Int,Rel	2	nsubj	_	_
+2	's	's	VERB	VBZ	Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	the	the	DET	DT	_	7	det	_	_
+4	international	international	ADJ	JJ	Degree=Pos	7	amod	_	_
+5	radio	radio	NOUN	NN	Number=Sing	7	compound	_	_
+6	code	code	NOUN	NN	Number=Sing	7	compound	_	_
+7	word	word	NOUN	NN	Number=Sing	2	obj	_	_
+8	for	for	ADP	IN	_	11	case	_	_
+9	the	the	DET	DT	_	11	det	_	_
+10	letter	letter	NOUN	NN	Number=Sing	11	compound	_	_
+11	B	B	PROPN	NNP	Number=Sing	7	nmod	_	_
+12	?	?	X	?	_	2	dep	_	_
+
+# text = How many months does it take the moon to revolve around the Earth ?
+1	How	how	ADV	WRB	PronType=Int,Rel	2	advmod	_	_
+2	many	many	ADJ	JJ	Degree=Pos	3	amod	_	_
+3	months	month	NOUN	NNS	Number=Plur	6	obl:tmod	_	_
+4	does	do	VERB	VBZ	Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	aux	_	_
+5	it	it	PRON	PRP	PronType=Prs	6	nsubj	_	_
+6	take	take	VERB	VB	VerbForm=Inf	0	root	_	_
+7	the	the	DET	DT	_	8	det	_	_
+8	moon	moon	NOUN	NN	Number=Sing	6	obj	_	_
+9	to	to	PART	TO	PartType=Inf|VerbForm=Inf	10	mark	_	_
+10	revolve	revolve	VERB	VB	VerbForm=Inf	6	advcl	_	_
+11	around	around	ADP	IN	_	13	case	_	_
+12	the	the	DET	DT	_	13	det	_	_
+13	Earth	Earth	PROPN	NNP	Number=Sing	10	obl	_	_
+14	?	?	X	?	_	6	dep	_	_
+
+# text = What kind of dog was Toto in the Wizard of Oz ?
+1	What	what	PRON	WP	PronType=Int,Rel	0	root	_	_
+2	kind	kind	NOUN	NN	Number=Sing	1	dep	_	_
+3	of	of	ADP	IN	_	4	case	_	_
+4	dog	dog	NOUN	NN	Number=Sing	2	nmod	_	_
+5	was	be	VERB	VBD	Tense=Past|VerbForm=Fin	1	cop	_	_
+6	Toto	Toto	PROPN	NNP	Number=Sing	1	nsubj	_	_
+7	in	in	ADP	IN	_	9	case	_	_
+8	the	the	DET	DT	_	9	det	_	_
+9	Wizard	Wizard	PROPN	NNP	Number=Sing	6	nmod	_	_
+10	of	of	ADP	IN	_	11	case	_	_
+11	Oz	Oz	PROPN	NNP	Number=Sing	9	nmod	_	_
+12	?	?	PUNCT	.	_	1	punct	_	_
+
+# text = What stadium do the Miami Dolphins play their home games in ?
+1	What	what	DET	WDT	PronType=Int,Rel	2	det	_	_
+2	stadium	stadium	NOUN	NN	Number=Sing	7	obl	_	_
+3	do	do	VERB	VBP	Tense=Pres|VerbForm=Fin	7	aux	_	_
+4	the	the	DET	DT	_	6	det	_	_
+5	Miami	Miami	PROPN	NNP	Number=Sing	6	compound	_	_
+6	Dolphins	Dolphins	PROPN	NNPS	Number=Plur	7	nsubj	_	_
+7	play	play	VERB	VB	VerbForm=Inf	0	root	_	_
+8	their	they	DET	PRP$	Poss=Yes|PronType=Prs	10	nmod:poss	_	_
+9	home	home	NOUN	NN	Number=Sing	10	compound	_	_
+10	games	game	NOUN	NNS	Number=Plur	7	obj	_	_
+11	in	in	ADP	IN	_	2	case	_	_
+12	?	?	X	?	_	7	dep	_	_
+
+# text = Who was the leader of the Branch Davidian Cult confronted by the FBI in Waco , Texas in 1993 ?
+1	Who	who	PRON	WP	PronType=Int,Rel	0	root	_	_
+2	was	be	VERB	VBD	Tense=Past|VerbForm=Fin	1	cop	_	_
+3	the	the	DET	DT	_	4	det	_	_
+4	leader	leader	NOUN	NN	Number=Sing	1	nsubj	_	_
+5	of	of	ADP	IN	_	9	case	_	_
+6	the	the	DET	DT	_	9	det	_	_
+7	Branch	Branch	PROPN	NNP	Number=Sing	9	compound	_	_
+8	Davidian	Davidian	PROPN	NNP	Number=Sing	9	compound	_	_
+9	Cult	Cult	PROPN	NNP	Number=Sing	4	nmod	_	_
+10	confronted	confront	VERB	VBN	Aspect=Perf|Tense=Past|VerbForm=Part	4	acl	_	_
+11	by	by	ADP	IN	_	13	case	_	_
+12	the	the	DET	DT	_	13	det	_	_
+13	FBI	FBI	PROPN	NNP	Number=Sing	10	obl	_	_
+14	in	in	ADP	IN	_	15	case	_	_
+15	Waco	Waco	PROPN	NNP	Number=Sing	10	obl	_	_
+16	,	,	PUNCT	,	_	15	punct	_	_
+17	Texas	Texas	PROPN	NNP	Number=Sing	15	appos	_	_
+18	in	in	ADP	IN	_	19	case	_	_
+19	1993	1993	NUM	CD	NumType=Card	10	obl	_	_
+20	?	?	PUNCT	.	_	1	punct	_	_
+
+# text = Who killed Martin Luther King ?
+1	Who	who	PRON	WP	PronType=Int,Rel	2	nsubj	_	_
+2	killed	kill	VERB	VBD	Tense=Past|VerbForm=Fin	0	root	_	_
+3	Martin	Martin	PROPN	NNP	Number=Sing	5	compound	_	_
+4	Luther	Luther	PROPN	NNP	Number=Sing	5	compound	_	_
+5	King	King	PROPN	NNP	Number=Sing	2	obj	_	_
+6	?	?	PUNCT	.	_	2	punct	_	_
+
+# text = Who started the Protestant reformation ?
+1	Who	who	PRON	WP	PronType=Int,Rel	2	nsubj	_	_
+2	started	start	VERB	VBD	Tense=Past|VerbForm=Fin	0	root	_	_
+3	the	the	DET	DT	_	5	det	_	_
+4	Protestant	protestant	ADJ	JJ	Degree=Pos	5	amod	_	_
+5	reformation	reformation	NOUN	NN	Number=Sing	2	obj	_	_
+6	?	?	PUNCT	.	_	2	punct	_	_
+
+# text = What is fungus ?
+1	What	what	PRON	WP	PronType=Int,Rel	0	root	_	_
+2	is	be	VERB	VBZ	Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	cop	_	_
+3	fungus	fungus	NOUN	NN	Number=Sing	1	nsubj	_	_
+4	?	?	PUNCT	.	_	1	punct	_	_
+
+# text = Why do magnets attract ?
+1	Why	why	ADV	WRB	PronType=Int,Rel	4	advmod	_	_
+2	do	do	VERB	VBP	Tense=Pres|VerbForm=Fin	4	aux	_	_
+3	magnets	magnet	NOUN	NNS	Number=Plur	4	nsubj	_	_
+4	attract	attract	VERB	VB	VerbForm=Inf	0	root	_	_
+5	?	?	X	?	_	4	dep	_	_
+
+# text = What year was Ebbets Field , home of Brooklyn Dodgers , built ?
+1	What	what	DET	WDT	PronType=Int,Rel	2	det	_	_
+2	year	year	NOUN	NN	Number=Sing	12	obl:tmod	_	_
+3	was	be	VERB	VBD	Tense=Past|VerbForm=Fin	12	aux:pass	_	_
+4	Ebbets	Ebbets	PROPN	NNP	Number=Sing	5	compound	_	_
+5	Field	Field	PROPN	NNP	Number=Sing	12	nsubj:pass	_	_
+6	,	,	PUNCT	,	_	5	punct	_	_
+7	home	home	NOUN	NN	Number=Sing	5	appos	_	_
+8	of	of	ADP	IN	_	10	case	_	_
+9	Brooklyn	Brooklyn	PROPN	NNP	Number=Sing	10	compound	_	_
+10	Dodgers	Dodgers	PROPN	NNPS	Number=Plur	7	nmod	_	_
+11	,	,	PUNCT	,	_	5	punct	_	_
+12	built	build	VERB	VBN	Aspect=Perf|Tense=Past|VerbForm=Part	0	root	_	_
+13	?	?	PUNCT	.	_	12	punct	_	_
+
+# text = What is the population of Maryland ?
+1	What	what	PRON	WP	PronType=Int,Rel	0	root	_	_
+2	is	be	VERB	VBZ	Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	cop	_	_
+3	the	the	DET	DT	_	4	det	_	_
+4	population	population	NOUN	NN	Number=Sing	1	nsubj	_	_
+5	of	of	ADP	IN	_	6	case	_	_
+6	Maryland	Maryland	PROPN	NNP	Number=Sing	4	nmod	_	_
+7	?	?	PUNCT	.	_	1	punct	_	_
+
+# text = Where did Indian Pudding come from ?
+1	Where	where	ADV	WRB	PronType=Int,Rel	5	advmod	_	_
+2	did	do	VERB	VBD	Tense=Past|VerbForm=Fin	5	aux	_	_
+3	Indian	indian	ADJ	JJ	Degree=Pos	4	amod	_	_
+4	Pudding	pudding	NOUN	NN	Number=Sing	5	nsubj	_	_
+5	come	come	VERB	VBN	Aspect=Perf|Tense=Past|VerbForm=Part	0	root	_	_
+6	from	from	ADP	IN	_	5	obl	_	_
+7	?	?	X	?	_	5	dep	_	_
+
+# text = What is a " borrow pit " ?
+1	What	what	PRON	WP	PronType=Int,Rel	0	root	_	_
+2	is	be	VERB	VBZ	Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	cop	_	_
+3	a	a	DET	DT	_	6	det	_	_
+4	"	"	PUNCT	``	_	6	punct	_	_
+5	borrow	borrow	VERB	VB	VerbForm=Inf	6	dep	_	_
+6	pit	pit	NOUN	NN	Number=Sing	1	nsubj	_	_
+7	"	"	PUNCT	''	_	6	punct	_	_
+8	?	?	X	?	_	1	dep	_	_
+
+# text = What is the nature of learning ?
+1	What	what	PRON	WP	PronType=Int,Rel	0	root	_	_
+2	is	be	VERB	VBZ	Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	cop	_	_
+3	the	the	DET	DT	_	4	det	_	_
+4	nature	nature	NOUN	NN	Number=Sing	1	nsubj	_	_
+5	of	of	ADP	IN	_	6	case	_	_
+6	learning	learning	NOUN	NN	Number=Sing	4	nmod	_	_
+7	?	?	X	?	_	1	dep	_	_
+
+# text = What year was Janet Jackson 's first album released ?
+1	What	what	DET	WDT	PronType=Int,Rel	2	det	_	_
+2	year	year	NOUN	NN	Number=Sing	9	obl:tmod	_	_
+3	was	be	VERB	VBD	Tense=Past|VerbForm=Fin	9	aux:pass	_	_
+4	Janet	Janet	PROPN	NNP	Number=Sing	5	compound	_	_
+5	Jackson	Jackson	PROPN	NNP	Number=Sing	8	nmod:poss	_	_
+6	's	's	PART	POS	Poss=Yes	5	case	_	_
+7	first	first	ADJ	JJ	Degree=Pos	8	amod	_	_
+8	album	album	NOUN	NN	Number=Sing	9	nsubj:pass	_	_
+9	released	release	VERB	VBN	Aspect=Perf|Tense=Past|VerbForm=Part	0	root	_	_
+10	?	?	PUNCT	.	_	9	punct	_	_
+
+# text = Who was Garrett Morgan married to ?
+1	Who	who	PRON	WP	PronType=Int,Rel	5	dep	_	_
+2	was	be	VERB	VBD	Tense=Past|VerbForm=Fin	5	aux:pass	_	_
+3	Garrett	Garrett	PROPN	NNP	Number=Sing	4	compound	_	_
+4	Morgan	Morgan	PROPN	NNP	Number=Sing	5	nsubj:pass	_	_
+5	married	marry	VERB	VBN	Aspect=Perf|Tense=Past|VerbForm=Part	0	root	_	_
+6	to	to	PART	TO	PartType=Inf|VerbForm=Inf	5	obl	_	_
+7	?	?	X	?	_	5	dep	_	_
+
+# text = What is a virtual IP address ?
+1	What	what	PRON	WP	PronType=Int,Rel	0	root	_	_
+2	is	be	VERB	VBZ	Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	cop	_	_
+3	a	a	DET	DT	_	6	det	_	_
+4	virtual	virtual	ADJ	JJ	Degree=Pos	6	amod	_	_
+5	IP	IP	PROPN	NNP	Number=Sing	6	compound	_	_
+6	address	address	NOUN	NN	Number=Sing	1	nsubj	_	_
+7	?	?	X	?	_	1	dep	_	_
+
+# text = When is Fashion week in NYC ?
+1	When	when	ADV	WRB	PronType=Int,Rel	2	advmod	_	_
+2	is	be	VERB	VBZ	Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	Fashion	fashion	NOUN	NN	Number=Sing	4	compound	_	_
+4	week	week	NOUN	NN	Number=Sing	2	nsubj	_	_
+5	in	in	ADP	IN	_	6	case	_	_
+6	NYC	NYC	PROPN	NNP	Number=Sing	4	nmod	_	_
+7	?	?	PUNCT	.	_	2	punct	_	_
+
+# text = What is an antigen ?
+1	What	what	PRON	WP	PronType=Int,Rel	0	root	_	_
+2	is	be	VERB	VBZ	Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	cop	_	_
+3	an	a	DET	DT	_	4	det	_	_
+4	antigen	antigen	NOUN	NN	Number=Sing	1	nsubj	_	_
+5	?	?	PUNCT	.	_	1	punct	_	_
+
+# text = Which came first , according to Genesis 1 : 2 : 22 - the chicken or the egg ?
+1	Which	which	PRON	WP	PronType=Int,Rel	2	nsubj	_	_
+2	came	come	VERB	VBD	Tense=Past|VerbForm=Fin	0	root	_	_
+3	first	first	ADV	RB	Degree=Pos	2	advmod	_	_
+4	,	,	PUNCT	,	_	2	punct	_	_
+5	according	accord	VERB	VBG	Aspect=Prog|Tense=Pres|VerbForm=Part	7	case	_	_
+6	to	to	PART	TO	PartType=Inf|VerbForm=Inf	5	fixed	_	_
+7	Genesis	Genesis	PROPN	NNP	Number=Sing	2	obl	_	_
+8	1	1	NUM	CD	NumType=Card	7	nummod	_	_
+9	:	:	PUNCT	:	_	7	punct	_	_
+10	2	2	NUM	CD	NumType=Card	7	nummod	_	_
+11	:	:	PUNCT	:	_	7	punct	_	_
+12	22	22	NUM	CD	NumType=Card	7	nummod	_	_
+13	-	-	PUNCT	:	_	2	punct	_	_
+14	the	the	DET	DT	_	15	det	_	_
+15	chicken	chicken	NOUN	NN	Number=Sing	2	obj	_	_
+16	or	or	CCONJ	CC	_	18	cc	_	_
+17	the	the	DET	DT	_	18	det	_	_
+18	egg	egg	NOUN	NN	Number=Sing	15	conj	_	_
+19	?	?	X	?	_	2	dep	_	_
+
+# text = How did Eva Peron die ?
+1	How	how	ADV	WRB	PronType=Int,Rel	5	advmod	_	_
+2	did	do	VERB	VBD	Tense=Past|VerbForm=Fin	5	aux	_	_
+3	Eva	Eva	PROPN	NNP	Number=Sing	4	compound	_	_
+4	Peron	Peron	PROPN	NNP	Number=Sing	5	nsubj	_	_
+5	die	die	VERB	VB	VerbForm=Inf	0	root	_	_
+6	?	?	PUNCT	.	_	5	punct	_	_
+
+# text = What Dickens novel has David carrying the message " Barkis is willin " to Peggy ?
+1	What	what	DET	WDT	PronType=Int,Rel	3	det	_	_
+2	Dickens	Dickens	PROPN	NNP	Number=Sing	3	compound	_	_
+3	novel	novel	NOUN	NN	Number=Sing	6	nsubj	_	_
+4	has	have	VERB	VBZ	Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	aux	_	_
+5	David	David	PROPN	NNP	Number=Sing	6	obj	_	_
+6	carrying	carry	VERB	VBG	Aspect=Prog|Tense=Pres|VerbForm=Part	0	root	_	_
+7	the	the	DET	DT	_	8	det	_	_
+8	message	message	NOUN	NN	Number=Sing	6	obj	_	_
+9	"	"	PUNCT	``	_	10	punct	_	_
+10	Barkis	Barkis	PROPN	NNP	Number=Sing	12	nsubj	_	_
+11	is	be	VERB	VBZ	Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	cop	_	_
+12	willin	willin	ADJ	JJ	Degree=Pos	8	acl:relcl	_	_
+13	"	"	PUNCT	''	_	12	punct	_	_
+14	to	to	PART	TO	PartType=Inf|VerbForm=Inf	15	case	_	_
+15	Peggy	peggy	NUM	CD	NumType=Card	6	obl	_	_
+16	?	?	X	?	_	6	dep	_	_
+
+# text = What is the most common eye color ?
+1	What	what	PRON	WP	PronType=Int,Rel	0	root	_	_
+2	is	be	VERB	VBZ	Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	cop	_	_
+3	the	the	DET	DT	_	7	det	_	_
+4	most	most	ADV	RBS	Degree=Sup	5	advmod	_	_
+5	common	common	ADJ	JJ	Degree=Pos	7	amod	_	_
+6	eye	eye	NOUN	NN	Number=Sing	7	compound	_	_
+7	color	color	NOUN	NN	Number=Sing	1	nsubj	_	_
+8	?	?	PUNCT	.	_	1	punct	_	_
+
+# text = In what year did the US Marine Corps adopt the motto " Semper Fidelis " ?
+1	In	in	ADP	IN	_	3	case	_	_
+2	what	what	DET	WDT	PronType=Int,Rel	3	det	_	_
+3	year	year	NOUN	NN	Number=Sing	9	obl	_	_
+4	did	do	VERB	VBD	Tense=Past|VerbForm=Fin	9	aux	_	_
+5	the	the	DET	DT	_	8	det	_	_
+6	US	US	PROPN	NNP	Number=Sing	8	compound	_	_
+7	Marine	Marine	PROPN	NNP	Number=Sing	8	compound	_	_
+8	Corps	Corps	PROPN	NNP	Number=Sing	9	nsubj	_	_
+9	adopt	adopt	VERB	VB	VerbForm=Inf	0	root	_	_
+10	the	the	DET	DT	_	11	det	_	_
+11	motto	motto	NOUN	NN	Number=Sing	9	obj	_	_
+12	"	"	PUNCT	``	_	11	punct	_	_
+13	Semper	semper	X	FW	Foreign=Yes	11	compound	_	_
+14	Fidelis	fidelis	X	FW	Foreign=Yes	11	dep	_	_
+15	"	"	PUNCT	''	_	11	punct	_	_
+16	?	?	X	?	_	9	dep	_	_
+
+# text = What Stephen Sondheim ballad ends : " Well , maybe next year.. . " ?
+1	What	what	DET	WDT	PronType=Int,Rel	4	det	_	_
+2	Stephen	Stephen	PROPN	NNP	Number=Sing	4	compound	_	_
+3	Sondheim	Sondheim	PROPN	NNP	Number=Sing	4	compound	_	_
+4	ballad	ballad	NOUN	NN	Number=Sing	5	nsubj	_	_
+5	ends	end	VERB	VBZ	Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+6	:	:	PUNCT	:	_	5	punct	_	_
+7	"	"	PUNCT	``	_	8	punct	_	_
+8	Well	well	INTJ	UH	_	12	discourse	_	_
+9	,	,	PUNCT	,	_	12	punct	_	_
+10	maybe	maybe	ADV	RB	Degree=Pos	12	dep	_	_
+11	next	next	ADJ	JJ	Degree=Pos	12	amod	_	_
+12	year..	year..	NOUN	NN	Number=Sing	5	dep	_	_
+13	.	.	PUNCT	.	_	12	punct	_	_
+14	"	"	PUNCT	''	_	12	punct	_	_
+15	?	?	X	?	_	5	dep	_	_
+
+# text = Who wrote " Dubliners " ?
+1	Who	who	PRON	WP	PronType=Int,Rel	2	nsubj	_	_
+2	wrote	write	VERB	VBD	Tense=Past|VerbForm=Fin	0	root	_	_
+3	"	"	PUNCT	``	_	4	punct	_	_
+4	Dubliners	Dubliners	PROPN	NNP	Number=Sing	2	obj	_	_
+5	"	"	PUNCT	''	_	4	punct	_	_
+6	?	?	PUNCT	.	_	2	punct	_	_
+
+# text = Who made the first surfboard ?
+1	Who	who	PRON	WP	PronType=Int,Rel	2	nsubj	_	_
+2	made	make	VERB	VBD	Tense=Past|VerbForm=Fin	0	root	_	_
+3	the	the	DET	DT	_	5	det	_	_
+4	first	first	ADJ	JJ	Degree=Pos	5	amod	_	_
+5	surfboard	surfboard	NOUN	NN	Number=Sing	2	obj	_	_
+6	?	?	X	?	_	2	dep	_	_
+
+# text = What Latin American country is the leading exporter of sugar cane ?
+1	What	what	DET	WDT	PronType=Int,Rel	4	det	_	_
+2	Latin	latin	ADJ	JJ	Degree=Pos	3	amod	_	_
+3	American	american	ADJ	JJ	Degree=Pos	4	amod	_	_
+4	country	country	NOUN	NN	Number=Sing	5	obj	_	_
+5	is	be	VERB	VBZ	Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+6	the	the	DET	DT	_	8	det	_	_
+7	leading	lead	VERB	VBG	Aspect=Prog|Tense=Pres|VerbForm=Part	8	amod	_	_
+8	exporter	exporter	NOUN	NN	Number=Sing	5	nsubj	_	_
+9	of	of	ADP	IN	_	11	case	_	_
+10	sugar	sugar	NOUN	NN	Number=Sing	11	compound	_	_
+11	cane	cane	NOUN	NN	Number=Sing	8	nmod	_	_
+12	?	?	PUNCT	.	_	5	punct	_	_
+
+# text = Who was Charles Lindbergh 's wife ?
+1	Who	who	PRON	WP	PronType=Int,Rel	0	root	_	_
+2	was	be	VERB	VBD	Tense=Past|VerbForm=Fin	1	cop	_	_
+3	Charles	Charles	PROPN	NNP	Number=Sing	4	compound	_	_
+4	Lindbergh	Lindbergh	PROPN	NNP	Number=Sing	6	nmod:poss	_	_
+5	's	's	PART	POS	Poss=Yes	4	case	_	_
+6	wife	wife	NOUN	NN	Number=Sing	1	nsubj	_	_
+7	?	?	PUNCT	.	_	1	punct	_	_
+
+# text = What Broadway musical was inspired by Cervantes 's Don Quixote ?
+1	What	what	DET	WDT	PronType=Int,Rel	3	det	_	_
+2	Broadway	Broadway	PROPN	NNP	Number=Sing	3	compound	_	_
+3	musical	musical	NOUN	NN	Number=Sing	5	nsubj:pass	_	_
+4	was	be	VERB	VBD	Tense=Past|VerbForm=Fin	5	aux:pass	_	_
+5	inspired	inspire	VERB	VBN	Aspect=Perf|Tense=Past|VerbForm=Part	0	root	_	_
+6	by	by	ADP	IN	_	10	case	_	_
+7	Cervantes	Cervantes	PROPN	NNP	Number=Sing	10	nmod:poss	_	_
+8	's	's	PART	POS	Poss=Yes	7	case	_	_
+9	Don	Don	PROPN	NNP	Number=Sing	10	compound	_	_
+10	Quixote	Quixote	PROPN	NNP	Number=Sing	5	obl	_	_
+11	?	?	X	?	_	5	dep	_	_
+
+# text = Why are the U.S. presidential elections held in November ?
+1	Why	why	ADV	WRB	PronType=Int,Rel	7	advmod	_	_
+2	are	be	VERB	VBP	Tense=Pres|VerbForm=Fin	7	aux:pass	_	_
+3	the	the	DET	DT	_	6	det	_	_
+4	U.S.	U.S.	PROPN	NNP	Number=Sing	6	compound	_	_
+5	presidential	presidential	ADJ	JJ	Degree=Pos	6	amod	_	_
+6	elections	election	NOUN	NNS	Number=Plur	7	nsubj:pass	_	_
+7	held	hold	VERB	VBN	Aspect=Perf|Tense=Past|VerbForm=Part	0	root	_	_
+8	in	in	ADP	IN	_	9	case	_	_
+9	November	November	PROPN	NNP	Number=Sing	7	obl	_	_
+10	?	?	X	?	_	7	dep	_	_
+
+# text = What book did Aaron Hass write ?
+1	What	what	DET	WDT	PronType=Int,Rel	2	det	_	_
+2	book	book	NOUN	NN	Number=Sing	6	obj	_	_
+3	did	do	VERB	VBD	Tense=Past|VerbForm=Fin	6	aux	_	_
+4	Aaron	Aaron	PROPN	NNP	Number=Sing	5	compound	_	_
+5	Hass	Hass	PROPN	NNP	Number=Sing	6	nsubj	_	_
+6	write	write	VERB	VB	VerbForm=Inf	0	root	_	_
+7	?	?	X	?	_	6	dep	_	_
+
+# text = When reading classified ads , what does EENTY : other stand for ?
+1	When	when	ADV	WRB	PronType=Int,Rel	2	advmod	_	_
+2	reading	read	VERB	VBG	Aspect=Prog|Tense=Pres|VerbForm=Part	11	dep	_	_
+3	classified	classify	VERB	VBN	Aspect=Perf|Tense=Past|VerbForm=Part	4	amod	_	_
+4	ads	ad	NOUN	NNS	Number=Plur	2	obj	_	_
+5	,	,	PUNCT	,	_	11	punct	_	_
+6	what	what	PRON	WP	PronType=Int,Rel	11	obl	_	_
+7	does	do	VERB	VBZ	Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	aux	_	_
+8	EENTY	EENTY	PROPN	NNP	Number=Sing	11	nsubj	_	_
+9	:	:	PUNCT	:	_	8	punct	_	_
+10	other	other	ADJ	JJ	Degree=Pos	8	amod	_	_
+11	stand	stand	VERB	VB	VerbForm=Inf	0	root	_	_
+12	for	for	ADP	IN	_	6	case	_	_
+13	?	?	X	?	_	11	dep	_	_
+
+# text = How often are quadruplets born ?
+1	How	how	ADV	WRB	PronType=Int,Rel	2	advmod	_	_
+2	often	often	ADV	RB	Degree=Pos	5	advmod	_	_
+3	are	be	VERB	VBP	Tense=Pres|VerbForm=Fin	5	aux:pass	_	_
+4	quadruplets	quadruplet	NOUN	NNS	Number=Plur	5	nsubj:pass	_	_
+5	born	bear	VERB	VBN	Aspect=Perf|Tense=Past|VerbForm=Part	0	root	_	_
+6	?	?	X	?	_	5	dep	_	_
+
+# text = What prompted the co-pilot of the Enola Gay to enter only " My God " in his log ?
+1	What	what	PRON	WP	PronType=Int,Rel	2	nsubj	_	_
+2	prompted	prompt	VERB	VBD	Tense=Past|VerbForm=Fin	0	root	_	_
+3	the	the	DET	DT	_	4	det	_	_
+4	co-pilot	co-pilot	NOUN	NNS	Number=Plur	2	obj	_	_
+5	of	of	ADP	IN	_	8	case	_	_
+6	the	the	DET	DT	_	8	det	_	_
+7	Enola	enola	ADJ	JJ	Degree=Pos	8	amod	_	_
+8	Gay	gay	NOUN	NNS	Number=Plur	4	nmod	_	_
+9	to	to	PART	TO	PartType=Inf|VerbForm=Inf	10	mark	_	_
+10	enter	enter	VERB	VB	VerbForm=Inf	2	xcomp	_	_
+11	only	only	ADV	RB	Degree=Pos	10	advmod	_	_
+12	"	"	PUNCT	``	_	14	punct	_	_
+13	My	my	DET	PRP$	Poss=Yes|PronType=Prs	14	nmod:poss	_	_
+14	God	God	PROPN	NNP	Number=Sing	10	obj	_	_
+15	"	"	PUNCT	''	_	14	punct	_	_
+16	in	in	ADP	IN	_	18	case	_	_
+17	his	he	DET	PRP$	Poss=Yes|PronType=Prs	18	nmod:poss	_	_
+18	log	log	NOUN	NN	Number=Sing	10	obl	_	_
+19	?	?	X	?	_	2	dep	_	_
+
+# text = In what religion was Isis the nature goddess ?
+1	In	in	ADP	IN	_	3	case	_	_
+2	what	what	DET	WDT	PronType=Int,Rel	3	det	_	_
+3	religion	religion	NOUN	NN	Number=Sing	4	obl	_	_
+4	was	be	VERB	VBD	Tense=Past|VerbForm=Fin	0	root	_	_
+5	Isis	Isis	PROPN	NNP	Number=Sing	4	nsubj	_	_
+6	the	the	DET	DT	_	8	det	_	_
+7	nature	nature	NOUN	NN	Number=Sing	8	compound	_	_
+8	goddess	goddess	NOUN	NN	Number=Sing	4	dep	_	_
+9	?	?	X	?	_	4	dep	_	_
+
+# text = Where did Hillary Clinton graduate college ?
+1	Where	where	ADV	WRB	PronType=Int,Rel	5	advmod	_	_
+2	did	do	VERB	VBD	Tense=Past|VerbForm=Fin	5	aux	_	_
+3	Hillary	Hillary	PROPN	NNP	Number=Sing	4	compound	_	_
+4	Clinton	Clinton	PROPN	NNP	Number=Sing	5	nsubj	_	_
+5	graduate	graduate	VERB	VB	VerbForm=Inf	0	root	_	_
+6	college	college	NOUN	NN	Number=Sing	5	obj	_	_
+7	?	?	PUNCT	.	_	5	punct	_	_
+
+# text = What causes someone to be ticklish ?
+1	What	what	PRON	WP	PronType=Int,Rel	2	nsubj	_	_
+2	causes	cause	VERB	VBZ	Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	someone	someone	NOUN	NN	Number=Sing	2	obj	_	_
+4	to	to	PART	TO	PartType=Inf|VerbForm=Inf	6	mark	_	_
+5	be	be	VERB	VB	VerbForm=Inf	6	cop	_	_
+6	ticklish	ticklish	ADJ	JJ	Degree=Pos	2	advcl	_	_
+7	?	?	X	?	_	2	dep	_	_
+
+# text = What did Dan Aykroyd and John Belushi quit Saturday Night Live to become ?
+1	What	what	PRON	WP	PronType=Int,Rel	8	dep	_	_
+2	did	do	VERB	VBD	Tense=Past|VerbForm=Fin	8	aux	_	_
+3	Dan	Dan	PROPN	NNP	Number=Sing	4	compound	_	_
+4	Aykroyd	Aykroyd	PROPN	NNP	Number=Sing	8	nsubj	_	_
+5	and	and	CCONJ	CC	_	7	cc	_	_
+6	John	John	PROPN	NNP	Number=Sing	7	compound	_	_
+7	Belushi	Belushi	PROPN	NNP	Number=Sing	4	conj	_	_
+8	quit	quit	VERB	VB	VerbForm=Inf	0	root	_	_
+9	Saturday	Saturday	PROPN	NNP	Number=Sing	11	compound	_	_
+10	Night	Night	PROPN	NNP	Number=Sing	11	compound	_	_
+11	Live	Live	PROPN	NNP	Number=Sing	8	obj	_	_
+12	to	to	PART	TO	PartType=Inf|VerbForm=Inf	13	mark	_	_
+13	become	become	VERB	VB	VerbForm=Inf	8	dep	_	_
+14	?	?	X	?	_	8	dep	_	_
+
+# text = Who is the man behind the pig - the man who pulls the strings and speaks for Miss Piggy ?
+1	Who	who	PRON	WP	PronType=Int,Rel	0	root	_	_
+2	is	be	VERB	VBZ	Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	cop	_	_
+3	the	the	DET	DT	_	4	det	_	_
+4	man	man	NOUN	NN	Number=Sing	1	nsubj	_	_
+5	behind	behind	ADP	IN	_	7	case	_	_
+6	the	the	DET	DT	_	7	det	_	_
+7	pig	pig	NOUN	NN	Number=Sing	4	nmod	_	_
+8	-	-	PUNCT	:	_	4	punct	_	_
+9	the	the	DET	DT	_	10	det	_	_
+10	man	man	NOUN	NN	Number=Sing	4	dep	_	_
+11	who	who	PRON	WP	PronType=Int,Rel	12	nsubj	_	_
+12	pulls	pull	VERB	VBZ	Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	acl:relcl	_	_
+13	the	the	DET	DT	_	14	det	_	_
+14	strings	string	NOUN	NNS	Number=Plur	12	obj	_	_
+15	and	and	CCONJ	CC	_	16	cc	_	_
+16	speaks	speak	VERB	VBZ	Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	conj	_	_
+17	for	for	ADP	IN	_	19	case	_	_
+18	Miss	Miss	PROPN	NNP	Number=Sing	19	compound	_	_
+19	Piggy	Piggy	PROPN	NNP	Number=Sing	16	obl	_	_
+20	?	?	PUNCT	.	_	1	punct	_	_
+
+# text = How many minutes were there on the original GE College Bowl clock ?
+1	How	how	ADV	WRB	PronType=Int,Rel	2	advmod	_	_
+2	many	many	ADJ	JJ	Degree=Pos	3	amod	_	_
+3	minutes	minute	NOUN	NNS	Number=Plur	4	nsubj	_	_
+4	were	be	VERB	VBD	Tense=Past|VerbForm=Fin	0	root	_	_
+5	there	there	PRON	EX	AdvType=Ex	4	expl	_	_
+6	on	on	ADP	IN	_	12	case	_	_
+7	the	the	DET	DT	_	12	det	_	_
+8	original	original	ADJ	JJ	Degree=Pos	12	amod	_	_
+9	GE	GE	PROPN	NNP	Number=Sing	12	compound	_	_
+10	College	College	PROPN	NNP	Number=Sing	12	compound	_	_
+11	Bowl	Bowl	PROPN	NNP	Number=Sing	12	compound	_	_
+12	clock	clock	NOUN	NN	Number=Sing	4	obl	_	_
+13	?	?	X	?	_	4	dep	_	_
+
+# text = What is a fear of sleep ?
+1	What	what	PRON	WP	PronType=Int,Rel	0	root	_	_
+2	is	be	VERB	VBZ	Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	cop	_	_
+3	a	a	DET	DT	_	4	det	_	_
+4	fear	fear	NOUN	NN	Number=Sing	1	nsubj	_	_
+5	of	of	ADP	IN	_	6	case	_	_
+6	sleep	sleep	NOUN	NN	Number=Sing	4	nmod	_	_
+7	?	?	X	?	_	1	dep	_	_
+
+# text = How many continents are there ?
+1	How	how	ADV	WRB	PronType=Int,Rel	2	advmod	_	_
+2	many	many	ADJ	JJ	Degree=Pos	3	amod	_	_
+3	continents	continent	NOUN	NNS	Number=Plur	4	nsubj	_	_
+4	are	be	VERB	VBP	Tense=Pres|VerbForm=Fin	0	root	_	_
+5	there	there	PRON	EX	AdvType=Ex	4	expl	_	_
+6	?	?	PUNCT	.	_	4	punct	_	_
+
+# text = What did brontosauruses eat ?
+1	What	what	PRON	WP	PronType=Int,Rel	4	obj	_	_
+2	did	do	VERB	VBD	Tense=Past|VerbForm=Fin	4	aux	_	_
+3	brontosauruses	brontosaurus	NOUN	NNS	Number=Plur	4	nsubj	_	_
+4	eat	eat	VERB	VB	VerbForm=Inf	0	root	_	_
+5	?	?	PUNCT	.	_	4	punct	_	_
+
+# text = What card game has variations called Canfield , Klondike and Spider ?
+1	What	what	DET	WDT	PronType=Int,Rel	3	det	_	_
+2	card	card	NOUN	NN	Number=Sing	3	compound	_	_
+3	game	game	NOUN	NN	Number=Sing	6	nsubj	_	_
+4	has	have	VERB	VBZ	Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	aux	_	_
+5	variations	variation	NOUN	NNS	Number=Plur	6	obj	_	_
+6	called	call	VERB	VBN	Aspect=Perf|Tense=Past|VerbForm=Part	0	root	_	_
+7	Canfield	Canfield	PROPN	NNP	Number=Sing	6	obj	_	_
+8	,	,	PUNCT	,	_	9	punct	_	_
+9	Klondike	Klondike	PROPN	NNP	Number=Sing	7	conj	_	_
+10	and	and	CCONJ	CC	_	11	cc	_	_
+11	Spider	Spider	PROPN	NNP	Number=Sing	7	conj	_	_
+12	?	?	X	?	_	6	dep	_	_
+
+# text = What is cerebral palsy ?
+1	What	what	PRON	WP	PronType=Int,Rel	0	root	_	_
+2	is	be	VERB	VBZ	Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	cop	_	_
+3	cerebral	cerebral	ADJ	JJ	Degree=Pos	4	amod	_	_
+4	palsy	palsy	NOUN	NN	Number=Sing	1	nsubj	_	_
+5	?	?	PUNCT	.	_	1	punct	_	_
+
+# text = What does the abbreviation SOS mean ?
+1	What	what	PRON	WP	PronType=Int,Rel	6	obj	_	_
+2	does	do	VERB	VBZ	Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	aux	_	_
+3	the	the	DET	DT	_	5	det	_	_
+4	abbreviation	abbreviation	NOUN	NN	Number=Sing	5	compound	_	_
+5	SOS	SOS	PROPN	NNP	Number=Sing	6	nsubj	_	_
+6	mean	mean	NOUN	NN	Number=Sing	0	root	_	_
+7	?	?	PUNCT	.	_	6	punct	_	_
+
+# text = What was the name of Roy Rogers 's dog ?
+1	What	what	PRON	WP	PronType=Int,Rel	0	root	_	_
+2	was	be	VERB	VBD	Tense=Past|VerbForm=Fin	1	cop	_	_
+3	the	the	DET	DT	_	4	det	_	_
+4	name	name	NOUN	NN	Number=Sing	1	nsubj	_	_
+5	of	of	ADP	IN	_	9	case	_	_
+6	Roy	Roy	PROPN	NNP	Number=Sing	7	compound	_	_
+7	Rogers	Rogers	PROPN	NNP	Number=Sing	9	nmod:poss	_	_
+8	's	's	PART	POS	Poss=Yes	7	case	_	_
+9	dog	dog	NOUN	NN	Number=Sing	4	nmod	_	_
+10	?	?	X	?	_	1	dep	_	_
+
+# text = What 's the second-biggest-selling magazine in America ?
+1	What	what	PRON	WP	PronType=Int,Rel	2	nsubj	_	_
+2	's	's	VERB	VBZ	Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	the	the	DET	DT	_	5	det	_	_
+4	second-biggest-selling	second-biggest-selling	ADJ	JJ	Degree=Pos	5	amod	_	_
+5	magazine	magazine	NOUN	NN	Number=Sing	2	obj	_	_
+6	in	in	ADP	IN	_	7	case	_	_
+7	America	America	PROPN	NNP	Number=Sing	5	nmod	_	_
+8	?	?	X	?	_	2	dep	_	_
+
+# text = How much are tickets to Disney World ?
+1	How	how	ADV	WRB	PronType=Int,Rel	2	advmod	_	_
+2	much	much	ADJ	JJ	Degree=Pos	3	dep	_	_
+3	are	be	VERB	VBP	Tense=Pres|VerbForm=Fin	0	root	_	_
+4	tickets	ticket	NOUN	NNS	Number=Plur	3	nsubj	_	_
+5	to	to	PART	TO	PartType=Inf|VerbForm=Inf	7	case	_	_
+6	Disney	Disney	PROPN	NNP	Number=Sing	7	compound	_	_
+7	World	World	PROPN	NNP	Number=Sing	4	nmod	_	_
+8	?	?	PUNCT	.	_	3	punct	_	_
+
+# text = Name the soft drink that is " number one in the sun . "
+1	Name	name	VERB	VB	VerbForm=Inf	0	root	_	_
+2	the	the	DET	DT	_	4	det	_	_
+3	soft	soft	ADJ	JJ	Degree=Pos	4	amod	_	_
+4	drink	drink	NOUN	NN	Number=Sing	1	obj	_	_
+5	that	that	DET	WDT	PronType=Int,Rel	8	nsubj	_	_
+6	is	be	VERB	VBZ	Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	cop	_	_
+7	"	"	PUNCT	``	_	8	punct	_	_
+8	number	number	NOUN	NN	Number=Sing	4	acl:relcl	_	_
+9	one	one	NUM	CD	NumType=Card	8	nummod	_	_
+10	in	in	ADP	IN	_	12	case	_	_
+11	the	the	DET	DT	_	12	det	_	_
+12	sun	sun	NOUN	NN	Number=Sing	8	nmod	_	ToDo=nmod
+13	.	.	PUNCT	.	_	1	punct	_	_
+14	"	"	PUNCT	''	_	1	punct	_	_
+
+# text = What is Pittsburg 's baseball team called ?
+1	What	what	PRON	WP	PronType=Int,Rel	7	obj	_	_
+2	is	be	VERB	VBZ	Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	aux	_	_
+3	Pittsburg	Pittsburg	PROPN	NNP	Number=Sing	6	nmod:poss	_	_
+4	's	's	PART	POS	Poss=Yes	3	case	_	_
+5	baseball	baseball	NOUN	NN	Number=Sing	6	compound	_	_
+6	team	team	NOUN	NN	Number=Sing	7	nsubj	_	_
+7	called	call	VERB	VBG	Aspect=Prog|Tense=Pres|VerbForm=Part	0	root	_	_
+8	?	?	PUNCT	.	_	7	punct	_	_
+
+# text = Who won the first general election for President held in Malawi in May 1994 ?
+1	Who	who	PRON	WP	PronType=Int,Rel	2	nsubj	_	_
+2	won	win	VERB	VBD	Tense=Past|VerbForm=Fin	0	root	_	_
+3	the	the	DET	DT	_	6	det	_	_
+4	first	first	ADJ	JJ	Degree=Pos	6	amod	_	_
+5	general	general	ADJ	JJ	Degree=Pos	6	amod	_	_
+6	election	election	NOUN	NN	Number=Sing	2	obj	_	_
+7	for	for	ADP	IN	_	8	case	_	_
+8	President	president	NOUN	NN	Number=Sing	6	nmod	_	_
+9	held	hold	VERB	VBN	Aspect=Perf|Tense=Past|VerbForm=Part	6	acl	_	_
+10	in	in	ADP	IN	_	11	case	_	_
+11	Malawi	Malawi	PROPN	NNP	Number=Sing	9	obl	_	_
+12	in	in	ADP	IN	_	13	case	_	_
+13	May	May	PROPN	NNP	Number=Sing	2	obl	_	_
+14	1994	1994	NUM	CD	NumType=Card	13	nummod	_	_
+15	?	?	PUNCT	.	_	2	punct	_	_
+
+# text = What Asian city boasts the world 's biggest bowling alley ?
+1	What	what	DET	WDT	PronType=Int,Rel	3	det	_	_
+2	Asian	asian	ADJ	JJ	Degree=Pos	3	amod	_	_
+3	city	city	NOUN	NN	Number=Sing	4	nsubj	_	_
+4	boasts	boast	VERB	VBZ	Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	the	the	DET	DT	_	6	det	_	_
+6	world	world	NOUN	NN	Number=Sing	10	nmod:poss	_	_
+7	's	's	PART	POS	Poss=Yes	6	case	_	_
+8	biggest	biggest	ADJ	JJS	Degree=Sup	10	amod	_	_
+9	bowling	bowling	NOUN	NN	Number=Sing	10	compound	_	_
+10	alley	alley	NOUN	NN	Number=Sing	4	obj	_	_
+11	?	?	X	?	_	4	dep	_	_
+
+# text = When was President Kennedy shot ?
+1	When	when	ADV	WRB	PronType=Int,Rel	5	advmod	_	_
+2	was	be	VERB	VBD	Tense=Past|VerbForm=Fin	5	aux:pass	_	_
+3	President	president	NOUN	NN	Number=Sing	4	compound	_	_
+4	Kennedy	Kennedy	PROPN	NNP	Number=Sing	5	nsubj:pass	_	_
+5	shot	shoot	VERB	VBD	Tense=Past|VerbForm=Fin	0	root	_	_
+6	?	?	PUNCT	.	_	5	punct	_	_
+
+# text = Where is Georgetown University ?
+1	Where	where	ADV	WRB	PronType=Int,Rel	2	advmod	_	_
+2	is	be	VERB	VBZ	Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	Georgetown	Georgetown	PROPN	NNP	Number=Sing	4	compound	_	_
+4	University	university	NOUN	NN	Number=Sing	2	nsubj	_	_
+5	?	?	PUNCT	.	_	2	punct	_	_
+
+# text = Which former Ku Klux Klan member won an elected office in the U.S. ?
+1	Which	which	DET	WDT	PronType=Int,Rel	6	det	_	_
+2	former	former	ADJ	JJ	Degree=Pos	6	amod	_	_
+3	Ku	Ku	PROPN	NNP	Number=Sing	6	compound	_	_
+4	Klux	Klux	PROPN	NNP	Number=Sing	6	compound	_	_
+5	Klan	Klan	PROPN	NNP	Number=Sing	6	compound	_	_
+6	member	member	NOUN	NN	Number=Sing	7	nsubj	_	_
+7	won	win	VERB	VBD	Tense=Past|VerbForm=Fin	0	root	_	_
+8	an	a	DET	DT	_	10	det	_	_
+9	elected	elected	ADJ	JJ	Degree=Pos	10	amod	_	_
+10	office	office	NOUN	NN	Number=Sing	7	obj	_	_
+11	in	in	ADP	IN	_	13	case	_	_
+12	the	the	DET	DT	_	13	det	_	_
+13	U.S.	U.S.	PROPN	NNP	Number=Sing	7	obl	_	_
+14	?	?	PUNCT	.	_	7	punct	_	_
+
+# text = What year did South Dakota become a state ?
+1	What	what	DET	WDT	PronType=Int,Rel	2	det	_	_
+2	year	year	NOUN	NN	Number=Sing	6	obl:tmod	_	_
+3	did	do	VERB	VBD	Tense=Past|VerbForm=Fin	6	aux	_	_
+4	South	south	ADJ	JJ	Degree=Pos	5	amod	_	_
+5	Dakota	Dakota	PROPN	NNP	Number=Sing	6	nsubj	_	_
+6	become	become	VERB	VB	VerbForm=Inf	0	root	_	_
+7	a	a	DET	DT	_	8	det	_	_
+8	state	state	NOUN	NN	Number=Sing	6	xcomp	_	_
+9	?	?	PUNCT	.	_	6	punct	_	_
+
+# text = What were the achievements of Richard Nixon ?
+1	What	what	PRON	WP	PronType=Int,Rel	0	root	_	_
+2	were	be	VERB	VBD	Tense=Past|VerbForm=Fin	1	cop	_	_
+3	the	the	DET	DT	_	4	det	_	_
+4	achievements	achievement	NOUN	NNS	Number=Plur	1	nsubj	_	_
+5	of	of	ADP	IN	_	7	case	_	_
+6	Richard	Richard	PROPN	NNP	Number=Sing	7	compound	_	_
+7	Nixon	Nixon	PROPN	NNP	Number=Sing	4	nmod	_	_
+8	?	?	X	?	_	1	dep	_	_
+
+# text = What American revolutionary general turned over West Point to the British ?
+1	What	what	DET	WDT	PronType=Int,Rel	4	det	_	_
+2	American	american	ADJ	JJ	Degree=Pos	4	amod	_	_
+3	revolutionary	revolutionary	ADJ	JJ	Degree=Pos	4	amod	_	_
+4	general	general	NOUN	NN	Number=Sing	5	nsubj	_	_
+5	turned	turn	VERB	VBD	Tense=Past|VerbForm=Fin	0	root	_	_
+6	over	over	ADP	RP	PartType=Vbp	5	compound:prt	_	_
+7	West	West	PROPN	NNP	Number=Sing	8	compound	_	_
+8	Point	Point	PROPN	NNP	Number=Sing	5	obj	_	_
+9	to	to	PART	TO	PartType=Inf|VerbForm=Inf	11	case	_	_
+10	the	the	DET	DT	_	11	det	_	_
+11	British	British	PROPN	NNPS	Number=Plur	5	obl	_	_
+12	?	?	X	?	_	5	dep	_	_
+
+# text = What year did California become a territory ?
+1	What	what	DET	WDT	PronType=Int,Rel	2	det	_	_
+2	year	year	NOUN	NN	Number=Sing	5	obl:tmod	_	_
+3	did	do	VERB	VBD	Tense=Past|VerbForm=Fin	5	aux	_	_
+4	California	California	PROPN	NNP	Number=Sing	5	nsubj	_	_
+5	become	become	VERB	VB	VerbForm=Inf	0	root	_	_
+6	a	a	DET	DT	_	7	det	_	_
+7	territory	territory	NOUN	NN	Number=Sing	5	xcomp	_	_
+8	?	?	PUNCT	.	_	5	punct	_	_
+
+# text = What year did the Vietnam War end ?
+1	What	what	DET	WDT	PronType=Int,Rel	2	det	_	_
+2	year	year	NOUN	NN	Number=Sing	7	obl:tmod	_	_
+3	did	do	VERB	VBD	Tense=Past|VerbForm=Fin	7	aux	_	_
+4	the	the	DET	DT	_	6	det	_	_
+5	Vietnam	Vietnam	PROPN	NNP	Number=Sing	6	compound	_	_
+6	War	war	NOUN	NN	Number=Sing	7	nsubj	_	_
+7	end	end	NOUN	NN	Number=Sing	0	root	_	_
+8	?	?	PUNCT	.	_	7	punct	_	_
+
+# text = Where did bocci originate ?
+1	Where	where	ADV	WRB	PronType=Int,Rel	4	advmod	_	_
+2	did	do	VERB	VBD	Tense=Past|VerbForm=Fin	4	aux	_	_
+3	bocci	bocci	PROPN	NNP	Number=Sing	4	nsubj	_	_
+4	originate	originate	VERB	VB	VerbForm=Inf	0	root	_	_
+5	?	?	PUNCT	.	_	4	punct	_	_
+
+# text = Who directed The Wild Bunch ?
+1	Who	who	PRON	WP	PronType=Int,Rel	2	nsubj	_	_
+2	directed	direct	VERB	VBD	Tense=Past|VerbForm=Fin	0	root	_	_
+3	The	the	DET	DT	_	5	det	_	_
+4	Wild	wild	ADJ	JJ	Degree=Pos	5	amod	_	_
+5	Bunch	bunch	NOUN	NN	Number=Sing	2	obj	_	_
+6	?	?	X	?	_	2	dep	_	_
+
+# text = What color are crickets ?
+1	What	what	DET	WDT	PronType=Int,Rel	2	det	_	_
+2	color	color	NOUN	NN	Number=Sing	3	obj	_	_
+3	are	be	VERB	VBP	Tense=Pres|VerbForm=Fin	0	root	_	_
+4	crickets	cricket	NOUN	NNS	Number=Plur	3	nsubj	_	_
+5	?	?	PUNCT	.	_	3	punct	_	_
+
+# text = Where was Christopher Columbus born ?
+1	Where	where	ADV	WRB	PronType=Int,Rel	5	advmod	_	_
+2	was	be	VERB	VBD	Tense=Past|VerbForm=Fin	5	aux:pass	_	_
+3	Christopher	Christopher	PROPN	NNP	Number=Sing	4	compound	_	_
+4	Columbus	Columbus	PROPN	NNP	Number=Sing	5	nsubj:pass	_	_
+5	born	bear	VERB	VBN	Aspect=Perf|Tense=Past|VerbForm=Part	0	root	_	_
+6	?	?	X	?	_	5	dep	_	_
+
+# text = What year did WWII begin ?
+1	What	what	DET	WDT	PronType=Int,Rel	2	det	_	_
+2	year	year	NOUN	NN	Number=Sing	5	obl:tmod	_	_
+3	did	do	VERB	VBD	Tense=Past|VerbForm=Fin	5	aux	_	_
+4	WWII	WWII	PROPN	NNP	Number=Sing	5	nsubj	_	_
+5	begin	begin	VERB	VB	VerbForm=Inf	0	root	_	_
+6	?	?	PUNCT	.	_	5	punct	_	_
+
+# text = What is the name of the US military base in Cuba ?
+1	What	what	PRON	WP	PronType=Int,Rel	0	root	_	_
+2	is	be	VERB	VBZ	Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	cop	_	_
+3	the	the	DET	DT	_	4	det	_	_
+4	name	name	NOUN	NN	Number=Sing	1	nsubj	_	_
+5	of	of	ADP	IN	_	9	case	_	_
+6	the	the	DET	DT	_	9	det	_	_
+7	US	US	PROPN	NNP	Number=Sing	9	compound	_	_
+8	military	military	ADJ	JJ	Degree=Pos	9	amod	_	_
+9	base	base	NOUN	NN	Number=Sing	4	nmod	_	_
+10	in	in	ADP	IN	_	11	case	_	_
+11	Cuba	Cuba	PROPN	NNP	Number=Sing	9	nmod	_	_
+12	?	?	PUNCT	.	_	1	punct	_	_
+
+# text = How hot is the core of the earth ?
+1	How	how	ADV	WRB	PronType=Int,Rel	2	advmod	_	_
+2	hot	hot	ADJ	JJ	Degree=Pos	3	dep	_	_
+3	is	be	VERB	VBZ	Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	the	the	DET	DT	_	5	det	_	_
+5	core	core	NOUN	NN	Number=Sing	3	nsubj	_	_
+6	of	of	ADP	IN	_	8	case	_	_
+7	the	the	DET	DT	_	8	det	_	_
+8	earth	earth	NOUN	NN	Number=Sing	5	nmod	_	_
+9	?	?	PUNCT	.	_	3	punct	_	_
+
+# text = Who discovered radium ?
+1	Who	who	PRON	WP	PronType=Int,Rel	2	nsubj	_	_
+2	discovered	discover	VERB	VBD	Tense=Past|VerbForm=Fin	0	root	_	_
+3	radium	radium	NOUN	NN	Number=Sing	2	obj	_	_
+4	?	?	PUNCT	.	_	2	punct	_	_
+
+# text = How fast does an Iguana travel ( mph ) ?
+1	How	how	ADV	WRB	PronType=Int,Rel	2	advmod	_	_
+2	fast	fast	ADJ	JJ	Degree=Pos	6	dep	_	_
+3	does	do	VERB	VBZ	Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	aux	_	_
+4	an	a	DET	DT	_	5	det	_	_
+5	Iguana	iguana	NOUN	NN	Number=Sing	6	nsubj	_	_
+6	travel	travel	VERB	VB	VerbForm=Inf	0	root	_	_
+7	(	(	PUNCT	-LRB-	_	8	punct	_	_
+8	mph	mph	NOUN	NN	Number=Sing	6	dep	_	_
+9	)	)	PUNCT	-RRB-	_	8	punct	_	_
+10	?	?	PUNCT	.	_	6	punct	_	_
+
+# text = What beer advertised that it had " three rings " ?
+1	What	what	DET	WDT	PronType=Int,Rel	2	det	_	_
+2	beer	beer	NOUN	NN	Number=Sing	3	nsubj	_	_
+3	advertised	advertise	VERB	VBD	Tense=Past|VerbForm=Fin	0	root	_	_
+4	that	that	ADP	IN	_	6	mark	_	_
+5	it	it	PRON	PRP	PronType=Prs	6	nsubj	_	_
+6	had	have	VERB	VBD	Tense=Past|VerbForm=Fin	3	ccomp	_	_
+7	"	"	PUNCT	``	_	9	punct	_	_
+8	three	three	NUM	CD	NumType=Card	9	nummod	_	_
+9	rings	ring	NOUN	NNS	Number=Plur	6	obj	_	_
+10	"	"	PUNCT	''	_	9	punct	_	_
+11	?	?	X	?	_	3	dep	_	_
+
+# text = What fruit 's stone does Laetrile come from ?
+1	What	what	DET	WDT	PronType=Int,Rel	4	det	_	_
+2	fruit	fruit	NOUN	NN	Number=Sing	4	nmod:poss	_	_
+3	's	's	PART	POS	Poss=Yes	2	case	_	_
+4	stone	stone	NOUN	NN	Number=Sing	7	obl	_	_
+5	does	do	VERB	VBZ	Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	aux	_	_
+6	Laetrile	Laetrile	PROPN	NNP	Number=Sing	7	nsubj	_	_
+7	come	come	VERB	VB	VerbForm=Inf	0	root	_	_
+8	from	from	ADP	IN	_	4	case	_	_
+9	?	?	X	?	_	7	dep	_	_
+
+# text = What creature is the absolute fastest in moving in the world , birds , mammals , etc. , ?
+1	What	what	DET	WDT	PronType=Int,Rel	2	det	_	_
+2	creature	creature	NOUN	NN	Number=Sing	3	obj	_	_
+3	is	be	VERB	VBZ	Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	the	the	DET	DT	_	5	det	_	_
+5	absolute	absolute	ADJ	JJ	Degree=Pos	3	nsubj	_	_
+6	fastest	fastest	ADJ	JJS	Degree=Sup	5	amod	_	_
+7	in	in	ADP	IN	_	8	case	_	_
+8	moving	moving	NOUN	NN	Number=Sing	5	acl	_	_
+9	in	in	ADP	IN	_	11	case	_	_
+10	the	the	DET	DT	_	11	det	_	_
+11	world	world	NOUN	NN	Number=Sing	5	nmod	_	ToDo=nmod
+12	,	,	PUNCT	,	_	5	punct	_	_
+13	birds	bird	NOUN	NNS	Number=Plur	5	appos	_	_
+14	,	,	PUNCT	,	_	13	punct	_	_
+15	mammals	mammal	NOUN	NNS	Number=Plur	13	appos	_	_
+16	,	,	PUNCT	,	_	13	punct	_	_
+17	etc.	etc.	X	FW	Foreign=Yes	13	dep	_	_
+18	,	,	PUNCT	,	_	5	punct	_	_
+19	?	?	X	?	_	3	dep	_	_
+
+# text = How much does water weigh ?
+1	How	how	ADV	WRB	PronType=Int,Rel	2	advmod	_	_
+2	much	much	ADV	RB	Degree=Pos	5	dep	_	_
+3	does	do	VERB	VBZ	Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	aux	_	_
+4	water	water	NOUN	NN	Number=Sing	5	nsubj	_	_
+5	weigh	weigh	VERB	VB	VerbForm=Inf	0	root	_	_
+6	?	?	PUNCT	.	_	5	punct	_	_
+
+# text = Who replaced Bert Parks as the host of The Miss America Pageant ?
+1	Who	who	PRON	WP	PronType=Int,Rel	2	nsubj	_	_
+2	replaced	replace	VERB	VBD	Tense=Past|VerbForm=Fin	0	root	_	_
+3	Bert	Bert	PROPN	NNP	Number=Sing	4	compound	_	_
+4	Parks	Parks	PROPN	NNP	Number=Sing	2	obj	_	_
+5	as	as	ADP	IN	_	7	case	_	_
+6	the	the	DET	DT	_	7	det	_	_
+7	host	host	NOUN	NN	Number=Sing	2	obl	_	_
+8	of	of	ADP	IN	_	12	case	_	_
+9	The	the	DET	DT	_	12	det	_	_
+10	Miss	Miss	PROPN	NNP	Number=Sing	12	compound	_	_
+11	America	America	PROPN	NNP	Number=Sing	12	compound	_	_
+12	Pageant	pageant	NOUN	NN	Number=Sing	7	nmod	_	_
+13	?	?	X	?	_	2	dep	_	_
+
+# text = Where is Prairie View A&M University ?
+1	Where	where	ADV	WRB	PronType=Int,Rel	2	advmod	_	_
+2	is	be	VERB	VBZ	Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	Prairie	Prairie	PROPN	NNP	Number=Sing	6	compound	_	_
+4	View	View	PROPN	NNP	Number=Sing	6	compound	_	_
+5	A&M	A&M	PROPN	NNP	Number=Sing	6	compound	_	_
+6	University	University	PROPN	NNP	Number=Sing	2	nsubj	_	_
+7	?	?	PUNCT	.	_	2	punct	_	_
+
+# text = What city did Duke Ellington live in ?
+1	What	what	DET	WDT	PronType=Int,Rel	2	det	_	_
+2	city	city	NOUN	NN	Number=Sing	6	obl	_	_
+3	did	do	VERB	VBD	Tense=Past|VerbForm=Fin	6	aux	_	_
+4	Duke	Duke	PROPN	NNP	Number=Sing	5	compound	_	_
+5	Ellington	Ellington	PROPN	NNP	Number=Sing	6	nsubj	_	_
+6	live	live	VERB	VB	VerbForm=Inf	0	root	_	_
+7	in	in	ADP	IN	_	2	case	_	_
+8	?	?	X	?	_	6	dep	_	_
+
+# text = How many Superbowls have the 49ers won ?
+1	How	how	ADV	WRB	PronType=Int,Rel	2	advmod	_	_
+2	many	many	ADJ	JJ	Degree=Pos	3	amod	_	_
+3	Superbowls	superbowl	NOUN	NNS	Number=Plur	7	obj	_	_
+4	have	have	VERB	VBP	Tense=Pres|VerbForm=Fin	7	aux	_	_
+5	the	the	DET	DT	_	6	det	_	_
+6	49ers	49ers	PROPN	NNPS	Number=Plur	7	nsubj	_	_
+7	won	win	VERB	VBN	Aspect=Perf|Tense=Past|VerbForm=Part	0	root	_	_
+8	?	?	PUNCT	.	_	7	punct	_	_
+
+# text = How much electricity does the brain need to work ?
+1	How	how	ADV	WRB	PronType=Int,Rel	2	advmod	_	_
+2	much	much	ADJ	JJ	Degree=Pos	3	amod	_	_
+3	electricity	electricity	NOUN	NN	Number=Sing	7	dep	_	_
+4	does	do	VERB	VBZ	Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	aux	_	_
+5	the	the	DET	DT	_	6	det	_	_
+6	brain	brain	NOUN	NN	Number=Sing	7	nsubj	_	_
+7	need	need	VERB	VB	VerbForm=Inf	0	root	_	_
+8	to	to	PART	TO	PartType=Inf|VerbForm=Inf	9	mark	_	_
+9	work	work	VERB	VB	VerbForm=Inf	7	xcomp	_	_
+10	?	?	X	?	_	7	dep	_	_
+
+# text = What TV show premiered on January 15 , 1981 ?
+1	What	what	DET	WDT	PronType=Int,Rel	3	det	_	_
+2	TV	tv	NOUN	NN	Number=Sing	3	compound	_	_
+3	show	show	NOUN	NN	Number=Sing	4	nsubj	_	_
+4	premiered	premiere	VERB	VBD	Tense=Past|VerbForm=Fin	0	root	_	_
+5	on	on	ADP	IN	_	6	case	_	_
+6	January	January	PROPN	NNP	Number=Sing	4	obl	_	_
+7	15	15	NUM	CD	NumType=Card	6	nummod	_	_
+8	,	,	PUNCT	,	_	6	punct	_	_
+9	1981	1981	NUM	CD	NumType=Card	6	nummod	_	_
+10	?	?	X	?	_	4	dep	_	_
+
+# text = The Iraqis launched their attack on Kuwait on what day ?
+1	The	the	DET	DT	_	2	det	_	_
+2	Iraqis	Iraqis	PROPN	NNPS	Number=Plur	3	nsubj	_	_
+3	launched	launch	VERB	VBD	Tense=Past|VerbForm=Fin	0	root	_	_
+4	their	they	DET	PRP$	Poss=Yes|PronType=Prs	5	nmod:poss	_	_
+5	attack	attack	NOUN	NN	Number=Sing	3	obj	_	_
+6	on	on	ADP	IN	_	7	case	_	_
+7	Kuwait	Kuwait	PROPN	NNP	Number=Sing	5	nmod	_	_
+8	on	on	ADP	IN	_	10	case	_	_
+9	what	what	DET	WDT	PronType=Int,Rel	10	det	_	_
+10	day	day	NOUN	NN	Number=Sing	3	obl	_	_
+11	?	?	X	?	_	3	dep	_	_
+
+# text = What did John F. Kennedy consider his greatest blunder in office ?
+1	What	what	PRON	WP	PronType=Int,Rel	6	dep	_	_
+2	did	do	VERB	VBD	Tense=Past|VerbForm=Fin	6	aux	_	_
+3	John	John	PROPN	NNP	Number=Sing	5	compound	_	_
+4	F.	F.	PROPN	NNP	Number=Sing	5	compound	_	_
+5	Kennedy	Kennedy	PROPN	NNP	Number=Sing	6	nsubj	_	_
+6	consider	consider	VERB	VB	VerbForm=Inf	0	root	_	_
+7	his	he	DET	PRP$	Poss=Yes|PronType=Prs	9	nmod:poss	_	_
+8	greatest	greatest	ADJ	JJS	Degree=Sup	9	amod	_	_
+9	blunder	blunder	NOUN	NN	Number=Sing	6	obj	_	_
+10	in	in	ADP	IN	_	11	case	_	_
+11	office	office	NOUN	NN	Number=Sing	9	nmod	_	_
+12	?	?	X	?	_	6	dep	_	_
+
+# text = Name the creator of " The Muppets " .
+1	Name	name	VERB	VB	VerbForm=Inf	0	root	_	_
+2	the	the	DET	DT	_	3	det	_	_
+3	creator	creator	NOUN	NN	Number=Sing	1	obj	_	_
+4	of	of	ADP	IN	_	7	case	_	_
+5	"	"	PUNCT	``	_	7	punct	_	_
+6	The	the	DET	DT	_	7	det	_	_
+7	Muppets	Muppets	PROPN	NNPS	Number=Plur	3	nmod	_	_
+8	"	"	PUNCT	''	_	7	punct	_	_
+9	.	.	PUNCT	.	_	1	punct	_	_
+
+# text = What is the city of brotherly love ?
+1	What	what	PRON	WP	PronType=Int,Rel	0	root	_	_
+2	is	be	VERB	VBZ	Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	cop	_	_
+3	the	the	DET	DT	_	4	det	_	_
+4	city	city	NOUN	NN	Number=Sing	1	nsubj	_	_
+5	of	of	ADP	IN	_	7	case	_	_
+6	brotherly	brotherly	ADJ	JJ	Degree=Pos	7	amod	_	_
+7	love	love	NOUN	NN	Number=Sing	4	nmod	_	_
+8	?	?	PUNCT	.	_	1	punct	_	_
+
+# text = Who used to make cars with rotary engines ?
+1	Who	who	PRON	WP	PronType=Int,Rel	2	nsubj	_	_
+2	used	use	VERB	VBD	Tense=Past|VerbForm=Fin	0	root	_	_
+3	to	to	PART	TO	PartType=Inf|VerbForm=Inf	4	mark	_	_
+4	make	make	VERB	VB	VerbForm=Inf	2	xcomp	_	_
+5	cars	car	NOUN	NNS	Number=Plur	4	obj	_	_
+6	with	with	ADP	IN	_	8	case	_	_
+7	rotary	rotary	ADJ	JJ	Degree=Pos	8	amod	_	_
+8	engines	engine	NOUN	NNS	Number=Plur	4	obl	_	_
+9	?	?	PUNCT	.	_	2	punct	_	_
+
+# text = How much does it cost to register a car in New Hampshire ?
+1	How	how	ADV	WRB	PronType=Int,Rel	2	advmod	_	_
+2	much	much	ADV	RB	Degree=Pos	5	advmod	_	_
+3	does	do	VERB	VBZ	Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	aux	_	_
+4	it	it	PRON	PRP	PronType=Prs	5	nsubj	_	_
+5	cost	cost	VERB	VB	VerbForm=Inf	0	root	_	_
+6	to	to	PART	TO	PartType=Inf|VerbForm=Inf	7	mark	_	_
+7	register	register	VERB	VB	VerbForm=Inf	5	xcomp	_	_
+8	a	a	DET	DT	_	9	det	_	_
+9	car	car	NOUN	NN	Number=Sing	7	obj	_	_
+10	in	in	ADP	IN	_	12	case	_	_
+11	New	New	PROPN	NNP	Number=Sing	12	compound	_	_
+12	Hampshire	Hampshire	PROPN	NNP	Number=Sing	7	obl	_	_
+13	?	?	PUNCT	.	_	5	punct	_	_
+
+# text = What is a gas release event ?
+1	What	what	PRON	WP	PronType=Int,Rel	0	root	_	_
+2	is	be	VERB	VBZ	Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	cop	_	_
+3	a	a	DET	DT	_	6	det	_	_
+4	gas	gas	NOUN	NN	Number=Sing	6	compound	_	_
+5	release	release	NOUN	NN	Number=Sing	6	compound	_	_
+6	event	event	NOUN	NN	Number=Sing	1	nsubj	_	_
+7	?	?	X	?	_	1	dep	_	_
+
+# text = What is the proper name for a female walrus ?
+1	What	what	PRON	WP	PronType=Int,Rel	0	root	_	_
+2	is	be	VERB	VBZ	Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	cop	_	_
+3	the	the	DET	DT	_	5	det	_	_
+4	proper	proper	ADJ	JJ	Degree=Pos	5	amod	_	_
+5	name	name	NOUN	NN	Number=Sing	1	nsubj	_	_
+6	for	for	ADP	IN	_	9	case	_	_
+7	a	a	DET	DT	_	9	det	_	_
+8	female	female	ADJ	JJ	Degree=Pos	9	amod	_	_
+9	walrus	walrus	NOUN	NN	Number=Sing	5	nmod	_	_
+10	?	?	PUNCT	.	_	1	punct	_	_
+
+# text = What album put The Beatles on the cover of Time in 1967 ?
+1	What	what	DET	WDT	PronType=Int,Rel	2	det	_	_
+2	album	album	NOUN	NN	Number=Sing	3	nsubj	_	_
+3	put	put	VERB	VBD	Tense=Past|VerbForm=Fin	0	root	_	_
+4	The	the	DET	DT	_	5	det	_	_
+5	Beatles	Beatles	PROPN	NNPS	Number=Plur	3	obj	_	_
+6	on	on	ADP	IN	_	8	case	_	_
+7	the	the	DET	DT	_	8	det	_	_
+8	cover	cover	NOUN	NN	Number=Sing	3	obl	_	_
+9	of	of	ADP	IN	_	10	case	_	_
+10	Time	Time	PROPN	NNP	Number=Sing	8	nmod	_	_
+11	in	in	ADP	IN	_	12	case	_	_
+12	1967	1967	NUM	CD	NumType=Card	3	obl	_	_
+13	?	?	X	?	_	3	dep	_	_
+
+# text = What Indian tribe is F Troop perpetually doing battle with ?
+1	What	what	DET	WDT	PronType=Int,Rel	3	det	_	_
+2	Indian	indian	ADJ	JJ	Degree=Pos	3	amod	_	_
+3	tribe	tribe	NOUN	NN	Number=Sing	8	dep	_	_
+4	is	be	VERB	VBZ	Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	aux	_	_
+5	F	f	NOUN	NN	Number=Sing	6	compound	_	_
+6	Troop	troop	NOUN	NN	Number=Sing	8	nsubj	_	_
+7	perpetually	perpetually	ADV	RB	Degree=Pos	8	advmod	_	_
+8	doing	do	VERB	VBG	Aspect=Prog|Tense=Pres|VerbForm=Part	0	root	_	_
+9	battle	battle	NOUN	NN	Number=Sing	8	obj	_	_
+10	with	with	ADP	IN	_	9	acl	_	_
+11	?	?	X	?	_	8	dep	_	_
+
+# text = What 's the most commonly-spoken language in Belgium ?
+1	What	what	PRON	WP	PronType=Int,Rel	2	nsubj	_	_
+2	's	's	VERB	VBZ	Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	the	the	DET	DT	_	6	det	_	_
+4	most	most	ADV	RBS	Degree=Sup	6	advmod	_	_
+5	commonly-spoken	commonly-spoken	ADJ	JJ	Degree=Pos	6	amod	_	_
+6	language	language	NOUN	NN	Number=Sing	2	obj	_	_
+7	in	in	ADP	IN	_	8	case	_	_
+8	Belgium	Belgium	PROPN	NNP	Number=Sing	6	nmod	_	_
+9	?	?	X	?	_	2	dep	_	_
+
+# text = What two countries ' coastlines border the Bay of Biscay ?
+1	What	what	DET	WDT	PronType=Int,Rel	5	det	_	_
+2	two	two	NUM	CD	NumType=Card	3	nummod	_	_
+3	countries	country	NOUN	NNS	Number=Plur	5	nmod:poss	_	_
+4	'	'	PART	POS	Poss=Yes	3	case	_	_
+5	coastlines	coastline	NOUN	NNS	Number=Plur	6	nsubj	_	_
+6	border	border	VERB	VBG	Aspect=Prog|Tense=Pres|VerbForm=Part	0	root	_	_
+7	the	the	DET	DT	_	8	det	_	_
+8	Bay	bay	NOUN	NN	Number=Sing	6	obj	_	_
+9	of	of	ADP	IN	_	10	case	_	_
+10	Biscay	Biscay	PROPN	NNP	Number=Sing	8	nmod	_	_
+11	?	?	PUNCT	.	_	6	punct	_	_
+
+# text = Why are there Braille things on the ATM machines that people drive through ?
+1	Why	why	ADV	WRB	PronType=Int,Rel	2	advmod	_	_
+2	are	be	VERB	VBP	Tense=Pres|VerbForm=Fin	0	root	_	_
+3	there	there	PRON	EX	AdvType=Ex	2	expl	_	_
+4	Braille	Braille	PROPN	NNP	Number=Sing	5	compound	_	_
+5	things	thing	NOUN	NNS	Number=Plur	2	nsubj	_	_
+6	on	on	ADP	IN	_	9	case	_	_
+7	the	the	DET	DT	_	9	det	_	_
+8	ATM	ATM	PROPN	NNP	Number=Sing	9	compound	_	_
+9	machines	machine	NOUN	NNS	Number=Plur	2	obl	_	_
+10	that	that	ADP	IN	_	12	mark	_	_
+11	people	people	NOUN	NNS	Number=Plur	12	nsubj	_	_
+12	drive	drive	VERB	VB	VerbForm=Inf	9	dep	_	_
+13	through	through	ADV	RB	Degree=Pos	12	advmod	_	_
+14	?	?	X	?	_	2	dep	_	_
+
+# text = In which Kevin Costner movie did Sioux Indians play a role ?
+1	In	in	ADP	IN	_	5	case	_	_
+2	which	which	DET	WDT	PronType=Int,Rel	5	det	_	_
+3	Kevin	Kevin	PROPN	NNP	Number=Sing	5	compound	_	_
+4	Costner	Costner	PROPN	NNP	Number=Sing	5	compound	_	_
+5	movie	movie	NOUN	NN	Number=Sing	9	obl	_	_
+6	did	do	VERB	VBD	Tense=Past|VerbForm=Fin	9	aux	_	_
+7	Sioux	Sioux	PROPN	NNP	Number=Sing	8	compound	_	_
+8	Indians	Indians	PROPN	NNPS	Number=Plur	9	nsubj	_	_
+9	play	play	VERB	VB	VerbForm=Inf	0	root	_	_
+10	a	a	DET	DT	_	11	det	_	_
+11	role	role	NOUN	NN	Number=Sing	9	obj	_	_
+12	?	?	X	?	_	9	dep	_	_
+
+# text = Whom did the Chicago Bulls beat in the 1993 championship ?
+1	Whom	whom	PRON	WP	PronType=Int,Rel	6	obj	_	_
+2	did	do	VERB	VBD	Tense=Past|VerbForm=Fin	6	aux	_	_
+3	the	the	DET	DT	_	5	det	_	_
+4	Chicago	Chicago	PROPN	NNP	Number=Sing	5	compound	_	_
+5	Bulls	Bulls	PROPN	NNPS	Number=Plur	6	nsubj	_	_
+6	beat	beat	VERB	VB	VerbForm=Inf	0	root	_	_
+7	in	in	ADP	IN	_	10	case	_	_
+8	the	the	DET	DT	_	10	det	_	_
+9	1993	1993	NUM	CD	NumType=Card	10	nummod	_	_
+10	championship	championship	NOUN	NN	Number=Sing	6	obl	_	_
+11	?	?	PUNCT	.	_	6	punct	_	_
+
+# text = What day of the week sees the most fatal car accidents ?
+1	What	what	DET	WDT	PronType=Int,Rel	2	det	_	_
+2	day	day	NOUN	NN	Number=Sing	6	nsubj	_	_
+3	of	of	ADP	IN	_	5	case	_	_
+4	the	the	DET	DT	_	5	det	_	_
+5	week	week	NOUN	NN	Number=Sing	2	nmod	_	_
+6	sees	see	VERB	VBZ	Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+7	the	the	DET	DT	_	11	det	_	_
+8	most	most	ADV	RBS	Degree=Sup	11	advmod	_	_
+9	fatal	fatal	ADJ	JJ	Degree=Pos	11	amod	_	_
+10	car	car	NOUN	NN	Number=Sing	11	compound	_	_
+11	accidents	accident	NOUN	NNS	Number=Plur	6	obj	_	_
+12	?	?	X	?	_	6	dep	_	_
+
+# text = What is the most populous city in the United States ?
+1	What	what	PRON	WP	PronType=Int,Rel	0	root	_	_
+2	is	be	VERB	VBZ	Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	cop	_	_
+3	the	the	DET	DT	_	6	det	_	_
+4	most	most	ADV	RBS	Degree=Sup	5	advmod	_	_
+5	populous	populous	ADJ	JJ	Degree=Pos	6	amod	_	_
+6	city	city	NOUN	NN	Number=Sing	1	nsubj	_	_
+7	in	in	ADP	IN	_	10	case	_	_
+8	the	the	DET	DT	_	10	det	_	_
+9	United	United	PROPN	NNP	Number=Sing	10	compound	_	_
+10	States	States	PROPN	NNPS	Number=Plur	6	nmod	_	_
+11	?	?	PUNCT	.	_	1	punct	_	_
+
+# text = What day and month did John Lennon die ?
+1	What	what	DET	WDT	PronType=Int,Rel	2	det	_	_
+2	day	day	NOUN	NN	Number=Sing	8	obj	_	_
+3	and	and	CCONJ	CC	_	4	cc	_	_
+4	month	month	NOUN	NN	Number=Sing	2	conj	_	_
+5	did	do	VERB	VBD	Tense=Past|VerbForm=Fin	8	aux	_	_
+6	John	John	PROPN	NNP	Number=Sing	7	compound	_	_
+7	Lennon	Lennon	PROPN	NNP	Number=Sing	8	nsubj	_	_
+8	die	die	VERB	VB	VerbForm=Inf	0	root	_	_
+9	?	?	PUNCT	.	_	8	punct	_	_
+
+# text = What is the name of the famous dogsledding race held each year in Alaska ?
+1	What	what	PRON	WP	PronType=Int,Rel	0	root	_	_
+2	is	be	VERB	VBZ	Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	cop	_	_
+3	the	the	DET	DT	_	4	det	_	_
+4	name	name	NOUN	NN	Number=Sing	1	nsubj	_	_
+5	of	of	ADP	IN	_	9	case	_	_
+6	the	the	DET	DT	_	9	det	_	_
+7	famous	famous	ADJ	JJ	Degree=Pos	9	amod	_	_
+8	dogsledding	dogsledding	NOUN	NN	Number=Sing	9	compound	_	_
+9	race	race	NOUN	NN	Number=Sing	4	nmod	_	_
+10	held	hold	VERB	VBN	Aspect=Perf|Tense=Past|VerbForm=Part	4	acl	_	_
+11	each	each	DET	DT	_	12	det	_	_
+12	year	year	NOUN	NN	Number=Sing	10	obl:tmod	_	_
+13	in	in	ADP	IN	_	14	case	_	_
+14	Alaska	Alaska	PROPN	NNP	Number=Sing	10	obl	_	_
+15	?	?	PUNCT	.	_	1	punct	_	_
+
+# text = What group kidnaped Patricia Hearst ?
+1	What	what	DET	WDT	PronType=Int,Rel	2	det	_	_
+2	group	group	NOUN	NN	Number=Sing	3	nsubj	_	_
+3	kidnaped	kidnap	VERB	VBD	Tense=Past|VerbForm=Fin	0	root	_	_
+4	Patricia	Patricia	PROPN	NNP	Number=Sing	5	compound	_	_
+5	Hearst	Hearst	PROPN	NNP	Number=Sing	3	obj	_	_
+6	?	?	X	?	_	3	dep	_	_
+
+# text = What South American city has the world 's highest commercial landing field ?
+1	What	what	DET	WDT	PronType=Int,Rel	4	det	_	_
+2	South	south	ADJ	JJ	Degree=Pos	3	amod	_	_
+3	American	american	ADJ	JJ	Degree=Pos	4	amod	_	_
+4	city	city	NOUN	NN	Number=Sing	5	nsubj	_	_
+5	has	have	VERB	VBZ	Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+6	the	the	DET	DT	_	7	det	_	_
+7	world	world	NOUN	NN	Number=Sing	12	nmod:poss	_	_
+8	's	's	PART	POS	Poss=Yes	7	case	_	_
+9	highest	highest	ADJ	JJS	Degree=Sup	12	amod	_	_
+10	commercial	commercial	ADJ	JJ	Degree=Pos	12	amod	_	_
+11	landing	landing	NOUN	NN	Number=Sing	12	compound	_	_
+12	field	field	NOUN	NN	Number=Sing	5	obj	_	_
+13	?	?	X	?	_	5	dep	_	_
+
+# text = Where can I find information on the cyclone that hit New Jersey on 8/28/1941 ?
+1	Where	where	ADV	WRB	PronType=Int,Rel	4	advmod	_	_
+2	can	can	VERB	MD	VerbType=Mod	4	aux	_	_
+3	I	I	PRON	PRP	PronType=Prs	4	nsubj	_	_
+4	find	find	VERB	VB	VerbForm=Inf	0	root	_	_
+5	information	information	NOUN	NN	Number=Sing	4	obj	_	_
+6	on	on	ADP	IN	_	8	case	_	_
+7	the	the	DET	DT	_	8	det	_	_
+8	cyclone	cyclone	NOUN	NN	Number=Sing	5	nmod	_	_
+9	that	that	DET	WDT	PronType=Int,Rel	10	nsubj	_	_
+10	hit	hit	VERB	VBD	Tense=Past|VerbForm=Fin	8	acl:relcl	_	_
+11	New	New	PROPN	NNP	Number=Sing	12	compound	_	_
+12	Jersey	Jersey	PROPN	NNP	Number=Sing	10	obj	_	_
+13	on	on	ADP	IN	_	14	case	_	_
+14	8/28/1941	8/28/1941	NUM	CD	NumType=Card	10	obl	_	_
+15	?	?	X	?	_	4	dep	_	_
+
+# text = What does SIDS stand for ?
+1	What	what	PRON	WP	PronType=Int,Rel	4	obl	_	_
+2	does	do	VERB	VBZ	Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	aux	_	_
+3	SIDS	SIDS	PROPN	NNP	Number=Sing	4	nsubj	_	_
+4	stand	stand	VERB	VB	VerbForm=Inf	0	root	_	_
+5	for	for	ADP	IN	_	1	case	_	_
+6	?	?	PUNCT	.	_	4	punct	_	_
+
+# text = What sport is played on the largest field ?
+1	What	what	DET	WDT	PronType=Int,Rel	2	det	_	_
+2	sport	sport	NOUN	NN	Number=Sing	4	nsubj:pass	_	_
+3	is	be	VERB	VBZ	Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	aux:pass	_	_
+4	played	play	VERB	VBN	Aspect=Perf|Tense=Past|VerbForm=Part	0	root	_	_
+5	on	on	ADP	IN	_	8	case	_	_
+6	the	the	DET	DT	_	8	det	_	_
+7	largest	largest	ADJ	JJS	Degree=Sup	8	amod	_	_
+8	field	field	NOUN	NN	Number=Sing	4	obl	_	_
+9	?	?	X	?	_	4	dep	_	_
+
+# text = What mountains lie between the Arkansas and Missouri rivers ?
+1	What	what	DET	WDT	PronType=Int,Rel	2	det	_	_
+2	mountains	mountain	NOUN	NNS	Number=Plur	3	nsubj	_	_
+3	lie	lie	VERB	VBP	Tense=Pres|VerbForm=Fin	0	root	_	_
+4	between	between	ADP	IN	_	9	case	_	_
+5	the	the	DET	DT	_	9	det	_	_
+6	Arkansas	Arkansas	PROPN	NNP	Number=Sing	9	compound	_	_
+7	and	and	CCONJ	CC	_	8	cc	_	_
+8	Missouri	Missouri	PROPN	NNP	Number=Sing	6	conj	_	_
+9	rivers	river	NOUN	NNS	Number=Plur	3	obl	_	_
+10	?	?	X	?	_	3	dep	_	_
+
+# text = What 's the most common surname in America ?
+1	What	what	PRON	WP	PronType=Int,Rel	2	nsubj	_	_
+2	's	's	VERB	VBZ	Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	the	the	DET	DT	_	6	det	_	_
+4	most	most	ADV	RBS	Degree=Sup	5	advmod	_	_
+5	common	common	ADJ	JJ	Degree=Pos	6	amod	_	_
+6	surname	surname	NOUN	NN	Number=Sing	2	obj	_	_
+7	in	in	ADP	IN	_	8	case	_	_
+8	America	America	PROPN	NNP	Number=Sing	6	nmod	_	_
+9	?	?	X	?	_	2	dep	_	_
+
+# text = What is the highest mountain in the world ?
+1	What	what	PRON	WP	PronType=Int,Rel	0	root	_	_
+2	is	be	VERB	VBZ	Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	cop	_	_
+3	the	the	DET	DT	_	5	det	_	_
+4	highest	highest	ADJ	JJS	Degree=Sup	5	amod	_	_
+5	mountain	mountain	NOUN	NN	Number=Sing	1	nsubj	_	_
+6	in	in	ADP	IN	_	8	case	_	_
+7	the	the	DET	DT	_	8	det	_	_
+8	world	world	NOUN	NN	Number=Sing	5	nmod	_	_
+9	?	?	PUNCT	.	_	1	punct	_	_
+
+# text = How many times a day should you take a prescription marked " q.i.d . " ?
+1	How	how	ADV	WRB	PronType=Int,Rel	2	advmod	_	_
+2	many	many	ADJ	JJ	Degree=Pos	3	amod	_	_
+3	times	time	NOUN	NNS	Number=Plur	8	dep	_	_
+4	a	a	DET	DT	_	5	det	_	_
+5	day	day	NOUN	NN	Number=Sing	3	dep	_	_
+6	should	should	VERB	MD	VerbType=Mod	8	aux	_	_
+7	you	you	PRON	PRP	PronType=Prs	8	nsubj	_	_
+8	take	take	VERB	VB	VerbForm=Inf	0	root	_	_
+9	a	a	DET	DT	_	13	det	_	_
+10	prescription	prescription	NOUN	NN	Number=Sing	13	compound	_	_
+11	marked	marked	ADJ	JJ	Degree=Pos	13	amod	_	_
+12	"	"	PUNCT	``	_	13	punct	_	_
+13	q.i.d	q.i.d	NOUN	NN	Number=Sing	8	obj	_	_
+14	.	.	PUNCT	.	_	13	punct	_	_
+15	"	"	PUNCT	''	_	13	punct	_	_
+16	?	?	X	?	_	8	dep	_	_
+
+# text = Name the various costumed personas of Dr. Henry Pym .
+1	Name	name	VERB	VB	VerbForm=Inf	0	root	_	_
+2	the	the	DET	DT	_	5	det	_	_
+3	various	various	ADJ	JJ	Degree=Pos	5	amod	_	_
+4	costumed	costumed	ADJ	JJ	Degree=Pos	5	amod	_	_
+5	personas	persona	NOUN	NNS	Number=Plur	1	obj	_	_
+6	of	of	ADP	IN	_	9	case	_	_
+7	Dr.	Dr.	PROPN	NNP	Number=Sing	9	compound	_	_
+8	Henry	Henry	PROPN	NNP	Number=Sing	9	compound	_	_
+9	Pym	Pym	PROPN	NNP	Number=Sing	5	nmod	_	_
+10	.	.	PUNCT	.	_	1	punct	_	_
+
+# text = What was the name of the cook on Rawhide ?
+1	What	what	PRON	WP	PronType=Int,Rel	0	root	_	_
+2	was	be	VERB	VBD	Tense=Past|VerbForm=Fin	1	cop	_	_
+3	the	the	DET	DT	_	4	det	_	_
+4	name	name	NOUN	NN	Number=Sing	1	nsubj	_	_
+5	of	of	ADP	IN	_	7	case	_	_
+6	the	the	DET	DT	_	7	det	_	_
+7	cook	cook	NOUN	NN	Number=Sing	4	nmod	_	_
+8	on	on	ADP	IN	_	9	case	_	_
+9	Rawhide	Rawhide	PROPN	NNP	Number=Sing	7	nmod	_	_
+10	?	?	X	?	_	1	dep	_	_
+
+# text = Where is the Keck telescope ?
+1	Where	where	ADV	WRB	PronType=Int,Rel	2	advmod	_	_
+2	is	be	VERB	VBZ	Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	the	the	DET	DT	_	5	det	_	_
+4	Keck	Keck	PROPN	NNP	Number=Sing	5	compound	_	_
+5	telescope	telescope	NOUN	NN	Number=Sing	2	nsubj	_	_
+6	?	?	PUNCT	.	_	2	punct	_	_
+
+# text = Who were the " filthiest people alive ? "
+1	Who	who	PRON	WP	PronType=Int,Rel	0	root	_	_
+2	were	be	VERB	VBD	Tense=Past|VerbForm=Fin	1	cop	_	_
+3	the	the	DET	DT	_	6	det	_	_
+4	"	"	PUNCT	``	_	6	punct	_	_
+5	filthiest	filthiest	ADJ	JJ	Degree=Pos	6	amod	_	_
+6	people	people	NOUN	NNS	Number=Plur	1	nsubj	_	_
+7	alive	alive	ADJ	JJ	Degree=Pos	6	amod	_	_
+8	?	?	X	?	_	1	dep	_	_
+9	"	"	PUNCT	''	_	1	punct	_	_
+
+# text = Who wrote " Fiddler on the Roof " ?
+1	Who	who	PRON	WP	PronType=Int,Rel	2	nsubj	_	_
+2	wrote	write	VERB	VBD	Tense=Past|VerbForm=Fin	0	root	_	_
+3	"	"	PUNCT	``	_	4	punct	_	_
+4	Fiddler	fiddler	NOUN	NN	Number=Sing	2	obj	_	_
+5	on	on	ADP	IN	_	7	case	_	_
+6	the	the	DET	DT	_	7	det	_	_
+7	Roof	roof	NOUN	NN	Number=Sing	4	nmod	_	_
+8	"	"	PUNCT	''	_	7	punct	_	_
+9	?	?	PUNCT	.	_	2	punct	_	_
+
+# text = What is the medical condition of hypertension ?
+1	What	what	PRON	WP	PronType=Int,Rel	0	root	_	_
+2	is	be	VERB	VBZ	Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	cop	_	_
+3	the	the	DET	DT	_	5	det	_	_
+4	medical	medical	ADJ	JJ	Degree=Pos	5	amod	_	_
+5	condition	condition	NOUN	NN	Number=Sing	1	nsubj	_	_
+6	of	of	ADP	IN	_	7	case	_	_
+7	hypertension	hypertension	NOUN	NN	Number=Sing	5	nmod	_	_
+8	?	?	PUNCT	.	_	1	punct	_	_
+
+# text = Where is Hitler buried ?
+1	Where	where	ADV	WRB	PronType=Int,Rel	4	advmod	_	_
+2	is	be	VERB	VBZ	Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	aux:pass	_	_
+3	Hitler	Hitler	PROPN	NNP	Number=Sing	4	nsubj:pass	_	_
+4	buried	bury	VERB	VBN	Aspect=Perf|Tense=Past|VerbForm=Part	0	root	_	_
+5	?	?	PUNCT	.	_	4	punct	_	_
+
+# text = Name a film that has won the Golden Bear in the Berlin Film Festival ?
+1	Name	name	VERB	VB	VerbForm=Inf	0	root	_	_
+2	a	a	DET	DT	_	3	det	_	_
+3	film	film	NOUN	NN	Number=Sing	1	obj	_	_
+4	that	that	DET	WDT	PronType=Int,Rel	6	nsubj	_	_
+5	has	have	VERB	VBZ	Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	aux	_	_
+6	won	win	VERB	VBN	Aspect=Perf|Tense=Past|VerbForm=Part	3	acl:relcl	_	_
+7	the	the	DET	DT	_	9	det	_	_
+8	Golden	golden	ADJ	JJ	Degree=Pos	9	amod	_	_
+9	Bear	bear	NOUN	NN	Number=Sing	6	obj	_	_
+10	in	in	ADP	IN	_	14	case	_	_
+11	the	the	DET	DT	_	14	det	_	_
+12	Berlin	Berlin	PROPN	NNP	Number=Sing	14	compound	_	_
+13	Film	film	NOUN	NN	Number=Sing	14	compound	_	_
+14	Festival	festival	NOUN	NN	Number=Sing	6	obl	_	_
+15	?	?	PUNCT	.	_	1	punct	_	_
+
+# text = What three European countries begin with the letter A ?
+1	What	what	DET	WDT	PronType=Int,Rel	4	det	_	_
+2	three	three	NUM	CD	NumType=Card	4	nummod	_	_
+3	European	european	ADJ	JJ	Degree=Pos	4	amod	_	_
+4	countries	country	NOUN	NNS	Number=Plur	5	nsubj	_	_
+5	begin	begin	VERB	VB	VerbForm=Inf	0	root	_	_
+6	with	with	ADP	IN	_	9	case	_	_
+7	the	the	DET	DT	_	9	det	_	_
+8	letter	letter	NOUN	NN	Number=Sing	9	compound	_	_
+9	A	A	PROPN	NNP	Number=Sing	5	obl	_	_
+10	?	?	X	?	_	5	dep	_	_
+
+# text = What was the name of the ball game played by the mayans ?
+1	What	what	PRON	WP	PronType=Int,Rel	0	root	_	_
+2	was	be	VERB	VBD	Tense=Past|VerbForm=Fin	1	cop	_	_
+3	the	the	DET	DT	_	4	det	_	_
+4	name	name	NOUN	NN	Number=Sing	1	nsubj	_	_
+5	of	of	ADP	IN	_	8	case	_	_
+6	the	the	DET	DT	_	8	det	_	_
+7	ball	ball	NOUN	NN	Number=Sing	8	compound	_	_
+8	game	game	NOUN	NN	Number=Sing	4	nmod	_	_
+9	played	play	VERB	VBN	Aspect=Perf|Tense=Past|VerbForm=Part	8	acl	_	_
+10	by	by	ADP	IN	_	12	case	_	_
+11	the	the	DET	DT	_	12	det	_	_
+12	mayans	mayans	PROPN	NNPS	Number=Plur	9	obl	_	_
+13	?	?	X	?	_	1	dep	_	_
+
+# text = What did Richard Feynman say upon hearing he would receive the Nobel Prize in Physics ?
+1	What	what	PRON	WP	PronType=Int,Rel	5	obj	_	_
+2	did	do	VERB	VBD	Tense=Past|VerbForm=Fin	5	aux	_	_
+3	Richard	Richard	PROPN	NNP	Number=Sing	4	compound	_	_
+4	Feynman	Feynman	PROPN	NNP	Number=Sing	5	nsubj	_	_
+5	say	say	VERB	VB	VerbForm=Inf	0	root	_	_
+6	upon	upon	ADP	IN	_	7	mark	_	_
+7	hearing	hearing	NOUN	NN	Number=Sing	5	advcl	_	_
+8	he	he	PRON	PRP	PronType=Prs	10	nsubj	_	_
+9	would	would	VERB	MD	VerbType=Mod	10	aux	_	_
+10	receive	receive	VERB	VB	VerbForm=Inf	7	ccomp	_	_
+11	the	the	DET	DT	_	13	det	_	_
+12	Nobel	Nobel	PROPN	NNP	Number=Sing	13	compound	_	_
+13	Prize	Prize	PROPN	NNP	Number=Sing	10	obj	_	_
+14	in	in	ADP	IN	_	15	case	_	_
+15	Physics	physics	NOUN	NN	Number=Sing	13	nmod	_	_
+16	?	?	PUNCT	.	_	5	punct	_	_
+
+# text = What are John C. Calhoun and Henry Clay known as ?
+1	What	what	PRON	WP	PronType=Int,Rel	9	obl	_	_
+2	are	be	VERB	VBP	Tense=Pres|VerbForm=Fin	9	aux:pass	_	_
+3	John	John	PROPN	NNP	Number=Sing	5	compound	_	_
+4	C.	C.	PROPN	NNP	Number=Sing	5	compound	_	_
+5	Calhoun	Calhoun	PROPN	NNP	Number=Sing	9	nsubj:pass	_	_
+6	and	and	CCONJ	CC	_	8	cc	_	_
+7	Henry	Henry	PROPN	NNP	Number=Sing	8	compound	_	_
+8	Clay	Clay	PROPN	NNP	Number=Sing	5	conj	_	_
+9	known	know	VERB	VBN	Aspect=Perf|Tense=Past|VerbForm=Part	0	root	_	_
+10	as	as	ADP	IN	_	1	case	_	_
+11	?	?	PUNCT	.	_	9	punct	_	_
+
+# text = When did Geraldine Ferraro run for vice president ?
+1	When	when	ADV	WRB	PronType=Int,Rel	5	advmod	_	_
+2	did	do	VERB	VBD	Tense=Past|VerbForm=Fin	5	aux	_	_
+3	Geraldine	Geraldine	PROPN	NNP	Number=Sing	4	compound	_	_
+4	Ferraro	Ferraro	PROPN	NNP	Number=Sing	5	nsubj	_	_
+5	run	run	VERB	VB	VerbForm=Inf	0	root	_	_
+6	for	for	ADP	IN	_	8	case	_	_
+7	vice	vice	ADJ	JJ	Degree=Pos	8	amod	_	_
+8	president	president	NOUN	NN	Number=Sing	5	obl	_	_
+9	?	?	PUNCT	.	_	5	punct	_	_
+
+# text = What continent is Bolivia on ?
+1	What	what	DET	WDT	PronType=Int	2	det	_	_
+2	continent	continent	NOUN	NN	Number=Sing	4	nsubj	_	_
+3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
+4	Bolivia	Bolivia	PROPN	NNP	Number=Sing	0	root	_	_
+5	on	on	ADP	IN	_	4	case	_	_
+6	?	?	PUNCT	.	_	4	punct	_	_
+
+# text = Who established a Viking colony in Greenland about 985 ?
+1	Who	who	PRON	WP	PronType=Int,Rel	2	nsubj	_	_
+2	established	establish	VERB	VBD	Tense=Past|VerbForm=Fin	0	root	_	_
+3	a	a	DET	DT	_	5	det	_	_
+4	Viking	viking	ADJ	JJ	Degree=Pos	5	amod	_	_
+5	colony	colony	NOUN	NN	Number=Sing	2	obj	_	_
+6	in	in	ADP	IN	_	7	case	_	_
+7	Greenland	Greenland	PROPN	NNP	Number=Sing	5	nmod	_	_
+8	about	about	ADP	IN	_	9	case	_	_
+9	985	985	NOUN	NNS	Number=Plur	2	obl	_	_
+10	?	?	X	?	_	2	dep	_	_
+
+# text = When is Dick Clark 's birthday ?
+1	When	when	ADV	WRB	PronType=Int,Rel	2	advmod	_	_
+2	is	be	VERB	VBZ	Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	Dick	Dick	PROPN	NNP	Number=Sing	4	compound	_	_
+4	Clark	Clark	PROPN	NNP	Number=Sing	6	nmod:poss	_	_
+5	's	's	PART	POS	Poss=Yes	4	case	_	_
+6	birthday	birthday	NOUN	NN	Number=Sing	2	nsubj	_	_
+7	?	?	PUNCT	.	_	2	punct	_	_
+
+# text = What is a fear of parasites ?
+1	What	what	PRON	WP	PronType=Int,Rel	0	root	_	_
+2	is	be	VERB	VBZ	Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	cop	_	_
+3	a	a	DET	DT	_	4	det	_	_
+4	fear	fear	NOUN	NN	Number=Sing	1	nsubj	_	_
+5	of	of	ADP	IN	_	6	case	_	_
+6	parasites	parasite	NOUN	NNS	Number=Plur	4	nmod	_	_
+7	?	?	X	?	_	1	dep	_	_
+
+# text = In what year did the Bounty mutiny happen ?
+1	In	in	ADP	IN	_	3	case	_	_
+2	what	what	DET	WDT	PronType=Int,Rel	3	det	_	_
+3	year	year	NOUN	NN	Number=Sing	8	obl	_	_
+4	did	do	VERB	VBD	Tense=Past|VerbForm=Fin	8	aux	_	_
+5	the	the	DET	DT	_	7	det	_	_
+6	Bounty	Bounty	PROPN	NNP	Number=Sing	7	compound	_	_
+7	mutiny	mutiny	NOUN	NN	Number=Sing	8	nsubj	_	_
+8	happen	happen	VERB	VB	VerbForm=Inf	0	root	_	_
+9	?	?	X	?	_	8	dep	_	_
+
+# text = What were popular songs and types of songs in the 1920s ?
+1	What	what	PRON	WP	PronType=Int,Rel	0	root	_	_
+2	were	be	VERB	VBD	Tense=Past|VerbForm=Fin	1	cop	_	_
+3	popular	popular	ADJ	JJ	Degree=Pos	4	amod	_	_
+4	songs	song	NOUN	NNS	Number=Plur	1	nsubj	_	_
+5	and	and	CCONJ	CC	_	6	cc	_	_
+6	types	type	NOUN	NNS	Number=Plur	4	conj	_	_
+7	of	of	ADP	IN	_	8	case	_	_
+8	songs	song	NOUN	NNS	Number=Plur	6	nmod	_	_
+9	in	in	ADP	IN	_	11	case	_	_
+10	the	the	DET	DT	_	11	det	_	_
+11	1920s	1920s	NUM	CD	NumType=Card	1	dep	_	_
+12	?	?	X	?	_	1	dep	_	_
+
+# text = What does NASA stand for ?
+1	What	what	PRON	WP	PronType=Int,Rel	4	obl	_	_
+2	does	do	VERB	VBZ	Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	aux	_	_
+3	NASA	NASA	PROPN	NNP	Number=Sing	4	nsubj	_	_
+4	stand	stand	VERB	VB	VerbForm=Inf	0	root	_	_
+5	for	for	ADP	IN	_	1	case	_	_
+6	?	?	PUNCT	.	_	4	punct	_	_
+
+# text = What is the origin of the word Ozymandias ?
+1	What	what	PRON	WP	PronType=Int,Rel	0	root	_	_
+2	is	be	VERB	VBZ	Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	cop	_	_
+3	the	the	DET	DT	_	4	det	_	_
+4	origin	origin	NOUN	NN	Number=Sing	1	nsubj	_	_
+5	of	of	ADP	IN	_	8	case	_	_
+6	the	the	DET	DT	_	8	det	_	_
+7	word	word	NOUN	NN	Number=Sing	8	compound	_	_
+8	Ozymandias	ozymandias	NOUN	NN	Number=Sing	4	nmod	_	_
+9	?	?	X	?	_	1	dep	_	_
+
+# text = A corgi is a kind of what ?
+1	A	a	DET	DT	_	2	det	_	_
+2	corgi	corgi	NOUN	NN	Number=Sing	5	nsubj	_	_
+3	is	be	VERB	VBZ	Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	_
+4	a	a	DET	DT	_	5	det	_	_
+5	kind	kind	NOUN	NN	Number=Sing	0	root	_	_
+6	of	of	ADP	IN	_	7	case	_	_
+7	what	what	PRON	WP	PronType=Int,Rel	5	nmod	_	ToDo=nmod
+8	?	?	PUNCT	.	_	5	punct	_	_
+
+# text = Who has the most no hitters in major league baseball ?
+1	Who	who	PRON	WP	PronType=Int,Rel	2	nsubj	_	_
+2	has	have	VERB	VBZ	Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	the	the	DET	DT	_	4	det	_	_
+4	most	most	ADJ	JJ	Degree=Pos	6	amod	_	_
+5	no	no	DET	DT	_	6	det	_	_
+6	hitters	hitter	NOUN	NNS	Number=Plur	2	obj	_	_
+7	in	in	ADP	IN	_	10	case	_	_
+8	major	major	ADJ	JJ	Degree=Pos	10	amod	_	_
+9	league	league	NOUN	NN	Number=Sing	10	compound	_	_
+10	baseball	baseball	NOUN	NN	Number=Sing	2	obl	_	_
+11	?	?	PUNCT	.	_	2	punct	_	_
+
+# text = Who was Galileo ?
+1	Who	who	PRON	WP	PronType=Int,Rel	0	root	_	_
+2	was	be	VERB	VBD	Tense=Past|VerbForm=Fin	1	cop	_	_
+3	Galileo	Galileo	PROPN	NNP	Number=Sing	1	nsubj	_	_
+4	?	?	PUNCT	.	_	1	punct	_	_
+
+# text = What was the name of the computer in " 2001 : A Space Odyssey " ?
+1	What	what	PRON	WP	PronType=Int,Rel	0	root	_	_
+2	was	be	VERB	VBD	Tense=Past|VerbForm=Fin	1	cop	_	_
+3	the	the	DET	DT	_	4	det	_	_
+4	name	name	NOUN	NN	Number=Sing	1	nsubj	_	_
+5	of	of	ADP	IN	_	7	case	_	_
+6	the	the	DET	DT	_	7	det	_	_
+7	computer	computer	NOUN	NN	Number=Sing	4	nmod	_	_
+8	in	in	ADP	IN	_	10	case	_	_
+9	"	"	PUNCT	``	_	10	punct	_	_
+10	2001	2001	NUM	CD	NumType=Card	7	nmod	_	_
+11	:	:	PUNCT	:	_	10	punct	_	_
+12	A	a	DET	DT	_	14	det	_	_
+13	Space	space	NOUN	NN	Number=Sing	14	compound	_	_
+14	Odyssey	odyssey	NOUN	NN	Number=Sing	10	dep	_	_
+15	"	"	PUNCT	''	_	14	punct	_	_
+16	?	?	PUNCT	.	_	1	punct	_	_
+
+# text = What city 's airport is named Logan International ?
+1	What	what	DET	WDT	PronType=Int,Rel	4	det	_	_
+2	city	city	NOUN	NN	Number=Sing	4	nmod:poss	_	_
+3	's	's	PART	POS	Poss=Yes	2	case	_	_
+4	airport	airport	NOUN	NN	Number=Sing	6	nsubj:pass	_	_
+5	is	be	VERB	VBZ	Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	aux:pass	_	_
+6	named	name	VERB	VBN	Aspect=Perf|Tense=Past|VerbForm=Part	0	root	_	_
+7	Logan	Logan	PROPN	NNP	Number=Sing	8	compound	_	_
+8	International	International	PROPN	NNP	Number=Sing	6	obj	_	_
+9	?	?	PUNCT	.	_	6	punct	_	_
+
+# text = If something has petrified , what has it turned into ?
+1	If	if	ADP	IN	_	4	mark	_	_
+2	something	something	NOUN	NN	Number=Sing	4	nsubj	_	_
+3	has	have	VERB	VBZ	Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	aux	_	_
+4	petrified	petrify	VERB	VBD	Tense=Past|VerbForm=Fin	9	advcl	_	_
+5	,	,	PUNCT	,	_	9	punct	_	_
+6	what	what	PRON	WP	PronType=Int,Rel	9	obl	_	_
+7	has	have	VERB	VBZ	Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	aux	_	_
+8	it	it	PRON	PRP	PronType=Prs	9	nsubj	_	_
+9	turned	turn	VERB	VBN	Aspect=Perf|Tense=Past|VerbForm=Part	0	root	_	_
+10	into	into	ADP	IN	_	6	case	_	_
+11	?	?	PUNCT	.	_	9	punct	_	_
+
+# text = What do bats eat ?
+1	What	what	PRON	WP	PronType=Int,Rel	4	obj	_	_
+2	do	do	VERB	VBP	Tense=Pres|VerbForm=Fin	4	aux	_	_
+3	bats	bat	NOUN	NNS	Number=Plur	4	nsubj	_	_
+4	eat	eat	VERB	VB	VerbForm=Inf	0	root	_	_
+5	?	?	PUNCT	.	_	4	punct	_	_
+
+# text = What character did Tex Avery first create upon arriving at MGM ?
+1	What	what	DET	WDT	PronType=Int,Rel	2	det	_	_
+2	character	character	NOUN	NN	Number=Sing	7	obj	_	_
+3	did	do	VERB	VBD	Tense=Past|VerbForm=Fin	7	aux	_	_
+4	Tex	Tex	PROPN	NNP	Number=Sing	5	compound	_	_
+5	Avery	Avery	PROPN	NNP	Number=Sing	7	nsubj	_	_
+6	first	first	ADV	RB	Degree=Pos	7	advmod	_	_
+7	create	create	VERB	VB	VerbForm=Inf	0	root	_	_
+8	upon	upon	ADP	IN	_	9	mark	_	_
+9	arriving	arrive	VERB	VBG	Aspect=Prog|Tense=Pres|VerbForm=Part	7	advcl	_	_
+10	at	at	ADP	IN	_	11	case	_	_
+11	MGM	MGM	PROPN	NNP	Number=Sing	9	obl	_	_
+12	?	?	X	?	_	7	dep	_	_
+
+# text = What film canine is buried in Pere-Lachaise cemetery in Paris ?
+1	What	what	DET	WDT	PronType=Int,Rel	3	det	_	_
+2	film	film	NOUN	NN	Number=Sing	3	compound	_	_
+3	canine	canine	NOUN	NN	Number=Sing	5	nsubj:pass	_	_
+4	is	be	VERB	VBZ	Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	aux:pass	_	_
+5	buried	bury	VERB	VBN	Aspect=Perf|Tense=Past|VerbForm=Part	0	root	_	_
+6	in	in	ADP	IN	_	8	case	_	_
+7	Pere-Lachaise	Pere-Lachaise	PROPN	NNP	Number=Sing	8	compound	_	_
+8	cemetery	cemetery	NOUN	NN	Number=Sing	5	obl	_	_
+9	in	in	ADP	IN	_	10	case	_	_
+10	Paris	Paris	PROPN	NNP	Number=Sing	8	nmod	_	_
+11	?	?	X	?	_	5	dep	_	_
+
+# text = What is the most popular sport in Japan ?
+1	What	what	PRON	WP	PronType=Int,Rel	0	root	_	_
+2	is	be	VERB	VBZ	Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	cop	_	_
+3	the	the	DET	DT	_	6	det	_	_
+4	most	most	ADV	RBS	Degree=Sup	5	advmod	_	_
+5	popular	popular	ADJ	JJ	Degree=Pos	6	amod	_	_
+6	sport	sport	NOUN	NN	Number=Sing	1	nsubj	_	_
+7	in	in	ADP	IN	_	8	case	_	_
+8	Japan	Japan	PROPN	NNP	Number=Sing	6	nmod	_	_
+9	?	?	PUNCT	.	_	1	punct	_	_
+
+# text = What does the method called " cold fusion " create ?
+1	What	what	PRON	WP	PronType=Int,Rel	10	obj	_	_
+2	does	do	VERB	VBZ	Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	aux	_	_
+3	the	the	DET	DT	_	4	det	_	_
+4	method	method	NOUN	NN	Number=Sing	10	nsubj	_	_
+5	called	call	VERB	VBN	Aspect=Perf|Tense=Past|VerbForm=Part	4	acl	_	_
+6	"	"	PUNCT	``	_	8	punct	_	_
+7	cold	cold	ADJ	JJ	Degree=Pos	8	amod	_	_
+8	fusion	fusion	NOUN	NN	Number=Sing	5	obj	_	_
+9	"	"	PUNCT	''	_	8	punct	_	_
+10	create	create	VERB	VB	VerbForm=Inf	0	root	_	_
+11	?	?	X	?	_	10	dep	_	_
+
+# text = What is the fastest car in the world ?
+1	What	what	PRON	WP	PronType=Int,Rel	0	root	_	_
+2	is	be	VERB	VBZ	Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	cop	_	_
+3	the	the	DET	DT	_	5	det	_	_
+4	fastest	fastest	ADJ	JJS	Degree=Sup	5	amod	_	_
+5	car	car	NOUN	NN	Number=Sing	1	nsubj	_	_
+6	in	in	ADP	IN	_	8	case	_	_
+7	the	the	DET	DT	_	8	det	_	_
+8	world	world	NOUN	NN	Number=Sing	5	nmod	_	_
+9	?	?	PUNCT	.	_	1	punct	_	_
+
+# text = What are amicable numbers ?
+1	What	what	PRON	WP	PronType=Int,Rel	0	root	_	_
+2	are	be	VERB	VBP	Tense=Pres|VerbForm=Fin	1	cop	_	_
+3	amicable	amicable	ADJ	JJ	Degree=Pos	4	amod	_	_
+4	numbers	number	NOUN	NNS	Number=Plur	1	nsubj	_	_
+5	?	?	X	?	_	1	dep	_	_
+
+# text = What are hook worms ?
+1	What	what	PRON	WP	PronType=Int,Rel	0	root	_	_
+2	are	be	VERB	VBP	Tense=Pres|VerbForm=Fin	1	cop	_	_
+3	hook	hook	NOUN	NN	Number=Sing	4	compound	_	_
+4	worms	worm	NOUN	NNS	Number=Plur	1	nsubj	_	_
+5	?	?	X	?	_	1	dep	_	_
+
+# text = What President lived at 219 North Delaware Street , Independence , Missouri ?
+1	What	what	DET	WDT	PronType=Int,Rel	2	det	_	_
+2	President	president	NOUN	NN	Number=Sing	3	nsubj	_	_
+3	lived	live	VERB	VBD	Tense=Past|VerbForm=Fin	0	root	_	_
+4	at	at	ADP	IN	_	8	case	_	_
+5	219	219	NUM	CD	NumType=Card	8	nummod	_	_
+6	North	north	ADJ	JJ	Degree=Pos	8	amod	_	_
+7	Delaware	Delaware	PROPN	NNP	Number=Sing	8	compound	_	_
+8	Street	street	NOUN	NN	Number=Sing	3	obl	_	_
+9	,	,	PUNCT	,	_	8	punct	_	_
+10	Independence	Independence	PROPN	NNP	Number=Sing	8	appos	_	_
+11	,	,	PUNCT	,	_	10	punct	_	_
+12	Missouri	Missouri	PROPN	NNP	Number=Sing	10	appos	_	_
+13	?	?	X	?	_	3	dep	_	_
+
+# text = What is the size of the largest akita ?
+1	What	what	PRON	WP	PronType=Int,Rel	0	root	_	_
+2	is	be	VERB	VBZ	Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	cop	_	_
+3	the	the	DET	DT	_	4	det	_	_
+4	size	size	NOUN	NN	Number=Sing	1	nsubj	_	_
+5	of	of	ADP	IN	_	8	case	_	_
+6	the	the	DET	DT	_	8	det	_	_
+7	largest	largest	ADJ	JJS	Degree=Sup	8	amod	_	_
+8	akita	akita	NOUN	NN	Number=Sing	4	nmod	_	_
+9	?	?	X	?	_	1	dep	_	_
+
+# text = How much pizza do Americans eat in a day ?
+1	How	how	ADV	WRB	PronType=Int,Rel	2	advmod	_	_
+2	much	much	ADJ	JJ	Degree=Pos	3	amod	_	_
+3	pizza	pizza	NOUN	NN	Number=Sing	6	obj	_	_
+4	do	do	VERB	VBP	Tense=Pres|VerbForm=Fin	6	aux	_	_
+5	Americans	Americans	PROPN	NNPS	Number=Plur	6	nsubj	_	_
+6	eat	eat	VERB	VB	VerbForm=Inf	0	root	_	_
+7	in	in	ADP	IN	_	9	case	_	_
+8	a	a	DET	DT	_	9	det	_	_
+9	day	day	NOUN	NN	Number=Sing	6	obl	_	_
+10	?	?	X	?	_	6	dep	_	_
+
+# text = What wheel did Blaise Pascal invent in a search for perpetual motion ?
+1	What	what	DET	WDT	PronType=Int,Rel	2	det	_	_
+2	wheel	wheel	NOUN	NN	Number=Sing	6	obj	_	_
+3	did	do	VERB	VBD	Tense=Past|VerbForm=Fin	6	aux	_	_
+4	Blaise	Blaise	PROPN	NNP	Number=Sing	5	compound	_	_
+5	Pascal	Pascal	PROPN	NNP	Number=Sing	6	nsubj	_	_
+6	invent	invent	VERB	VB	VerbForm=Inf	0	root	_	_
+7	in	in	ADP	IN	_	9	case	_	_
+8	a	a	DET	DT	_	9	det	_	_
+9	search	search	NOUN	NN	Number=Sing	6	obl	_	_
+10	for	for	ADP	IN	_	12	case	_	_
+11	perpetual	perpetual	ADJ	JJ	Degree=Pos	12	amod	_	_
+12	motion	motion	NOUN	NN	Number=Sing	9	nmod	_	_
+13	?	?	X	?	_	6	dep	_	_
+
+# text = Who made a boat out of gopher wood ?
+1	Who	who	PRON	WP	PronType=Int,Rel	2	nsubj	_	_
+2	made	make	VERB	VBD	Tense=Past|VerbForm=Fin	0	root	_	_
+3	a	a	DET	DT	_	4	det	_	_
+4	boat	boat	NOUN	NN	Number=Sing	2	obj	_	_
+5	out	out	ADP	IN	_	8	case	_	_
+6	of	of	ADP	IN	_	8	case	_	_
+7	gopher	gopher	NOUN	NN	Number=Sing	8	compound	_	_
+8	wood	wood	NOUN	NN	Number=Sing	2	obl	_	_
+9	?	?	X	?	_	2	dep	_	_
+
+# text = What is a fear of bees ?
+1	What	what	PRON	WP	PronType=Int,Rel	0	root	_	_
+2	is	be	VERB	VBZ	Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	cop	_	_
+3	a	a	DET	DT	_	4	det	_	_
+4	fear	fear	NOUN	NN	Number=Sing	1	nsubj	_	_
+5	of	of	ADP	IN	_	6	case	_	_
+6	bees	bee	NOUN	NNS	Number=Plur	4	nmod	_	_
+7	?	?	X	?	_	1	dep	_	_
+
+# text = What is Olestra ?
+1	What	what	PRON	WP	PronType=Int,Rel	0	root	_	_
+2	is	be	VERB	VBZ	Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	cop	_	_
+3	Olestra	Olestra	PROPN	NNP	Number=Sing	1	nsubj	_	_
+4	?	?	X	?	_	1	dep	_	_
+
+# text = What was the first U.S.-based team in the NHL ?
+1	What	what	PRON	WP	PronType=Int,Rel	0	root	_	_
+2	was	be	VERB	VBD	Tense=Past|VerbForm=Fin	1	cop	_	_
+3	the	the	DET	DT	_	6	det	_	_
+4	first	first	ADJ	JJ	Degree=Pos	6	amod	_	_
+5	U.S.-based	u.s.-based	ADJ	JJ	Degree=Pos	6	amod	_	_
+6	team	team	NOUN	NN	Number=Sing	1	nsubj	_	_
+7	in	in	ADP	IN	_	9	case	_	_
+8	the	the	DET	DT	_	9	det	_	_
+9	NHL	NHL	PROPN	NNP	Number=Sing	6	nmod	_	_
+10	?	?	X	?	_	1	dep	_	_
+
+# text = What is schizophrenia ?
+1	What	what	PRON	WP	PronType=Int,Rel	0	root	_	_
+2	is	be	VERB	VBZ	Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	cop	_	_
+3	schizophrenia	schizophrenia	NOUN	NN	Number=Sing	1	nsubj	_	_
+4	?	?	PUNCT	.	_	1	punct	_	_
+
+# text = Who invented baseball ?
+1	Who	who	PRON	WP	PronType=Int,Rel	2	nsubj	_	_
+2	invented	invent	VERB	VBD	Tense=Past|VerbForm=Fin	0	root	_	_
+3	baseball	baseball	NOUN	NN	Number=Sing	2	obj	_	_
+4	?	?	PUNCT	.	_	2	punct	_	_
+
+# text = What is the date of Bastille Day ?
+1	What	what	PRON	WP	PronType=Int,Rel	0	root	_	_
+2	is	be	VERB	VBZ	Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	cop	_	_
+3	the	the	DET	DT	_	4	det	_	_
+4	date	date	NOUN	NN	Number=Sing	1	nsubj	_	_
+5	of	of	ADP	IN	_	7	case	_	_
+6	Bastille	Bastille	PROPN	NNP	Number=Sing	7	compound	_	_
+7	Day	Day	PROPN	NNP	Number=Sing	4	nmod	_	_
+8	?	?	PUNCT	.	_	1	punct	_	_
+
