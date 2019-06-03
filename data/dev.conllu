@@ -1,12 +1,12 @@
 # text = What percent of the U.S. is African American ?
 1	What	what	DET	WDT	PronType=Int,Rel	2	det	_	_
-2	percent	percent	NOUN	NN	Number=Sing	6	obj	_	_
+2	percent	percent	NOUN	NN	Number=Sing	8	nsubj	_	_
 3	of	of	ADP	IN	_	5	case	_	_
 4	the	the	DET	DT	_	5	det	_	_
 5	U.S.	U.S.	PROPN	NNP	Number=Sing	2	nmod	_	_
-6	is	be	VERB	VBZ	Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+6	is	be	AUX	VBZ	Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	aux	_	_
 7	African	African	PROPN	NNP	Number=Sing	8	compound	_	_
-8	American	American	PROPN	NNP	Number=Sing	6	nsubj	_	_
+8	American	American	PROPN	NNP	Number=Sing	0	root	_	_
 9	?	?	PUNCT	.	_	6	punct	_	_
 
 # text = Shea and Gould had an office in Los Angeles for how long before closing it ?
@@ -25,7 +25,7 @@
 13	before	before	ADP	IN	_	14	mark	_	_
 14	closing	close	VERB	VBG	Aspect=Prog|Tense=Pres|VerbForm=Part	4	advcl	_	_
 15	it	it	PRON	PRP	PronType=Prs	14	obj	_	_
-16	?	?	X	?	_	4	dep	_	_
+16	?	?	PUNCT	?	_	4	punct	_	_
 
 # text = In what high-risk business venture did Jimmy the Greek bet and lose ?
 1	In	in	ADP	IN	_	5	case	_	_
@@ -33,18 +33,18 @@
 3	high-risk	high-risk	ADJ	JJ	Degree=Pos	5	amod	_	_
 4	business	business	NOUN	NN	Number=Sing	5	compound	_	_
 5	venture	venture	NOUN	NN	Number=Sing	10	obl	_	_
-6	did	do	VERB	VBD	Tense=Past|VerbForm=Fin	10	aux	_	_
+6	did	do	AUX	VBD	Tense=Past|VerbForm=Fin	10	aux	_	_
 7	Jimmy	Jimmy	PROPN	NNP	Number=Sing	10	nsubj	_	_
 8	the	the	DET	DT	_	9	det	_	_
 9	Greek	greek	ADJ	JJ	Degree=Pos	7	amod	_	_
 10	bet	bet	VERB	VB	VerbForm=Inf	0	root	_	_
 11	and	and	CCONJ	CC	_	12	cc	_	_
 12	lose	lose	VERB	VB	VerbForm=Inf	10	conj	_	_
-13	?	?	X	?	_	10	dep	_	_
+13	?	?	PUNCT	?	_	10	punct	_	_
 
 # text = What was the Bridge of San Luis Rey made of ?
 1	What	what	PRON	WP	PronType=Int,Rel	9	obl	_	_
-2	was	be	VERB	VBD	Tense=Past|VerbForm=Fin	9	aux:pass	_	_
+2	was	be	AUX	VBD	Tense=Past|VerbForm=Fin	9	aux:pass	_	_
 3	the	the	DET	DT	_	4	det	_	_
 4	Bridge	bridge	NOUN	NN	Number=Sing	9	nsubj:pass	_	_
 5	of	of	ADP	IN	_	8	case	_	_
@@ -53,11 +53,11 @@
 8	Rey	Rey	PROPN	NNP	Number=Sing	4	nmod	_	_
 9	made	make	VERB	VBN	Aspect=Perf|Tense=Past|VerbForm=Part	0	root	_	_
 10	of	of	ADP	IN	_	1	case	_	_
-11	?	?	X	?	_	9	dep	_	_
+11	?	?	PUNCT	?	_	9	punct	_	_
 
 # text = When was London 's Docklands Light Railway constructed ?
 1	When	when	ADV	WRB	PronType=Int,Rel	8	advmod	_	_
-2	was	be	VERB	VBD	Tense=Past|VerbForm=Fin	8	aux:pass	_	_
+2	was	be	AUX	VBD	Tense=Past|VerbForm=Fin	8	aux:pass	_	_
 3	London	London	PROPN	NNP	Number=Sing	7	nmod:poss	_	_
 4	's	's	PART	POS	Poss=Yes	3	case	_	_
 5	Docklands	Docklands	PROPN	NNPS	Number=Plur	7	compound	_	_
@@ -121,10 +121,10 @@
 5	of	of	ADP	IN	_	9	case	_	_
 6	the	the	DET	DT	_	9	det	_	_
 7	name	name	NOUN	NN	Number=Sing	9	compound	_	_
-8	'	'	X	`	_	9	dep	_	_
+8	'	'	X	`	_	9	punct	_	_
 9	Scarlett	Scarlett	PROPN	NNP	Number=Sing	4	nmod	_	_
-10	'	'	X	'	_	9	dep	_	_
-11	?	?	X	?	_	1	dep	_	_
+10	'	'	X	'	_	9	punct	_	_
+11	?	?	PUNCT	?	_	1	punct	_	_
 
 # text = Where does Mother Angelica live ?
 1	Where	where	ADV	WRB	PronType=Int,Rel	5	advmod	_	_
@@ -143,7 +143,7 @@
 6	sensitive	sensitive	ADJ	JJ	Degree=Pos	0	root	_	_
 7	to	to	PART	TO	PartType=Inf|VerbForm=Inf	8	case	_	_
 8	light	light	NOUN	NN	Number=Sing	6	obl	_	_
-9	?	?	X	?	_	6	dep	_	_
+9	?	?	PUNCT	?	_	6	punct	_	_
 
 # text = What was Michelangelo 's last name ?
 1	What	what	PRON	WP	PronType=Int,Rel	0	root	_	_
@@ -152,7 +152,7 @@
 4	's	's	PART	POS	Poss=Yes	3	case	_	_
 5	last	last	ADJ	JJ	Degree=Pos	6	amod	_	_
 6	name	name	NOUN	NN	Number=Sing	1	nsubj	_	_
-7	?	?	X	?	_	1	dep	_	_
+7	?	?	PUNCT	?	_	1	punct	_	_
 
 # text = Where was Harry Truman born ?
 1	Where	where	ADV	WRB	PronType=Int,Rel	5	advmod	_	_
@@ -180,7 +180,7 @@
 5	Wall	Wall	PROPN	NNP	Number=Sing	6	nsubj	_	_
 6	go	go	VERB	VB	VerbForm=Inf	0	root	_	_
 7	up	up	ADP	RP	PartType=Vbp	6	compound:prt	_	_
-8	?	?	X	?	_	6	dep	_	_
+8	?	?	PUNCT	?	_	6	punct	_	_
 
 # text = What is the National Park in Utah ?
 1	What	what	PRON	WP	PronType=Int,Rel	0	root	_	_
@@ -196,7 +196,7 @@
 1	What	what	PRON	WP	PronType=Int,Rel	0	root	_	_
 2	is	be	VERB	VBZ	Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	cop	_	_
 3	color	color	NOUN	NN	Number=Sing	1	nsubj	_	_
-4	?	?	X	?	_	1	dep	_	_
+4	?	?	PUNCT	?	_	1	punct	_	_
 
 # text = What 's the final line in the Edgar Allen Poe poem " The Raven " ?
 1	What	what	PRON	WP	PronType=Int,Rel	2	nsubj	_	_
@@ -274,7 +274,7 @@
 11	to	to	PART	TO	PartType=Inf|VerbForm=Inf	13	case	_	_
 12	the	the	DET	DT	_	13	det	_	_
 13	bathroom	bathroom	NOUN	NN	Number=Sing	10	obl	_	_
-14	?	?	X	?	_	10	dep	_	_
+14	?	?	PUNCT	?	_	10	punct	_	_
 
 # text = What 's an infant seal called ?
 1	What	what	PRON	WP	PronType=Int,Rel	6	obj	_	_
@@ -283,7 +283,7 @@
 4	infant	infant	NOUN	NN	Number=Sing	5	compound	_	_
 5	seal	seal	NOUN	NN	Number=Sing	6	nsubj	_	_
 6	called	call	VERB	VBG	Aspect=Prog|Tense=Pres|VerbForm=Part	0	root	_	_
-7	?	?	X	?	_	6	dep	_	_
+7	?	?	PUNCT	?	_	6	punct	_	_
 
 # text = What type of bridge is the Golden Gate Bridge ?
 1	What	what	DET	WDT	PronType=Int,Rel	2	det	_	_
@@ -333,7 +333,7 @@
 9	of	of	ADP	IN	_	11	case	_	_
 10	a	a	DET	DT	_	11	det	_	_
 11	bottle	bottle	NOUN	NN	Number=Sing	4	obl	_	_
-12	?	?	X	?	_	4	dep	_	_
+12	?	?	PUNCT	?	_	4	punct	_	_
 
 # text = How many more weeks of winter are there if a ground hog sees his shadow ?
 1	How	how	ADV	WRB	PronType=Int,Rel	2	advmod	_	_
@@ -351,7 +351,7 @@
 13	sees	see	VERB	VBZ	Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	dep	_	_
 14	his	he	DET	PRP$	Poss=Yes|PronType=Prs	15	nmod:poss	_	_
 15	shadow	shadow	NOUN	NN	Number=Sing	13	obj	_	_
-16	?	?	X	?	_	7	dep	_	_
+16	?	?	PUNCT	?	_	7	punct	_	_
 
 # text = What are the names of the tourist attractions in Reims ?
 1	What	what	PRON	WP	PronType=Int,Rel	0	root	_	_
@@ -386,7 +386,7 @@
 17	,	,	PUNCT	,	_	16	punct	_	_
 18	1642-1649	1642-1649	NUM	CD	NumType=Card	16	amod	_	_
 19	,	,	PUNCT	,	_	16	punct	_	_
-20	?	?	X	?	_	4	dep	_	_
+20	?	?	PUNCT	?	_	4	punct	_	_
 
 # text = What is the origin and the meaning of the name , " Hajo ? "
 1	What	what	PRON	WP	PronType=Int,Rel	0	root	_	_
@@ -402,7 +402,7 @@
 11	,	,	PUNCT	,	_	10	punct	_	_
 12	"	"	PUNCT	``	_	13	punct	_	_
 13	Hajo	Hajo	PROPN	NNP	Number=Sing	10	appos	_	_
-14	?	?	X	?	_	1	dep	_	_
+14	?	?	PUNCT	?	_	1	punct	_	_
 15	"	"	PUNCT	''	_	1	punct	_	_
 
 # text = How many types of lemurs are there ?
@@ -423,7 +423,7 @@
 5	pitcher	pitcher	NOUN	NN	Number=Sing	7	nmod:poss	_	_
 6	's	's	PART	POS	Poss=Yes	5	case	_	_
 7	mound	mound	NOUN	NN	Number=Sing	3	nsubj	_	_
-8	?	?	X	?	_	3	dep	_	_
+8	?	?	PUNCT	?	_	3	punct	_	_
 
 # text = What is the real name of disc jockey " Wolfman Jack " ?
 1	What	what	PRON	WP	PronType=Int,Rel	0	root	_	_
@@ -438,7 +438,7 @@
 10	Wolfman	Wolfman	PROPN	NNP	Number=Sing	11	compound	_	_
 11	Jack	Jack	PROPN	NNP	Number=Sing	5	nmod	_	_
 12	"	"	PUNCT	''	_	11	punct	_	_
-13	?	?	X	?	_	1	dep	_	_
+13	?	?	PUNCT	?	_	1	punct	_	_
 
 # text = What is cryptography ?
 1	What	what	PRON	WP	PronType=Int,Rel	0	root	_	_
@@ -463,7 +463,7 @@
 3	Aaron	Aaron	PROPN	NNP	Number=Sing	4	compound	_	_
 4	Hass	Hass	PROPN	NNP	Number=Sing	5	nsubj	_	_
 5	write	write	VERB	VB	VerbForm=Inf	0	root	_	_
-6	?	?	X	?	_	5	dep	_	_
+6	?	?	PUNCT	?	_	5	punct	_	_
 
 # text = How long would it take to get from Earth to Mars ?
 1	How	how	ADV	WRB	PronType=Int,Rel	2	advmod	_	_
@@ -488,7 +488,7 @@
 6	horse	horse	NOUN	NN	Number=Sing	8	nmod:poss	_	_
 7	's	's	PART	POS	Poss=Yes	6	case	_	_
 8	name	name	NOUN	NN	Number=Sing	1	nsubj	_	_
-9	?	?	X	?	_	1	dep	_	_
+9	?	?	PUNCT	?	_	1	punct	_	_
 
 # text = What were the three prophecies the witches make to Macbeth ?
 1	What	what	PRON	WP	PronType=Int,Rel	0	root	_	_
@@ -501,7 +501,7 @@
 8	make	make	VERB	VB	VerbForm=Inf	5	acl:relcl	_	_
 9	to	to	PART	TO	PartType=Inf|VerbForm=Inf	10	case	_	_
 10	Macbeth	Macbeth	PROPN	NNP	Number=Sing	8	obl	_	_
-11	?	?	X	?	_	1	dep	_	_
+11	?	?	PUNCT	?	_	1	punct	_	_
 
 # text = What is the tallest building in Japan ?
 1	What	what	PRON	WP	PronType=Int,Rel	0	root	_	_
@@ -550,7 +550,7 @@
 4	function	function	NOUN	NN	Number=Sing	1	nsubj	_	_
 5	of	of	ADP	IN	_	6	case	_	_
 6	RAM	RAM	PROPN	NNP	Number=Sing	4	nmod	_	_
-7	?	?	X	?	_	1	dep	_	_
+7	?	?	PUNCT	?	_	1	punct	_	_
 
 # text = What National Basketball Association superstar told his story in Giant Steps ?
 1	What	what	DET	WDT	PronType=Int,Rel	5	det	_	_
@@ -564,14 +564,14 @@
 9	in	in	ADP	IN	_	11	case	_	_
 10	Giant	giant	ADJ	JJ	Degree=Pos	11	amod	_	_
 11	Steps	step	NOUN	NNS	Number=Plur	8	nmod	_	_
-12	?	?	X	?	_	6	dep	_	_
+12	?	?	PUNCT	?	_	6	punct	_	_
 
 # text = How do clouds form ?
 1	How	how	ADV	WRB	PronType=Int,Rel	4	advmod	_	_
 2	do	do	VERB	VBP	Tense=Pres|VerbForm=Fin	4	aux	_	_
 3	clouds	cloud	NOUN	NNS	Number=Plur	4	nsubj	_	_
 4	form	form	VERB	VB	VerbForm=Inf	0	root	_	_
-5	?	?	X	?	_	4	dep	_	_
+5	?	?	PUNCT	?	_	4	punct	_	_
 
 # text = What is the lowest level of the American judiciary ?
 1	What	what	PRON	WP	PronType=Int,Rel	0	root	_	_
@@ -583,7 +583,7 @@
 7	the	the	DET	DT	_	9	det	_	_
 8	American	american	ADJ	JJ	Degree=Pos	9	amod	_	_
 9	judiciary	judiciary	NOUN	NN	Number=Sing	5	nmod	_	_
-10	?	?	X	?	_	1	dep	_	_
+10	?	?	PUNCT	?	_	1	punct	_	_
 
 # text = What U.S. state 's motto is " Live free or Die " ?
 1	What	what	DET	WDT	PronType=Int,Rel	3	det	_	_
@@ -627,7 +627,7 @@
 8	the	the	DET	DT	_	9	det	_	_
 9	year	year	NOUN	NN	Number=Sing	0	root	_	_
 10	2000	2000	NUM	CD	NumType=Card	9	nummod	_	_
-11	?	?	X	?	_	9	dep	_	_
+11	?	?	PUNCT	?	_	9	punct	_	_
 
 # text = What department is responsible for regulating casino gambling in Mississippi ?
 1	What	what	DET	WDT	PronType=Int,Rel	2	det	_	_
@@ -640,7 +640,7 @@
 8	gambling	gambling	NOUN	NN	Number=Sing	6	obj	_	_
 9	in	in	ADP	IN	_	10	case	_	_
 10	Mississippi	Mississippi	PROPN	NNP	Number=Sing	8	nmod	_	_
-11	?	?	X	?	_	4	dep	_	_
+11	?	?	PUNCT	?	_	4	punct	_	_
 
 # text = What college did Allen Iverson attend ?
 1	What	what	DET	WDT	PronType=Int,Rel	2	det	_	_
@@ -721,7 +721,7 @@
 14	on	on	ADP	IN	_	16	case	_	_
 15	Hollywood	Hollywood	PROPN	NNP	Number=Sing	16	compound	_	_
 16	Boulevard	Boulevard	PROPN	NNP	Number=Sing	12	nmod	_	_
-17	?	?	X	?	_	9	dep	_	_
+17	?	?	PUNCT	?	_	9	punct	_	_
 
 # text = Who was the first black heavyweight champion ?
 1	Who	who	PRON	WP	PronType=Int,Rel	0	root	_	_
@@ -743,7 +743,7 @@
 7	Dogtown	Dogtown	PROPN	NNP	Number=Sing	5	nmod	_	_
 8	in	in	ADP	IN	_	9	case	_	_
 9	1899	1899	NUM	CD	NumType=Card	3	obl	_	_
-10	?	?	X	?	_	3	dep	_	_
+10	?	?	PUNCT	?	_	3	punct	_	_
 
 # text = Who said " I have not begun to fight ! " ?
 1	Who	who	PRON	WP	PronType=Int,Rel	2	nsubj	_	_
@@ -755,7 +755,7 @@
 7	begun	begin	VERB	VBN	Aspect=Perf|Tense=Past|VerbForm=Part	2	ccomp	_	_
 8	to	to	PART	TO	PartType=Inf|VerbForm=Inf	9	mark	_	_
 9	fight	fight	VERB	VB	VerbForm=Inf	7	xcomp	_	_
-10	!	!	X	!	_	7	dep	_	_
+10	!	!	X	!	_	7	punct	_	_
 11	"	"	PUNCT	''	_	7	punct	_	_
 12	?	?	PUNCT	.	_	2	punct	_	_
 
@@ -767,7 +767,7 @@
 5	's	's	PART	POS	Poss=Yes	4	case	_	_
 6	middle	middle	ADJ	JJ	Degree=Pos	7	amod	_	_
 7	name	name	NOUN	NN	Number=Sing	1	nsubj	_	_
-8	?	?	X	?	_	1	dep	_	_
+8	?	?	PUNCT	?	_	1	punct	_	_
 
 # text = When did Elvis Presley die ?
 1	When	when	ADV	WRB	PronType=Int,Rel	5	advmod	_	_
@@ -797,7 +797,7 @@
 8	and	and	CCONJ	CC	_	9	cc	_	_
 9	Gould	Gould	PROPN	NNP	Number=Sing	7	conj	_	_
 10	closed	close	VERB	VBN	Aspect=Perf|Tense=Past|VerbForm=Part	0	root	_	_
-11	?	?	X	?	_	10	dep	_	_
+11	?	?	PUNCT	?	_	10	punct	_	_
 
 # text = What type of hunting are retrievers used for ?
 1	What	what	DET	WDT	PronType=Int,Rel	2	det	_	_
@@ -830,7 +830,7 @@
 7	from	from	ADP	IN	_	9	case	_	_
 8	Northwestern	Northwestern	PROPN	NNP	Number=Sing	9	compound	_	_
 9	University	university	NOUN	NN	Number=Sing	6	nmod	_	_
-10	?	?	X	?	_	3	dep	_	_
+10	?	?	PUNCT	?	_	3	punct	_	_
 
 # text = What is the full name of the PLO ?
 1	What	what	PRON	WP	PronType=Int,Rel	0	root	_	_
@@ -841,7 +841,7 @@
 6	of	of	ADP	IN	_	8	case	_	_
 7	the	the	DET	DT	_	8	det	_	_
 8	PLO	PLO	PROPN	NNP	Number=Sing	5	nmod	_	_
-9	?	?	X	?	_	1	dep	_	_
+9	?	?	PUNCT	?	_	1	punct	_	_
 
 # text = What are the words to " My Way " written by Paul Anka ?
 1	What	what	PRON	WP	PronType=Int,Rel	0	root	_	_
@@ -857,7 +857,7 @@
 11	by	by	ADP	IN	_	13	case	_	_
 12	Paul	Paul	PROPN	NNP	Number=Sing	13	compound	_	_
 13	Anka	Anka	PROPN	NNP	Number=Sing	10	obl	_	_
-14	?	?	X	?	_	1	dep	_	_
+14	?	?	PUNCT	?	_	1	punct	_	_
 
 # text = What are two plants that clothes are made from ?
 1	What	what	PRON	WP	PronType=Int,Rel	0	root	_	_
@@ -869,7 +869,7 @@
 7	are	be	VERB	VBP	Tense=Pres|VerbForm=Fin	8	aux:pass	_	_
 8	made	make	VERB	VBN	Aspect=Perf|Tense=Past|VerbForm=Part	4	dep	_	_
 9	from	from	ADP	IN	_	8	obl	_	_
-10	?	?	X	?	_	1	dep	_	_
+10	?	?	PUNCT	?	_	1	punct	_	_
 
 # text = In the Bible , who was Jacob 's mother ?
 1	In	in	ADP	IN	_	3	case	_	_
@@ -918,7 +918,7 @@
 4	troops	troops	NOUN	NNS	Number=Plur	5	nsubj	_	_
 5	invade	invade	VERB	VB	VerbForm=Inf	0	root	_	_
 6	Kuwait	Kuwait	PROPN	NNP	Number=Sing	5	obj	_	_
-7	?	?	X	?	_	5	dep	_	_
+7	?	?	PUNCT	?	_	5	punct	_	_
 
 # text = When did they put Mir down ?
 1	When	when	ADV	WRB	PronType=Int,Rel	4	advmod	_	_
@@ -946,7 +946,7 @@
 5	in	in	ADP	IN	_	7	case	_	_
 6	their	they	DET	PRP$	Poss=Yes|PronType=Prs	7	nmod:poss	_	_
 7	humps	hump	NOUN	NNS	Number=Plur	4	obl	_	_
-8	?	?	X	?	_	4	dep	_	_
+8	?	?	PUNCT	?	_	4	punct	_	_
 
 # text = What comedian was born Allen Stewart Konigsberg ?
 1	What	what	DET	WDT	PronType=Int,Rel	2	det	_	_
@@ -956,7 +956,7 @@
 5	Allen	Allen	PROPN	NNP	Number=Sing	7	compound	_	_
 6	Stewart	Stewart	PROPN	NNP	Number=Sing	7	compound	_	_
 7	Konigsberg	Konigsberg	PROPN	NNP	Number=Sing	4	obj	_	_
-8	?	?	X	?	_	4	dep	_	_
+8	?	?	PUNCT	?	_	4	punct	_	_
 
 # text = What is the term for the sum of all genetic material in a given organism ?
 1	What	what	PRON	WP	PronType=Int,Rel	0	root	_	_
@@ -1004,7 +1004,7 @@
 7	the	the	DET	DT	_	9	det	_	_
 8	American	american	ADJ	JJ	Degree=Pos	9	amod	_	_
 9	Revolution	revolution	NOUN	NN	Number=Sing	5	obl	_	_
-10	?	?	X	?	_	5	dep	_	_
+10	?	?	PUNCT	?	_	5	punct	_	_
 
 # text = Who said , " I shall return . " during World War Two ?
 1	Who	who	PRON	WP	PronType=Int,Rel	2	obj	_	_
@@ -1020,7 +1020,7 @@
 11	World	World	PROPN	NNP	Number=Sing	12	compound	_	_
 12	War	War	PROPN	NNP	Number=Sing	2	obl	_	_
 13	Two	two	NUM	CD	NumType=Card	12	nummod	_	_
-14	?	?	X	?	_	2	dep	_	_
+14	?	?	PUNCT	?	_	2	punct	_	_
 
 # text = What does a philatelist collect ?
 1	What	what	PRON	WP	PronType=Int,Rel	5	obj	_	_
@@ -1028,7 +1028,7 @@
 3	a	a	DET	DT	_	4	det	_	_
 4	philatelist	philatelist	NOUN	NN	Number=Sing	5	nsubj	_	_
 5	collect	collect	VERB	VB	VerbForm=Inf	0	root	_	_
-6	?	?	X	?	_	5	dep	_	_
+6	?	?	PUNCT	?	_	5	punct	_	_
 
 # text = What 's the farthest planet from the sun ?
 1	What	what	PRON	WP	PronType=Int,Rel	2	nsubj	_	_
@@ -1060,7 +1060,7 @@
 9	third-rate	third-rate	ADJ	JJ	Degree=Pos	11	amod	_	_
 10	burglary	burglary	NOUN	NN	Number=Sing	11	compound	_	_
 11	attempt	attempt	NOUN	NN	Number=Sing	5	obl	_	_
-12	?	?	X	?	_	5	dep	_	_
+12	?	?	PUNCT	?	_	5	punct	_	_
 
 # text = Who was the Union general in the Battle of Winchester ?
 1	Who	who	PRON	WP	PronType=Int,Rel	0	root	_	_
@@ -1083,7 +1083,7 @@
 5	largest	largest	ADJ	JJS	Degree=Sup	7	amod	_	_
 6	sheep	sheep	NOUN	NN	Number=Sing	7	compound	_	_
 7	population	population	NOUN	NN	Number=Sing	3	obj	_	_
-8	?	?	X	?	_	3	dep	_	_
+8	?	?	PUNCT	?	_	3	punct	_	_
 
 # text = Who invented the vacuum cleaner ?
 1	Who	who	PRON	WP	PronType=Int,Rel	2	nsubj	_	_
@@ -1091,7 +1091,7 @@
 3	the	the	DET	DT	_	5	det	_	_
 4	vacuum	vacuum	NOUN	NN	Number=Sing	5	compound	_	_
 5	cleaner	cleaner	NOUN	NN	Number=Sing	2	obj	_	_
-6	?	?	X	?	_	2	dep	_	_
+6	?	?	PUNCT	?	_	2	punct	_	_
 
 # text = What country is the world 's largest importer of cognac ?
 1	What	what	DET	WDT	PronType=Int,Rel	2	det	_	_
@@ -1104,14 +1104,14 @@
 8	importer	importer	NOUN	NN	Number=Sing	5	dep	_	_
 9	of	of	ADP	IN	_	10	case	_	_
 10	cognac	cognac	NOUN	NN	Number=Sing	8	nmod	_	_
-11	?	?	X	?	_	3	dep	_	_
+11	?	?	PUNCT	?	_	3	punct	_	_
 
 # text = What is white chocolate ?
 1	What	what	PRON	WP	PronType=Int,Rel	0	root	_	_
 2	is	be	VERB	VBZ	Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	cop	_	_
 3	white	white	ADJ	JJ	Degree=Pos	4	amod	_	_
 4	chocolate	chocolate	NOUN	NN	Number=Sing	1	nsubj	_	_
-5	?	?	X	?	_	1	dep	_	_
+5	?	?	PUNCT	?	_	1	punct	_	_
 
 # text = What is the name of the American swimmer who won seven gold medals in the 1972 Olympics ?
 1	What	what	PRON	WP	PronType=Int,Rel	0	root	_	_
@@ -1131,7 +1131,7 @@
 15	the	the	DET	DT	_	17	det	_	_
 16	1972	1972	NUM	CD	NumType=Card	17	nummod	_	_
 17	Olympics	olympics	NOUN	NNS	Number=Plur	13	nmod	_	_
-18	?	?	X	?	_	1	dep	_	_
+18	?	?	PUNCT	?	_	1	punct	_	_
 
 # text = What does " antidisestablishmentarianism " mean ?
 1	What	what	PRON	WP	PronType=Int,Rel	6	obj	_	_
@@ -1140,7 +1140,7 @@
 4	antidisestablishmentarianism	antidisestablishmentarianism	NOUN	NN	Number=Sing	6	nsubj	_	_
 5	"	"	PUNCT	''	_	4	punct	_	_
 6	mean	mean	NOUN	NN	Number=Sing	0	root	_	_
-7	?	?	X	?	_	6	dep	_	_
+7	?	?	PUNCT	?	_	6	punct	_	_
 
 # text = What is the Islamic equivalent of the Red Cross ?
 1	What	what	PRON	WP	PronType=Int,Rel	0	root	_	_
@@ -1169,7 +1169,7 @@
 6	the	the	DET	DT	_	8	det	_	_
 7	name	name	NOUN	NN	Number=Sing	8	compound	_	_
 8	Katie	Katie	PROPN	NNP	Number=Sing	4	nmod	_	_
-9	?	?	X	?	_	1	dep	_	_
+9	?	?	PUNCT	?	_	1	punct	_	_
 
 # text = What kind of file has the extension .dbf ?
 1	What	what	DET	WDT	PronType=Int,Rel	2	det	_	_
@@ -1180,7 +1180,7 @@
 6	the	the	DET	DT	_	8	det	_	_
 7	extension	extension	NOUN	NN	Number=Sing	8	compound	_	_
 8	.dbf	.dbf	NOUN	NN	Number=Sing	5	obj	_	_
-9	?	?	X	?	_	5	dep	_	_
+9	?	?	PUNCT	?	_	5	punct	_	_
 
 # text = How old is Bernadette Peters ?
 1	How	how	ADV	WRB	PronType=Int,Rel	2	advmod	_	_
@@ -1188,7 +1188,7 @@
 3	is	be	VERB	VBZ	Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 4	Bernadette	Bernadette	PROPN	NNP	Number=Sing	5	compound	_	_
 5	Peters	Peters	PROPN	NNP	Number=Sing	3	nsubj	_	_
-6	?	?	X	?	_	3	dep	_	_
+6	?	?	PUNCT	?	_	3	punct	_	_
 
 # text = Who wrote " An Ideal Husband " ?
 1	Who	who	PRON	WP	PronType=Int,Rel	2	nsubj	_	_
@@ -1216,7 +1216,7 @@
 4	fear	fear	NOUN	NN	Number=Sing	1	nsubj	_	_
 5	of	of	ADP	IN	_	6	case	_	_
 6	fur	fur	NOUN	NN	Number=Sing	4	nmod	_	_
-7	?	?	X	?	_	1	dep	_	_
+7	?	?	PUNCT	?	_	1	punct	_	_
 
 # text = Why do n't you guys have some sort of contest where you ask a question and whoever finds the answers wins a prize ?
 1	Why	why	ADV	WRB	PronType=Int,Rel	6	advmod	_	_
@@ -1242,7 +1242,7 @@
 21	wins	win	VERB	VBZ	Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	conj	_	_
 22	a	a	DET	DT	_	23	det	_	_
 23	prize	prize	NOUN	NN	Number=Sing	21	obj	_	_
-24	?	?	X	?	_	6	dep	_	_
+24	?	?	PUNCT	?	_	6	punct	_	_
 
 # text = What year did the NFL go on strike ?
 1	What	what	DET	WDT	PronType=Int,Rel	2	det	_	_
@@ -1281,7 +1281,7 @@
 11	in	in	ADP	IN	_	13	case	_	_
 12	the	the	DET	DT	_	13	det	_	_
 13	World	World	PROPN	NNP	Number=Sing	10	nmod	_	_
-14	?	?	X	?	_	6	dep	_	_
+14	?	?	PUNCT	?	_	6	punct	_	_
 
 # text = What is Africa 's largest country ?
 1	What	what	PRON	WP	PronType=Int,Rel	0	root	_	_
@@ -1300,7 +1300,7 @@
 5	about	about	ADP	IN	_	7	case	_	_
 6	Samuel	Samuel	PROPN	NNP	Number=Sing	7	compound	_	_
 7	Gompers	Gompers	PROPN	NNP	Number=Sing	4	obl	_	_
-8	?	?	X	?	_	4	dep	_	_
+8	?	?	PUNCT	?	_	4	punct	_	_
 
 # text = The italian artist , Maurizio Pellegrin , is how old ?
 1	The	the	DET	DT	_	3	det	_	_
@@ -1313,7 +1313,7 @@
 8	is	be	VERB	VBZ	Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	dep	_	_
 9	how	how	ADV	WRB	PronType=Int,Rel	10	advmod	_	_
 10	old	old	ADJ	JJ	Degree=Pos	0	root	_	_
-11	?	?	X	?	_	10	dep	_	_
+11	?	?	PUNCT	?	_	10	punct	_	_
 
 # text = What is the life expectancy of the average woman in Nigeria ?
 1	What	what	PRON	WP	PronType=Int,Rel	0	root	_	_
@@ -1346,7 +1346,7 @@
 6	Justin	Justin	PROPN	NNP	Number=Sing	4	dep	_	_
 7	"	"	PUNCT	''	_	6	punct	_	_
 8	mean	mean	NOUN	NN	Number=Sing	0	root	_	_
-9	?	?	X	?	_	8	dep	_	_
+9	?	?	PUNCT	?	_	8	punct	_	_
 
 # text = What types of water pollution are there ?
 1	What	what	DET	WDT	PronType=Int,Rel	2	det	_	_
@@ -1356,7 +1356,7 @@
 5	pollution	pollution	NOUN	NN	Number=Sing	2	nmod	_	_
 6	are	be	VERB	VBP	Tense=Pres|VerbForm=Fin	0	root	_	_
 7	there	there	PRON	EX	AdvType=Ex	6	expl	_	_
-8	?	?	X	?	_	6	dep	_	_
+8	?	?	PUNCT	?	_	6	punct	_	_
 
 # text = What is a Canada two-penny black ?
 1	What	what	PRON	WP	PronType=Int,Rel	0	root	_	_
@@ -1365,7 +1365,7 @@
 4	Canada	Canada	PROPN	NNP	Number=Sing	1	nsubj	_	_
 5	two-penny	two-penny	ADJ	JJ	Degree=Pos	4	amod	_	_
 6	black	black	ADJ	JJ	Degree=Pos	4	amod	_	_
-7	?	?	X	?	_	1	dep	_	_
+7	?	?	PUNCT	?	_	1	punct	_	_
 
 # text = What is the effect of acid rain ?
 1	What	what	PRON	WP	PronType=Int,Rel	0	root	_	_
@@ -1444,7 +1444,7 @@
 4	fear	fear	NOUN	NN	Number=Sing	1	nsubj	_	_
 5	of	of	ADP	IN	_	6	case	_	_
 6	shadows	shadow	NOUN	NNS	Number=Plur	4	nmod	_	_
-7	?	?	X	?	_	1	dep	_	_
+7	?	?	PUNCT	?	_	1	punct	_	_
 
 # text = The corpus callosum is in what part of the body ?
 1	The	the	DET	DT	_	3	det	_	_
@@ -1478,7 +1478,7 @@
 6	jazz	jazz	NOUN	NN	Number=Sing	4	nmod	_	_
 7	and	and	CCONJ	CC	_	8	cc	_	_
 8	blues	blues	NOUN	NN	Number=Sing	6	conj	_	_
-9	?	?	X	?	_	1	dep	_	_
+9	?	?	PUNCT	?	_	1	punct	_	_
 
 # text = What company makes Bentley cars ?
 1	What	what	DET	WDT	PronType=Int,Rel	2	det	_	_
@@ -1530,7 +1530,7 @@
 8	in	in	ADP	IN	_	9	case	_	_
 9	September	September	PROPN	NNP	Number=Sing	6	obl	_	_
 10	1939	1939	NUM	CD	NumType=Card	9	nummod	_	_
-11	?	?	X	?	_	6	dep	_	_
+11	?	?	PUNCT	?	_	6	punct	_	_
 
 # text = How can you tell if someone is lying ?
 1	How	how	ADV	WRB	PronType=Int,Rel	4	advmod	_	_
@@ -1541,7 +1541,7 @@
 6	someone	someone	NOUN	NN	Number=Sing	8	nsubj	_	_
 7	is	be	VERB	VBZ	Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	aux	_	_
 8	lying	lie	VERB	VBG	Aspect=Prog|Tense=Pres|VerbForm=Part	4	advcl	_	_
-9	?	?	X	?	_	4	dep	_	_
+9	?	?	PUNCT	?	_	4	punct	_	_
 
 # text = What are the characters ' names in the Scooby-Doo cartoon ?
 1	What	what	PRON	WP	PronType=Int,Rel	0	root	_	_
@@ -1554,7 +1554,7 @@
 8	the	the	DET	DT	_	10	det	_	_
 9	Scooby-Doo	Scooby-Doo	PROPN	NNP	Number=Sing	10	compound	_	_
 10	cartoon	cartoon	NOUN	NN	Number=Sing	6	nmod	_	_
-11	?	?	X	?	_	1	dep	_	_
+11	?	?	PUNCT	?	_	1	punct	_	_
 
 # text = What are the two largest birds on earth ?
 1	What	what	PRON	WP	PronType=Int,Rel	0	root	_	_
@@ -1565,7 +1565,7 @@
 6	birds	bird	NOUN	NNS	Number=Plur	1	nsubj	_	_
 7	on	on	ADP	IN	_	8	case	_	_
 8	earth	earth	NOUN	NN	Number=Sing	6	nmod	_	_
-9	?	?	X	?	_	1	dep	_	_
+9	?	?	PUNCT	?	_	1	punct	_	_
 
 # text = Winnie the Pooh is what kind of animal ?
 1	Winnie	Winnie	PROPN	NNP	Number=Sing	3	compound	_	_
@@ -1587,7 +1587,7 @@
 6	and	and	CCONJ	CC	_	7	cc	_	_
 7	name	name	VERB	VB	VerbForm=Inf	4	conj	_	_
 8	them	they	PRON	PRP	PronType=Prs	7	obj	_	_
-9	?	?	X	?	_	4	dep	_	_
+9	?	?	PUNCT	?	_	4	punct	_	_
 
 # text = What do you call a newborn kangaroo ?
 1	What	what	PRON	WP	PronType=Int,Rel	4	dep	_	_
@@ -1605,7 +1605,7 @@
 3	has	have	VERB	VBZ	Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 4	bigger	bigger	ADJ	JJR	Degree=Cmp	5	amod	_	_
 5	thighs	thigh	NOUN	NNS	Number=Plur	3	obj	_	_
-6	?	?	X	?	_	3	dep	_	_
+6	?	?	PUNCT	?	_	3	punct	_	_
 
 # text = What is cribbage ?
 1	What	what	PRON	WP	PronType=Int,Rel	0	root	_	_
@@ -1649,7 +1649,7 @@
 10	the	the	DET	DT	_	12	det	_	_
 11	Chinese	chinese	ADJ	JJ	Degree=Pos	12	amod	_	_
 12	embassy	embassy	NOUN	NN	Number=Sing	9	obj	_	_
-13	?	?	X	?	_	7	dep	_	_
+13	?	?	PUNCT	?	_	7	punct	_	_
 
 # text = Whose first presidential order was : " Let 's get this goddamn thing airborne " ?
 1	Whose	whose	DET	WP$	Poss=Yes|PronType=Int,Rel	4	nmod:poss	_	_
@@ -1667,7 +1667,7 @@
 13	thing	thing	NOUN	NN	Number=Sing	10	obj	_	_
 14	airborne	airborne	ADJ	JJ	Degree=Pos	10	xcomp	_	_
 15	"	"	PUNCT	''	_	14	punct	_	_
-16	?	?	X	?	_	5	dep	_	_
+16	?	?	PUNCT	?	_	5	punct	_	_
 
 # text = What Colorado city owns its own glacier ?
 1	What	what	DET	WDT	PronType=Int,Rel	3	det	_	_
@@ -1677,7 +1677,7 @@
 5	its	its	DET	PRP$	Poss=Yes|PronType=Prs	7	nmod:poss	_	_
 6	own	own	ADJ	JJ	Degree=Pos	7	amod	_	_
 7	glacier	glacier	NOUN	NN	Number=Sing	4	obj	_	_
-8	?	?	X	?	_	4	dep	_	_
+8	?	?	PUNCT	?	_	4	punct	_	_
 
 # text = How many boys play the game in Winslow Homer 's 1872 painting Snap the Whip ?
 1	How	how	ADV	WRB	PronType=Int,Rel	2	advmod	_	_
@@ -1695,7 +1695,7 @@
 13	Snap	snap	VERB	VB	VerbForm=Inf	9	dep	_	_
 14	the	the	DET	DT	_	15	det	_	_
 15	Whip	whip	NOUN	NN	Number=Sing	13	obj	_	_
-16	?	?	X	?	_	4	dep	_	_
+16	?	?	PUNCT	?	_	4	punct	_	_
 
 # text = What two countries share the Khyber Pass ?
 1	What	what	DET	WDT	PronType=Int,Rel	3	det	_	_
@@ -1705,7 +1705,7 @@
 5	the	the	DET	DT	_	7	det	_	_
 6	Khyber	Khyber	PROPN	NNP	Number=Sing	7	compound	_	_
 7	Pass	pass	NOUN	NN	Number=Sing	4	obj	_	_
-8	?	?	X	?	_	4	dep	_	_
+8	?	?	PUNCT	?	_	4	punct	_	_
 
 # text = How do you make a paintball ?
 1	How	how	ADV	WRB	PronType=Int,Rel	4	advmod	_	_
@@ -1714,7 +1714,7 @@
 4	make	make	VERB	VB	VerbForm=Inf	0	root	_	_
 5	a	a	DET	DT	_	6	det	_	_
 6	paintball	paintball	NOUN	NN	Number=Sing	4	obj	_	_
-7	?	?	X	?	_	4	dep	_	_
+7	?	?	PUNCT	?	_	4	punct	_	_
 
 # text = What is the sales tax rate in New York ?
 1	What	what	PRON	WP	PronType=Int,Rel	0	root	_	_
@@ -1738,14 +1738,14 @@
 7	win	win	VERB	VB	VerbForm=Inf	0	root	_	_
 8	in	in	ADP	IN	_	9	case	_	_
 9	1983	1983	NUM	CD	NumType=Card	7	obl	_	_
-10	?	?	X	?	_	7	dep	_	_
+10	?	?	PUNCT	?	_	7	punct	_	_
 
 # text = What are perfect tenses ?
 1	What	what	PRON	WP	PronType=Int,Rel	0	root	_	_
 2	are	be	VERB	VBP	Tense=Pres|VerbForm=Fin	1	cop	_	_
 3	perfect	perfect	ADJ	JJ	Degree=Pos	4	amod	_	_
 4	tenses	tense	NOUN	NNS	Number=Plur	1	nsubj	_	_
-5	?	?	X	?	_	1	dep	_	_
+5	?	?	PUNCT	?	_	1	punct	_	_
 
 # text = What poet wrote : " ... I have promises to keep , and miles to go before I sleep " ?
 1	What	what	DET	WDT	PronType=Int,Rel	2	det	_	_
@@ -1768,7 +1768,7 @@
 18	I	I	PRON	PRP	PronType=Prs	19	nsubj	_	_
 19	sleep	sleep	VERB	VBP	Tense=Pres|VerbForm=Fin	8	advcl	_	_
 20	"	"	PUNCT	''	_	19	punct	_	_
-21	?	?	X	?	_	3	dep	_	_
+21	?	?	PUNCT	?	_	3	punct	_	_
 
 # text = Where can I find information on George Bush ?
 1	Where	where	ADV	WRB	PronType=Int,Rel	4	advmod	_	_
@@ -1779,7 +1779,7 @@
 6	on	on	ADP	IN	_	8	case	_	_
 7	George	George	PROPN	NNP	Number=Sing	8	compound	_	_
 8	Bush	Bush	PROPN	NNP	Number=Sing	5	nmod	_	_
-9	?	?	X	?	_	4	dep	_	_
+9	?	?	PUNCT	?	_	4	punct	_	_
 
 # text = What was the top box office movie in April 1998 ?
 1	What	what	PRON	WP	PronType=Int,Rel	0	root	_	_
@@ -1792,7 +1792,7 @@
 8	in	in	ADP	IN	_	9	case	_	_
 9	April	April	PROPN	NNP	Number=Sing	7	nmod	_	_
 10	1998	1998	NUM	CD	NumType=Card	9	nummod	_	_
-11	?	?	X	?	_	1	dep	_	_
+11	?	?	PUNCT	?	_	1	punct	_	_
 
 # text = What year did Oklahoma become a state ?
 1	What	what	DET	WDT	PronType=Int,Rel	2	det	_	_
@@ -1825,7 +1825,7 @@
 8	Lake	Lake	PROPN	NNP	Number=Sing	10	compound	_	_
 9	Sam	Sam	PROPN	NNP	Number=Sing	10	compound	_	_
 10	Rayburn	Rayburn	PROPN	NNP	Number=Sing	7	nsubj	_	_
-11	?	?	X	?	_	7	dep	_	_
+11	?	?	PUNCT	?	_	7	punct	_	_
 
 # text = How many zip codes are there in the U.S. ?
 1	How	how	ADV	WRB	PronType=Int,Rel	2	advmod	_	_
@@ -1847,7 +1847,7 @@
 5	hair	hair	NOUN	NN	Number=Sing	6	compound	_	_
 6	dryer	dryer	NOUN	NN	Number=Sing	7	nsubj:pass	_	_
 7	made	make	VERB	VBN	Aspect=Perf|Tense=Past|VerbForm=Part	0	root	_	_
-8	?	?	X	?	_	7	dep	_	_
+8	?	?	PUNCT	?	_	7	punct	_	_
 
 # text = When was the first steel mill in the United States built ?
 1	When	when	ADV	WRB	PronType=Int,Rel	11	advmod	_	_
@@ -1861,7 +1861,7 @@
 9	United	United	PROPN	NNP	Number=Sing	10	compound	_	_
 10	States	States	PROPN	NNPS	Number=Plur	6	nmod	_	_
 11	built	build	VERB	VBN	Aspect=Perf|Tense=Past|VerbForm=Part	0	root	_	_
-12	?	?	X	?	_	11	dep	_	_
+12	?	?	PUNCT	?	_	11	punct	_	_
 
 # text = How long should a person wash their hands before they are clean ?
 1	How	how	ADV	WRB	PronType=Int,Rel	2	advmod	_	_
@@ -1876,7 +1876,7 @@
 10	they	they	PRON	PRP	PronType=Prs	12	nsubj	_	_
 11	are	be	VERB	VBP	Tense=Pres|VerbForm=Fin	12	cop	_	_
 12	clean	clean	ADJ	JJ	Degree=Pos	6	advcl	_	_
-13	?	?	X	?	_	6	dep	_	_
+13	?	?	PUNCT	?	_	6	punct	_	_
 
 # text = Where is America 's Stonehenge ?
 1	Where	where	ADV	WRB	PronType=Int,Rel	2	advmod	_	_
@@ -1894,7 +1894,7 @@
 5	Holy	holy	ADJ	JJ	Degree=Pos	7	amod	_	_
 6	Roman	roman	ADJ	JJ	Degree=Pos	7	amod	_	_
 7	Emperor	Emperor	PROPN	NNP	Number=Sing	1	nsubj	_	_
-8	?	?	X	?	_	1	dep	_	_
+8	?	?	PUNCT	?	_	1	punct	_	_
 
 # text = How tall is the Sears Building ?
 1	How	how	ADV	WRB	PronType=Int,Rel	2	advmod	_	_
@@ -1915,7 +1915,7 @@
 7	man	man	NOUN	NN	Number=Sing	8	nsubj:pass	_	_
 8	illustrated	illustrate	VERB	VBN	Aspect=Perf|Tense=Past|VerbForm=Part	0	root	_	_
 9	with	with	ADP	IN	_	1	case	_	_
-10	?	?	X	?	_	8	dep	_	_
+10	?	?	PUNCT	?	_	8	punct	_	_
 
 # text = In which state are the Mark Twain National Forests ?
 1	In	in	ADP	IN	_	3	case	_	_
@@ -1927,7 +1927,7 @@
 7	Twain	Twain	PROPN	NNP	Number=Sing	9	compound	_	_
 8	National	national	ADJ	JJ	Degree=Pos	9	amod	_	_
 9	Forests	forest	NOUN	NNS	Number=Plur	4	nsubj	_	_
-10	?	?	X	?	_	4	dep	_	_
+10	?	?	PUNCT	?	_	4	punct	_	_
 
 # text = When did the story of Romeo and Juliet take place ?
 1	When	when	ADV	WRB	PronType=Int,Rel	9	advmod	_	_
@@ -1960,7 +1960,7 @@
 5	of	of	ADP	IN	_	6	mark	_	_
 6	being	be	VERB	VBG	Aspect=Prog|Tense=Pres|VerbForm=Part	4	acl	_	_
 7	alone	alone	ADV	RB	Degree=Pos	6	advmod	_	_
-8	?	?	X	?	_	1	dep	_	_
+8	?	?	PUNCT	?	_	1	punct	_	_
 
 # text = Who was the first U.S. president ever to resign ?
 1	Who	who	PRON	WP	PronType=Int,Rel	0	root	_	_
@@ -1992,7 +1992,7 @@
 7	hence	hence	ADV	RB	Degree=Pos	9	dep	_	_
 8	its	its	DET	PRP$	Poss=Yes|PronType=Prs	9	nmod:poss	_	_
 9	name	name	NOUN	NN	Number=Sing	5	dep	_	_
-10	?	?	X	?	_	5	dep	_	_
+10	?	?	PUNCT	?	_	5	punct	_	_
 
 # text = What do ladybugs eat ?
 1	What	what	PRON	WP	PronType=Int,Rel	4	obj	_	_
@@ -2041,7 +2041,7 @@
 17	"	"	PUNCT	''	_	19	punct	_	_
 18	cartoon	cartoon	NOUN	NN	Number=Sing	19	compound	_	_
 19	series	series	NOUN	NN	Number=Sing	5	obl	_	_
-20	?	?	X	?	_	5	dep	_	_
+20	?	?	PUNCT	?	_	5	punct	_	_
 
 # text = What is Betsy Ross famous for ?
 1	What	what	PRON	WP	PronType=Int,Rel	5	obl	_	_
@@ -2067,7 +2067,7 @@
 12	Hole	hole	NOUN	NN	Number=Sing	8	obl	_	_
 13	of	of	ADP	IN	_	14	case	_	_
 14	Calcutta	Calcutta	PROPN	NNP	Number=Sing	12	nmod	_	_
-15	?	?	X	?	_	3	dep	_	_
+15	?	?	PUNCT	?	_	3	punct	_	_
 
 # text = What imaginary line is halfway between the North and South Poles ?
 1	What	what	DET	WDT	PronType=Int,Rel	3	det	_	_
@@ -2098,7 +2098,7 @@
 12	"	"	PUNCT	''	_	11	punct	_	_
 13	in	in	ADP	IN	_	14	case	_	_
 14	bowling	bowling	NOUN	NN	Number=Sing	11	nmod	_	_
-15	?	?	X	?	_	1	dep	_	_
+15	?	?	PUNCT	?	_	1	punct	_	_
 
 # text = In what country did the game of croquet originate ?
 1	In	in	ADP	IN	_	3	case	_	_
@@ -2120,7 +2120,7 @@
 5	for	for	ADP	IN	_	7	case	_	_
 6	East	east	ADJ	JJ	Degree=Pos	7	amod	_	_
 7	Germany	Germany	PROPN	NNP	Number=Sing	4	nmod	_	_
-8	?	?	X	?	_	1	dep	_	_
+8	?	?	PUNCT	?	_	1	punct	_	_
 
 # text = What European city do Nicois live in ?
 1	What	what	DET	WDT	PronType=Int,Rel	3	det	_	_
@@ -2130,7 +2130,7 @@
 5	Nicois	Nicois	PROPN	NNPS	Number=Plur	6	nsubj	_	_
 6	live	live	VERB	VB	VerbForm=Inf	0	root	_	_
 7	in	in	ADP	IN	_	3	case	_	_
-8	?	?	X	?	_	6	dep	_	_
+8	?	?	PUNCT	?	_	6	punct	_	_
 
 # text = What 's the meaning of the Latin battle cry : Ad arma , ad arma .
 1	What	what	PRON	WP	PronType=Int,Rel	2	nsubj	_	_
@@ -2186,7 +2186,7 @@
 12	cover	cover	NOUN	NN	Number=Sing	9	nmod	_	_
 13	of	of	ADP	IN	_	14	case	_	_
 14	Life	Life	PROPN	NNP	Number=Sing	12	nmod	_	_
-15	?	?	X	?	_	3	dep	_	_
+15	?	?	PUNCT	?	_	3	punct	_	_
 
 # text = What company produced rotary engine vehicles ?
 1	What	what	DET	WDT	PronType=Int,Rel	2	det	_	_
@@ -2219,7 +2219,7 @@
 8	in	in	ADP	IN	_	10	case	_	_
 9	lung	lung	NOUN	NN	Number=Sing	10	compound	_	_
 10	diseases	disease	NOUN	NNS	Number=Plur	7	obl	_	_
-11	?	?	X	?	_	2	dep	_	_
+11	?	?	PUNCT	?	_	2	punct	_	_
 
 # text = What is Dr. Ruth 's last name ?
 1	What	what	PRON	WP	PronType=Int,Rel	0	root	_	_
@@ -2241,7 +2241,7 @@
 7	on	on	ADP	IN	_	9	case	_	_
 8	the	the	DET	DT	_	9	det	_	_
 9	Internet	Internet	PROPN	NNP	Number=Sing	6	nmod	_	_
-10	?	?	X	?	_	1	dep	_	_
+10	?	?	PUNCT	?	_	1	punct	_	_
 
 # text = What happened in dogtown in 1899 to make that year remembered ?
 1	What	what	PRON	WP	PronType=Int,Rel	2	nsubj	_	_
@@ -2255,7 +2255,7 @@
 9	that	that	DET	DT	_	10	det	_	_
 10	year	year	NOUN	NN	Number=Sing	8	xcomp	_	_
 11	remembered	remembered	ADJ	JJ	Degree=Pos	10	amod	_	_
-12	?	?	X	?	_	2	dep	_	_
+12	?	?	PUNCT	?	_	2	punct	_	_
 
 # text = What is the diameter of a golf ball ?
 1	What	what	PRON	WP	PronType=Int,Rel	0	root	_	_
@@ -2310,7 +2310,7 @@
 6	in	in	ADP	IN	_	8	case	_	_
 7	square	square	ADJ	JJ	Degree=Pos	8	amod	_	_
 8	miles	mile	NOUN	NNS	Number=Plur	5	nmod	_	ToDo=nmod
-9	?	?	X	?	_	3	dep	_	_
+9	?	?	PUNCT	?	_	3	punct	_	_
 
 # text = Why ca n't women serve in the Navy on board submarines ?
 1	Why	why	ADV	WRB	PronType=Int,Rel	5	advmod	_	_
@@ -2324,7 +2324,7 @@
 9	on	on	ADP	IN	_	11	case	_	_
 10	board	board	NOUN	NN	Number=Sing	11	compound	_	_
 11	submarines	submarine	NOUN	NNS	Number=Plur	8	nmod	_	_
-12	?	?	X	?	_	5	dep	_	_
+12	?	?	PUNCT	?	_	5	punct	_	_
 
 # text = When was Benjamin Disraeli prime minister ?
 1	When	when	ADV	WRB	PronType=Int,Rel	2	advmod	_	_
@@ -2349,7 +2349,7 @@
 11	Aldrin	Aldrin	PROPN	NNP	Number=Sing	9	conj	_	_
 12	made	make	VERB	VBD	Tense=Past|VerbForm=Fin	5	advcl	_	_
 13	history	history	NOUN	NN	Number=Sing	12	obj	_	_
-14	?	?	X	?	_	5	dep	_	_
+14	?	?	PUNCT	?	_	5	punct	_	_
 
 # text = What 's the average salary of a professional baseball player ?
 1	What	what	PRON	WP	PronType=Int,Rel	2	nsubj	_	_
@@ -2377,7 +2377,7 @@
 10	copyrighted	copyright	VERB	VBN	Aspect=Perf|Tense=Past|VerbForm=Part	0	root	_	_
 11	and	and	CCONJ	CC	_	12	cc	_	_
 12	published	publish	VERB	VBN	Aspect=Perf|Tense=Past|VerbForm=Part	10	conj	_	_
-13	?	?	X	?	_	10	dep	_	_
+13	?	?	PUNCT	?	_	10	punct	_	_
 
 # text = How do they find or choose witnesses to an execution ?
 1	How	how	ADV	WRB	PronType=Int,Rel	4	advmod	_	_
@@ -2390,7 +2390,7 @@
 8	to	to	PART	TO	PartType=Inf|VerbForm=Inf	10	case	_	_
 9	an	a	DET	DT	_	10	det	_	_
 10	execution	execution	NOUN	NN	Number=Sing	7	nmod	_	_
-11	?	?	X	?	_	4	dep	_	_
+11	?	?	PUNCT	?	_	4	punct	_	_
 
 # text = What 's an easy way to count the approximate number of fish in a lake ?
 1	What	what	PRON	WP	PronType=Int,Rel	2	nsubj	_	_
@@ -2408,7 +2408,7 @@
 13	in	in	ADP	IN	_	15	case	_	_
 14	a	a	DET	DT	_	15	det	_	_
 15	lake	lake	NOUN	NN	Number=Sing	7	obl	_	_
-16	?	?	X	?	_	2	dep	_	_
+16	?	?	PUNCT	?	_	2	punct	_	_
 
 # text = Name a food high in zinc .
 1	Name	name	VERB	VB	VerbForm=Inf	0	root	_	_
@@ -2440,7 +2440,7 @@
 6	the	the	DET	DT	_	8	det	_	_
 7	USA	USA	PROPN	NNP	Number=Sing	8	compound	_	_
 8	journal	journal	NOUN	NN	Number=Sing	4	nmod	_	_
-9	?	?	X	?	_	1	dep	_	_
+9	?	?	PUNCT	?	_	1	punct	_	_
 
 # text = Who was President Cleveland 's wife ?
 1	Who	who	PRON	WP	PronType=Int,Rel	0	root	_	_
@@ -2470,7 +2470,7 @@
 5	of	of	ADP	IN	_	7	case	_	_
 6	the	the	DET	DT	_	7	det	_	_
 7	computer	computer	NOUN	NN	Number=Sing	4	nmod	_	_
-8	?	?	X	?	_	1	dep	_	_
+8	?	?	PUNCT	?	_	1	punct	_	_
 
 # text = What chocolate bar created by Frank Mars and his wife is often called a Milky Way with peanuts ?
 1	What	what	DET	WDT	PronType=Int,Rel	3	det	_	_
@@ -2491,7 +2491,7 @@
 16	Way	Way	PROPN	NNP	Number=Sing	13	obj	_	_
 17	with	with	ADP	IN	_	18	case	_	_
 18	peanuts	peanut	NOUN	NNS	Number=Plur	16	nmod	_	_
-19	?	?	X	?	_	13	dep	_	_
+19	?	?	PUNCT	?	_	13	punct	_	_
 
 # text = To what does Microsoft 's Windows 3 owe its success ?
 1	To	to	PART	TO	PartType=Inf|VerbForm=Inf	2	case	_	_
@@ -2504,7 +2504,7 @@
 8	owe	owe	VERB	VB	VerbForm=Inf	0	root	_	_
 9	its	its	DET	PRP$	Poss=Yes|PronType=Prs	10	nmod:poss	_	_
 10	success	success	NOUN	NN	Number=Sing	8	obj	_	_
-11	?	?	X	?	_	8	dep	_	_
+11	?	?	PUNCT	?	_	8	punct	_	_
 
 # text = What company is being bought by Yahoo and how much is the deal worth ?
 1	What	what	DET	WDT	PronType=Int,Rel	2	det	_	_
@@ -2521,7 +2521,7 @@
 12	the	the	DET	DT	_	13	det	_	_
 13	deal	deal	NOUN	NN	Number=Sing	14	nsubj	_	_
 14	worth	worth	ADJ	JJ	Degree=Pos	5	conj	_	_
-15	?	?	X	?	_	5	dep	_	_
+15	?	?	PUNCT	?	_	5	punct	_	_
 
 # text = When will Jean Aeul publish her next book ?
 1	When	when	ADV	WRB	PronType=Int,Rel	5	advmod	_	_
@@ -2532,7 +2532,7 @@
 6	her	she	DET	PRP$	Poss=Yes|PronType=Prs	8	nmod:poss	_	_
 7	next	next	ADJ	JJ	Degree=Pos	8	amod	_	_
 8	book	book	NOUN	NN	Number=Sing	5	obj	_	_
-9	?	?	X	?	_	5	dep	_	_
+9	?	?	PUNCT	?	_	5	punct	_	_
 
 # text = How long does it take light to reach the Earth from the Sun ?
 1	How	how	ADV	WRB	PronType=Int,Rel	2	advmod	_	_
@@ -2548,7 +2548,7 @@
 11	from	from	ADP	IN	_	13	case	_	_
 12	the	the	DET	DT	_	13	det	_	_
 13	Sun	Sun	PROPN	NNP	Number=Sing	8	obl	_	_
-14	?	?	X	?	_	5	dep	_	_
+14	?	?	PUNCT	?	_	5	punct	_	_
 
 # text = What does CPR stand for ?
 1	What	what	PRON	WP	PronType=Int,Rel	4	obl	_	_
@@ -2566,7 +2566,7 @@
 5	the	the	DET	DT	_	7	det	_	_
 6	Irish	irish	ADJ	JJ	Degree=Pos	7	amod	_	_
 7	Famine	famine	NOUN	NN	Number=Sing	4	obj	_	_
-8	?	?	X	?	_	4	dep	_	_
+8	?	?	PUNCT	?	_	4	punct	_	_
 
 # text = Where can I find a " Fifth Element " screensaver ?
 1	Where	where	ADV	WRB	PronType=Int,Rel	4	advmod	_	_
@@ -2579,13 +2579,13 @@
 8	Element	element	NOUN	NN	Number=Sing	10	compound	_	_
 9	"	"	PUNCT	''	_	10	punct	_	_
 10	screensaver	screensaver	NOUN	NN	Number=Sing	4	obj	_	_
-11	?	?	X	?	_	4	dep	_	_
+11	?	?	PUNCT	?	_	4	punct	_	_
 
 # text = Who was Thucydides ?
 1	Who	who	PRON	WP	PronType=Int,Rel	0	root	_	_
 2	was	be	VERB	VBD	Tense=Past|VerbForm=Fin	1	cop	_	_
 3	Thucydides	Thucydides	PROPN	NNP	Number=Sing	1	nsubj	_	_
-4	?	?	X	?	_	1	dep	_	_
+4	?	?	PUNCT	?	_	1	punct	_	_
 
 # text = What is the heaviest naturally occurring element ?
 1	What	what	PRON	WP	PronType=Int,Rel	0	root	_	_
@@ -2612,7 +2612,7 @@
 12	The	the	DET	DT	_	14	det	_	_
 13	Cincinnati	Cincinnati	PROPN	NNP	Number=Sing	14	compound	_	_
 14	Kid	kid	NOUN	NN	Number=Sing	10	obl	_	_
-15	?	?	X	?	_	10	dep	_	_
+15	?	?	PUNCT	?	_	10	punct	_	_
 
 # text = What is the best way to overcome a fear ?
 1	What	what	PRON	WP	PronType=Int,Rel	0	root	_	_
@@ -2624,7 +2624,7 @@
 7	overcome	overcome	VERB	VB	VerbForm=Inf	5	dep	_	_
 8	a	a	DET	DT	_	9	det	_	_
 9	fear	fear	NOUN	NN	Number=Sing	7	obj	_	_
-10	?	?	X	?	_	1	dep	_	_
+10	?	?	PUNCT	?	_	1	punct	_	_
 
 # text = Why do some clothing labels say " Use a nonchlorine bleach " ?
 1	Why	why	ADV	WRB	PronType=Int,Rel	6	advmod	_	_
@@ -2639,7 +2639,7 @@
 10	nonchlorine	nonchlorine	ADJ	JJ	Degree=Pos	11	amod	_	_
 11	bleach	bleach	NOUN	NN	Number=Sing	8	obj	_	_
 12	"	"	PUNCT	''	_	11	punct	_	_
-13	?	?	X	?	_	6	dep	_	_
+13	?	?	PUNCT	?	_	6	punct	_	_
 
 # text = What movie did Madilyn Kahn star in with Gene Wilder ?
 1	What	what	DET	WDT	PronType=Int,Rel	2	det	_	_
@@ -2664,7 +2664,7 @@
 7	with	with	ADP	IN	_	9	case	_	_
 8	a	a	DET	DT	_	9	det	_	_
 9	computer	computer	NOUN	NN	Number=Sing	5	obl	_	_
-10	?	?	X	?	_	5	dep	_	_
+10	?	?	PUNCT	?	_	5	punct	_	_
 
 # text = What is a group of frogs called ?
 1	What	what	PRON	WP	PronType=Int,Rel	7	obj	_	_
@@ -2686,7 +2686,7 @@
 7	from	from	ADP	IN	_	9	case	_	_
 8	poison	poison	NOUN	NN	Number=Sing	9	compound	_	_
 9	ivy	ivy	NOUN	NN	Number=Sing	6	nmod	_	_
-10	?	?	X	?	_	4	dep	_	_
+10	?	?	PUNCT	?	_	4	punct	_	_
 
 # text = How do I give a good massage ?
 1	How	how	ADV	WRB	PronType=Int,Rel	4	advmod	_	_
@@ -2696,7 +2696,7 @@
 5	a	a	DET	DT	_	7	det	_	_
 6	good	good	ADJ	JJ	Degree=Pos	7	amod	_	_
 7	massage	massage	NOUN	NN	Number=Sing	4	obj	_	_
-8	?	?	X	?	_	4	dep	_	_
+8	?	?	PUNCT	?	_	4	punct	_	_
 
 # text = What is rum made out of ?
 1	What	what	PRON	WP	PronType=Int,Rel	4	obl	_	_
@@ -2719,7 +2719,7 @@
 9	from	from	ADP	IN	_	11	case	_	_
 10	the	the	DET	DT	_	11	det	_	_
 11	Muslims	Muslims	PROPN	NNPS	Number=Plur	8	obl	_	_
-12	?	?	X	?	_	6	dep	_	_
+12	?	?	PUNCT	?	_	6	punct	_	_
 
 # text = How many people on the ground were killed from the bombing of Pan Am Flight 103 over Lockerbie , Scotland , December 21 , 1988 ?
 1	How	how	ADV	WRB	PronType=Int,Rel	2	advmod	_	_
@@ -2758,7 +2758,7 @@
 6	,	,	PUNCT	,	_	5	punct	_	_
 7	1797-185	1797-185	NUM	CD	NumType=Card	5	nummod	_	_
 8	,	,	PUNCT	,	_	5	punct	_	_
-9	?	?	X	?	_	2	dep	_	_
+9	?	?	PUNCT	?	_	2	punct	_	_
 
 # text = Who won the nobel prize in literature in 1988 ?
 1	Who	who	PRON	WP	PronType=Int,Rel	2	nsubj	_	_
@@ -2811,7 +2811,7 @@
 17	to	to	PART	TO	PartType=Inf|VerbForm=Inf	19	case	_	_
 18	the	the	DET	DT	_	19	det	_	_
 19	sea	sea	NOUN	NN	Number=Sing	16	nmod	_	_
-20	?	?	X	?	_	5	dep	_	_
+20	?	?	PUNCT	?	_	5	punct	_	_
 
 # text = What is TMJ ?
 1	What	what	PRON	WP	PronType=Int,Rel	0	root	_	_
@@ -2839,7 +2839,7 @@
 9	can	can	VERB	MD	VerbType=Mod	10	aux	_	_
 10	regenerate	regenerate	VERB	VB	VerbForm=Inf	5	acl:relcl	_	_
 11	itself	itself	PRON	PRP	PronType=Prs	10	obj	_	_
-12	?	?	X	?	_	1	dep	_	_
+12	?	?	PUNCT	?	_	1	punct	_	_
 
 # text = Who invented the paper clip ?
 1	Who	who	PRON	WP	PronType=Int,Rel	2	nsubj	_	_
@@ -2871,7 +2871,7 @@
 10	and	and	CCONJ	CC	_	12	cc	_	_
 11	its	its	DET	PRP$	Poss=Yes|PronType=Prs	12	nmod:poss	_	_
 12	motorcycles	motorcycle	NOUN	NNS	Number=Plur	9	conj	_	_
-13	?	?	X	?	_	5	dep	_	_
+13	?	?	PUNCT	?	_	5	punct	_	_
 
 # text = Where does dew come from ?
 1	Where	where	ADV	WRB	PronType=Int,Rel	4	advmod	_	_
@@ -2887,7 +2887,7 @@
 3	a	a	DET	DT	_	5	det	_	_
 4	dangling	dangling	ADJ	JJ	Degree=Pos	5	amod	_	_
 5	participle	participle	NOUN	NN	Number=Sing	1	nsubj	_	_
-6	?	?	X	?	_	1	dep	_	_
+6	?	?	PUNCT	?	_	1	punct	_	_
 
 # text = How much of U.S. power is from nuclear energy ?
 1	How	how	ADV	WRB	PronType=Int,Rel	2	advmod	_	_
@@ -2934,7 +2934,7 @@
 5	form	form	NOUN	NN	Number=Sing	1	nsubj	_	_
 6	of	of	ADP	IN	_	7	case	_	_
 7	.com	.com	PROPN	NNP	Number=Sing	5	nmod	_	_
-8	?	?	X	?	_	1	dep	_	_
+8	?	?	PUNCT	?	_	1	punct	_	_
 
 # text = Who was the first female United States Representative ?
 1	Who	who	PRON	WP	PronType=Int,Rel	0	root	_	_
@@ -2967,7 +2967,7 @@
 3	the	the	DET	DT	_	5	det	_	_
 4	AIM-54C	AIM-54C	PROPN	NNP	Number=Sing	5	compound	_	_
 5	Phoenix	Phoenix	PROPN	NNP	Number=Sing	1	nsubj	_	_
-6	?	?	X	?	_	1	dep	_	_
+6	?	?	PUNCT	?	_	1	punct	_	_
 
 # text = When was chewing tobacco banned in baseball ?
 1	When	when	ADV	WRB	PronType=Int,Rel	5	advmod	_	_
@@ -2977,7 +2977,7 @@
 5	banned	ban	VERB	VBN	Aspect=Perf|Tense=Past|VerbForm=Part	0	root	_	_
 6	in	in	ADP	IN	_	7	case	_	_
 7	baseball	baseball	NOUN	NN	Number=Sing	5	obl	_	_
-8	?	?	X	?	_	5	dep	_	_
+8	?	?	PUNCT	?	_	5	punct	_	_
 
 # text = Where was Abraham Lincoln born ?
 1	Where	where	ADV	WRB	PronType=Int,Rel	5	advmod	_	_
@@ -3030,7 +3030,7 @@
 18	departments	department	NOUN	NNS	Number=Plur	14	nmod	_	_
 19	in	in	ADP	IN	_	20	case	_	_
 20	Massachusetts	Massachusetts	PROPN	NNP	Number=Sing	18	nmod	_	_
-21	?	?	X	?	_	4	dep	_	_
+21	?	?	PUNCT	?	_	4	punct	_	_
 
 # text = Who leads the star ship Enterprise in Star Trek ?
 1	Who	who	PRON	WP	PronType=Int,Rel	2	nsubj	_	_
@@ -3086,7 +3086,7 @@
 1	Who	who	PRON	WP	PronType=Int,Rel	2	nsubj	_	_
 2	made	make	VERB	VBD	Tense=Past|VerbForm=Fin	0	root	_	_
 3	Stonehenge	Stonehenge	PROPN	NNP	Number=Sing	2	obj	_	_
-4	?	?	X	?	_	2	dep	_	_
+4	?	?	PUNCT	?	_	2	punct	_	_
 
 # text = What actress has received the most Oscar nominations ?
 1	What	what	DET	WDT	PronType=Int,Rel	2	det	_	_
@@ -3097,7 +3097,7 @@
 6	most	most	ADJ	JJS	Degree=Sup	8	amod	_	_
 7	Oscar	Oscar	PROPN	NNP	Number=Sing	8	compound	_	_
 8	nominations	nomination	NOUN	NNS	Number=Plur	4	obj	_	_
-9	?	?	X	?	_	4	dep	_	_
+9	?	?	PUNCT	?	_	4	punct	_	_
 
 # text = What Kenyan city is the safari center for East Africa ?
 1	What	what	DET	WDT	PronType=Int,Rel	3	det	_	_
@@ -3110,7 +3110,7 @@
 8	for	for	ADP	IN	_	10	case	_	_
 9	East	east	ADJ	JJ	Degree=Pos	10	amod	_	_
 10	Africa	Africa	PROPN	NNP	Number=Sing	7	nmod	_	_
-11	?	?	X	?	_	4	dep	_	_
+11	?	?	PUNCT	?	_	4	punct	_	_
 
 # text = What was the Christian name of the title character in Our Miss Brooks ?
 1	What	what	PRON	WP	PronType=Int,Rel	0	root	_	_
@@ -3126,7 +3126,7 @@
 11	Our	we	DET	PRP$	Poss=Yes|PronType=Prs	13	nmod:poss	_	_
 12	Miss	Miss	PROPN	NNP	Number=Sing	13	compound	_	_
 13	Brooks	Brooks	PROPN	NNP	Number=Sing	9	nmod	_	_
-14	?	?	X	?	_	1	dep	_	_
+14	?	?	PUNCT	?	_	1	punct	_	_
 
 # text = What is the oldest college bowl game ?
 1	What	what	PRON	WP	PronType=Int,Rel	0	root	_	_
@@ -3152,7 +3152,7 @@
 11	meaning	mean	VERB	VBG	Aspect=Prog|Tense=Pres|VerbForm=Part	9	dep	_	_
 12	cover	cover	NOUN	NN	Number=Sing	13	compound	_	_
 13	fire	fire	NOUN	NN	Number=Sing	11	obj	_	_
-14	?	?	X	?	_	4	dep	_	_
+14	?	?	PUNCT	?	_	4	punct	_	_
 
 # text = What comic of TV 's golden age went by the motto " Anything for a laugh " ?
 1	What	what	DET	WDT	PronType=Int,Rel	2	det	_	_
@@ -3172,7 +3172,7 @@
 15	a	a	DET	DT	_	16	det	_	_
 16	laugh	laugh	NOUN	NN	Number=Sing	13	nmod	_	_
 17	"	"	PUNCT	''	_	16	punct	_	_
-18	?	?	X	?	_	8	dep	_	_
+18	?	?	PUNCT	?	_	8	punct	_	_
 
 # text = What was American folk hero John Chapman 's nickname ?
 1	What	what	PRON	WP	PronType=Int,Rel	0	root	_	_
@@ -3184,7 +3184,7 @@
 7	Chapman	Chapman	PROPN	NNP	Number=Sing	5	nmod:poss	_	_
 8	's	's	PART	POS	Poss=Yes	7	case	_	_
 9	nickname	nickname	NOUN	NN	Number=Sing	1	nsubj	_	_
-10	?	?	X	?	_	1	dep	_	_
+10	?	?	PUNCT	?	_	1	punct	_	_
 
 # text = Who was the Roman god of the sea ?
 1	Who	who	PRON	WP	PronType=Int,Rel	0	root	_	_
@@ -3218,7 +3218,7 @@
 3	Calypso	calypso	ADJ	JJ	Degree=Pos	4	amod	_	_
 4	music	music	NOUN	NN	Number=Sing	5	nsubj:pass	_	_
 5	invented	invent	VERB	VBN	Aspect=Perf|Tense=Past|VerbForm=Part	0	root	_	_
-6	?	?	X	?	_	5	dep	_	_
+6	?	?	PUNCT	?	_	5	punct	_	_
 
 # text = What is the legal age to vote in Argentina ?
 1	What	what	PRON	WP	PronType=Int,Rel	0	root	_	_
@@ -3263,7 +3263,7 @@
 9	Hooters	Hooters	PROPN	NNP	Number=Sing	11	compound	_	_
 10	"	"	PUNCT	''	_	11	punct	_	_
 11	girls	girl	NOUN	NNS	Number=Plur	4	obl	_	_
-12	?	?	X	?	_	4	dep	_	_
+12	?	?	PUNCT	?	_	4	punct	_	_
 
 # text = What is the definition of cosmology ?
 1	What	what	PRON	WP	PronType=Int,Rel	0	root	_	_
@@ -3272,14 +3272,14 @@
 4	definition	definition	NOUN	NN	Number=Sing	1	nsubj	_	_
 5	of	of	ADP	IN	_	6	case	_	_
 6	cosmology	cosmology	NOUN	NN	Number=Sing	4	nmod	_	_
-7	?	?	X	?	_	1	dep	_	_
+7	?	?	PUNCT	?	_	1	punct	_	_
 
 # text = Where is Mozambique located ?
 1	Where	where	ADV	WRB	PronType=Int,Rel	4	advmod	_	_
 2	is	be	VERB	VBZ	Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	aux:pass	_	_
 3	Mozambique	Mozambique	PROPN	NNP	Number=Sing	4	nsubj:pass	_	_
 4	located	locate	VERB	VBN	Aspect=Perf|Tense=Past|VerbForm=Part	0	root	_	_
-5	?	?	X	?	_	4	dep	_	_
+5	?	?	PUNCT	?	_	4	punct	_	_
 
 # text = Who played Humpty Dumpty in the 1933 film Alice in Wonderland ?
 1	Who	who	PRON	WP	PronType=Int,Rel	2	nsubj	_	_
@@ -3293,7 +3293,7 @@
 9	Alice	Alice	PROPN	NNP	Number=Sing	8	dep	_	_
 10	in	in	ADP	IN	_	11	case	_	_
 11	Wonderland	Wonderland	PROPN	NNP	Number=Sing	9	nmod	_	_
-12	?	?	X	?	_	2	dep	_	_
+12	?	?	PUNCT	?	_	2	punct	_	_
 
 # text = Who thought of teaching people to tie their shoe laces ?
 1	Who	who	PRON	WP	PronType=Int,Rel	2	nsubj	_	_
@@ -3341,7 +3341,7 @@
 6	Rupee	rupee	NOUN	NN	Number=Sing	4	dep	_	_
 7	Depreciates	depreciate	VERB	VBZ	Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	dep	_	_
 8	"	"	PUNCT	''	_	6	punct	_	_
-9	?	?	X	?	_	4	dep	_	_
+9	?	?	PUNCT	?	_	4	punct	_	_
 
 # text = What former major-league left-handed baseball pitcher was known as " Space Man " ?
 1	What	what	DET	WDT	PronType=Int,Rel	6	det	_	_
@@ -3357,7 +3357,7 @@
 11	Space	space	NOUN	NN	Number=Sing	12	compound	_	_
 12	Man	man	NOUN	NN	Number=Sing	8	obl	_	_
 13	"	"	PUNCT	''	_	12	punct	_	_
-14	?	?	X	?	_	8	dep	_	_
+14	?	?	PUNCT	?	_	8	punct	_	_
 
 # text = What is the location of Lake Champlain ?
 1	What	what	PRON	WP	PronType=Int,Rel	0	root	_	_
@@ -3378,12 +3378,12 @@
 # text = What does ' PSI ' stand for ?
 1	What	what	PRON	WP	PronType=Int,Rel	6	obl	_	_
 2	does	do	VERB	VBZ	Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	aux	_	_
-3	'	'	X	`	_	4	dep	_	_
+3	'	'	X	`	_	4	punct	_	_
 4	PSI	PSI	PROPN	NNP	Number=Sing	6	nsubj	_	_
-5	'	'	X	'	_	4	dep	_	_
+5	'	'	X	'	_	4	punct	_	_
 6	stand	stand	VERB	VB	VerbForm=Inf	0	root	_	_
 7	for	for	ADP	IN	_	1	case	_	_
-8	?	?	X	?	_	6	dep	_	_
+8	?	?	PUNCT	?	_	6	punct	_	_
 
 # text = What state produces the best lobster to eat ?
 1	What	what	DET	WDT	PronType=Int,Rel	2	det	_	_
@@ -3405,7 +3405,7 @@
 6	any	any	DET	DT	_	8	det	_	_
 7	four-sided	four-sided	ADJ	JJ	Degree=Pos	8	amod	_	_
 8	figure	figure	NOUN	NN	Number=Sing	4	nmod	_	_
-9	?	?	X	?	_	2	dep	_	_
+9	?	?	PUNCT	?	_	2	punct	_	_
 
 # text = What is the circumorbital hematoma ?
 1	What	what	PRON	WP	PronType=Int,Rel	0	root	_	_
@@ -3413,7 +3413,7 @@
 3	the	the	DET	DT	_	5	det	_	_
 4	circumorbital	circumorbital	ADJ	JJ	Degree=Pos	5	amod	_	_
 5	hematoma	hematoma	NOUN	NN	Number=Sing	1	nsubj	_	_
-6	?	?	X	?	_	1	dep	_	_
+6	?	?	PUNCT	?	_	1	punct	_	_
 
 # text = What baseball team was the first to make numbers part of their uniform ?
 1	What	what	DET	WDT	PronType=Int,Rel	3	det	_	_
@@ -3440,7 +3440,7 @@
 6	to	to	PART	TO	PartType=Inf|VerbForm=Inf	7	mark	_	_
 7	treat	treat	VERB	VB	VerbForm=Inf	5	xcomp	_	_
 8	AIDS	AIDS	PROPN	NNP	Number=Sing	7	obj	_	_
-9	?	?	X	?	_	5	dep	_	_
+9	?	?	PUNCT	?	_	5	punct	_	_
 
 # text = What do I need to do to take my dog with me to live in Dominica , West Indies for a year ?
 1	What	what	PRON	WP	PronType=Int,Rel	4	dep	_	_
@@ -3465,7 +3465,7 @@
 20	for	for	ADP	IN	_	22	case	_	_
 21	a	a	DET	DT	_	22	det	_	_
 22	year	year	NOUN	NN	Number=Sing	14	obl	_	_
-23	?	?	X	?	_	4	dep	_	_
+23	?	?	PUNCT	?	_	4	punct	_	_
 
 # text = Who is Snoopy 's arch-enemy ?
 1	Who	who	PRON	WP	PronType=Int,Rel	0	root	_	_
@@ -3473,7 +3473,7 @@
 3	Snoopy	Snoopy	PROPN	NNP	Number=Sing	5	nmod:poss	_	_
 4	's	's	PART	POS	Poss=Yes	3	case	_	_
 5	arch-enemy	arch-enemy	NOUN	NN	Number=Sing	1	nsubj	_	_
-6	?	?	X	?	_	1	dep	_	_
+6	?	?	PUNCT	?	_	1	punct	_	_
 
 # text = What is the world 's highest peak ?
 1	What	what	PRON	WP	PronType=Int,Rel	0	root	_	_
@@ -3512,7 +3512,7 @@
 14	the	the	DET	DT	_	15	det	_	_
 15	truth	truth	NOUN	NN	Number=Sing	13	obj	_	_
 16	"	"	PUNCT	''	_	15	punct	_	_
-17	?	?	X	?	_	2	dep	_	_
+17	?	?	PUNCT	?	_	2	punct	_	_
 
 # text = What is acid rain ?
 1	What	what	PRON	WP	PronType=Int,Rel	0	root	_	_
@@ -3552,7 +3552,7 @@
 12	it	it	PRON	PRP	PronType=Prs	14	nmod:poss	_	_
 13	's	's	PART	POS	Poss=Yes	12	case	_	_
 14	history	history	NOUN	NN	Number=Sing	10	nmod	_	_
-15	?	?	X	?	_	6	dep	_	_
+15	?	?	PUNCT	?	_	6	punct	_	_
 
 # text = What is the history of yo-yos ?
 1	What	what	PRON	WP	PronType=Int,Rel	0	root	_	_
@@ -3561,7 +3561,7 @@
 4	history	history	NOUN	NN	Number=Sing	1	nsubj	_	_
 5	of	of	ADP	IN	_	6	case	_	_
 6	yo-yos	yo-yo	NOUN	NNS	Number=Plur	4	nmod	_	_
-7	?	?	X	?	_	1	dep	_	_
+7	?	?	PUNCT	?	_	1	punct	_	_
 
 # text = What is the frequency of VHF ?
 1	What	what	PRON	WP	PronType=Int,Rel	0	root	_	_
@@ -3570,7 +3570,7 @@
 4	frequency	frequency	NOUN	NN	Number=Sing	1	nsubj	_	_
 5	of	of	ADP	IN	_	6	case	_	_
 6	VHF	VHF	PROPN	NNP	Number=Sing	4	nmod	_	_
-7	?	?	X	?	_	1	dep	_	_
+7	?	?	PUNCT	?	_	1	punct	_	_
 
 # text = What baseball expression came from the nautical term for ships sailing between the Atlantic and Pacific before the Panama Canal ?
 1	What	what	DET	WDT	PronType=Int,Rel	3	det	_	_
@@ -3593,7 +3593,7 @@
 18	the	the	DET	DT	_	20	det	_	_
 19	Panama	Panama	PROPN	NNP	Number=Sing	20	compound	_	_
 20	Canal	Canal	PROPN	NNP	Number=Sing	11	obl	_	_
-21	?	?	X	?	_	4	dep	_	_
+21	?	?	PUNCT	?	_	4	punct	_	_
 
 # text = CNN 's first broadcast occurred on what date ?
 1	CNN	CNN	PROPN	NNP	Number=Sing	4	nmod:poss	_	_
@@ -3615,7 +3615,7 @@
 6	Pencey	Pencey	PROPN	NNP	Number=Sing	8	compound	_	_
 7	Prep	Prep	PROPN	NNP	Number=Sing	8	compound	_	_
 8	School	School	PROPN	NNP	Number=Sing	5	obj	_	_
-9	?	?	X	?	_	5	dep	_	_
+9	?	?	PUNCT	?	_	5	punct	_	_
 
 # text = What is the purpose of a car bra ?
 1	What	what	PRON	WP	PronType=Int,Rel	0	root	_	_
@@ -3659,7 +3659,7 @@
 17	Turks	Turks	PROPN	NNPS	Number=Plur	6	obl	_	_
 18	in	in	ADP	IN	_	19	case	_	_
 19	Libya	Libya	PROPN	NNP	Number=Sing	17	nmod	_	_
-20	?	?	X	?	_	4	dep	_	_
+20	?	?	PUNCT	?	_	4	punct	_	_
 
 # text = What ice creams contain seaweed ?
 1	What	what	DET	WDT	PronType=Int,Rel	3	det	_	_
@@ -3667,7 +3667,7 @@
 3	creams	cream	NOUN	NNS	Number=Plur	4	nsubj	_	_
 4	contain	contain	VERB	VBP	Tense=Pres|VerbForm=Fin	0	root	_	_
 5	seaweed	seaweed	NOUN	NN	Number=Sing	4	obj	_	_
-6	?	?	X	?	_	4	dep	_	_
+6	?	?	PUNCT	?	_	4	punct	_	_
 
 # text = What is " the washed vodka " ?
 1	What	what	PRON	WP	PronType=Int,Rel	0	root	_	_
@@ -3677,7 +3677,7 @@
 5	washed	washed	ADJ	JJ	Degree=Pos	6	amod	_	_
 6	vodka	vodka	NOUN	NN	Number=Sing	1	nsubj	_	_
 7	"	"	PUNCT	''	_	6	punct	_	_
-8	?	?	X	?	_	1	dep	_	_
+8	?	?	PUNCT	?	_	1	punct	_	_
 
 # text = What do chefs call The Master Spice ?
 1	What	what	PRON	WP	PronType=Int,Rel	4	dep	_	_
@@ -3687,7 +3687,7 @@
 5	The	the	DET	DT	_	7	det	_	_
 6	Master	master	NOUN	NN	Number=Sing	7	compound	_	_
 7	Spice	spice	NOUN	NN	Number=Sing	4	obj	_	_
-8	?	?	X	?	_	4	dep	_	_
+8	?	?	PUNCT	?	_	4	punct	_	_
 
 # text = What game 's board shows the territories of Irkutsk , Yakutsk and Kamchatka ?
 1	What	what	DET	WDT	PronType=Int,Rel	4	det	_	_
@@ -3703,7 +3703,7 @@
 11	Yakutsk	Yakutsk	PROPN	NNP	Number=Sing	9	conj	_	_
 12	and	and	CCONJ	CC	_	13	cc	_	_
 13	Kamchatka	Kamchatka	PROPN	NNP	Number=Sing	9	conj	_	_
-14	?	?	X	?	_	5	dep	_	_
+14	?	?	PUNCT	?	_	5	punct	_	_
 
 # text = Where did the Battle of the Bulge take place ?
 1	Where	where	ADV	WRB	PronType=Int,Rel	8	advmod	_	_
@@ -3751,7 +3751,7 @@
 7	"	"	PUNCT	''	_	4	punct	_	_
 8	come	come	VERB	VBN	Aspect=Perf|Tense=Past|VerbForm=Part	0	root	_	_
 9	from	from	ADP	IN	_	8	obl	_	_
-10	?	?	X	?	_	8	dep	_	_
+10	?	?	PUNCT	?	_	8	punct	_	_
 
 # text = Procter & Gamble is headquartered in which U.S. city ?
 1	Procter	Procter	PROPN	NNP	Number=Sing	4	nsubj	_	_
@@ -3796,14 +3796,14 @@
 7	longest	longest	ADJ	JJS	Degree=Sup	9	amod	_	_
 8	subway	subway	NOUN	NN	Number=Sing	9	compound	_	_
 9	system	system	NOUN	NN	Number=Sing	3	obj	_	_
-10	?	?	X	?	_	3	dep	_	_
+10	?	?	PUNCT	?	_	3	punct	_	_
 
 # text = What does eEQUALSmc2 mean ?
 1	What	what	PRON	WP	PronType=Int,Rel	4	obj	_	_
 2	does	do	VERB	VBZ	Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	aux	_	_
 3	eEQUALSmc2	eEQUALSmc2	PROPN	NNP	Number=Sing	4	nsubj	_	_
 4	mean	mean	NOUN	NN	Number=Sing	0	root	_	_
-5	?	?	X	?	_	4	dep	_	_
+5	?	?	PUNCT	?	_	4	punct	_	_
 
 # text = Mississippi is nicknamed what ?
 1	Mississippi	Mississippi	PROPN	NNP	Number=Sing	3	nsubj	_	_
@@ -3829,7 +3829,7 @@
 3	S.O.S.	S.O.S.	PROPN	NNP	Number=Sing	4	nsubj	_	_
 4	stand	stand	VERB	VB	VerbForm=Inf	0	root	_	_
 5	for	for	ADP	IN	_	1	case	_	_
-6	?	?	X	?	_	4	dep	_	_
+6	?	?	PUNCT	?	_	4	punct	_	_
 
 # text = How much energy is released when oxygen and hydrogen mix ?
 1	How	how	ADV	WRB	PronType=Int,Rel	2	advmod	_	_
@@ -3842,7 +3842,7 @@
 8	and	and	CCONJ	CC	_	9	cc	_	_
 9	hydrogen	hydrogen	NOUN	NN	Number=Sing	7	conj	_	_
 10	mix	mix	VERB	VB	VerbForm=Inf	5	advcl	_	_
-11	?	?	X	?	_	5	dep	_	_
+11	?	?	PUNCT	?	_	5	punct	_	_
 
 # text = What are the different approaches of systems analysis ?
 1	What	what	PRON	WP	PronType=Int,Rel	0	root	_	_
@@ -3853,7 +3853,7 @@
 6	of	of	ADP	IN	_	8	case	_	_
 7	systems	system	NOUN	NNS	Number=Plur	8	compound	_	_
 8	analysis	analysis	NOUN	NN	Number=Sing	5	nmod	_	_
-9	?	?	X	?	_	1	dep	_	_
+9	?	?	PUNCT	?	_	1	punct	_	_
 
 # text = Who was shot in the back during a Poker game in Deadwood , the Dakota territory ?
 1	Who	who	PRON	WP	PronType=Int,Rel	3	nsubj:pass	_	_
@@ -3872,7 +3872,7 @@
 14	the	the	DET	DT	_	16	det	_	_
 15	Dakota	Dakota	PROPN	NNP	Number=Sing	16	compound	_	_
 16	territory	territory	NOUN	NN	Number=Sing	12	appos	_	_
-17	?	?	X	?	_	3	dep	_	_
+17	?	?	PUNCT	?	_	3	punct	_	_
 
 # text = What is Supergirl 's secret identity ?
 1	What	what	PRON	WP	PronType=Int,Rel	0	root	_	_
@@ -3881,7 +3881,7 @@
 4	's	's	PART	POS	Poss=Yes	3	case	_	_
 5	secret	secret	ADJ	JJ	Degree=Pos	6	amod	_	_
 6	identity	identity	NOUN	NN	Number=Sing	1	nsubj	_	_
-7	?	?	X	?	_	1	dep	_	_
+7	?	?	PUNCT	?	_	1	punct	_	_
 
 # text = When is Father 's Day ?
 1	When	when	ADV	WRB	PronType=Int,Rel	2	advmod	_	_
@@ -3909,7 +3909,7 @@
 8	into	into	ADP	IN	_	10	case	_	_
 9	a	a	DET	DT	_	10	det	_	_
 10	werewolf	werewolf	NOUN	NN	Number=Sing	7	obl	_	_
-11	?	?	X	?	_	5	dep	_	_
+11	?	?	PUNCT	?	_	5	punct	_	_
 
 # text = When was the Battle of Hastings ?
 1	When	when	ADV	WRB	PronType=Int,Rel	2	advmod	_	_
@@ -3918,7 +3918,7 @@
 4	Battle	battle	NOUN	NN	Number=Sing	2	nsubj	_	_
 5	of	of	ADP	IN	_	6	case	_	_
 6	Hastings	Hastings	PROPN	NNP	Number=Sing	4	nmod	_	_
-7	?	?	X	?	_	2	dep	_	_
+7	?	?	PUNCT	?	_	2	punct	_	_
 
 # text = Where do rocks come from ?
 1	Where	where	ADV	WRB	PronType=Int,Rel	4	advmod	_	_
@@ -3926,7 +3926,7 @@
 3	rocks	rock	NOUN	NNS	Number=Plur	4	nsubj	_	_
 4	come	come	VERB	VB	VerbForm=Inf	0	root	_	_
 5	from	from	ADP	IN	_	4	obl	_	_
-6	?	?	X	?	_	4	dep	_	_
+6	?	?	PUNCT	?	_	4	punct	_	_
 
 # text = What information can you tell me about actor James Cromwell ?
 1	What	what	DET	WDT	PronType=Int,Rel	2	det	_	_
@@ -3939,7 +3939,7 @@
 8	actor	actor	NOUN	NN	Number=Sing	10	compound	_	_
 9	James	James	PROPN	NNP	Number=Sing	10	compound	_	_
 10	Cromwell	Cromwell	PROPN	NNP	Number=Sing	5	obl	_	_
-11	?	?	X	?	_	5	dep	_	_
+11	?	?	PUNCT	?	_	5	punct	_	_
 
 # text = What is a rhomboideus minor ?
 1	What	what	PRON	WP	PronType=Int,Rel	0	root	_	_
@@ -3947,7 +3947,7 @@
 3	a	a	DET	DT	_	4	det	_	_
 4	rhomboideus	rhomboideus	NOUN	NN	Number=Sing	1	nsubj	_	_
 5	minor	minor	ADJ	JJ	Degree=Pos	4	amod	_	_
-6	?	?	X	?	_	1	dep	_	_
+6	?	?	PUNCT	?	_	1	punct	_	_
 
 # text = Where is Prince Edward Island ?
 1	Where	where	ADV	WRB	PronType=Int,Rel	2	advmod	_	_
@@ -3968,7 +3968,7 @@
 8	pitcher	pitcher	NOUN	NN	Number=Sing	10	nmod:poss	_	_
 9	's	's	PART	POS	Poss=Yes	8	case	_	_
 10	rubber	rubber	NOUN	NN	Number=Sing	5	nsubj	_	_
-11	?	?	X	?	_	5	dep	_	_
+11	?	?	PUNCT	?	_	5	punct	_	_
 
 # text = What city had a world fair in 1900 ?
 1	What	what	DET	WDT	PronType=Int,Rel	2	det	_	_
@@ -4004,7 +4004,7 @@
 20	for	for	ADP	IN	_	21	case	_	_
 21	me	I	PRON	PRP	PronType=Prs	15	obl	_	_
 22	"	"	PUNCT	''	_	21	punct	_	_
-23	?	?	X	?	_	5	dep	_	_
+23	?	?	PUNCT	?	_	5	punct	_	_
 
 # text = What is the difference between pop music and rock and roll ?
 1	What	what	PRON	WP	PronType=Int,Rel	0	root	_	_
@@ -4018,7 +4018,7 @@
 9	rock	rock	NOUN	NN	Number=Sing	7	conj	_	_
 10	and	and	CCONJ	CC	_	11	cc	_	_
 11	roll	roll	NOUN	NN	Number=Sing	9	conj	_	_
-12	?	?	X	?	_	1	dep	_	_
+12	?	?	PUNCT	?	_	1	punct	_	_
 
 # text = Who is the leading competitor of Trans Union Company ?
 1	Who	who	PRON	WP	PronType=Int,Rel	0	root	_	_
@@ -4040,7 +4040,7 @@
 5	to	to	PART	TO	PartType=Inf|VerbForm=Inf	6	mark	_	_
 6	calculate	calculate	VERB	VB	VerbForm=Inf	4	acl	_	_
 7	pi	pi	PROPN	NNP	Number=Sing	6	obj	_	_
-8	?	?	X	?	_	1	dep	_	_
+8	?	?	PUNCT	?	_	1	punct	_	_
 
 # text = What would you add to the clay mixture to produce bone china ?
 1	What	what	PRON	WP	PronType=Int,Rel	4	dep	_	_
@@ -4055,7 +4055,7 @@
 10	produce	produce	VERB	VB	VerbForm=Inf	4	xcomp	_	_
 11	bone	bone	NOUN	NN	Number=Sing	12	compound	_	_
 12	china	china	NOUN	NN	Number=Sing	10	obj	_	_
-13	?	?	X	?	_	4	dep	_	_
+13	?	?	PUNCT	?	_	4	punct	_	_
 
 # text = What does e.g. stand for ?
 1	What	what	PRON	WP	PronType=Int,Rel	4	obl	_	_
@@ -4063,7 +4063,7 @@
 3	e.g.	e.g.	PROPN	NNP	Number=Sing	4	nsubj	_	_
 4	stand	stand	VERB	VB	VerbForm=Inf	0	root	_	_
 5	for	for	ADP	IN	_	1	case	_	_
-6	?	?	X	?	_	4	dep	_	_
+6	?	?	PUNCT	?	_	4	punct	_	_
 
 # text = What is phenylalanine ?
 1	What	what	PRON	WP	PronType=Int,Rel	0	root	_	_
@@ -4093,7 +4093,7 @@
 5	Charlie	Charlie	PROPN	NNP	Number=Sing	7	nmod:poss	_	_
 6	's	's	PART	POS	Poss=Yes	5	case	_	_
 7	Angels	Angels	PROPN	NNPS	Number=Plur	2	obj	_	_
-8	?	?	X	?	_	2	dep	_	_
+8	?	?	PUNCT	?	_	2	punct	_	_
 
 # text = Who lives at 24 Sussex Drive , Ottawa ?
 1	Who	who	PRON	WP	PronType=Int,Rel	2	nsubj	_	_
@@ -4104,7 +4104,7 @@
 6	Drive	Drive	PROPN	NNP	Number=Sing	2	obl	_	_
 7	,	,	PUNCT	,	_	6	punct	_	_
 8	Ottawa	Ottawa	PROPN	NNP	Number=Sing	6	appos	_	_
-9	?	?	X	?	_	2	dep	_	_
+9	?	?	PUNCT	?	_	2	punct	_	_
 
 # text = Who was the star of Leave It to Beaver ?
 1	Who	who	PRON	WP	PronType=Int,Rel	0	root	_	_
@@ -4116,7 +4116,7 @@
 7	It	it	PRON	PRP	PronType=Prs	6	obj	_	_
 8	to	to	PART	TO	PartType=Inf|VerbForm=Inf	9	case	_	_
 9	Beaver	Beaver	PROPN	NNP	Number=Sing	6	obl	_	_
-10	?	?	X	?	_	1	dep	_	_
+10	?	?	PUNCT	?	_	1	punct	_	_
 
 # text = What is the average age of a member of the team that worked on the Manhatten Project ?
 1	What	what	PRON	WP	PronType=Int,Rel	0	root	_	_
@@ -4136,7 +4136,7 @@
 15	the	the	DET	DT	_	17	det	_	_
 16	Manhatten	Manhatten	PROPN	NNP	Number=Sing	17	compound	_	_
 17	Project	project	NOUN	NN	Number=Sing	13	obl	_	_
-18	?	?	X	?	_	1	dep	_	_
+18	?	?	PUNCT	?	_	1	punct	_	_
 
 # text = How many Vietnamese were there in the Soviet Union ?
 1	How	how	ADV	WRB	PronType=Int,Rel	2	advmod	_	_
@@ -4169,7 +4169,7 @@
 7	birth	birth	NOUN	NN	Number=Sing	6	obj	_	_
 8	to	to	PART	TO	PartType=Inf|VerbForm=Inf	9	case	_	_
 9	twins	twin	NOUN	NNS	Number=Plur	6	obl	_	_
-10	?	?	X	?	_	1	dep	_	_
+10	?	?	PUNCT	?	_	1	punct	_	_
 
 # text = What is the scientific name for tobacco ?
 1	What	what	PRON	WP	PronType=Int,Rel	0	root	_	_
@@ -4206,7 +4206,7 @@
 12	a	a	DET	DT	_	14	det	_	_
 13	Monopoly	Monopoly	PROPN	NNP	Number=Sing	14	compound	_	_
 14	board	board	NOUN	NN	Number=Sing	4	obl	_	_
-15	?	?	X	?	_	4	dep	_	_
+15	?	?	PUNCT	?	_	4	punct	_	_
 
 # text = What is the population of Venezuela ?
 1	What	what	PRON	WP	PronType=Int,Rel	0	root	_	_
@@ -4239,7 +4239,7 @@
 13	ever	ever	ADV	RB	Degree=Pos	14	advmod	_	_
 14	met	meet	VERB	VBD	Tense=Past|VerbForm=Fin	11	acl:relcl	_	_
 15	"	"	PUNCT	''	_	14	punct	_	_
-16	?	?	X	?	_	7	dep	_	_
+16	?	?	PUNCT	?	_	7	punct	_	_
 
 # text = What facial feature typically contains about 55 hairs ?
 1	What	what	DET	WDT	PronType=Int,Rel	3	det	_	_
@@ -4250,7 +4250,7 @@
 6	about	about	ADV	RB	Degree=Pos	8	advmod	_	_
 7	55	55	NUM	CD	NumType=Card	8	nummod	_	_
 8	hairs	hair	NOUN	NNS	Number=Plur	5	obj	_	_
-9	?	?	X	?	_	5	dep	_	_
+9	?	?	PUNCT	?	_	5	punct	_	_
 
 # text = What planet is known as the " red " planet ?
 1	What	what	DET	WDT	PronType=Int,Rel	2	det	_	_
@@ -4282,7 +4282,7 @@
 4	word	word	NOUN	NN	Number=Sing	1	nsubj	_	_
 5	for	for	ADP	IN	_	6	case	_	_
 6	diet	diet	NOUN	NN	Number=Sing	4	nmod	_	_
-7	?	?	X	?	_	1	dep	_	_
+7	?	?	PUNCT	?	_	1	punct	_	_
 
 # text = Who was the star of the 1965 Broadway hit Golden Boy ?
 1	Who	who	PRON	WP	PronType=Int,Rel	0	root	_	_
@@ -4296,7 +4296,7 @@
 9	hit	hit	NOUN	NN	Number=Sing	4	nmod	_	_
 10	Golden	Golden	PROPN	NNP	Number=Sing	11	compound	_	_
 11	Boy	Boy	PROPN	NNP	Number=Sing	9	dep	_	_
-12	?	?	X	?	_	1	dep	_	_
+12	?	?	PUNCT	?	_	1	punct	_	_
 
 # text = How many presidents have died on the 4th of July ?
 1	How	how	ADV	WRB	PronType=Int,Rel	2	advmod	_	_
@@ -4309,14 +4309,14 @@
 8	4th	4th	ADJ	JJ	Degree=Pos	5	obl	_	_
 9	of	of	ADP	IN	_	10	case	_	_
 10	July	July	PROPN	NNP	Number=Sing	8	nmod	_	ToDo=nmod
-11	?	?	X	?	_	5	dep	_	_
+11	?	?	PUNCT	?	_	5	punct	_	_
 
 # text = Who invented the toothbrush ?
 1	Who	who	PRON	WP	PronType=Int,Rel	2	nsubj	_	_
 2	invented	invent	VERB	VBD	Tense=Past|VerbForm=Fin	0	root	_	_
 3	the	the	DET	DT	_	4	det	_	_
 4	toothbrush	toothbrush	NOUN	NN	Number=Sing	2	obj	_	_
-5	?	?	X	?	_	2	dep	_	_
+5	?	?	PUNCT	?	_	2	punct	_	_
 
 # text = What is the major crop grown in Arizona ?
 1	What	what	PRON	WP	PronType=Int,Rel	0	root	_	_
@@ -4334,7 +4334,7 @@
 2	is	be	VERB	VBZ	Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	cop	_	_
 3	Toulmin	toulmin	ADJ	JJ	Degree=Pos	4	amod	_	_
 4	logic	logic	NOUN	NN	Number=Sing	1	nsubj	_	_
-5	?	?	X	?	_	1	dep	_	_
+5	?	?	PUNCT	?	_	1	punct	_	_
 
 # text = When was the first Wall Street Journal published ?
 1	When	when	ADV	WRB	PronType=Int,Rel	8	advmod	_	_
@@ -4355,7 +4355,7 @@
 5	The	the	DET	DT	_	7	det	_	_
 6	Great	great	ADJ	JJ	Degree=Pos	7	amod	_	_
 7	Society	society	NOUN	NN	Number=Sing	4	obj	_	_
-8	?	?	X	?	_	2	dep	_	_
+8	?	?	PUNCT	?	_	2	punct	_	_
 
 # text = What is the telephone number for the University of Kentucky ?
 1	What	what	PRON	WP	PronType=Int,Rel	0	root	_	_
@@ -4381,7 +4381,7 @@
 8	in	in	ADP	IN	_	10	case	_	_
 9	the	the	DET	DT	_	10	det	_	_
 10	country	country	NOUN	NN	Number=Sing	5	nmod	_	_
-11	?	?	X	?	_	1	dep	_	_
+11	?	?	PUNCT	?	_	1	punct	_	_
 
 # text = What is the speed of the Mississippi River ?
 1	What	what	PRON	WP	PronType=Int,Rel	0	root	_	_
@@ -4392,7 +4392,7 @@
 6	the	the	DET	DT	_	8	det	_	_
 7	Mississippi	Mississippi	PROPN	NNP	Number=Sing	8	compound	_	_
 8	River	river	NOUN	NN	Number=Sing	4	nmod	_	_
-9	?	?	X	?	_	1	dep	_	_
+9	?	?	PUNCT	?	_	1	punct	_	_
 
 # text = What 's a perfect score in a gymnastics exercise ?
 1	What	what	PRON	WP	PronType=Int,Rel	2	nsubj	_	_
@@ -4404,7 +4404,7 @@
 7	a	a	DET	DT	_	9	det	_	_
 8	gymnastics	gymnastics	NOUN	NNS	Number=Plur	9	compound	_	_
 9	exercise	exercise	NOUN	NN	Number=Sing	5	nmod	_	_
-10	?	?	X	?	_	2	dep	_	_
+10	?	?	PUNCT	?	_	2	punct	_	_
 
 # text = What historical event happened in Dogtown in 1899 ?
 1	What	what	DET	WDT	PronType=Int,Rel	3	det	_	_
@@ -4415,7 +4415,7 @@
 6	Dogtown	Dogtown	PROPN	NNP	Number=Sing	4	obl	_	_
 7	in	in	ADP	IN	_	8	case	_	_
 8	1899	1899	NUM	CD	NumType=Card	4	obl	_	_
-9	?	?	X	?	_	4	dep	_	_
+9	?	?	PUNCT	?	_	4	punct	_	_
 
 # text = How far away is the moon ?
 1	How	how	ADV	WRB	PronType=Int,Rel	3	advmod	_	_
@@ -4497,7 +4497,7 @@
 6	his	he	DET	PRP$	Poss=Yes|PronType=Prs	8	nmod:poss	_	_
 7	metal	metal	ADJ	JJ	Degree=Pos	8	amod	_	_
 8	hand	hand	NOUN	NN	Number=Sing	5	obj	_	_
-9	?	?	X	?	_	5	dep	_	_
+9	?	?	PUNCT	?	_	5	punct	_	_
 
 # text = Where can I find information on the Narragansett Indians and other tribes in Rhode Island ?
 1	Where	where	ADV	WRB	PronType=Int,Rel	4	advmod	_	_
@@ -4515,7 +4515,7 @@
 13	in	in	ADP	IN	_	15	case	_	_
 14	Rhode	Rhode	PROPN	NNP	Number=Sing	15	compound	_	_
 15	Island	Island	PROPN	NNP	Number=Sing	12	nmod	_	_
-16	?	?	X	?	_	4	dep	_	_
+16	?	?	PUNCT	?	_	4	punct	_	_
 
 # text = What are birds descendents of ?
 1	What	what	PRON	WP	PronType=Int	0	root	_	_
@@ -4543,7 +4543,7 @@
 15	and	and	CCONJ	CC	_	16	cc	_	_
 16	live	live	VERB	VB	VerbForm=Inf	13	conj	_	_
 17	"	"	PUNCT	''	_	16	punct	_	_
-18	?	?	X	?	_	8	dep	_	_
+18	?	?	PUNCT	?	_	8	punct	_	_
 
 # text = What is another name for vitamin B1 ?
 1	What	what	PRON	WP	PronType=Int,Rel	0	root	_	_
@@ -4567,7 +4567,7 @@
 9	its	its	DET	PRP$	Poss=Yes|PronType=Prs	10	nmod:poss	_	_
 10	time	time	NOUN	NN	Number=Sing	7	obl	_	_
 11	"	"	PUNCT	''	_	10	punct	_	_
-12	?	?	X	?	_	4	dep	_	_
+12	?	?	PUNCT	?	_	4	punct	_	_
 
 # text = What is the origin of the word , magic ?
 1	What	what	PRON	WP	PronType=Int,Rel	0	root	_	_
@@ -4579,7 +4579,7 @@
 7	word	word	NOUN	NN	Number=Sing	4	nmod	_	_
 8	,	,	PUNCT	,	_	7	punct	_	_
 9	magic	magic	ADJ	JJ	Degree=Pos	7	amod	_	_
-10	?	?	X	?	_	1	dep	_	_
+10	?	?	PUNCT	?	_	1	punct	_	_
 
 # text = What company tabulates the ballots in voting for the Academy Awards ?
 1	What	what	DET	WDT	PronType=Int,Rel	2	det	_	_
@@ -4593,7 +4593,7 @@
 9	the	the	DET	DT	_	11	det	_	_
 10	Academy	academy	NOUN	NN	Number=Sing	11	compound	_	_
 11	Awards	award	NOUN	NNS	Number=Plur	7	obl	_	_
-12	?	?	X	?	_	3	dep	_	_
+12	?	?	PUNCT	?	_	3	punct	_	_
 
 # text = Where on the Internet can I find information on laundry detergent ?
 1	Where	where	ADV	WRB	PronType=Int,Rel	7	advmod	_	_
@@ -4607,7 +4607,7 @@
 9	on	on	ADP	IN	_	11	case	_	_
 10	laundry	laundry	NOUN	NN	Number=Sing	11	compound	_	_
 11	detergent	detergent	NOUN	NN	Number=Sing	8	nmod	_	_
-12	?	?	X	?	_	7	dep	_	_
+12	?	?	PUNCT	?	_	7	punct	_	_
 
 # text = What two countries in South America are landlocked ?
 1	What	what	DET	WDT	PronType=Int,Rel	3	det	_	_
@@ -4618,7 +4618,7 @@
 6	America	America	PROPN	NNP	Number=Sing	3	nmod	_	_
 7	are	be	VERB	VBP	Tense=Pres|VerbForm=Fin	8	cop	_	_
 8	landlocked	landlocked	ADJ	JJ	Degree=Pos	0	root	_	_
-9	?	?	X	?	_	8	dep	_	_
+9	?	?	PUNCT	?	_	8	punct	_	_
 
 # text = Who won two gold medals in skiing in the Olympic Games in Calgary ?
 1	Who	who	PRON	WP	PronType=Int,Rel	2	nsubj	_	_
@@ -4658,5 +4658,5 @@
 8	Yoo-Hoo	Yoo-Hoo	PROPN	NNP	Number=Sing	6	nmod	_	_
 9	settle	settle	VERB	VB	VerbForm=Inf	0	root	_	_
 10	into	into	ADP	IN	_	3	case	_	_
-11	?	?	X	?	_	9	dep	_	_
+11	?	?	PUNCT	?	_	9	dep	_	_
 
